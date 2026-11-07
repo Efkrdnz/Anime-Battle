@@ -22,9 +22,12 @@ export interface RawVariant {
   wikiImage?: string;
 }
 
+export type Gender = 'female' | 'male' | 'other';
+
 export interface RawCharacter {
   id: string;
   name: string;
+  gender?: Gender;
   /** AniList search override when the plain name is ambiguous. */
   search?: string;
   /** Fandom wiki page title when it differs from the name. */
@@ -66,6 +69,7 @@ export interface Entry {
   label?: string;
   rarity: Rarity;
   image?: string;
+  gender?: Gender;
   stats: Record<string, Rank>;
   traits: Record<string, string>;
 }
@@ -86,6 +90,17 @@ export interface CustomPack {
   attributes: { id: string; label: string }[];
   /** Built-in anime whose characters are also in the pool. */
   animeIds: string[];
+  /** Character groups that filter the built-in characters (any anime when no anime is ticked). */
+  groupIds?: string[];
   characters: CustomCharacter[];
+  updatedAt: number;
+}
+
+/** A named set of built-in character forms to roll from, e.g. "Kages". */
+export interface CharacterGroup {
+  id: string;
+  name: string;
+  /** Entry keys: "animeId/characterId/variantId". */
+  keys: string[];
   updatedAt: number;
 }

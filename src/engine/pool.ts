@@ -25,6 +25,7 @@ export function entriesFromAnime(anime: RawAnime, images: Record<string, string>
       name: c.name,
       label: v.label,
       rarity: v.rarity,
+      gender: c.gender,
       image: v.image ?? images[`${anime.id}/${c.id}/${v.id}`] ?? c.image ?? images[`${anime.id}/${c.id}`],
       stats: parseStats(v.stats),
       traits: v.traits,

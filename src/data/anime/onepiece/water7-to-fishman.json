@@ -3,6 +3,7 @@
     {
       "id": "foxy",
       "name": "Foxy",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -29,6 +30,7 @@
     {
       "id": "porche",
       "name": "Porche",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -42,6 +44,7 @@
     {
       "id": "franky",
       "name": "Franky",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -64,6 +67,7 @@
     {
       "id": "iceburg",
       "name": "Iceburg",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -77,6 +81,7 @@
     {
       "id": "paulie",
       "name": "Paulie",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -99,6 +104,7 @@
     {
       "id": "tom",
       "name": "Tom",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -112,6 +118,7 @@
     {
       "id": "kokoro",
       "name": "Kokoro",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -125,6 +132,7 @@
     {
       "id": "chimney",
       "name": "Chimney",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -138,6 +146,7 @@
     {
       "id": "gonbe",
       "name": "Gonbe",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -151,6 +160,7 @@
     {
       "id": "yokozuna",
       "name": "Yokozuna",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -164,6 +174,7 @@
     {
       "id": "mozu",
       "name": "Mozu",
+      "gender": "female",
       "wikiPage": "Mozu and Kiwi",
       "variants": [
         {
@@ -178,6 +189,7 @@
     {
       "id": "kiwi",
       "name": "Kiwi",
+      "gender": "female",
       "wikiPage": "Mozu and Kiwi",
       "variants": [
         {
@@ -192,6 +204,7 @@
     {
       "id": "zambai",
       "name": "Zambai",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -205,6 +218,7 @@
     {
       "id": "tilestone",
       "name": "Tilestone",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -218,6 +232,7 @@
     {
       "id": "rob-lucci",
       "name": "Rob Lucci",
+      "gender": "male",
       "variants": [
         {
           "id": "enies-lobby",
@@ -258,6 +273,7 @@
     {
       "id": "kaku",
       "name": "Kaku",
+      "gender": "male",
       "variants": [
         {
           "id": "enies-lobby",
@@ -285,6 +301,7 @@
     {
       "id": "jabra",
       "name": "Jabra",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -300,6 +317,7 @@
     {
       "id": "blueno",
       "name": "Blueno",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -315,6 +333,7 @@
     {
       "id": "kalifa",
       "name": "Kalifa",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -330,6 +349,7 @@
     {
       "id": "kumadori",
       "name": "Kumadori",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -343,6 +363,7 @@
     {
       "id": "fukurou",
       "name": "Fukurou",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -356,6 +377,7 @@
     {
       "id": "spandam",
       "name": "Spandam",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -369,6 +391,7 @@
     {
       "id": "nero",
       "name": "Nero",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -382,6 +405,7 @@
     {
       "id": "nico-olvia",
       "name": "Nico Olvia",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -395,6 +419,7 @@
     {
       "id": "clou-d-clover",
       "name": "Clover",
+      "gender": "male",
       "wikiPage": "Clou D. Clover",
       "variants": [
         {
@@ -409,6 +434,7 @@
     {
       "id": "jaguar-d-saul",
       "name": "Jaguar D. Saul",
+      "gender": "male",
       "variants": [
         {
           "id": "young-marine",
@@ -433,6 +459,7 @@
     {
       "id": "gecko-moria",
       "name": "Gecko Moria",
+      "gender": "male",
       "variants": [
         {
           "id": "thriller-bark",
@@ -459,6 +486,7 @@
     {
       "id": "absalom",
       "name": "Absalom",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -474,6 +502,7 @@
     {
       "id": "perona",
       "name": "Perona",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -500,6 +529,7 @@
     {
       "id": "dr-hogback",
       "name": "Doctor Hogback",
+      "gender": "male",
       "wikiPage": "Hogback",
       "variants": [
         {
@@ -514,6 +544,7 @@
     {
       "id": "victoria-cindry",
       "name": "Victoria Cindry",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -527,6 +558,7 @@
     {
       "id": "shimotsuki-ryuma",
       "name": "Shimotsuki Ryuma",
+      "gender": "male",
       "variants": [
         {
           "id": "living",
@@ -549,6 +581,7 @@
     {
       "id": "oars",
       "name": "Oars",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -562,6 +595,7 @@
     {
       "id": "little-oars-jr",
       "name": "Little Oars Jr.",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -575,6 +609,7 @@
     {
       "id": "brook",
       "name": "Brook",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -603,6 +638,7 @@
     {
       "id": "bartholomew-kuma",
       "name": "Bartholomew Kuma",
+      "gender": "male",
       "variants": [
         {
           "id": "warlord",
@@ -629,6 +665,7 @@
     {
       "id": "eustass-kid",
       "name": "Eustass Kid",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -657,6 +694,7 @@
     {
       "id": "killer",
       "name": "Killer",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -679,6 +717,7 @@
     {
       "id": "basil-hawkins",
       "name": "Basil Hawkins",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -706,6 +745,7 @@
     {
       "id": "scratchmen-apoo",
       "name": "Scratchmen Apoo",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -732,6 +772,7 @@
     {
       "id": "x-drake",
       "name": "X Drake",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -760,6 +801,7 @@
     {
       "id": "capone-bege",
       "name": "Capone Bege",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -786,6 +828,7 @@
     {
       "id": "urouge",
       "name": "Urouge",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -799,6 +842,7 @@
     {
       "id": "jewelry-bonney",
       "name": "Jewelry Bonney",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -825,6 +869,7 @@
     {
       "id": "duval",
       "name": "Duval",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -838,6 +883,7 @@
     {
       "id": "camie",
       "name": "Camie",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -860,6 +906,7 @@
     {
       "id": "pappug",
       "name": "Pappug",
+      "gender": "male",
       "wikiPage": "Pappag",
       "variants": [
         {
@@ -874,6 +921,7 @@
     {
       "id": "saint-charlos",
       "name": "Saint Charlos",
+      "gender": "male",
       "wikiPage": "Rosward Charlos",
       "variants": [
         {
@@ -888,6 +936,7 @@
     {
       "id": "saint-roswald",
       "name": "Saint Roswald",
+      "gender": "male",
       "wikiPage": "Rosward Rosward",
       "variants": [
         {
@@ -902,6 +951,7 @@
     {
       "id": "sentomaru",
       "name": "Sentomaru",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -924,6 +974,7 @@
     {
       "id": "caribou",
       "name": "Caribou",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -939,6 +990,7 @@
     {
       "id": "shakky",
       "name": "Shakky",
+      "gender": "female",
       "wikiPage": "Shakuyaku",
       "variants": [
         {
@@ -953,6 +1005,7 @@
     {
       "id": "heat",
       "name": "Heat",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -966,6 +1019,7 @@
     {
       "id": "wire",
       "name": "Wire",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -979,6 +1033,7 @@
     {
       "id": "boa-hancock",
       "name": "Boa Hancock",
+      "gender": "female",
       "variants": [
         {
           "id": "warlord",
@@ -1008,6 +1063,7 @@
     {
       "id": "boa-sandersonia",
       "name": "Boa Sandersonia",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1023,6 +1079,7 @@
     {
       "id": "boa-marigold",
       "name": "Boa Marigold",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1038,6 +1095,7 @@
     {
       "id": "gloriosa",
       "name": "Gloriosa (Nyon)",
+      "gender": "female",
       "wikiPage": "Gloriosa",
       "variants": [
         {
@@ -1052,6 +1110,7 @@
     {
       "id": "marguerite",
       "name": "Marguerite",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1065,6 +1124,7 @@
     {
       "id": "aphelandra",
       "name": "Aphelandra",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1078,6 +1138,7 @@
     {
       "id": "magellan",
       "name": "Magellan",
+      "gender": "male",
       "variants": [
         {
           "id": "chief-warden",
@@ -1104,6 +1165,7 @@
     {
       "id": "hannyabal",
       "name": "Hannyabal",
+      "gender": "male",
       "variants": [
         {
           "id": "deputy-warden",
@@ -1126,6 +1188,7 @@
     {
       "id": "shiryu",
       "name": "Shiryu",
+      "gender": "male",
       "variants": [
         {
           "id": "impel-down",
@@ -1150,6 +1213,7 @@
     {
       "id": "sadi",
       "name": "Sadi",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1163,6 +1227,7 @@
     {
       "id": "domino",
       "name": "Domino",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1176,6 +1241,7 @@
     {
       "id": "saldeath",
       "name": "Saldeath",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1189,6 +1255,7 @@
     {
       "id": "minotaurus",
       "name": "Minotaurus",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1204,6 +1271,7 @@
     {
       "id": "minokoala",
       "name": "Minokoala",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1219,6 +1287,7 @@
     {
       "id": "emporio-ivankov",
       "name": "Emporio Ivankov",
+      "gender": "other",
       "variants": [
         {
           "id": "base",
@@ -1234,6 +1303,7 @@
     {
       "id": "inazuma",
       "name": "Inazuma",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1249,6 +1319,7 @@
     {
       "id": "jinbe",
       "name": "Jinbe",
+      "gender": "male",
       "variants": [
         {
           "id": "warlord",
@@ -1276,6 +1347,7 @@
     {
       "id": "catarina-devon",
       "name": "Catarina Devon",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1291,6 +1363,7 @@
     {
       "id": "vasco-shot",
       "name": "Vasco Shot",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1304,6 +1377,7 @@
     {
       "id": "avalo-pizarro",
       "name": "Avalo Pizarro",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1319,6 +1393,7 @@
     {
       "id": "sengoku",
       "name": "Sengoku",
+      "gender": "male",
       "variants": [
         {
           "id": "fleet-admiral",
@@ -1348,6 +1423,7 @@
     {
       "id": "tsuru",
       "name": "Tsuru",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1364,6 +1440,7 @@
     {
       "id": "marco",
       "name": "Marco",
+      "gender": "male",
       "wikiPage": "Polo Marco",
       "variants": [
         {
@@ -1395,6 +1472,7 @@
     {
       "id": "jozu",
       "name": "Jozu",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1410,6 +1488,7 @@
     {
       "id": "vista",
       "name": "Vista",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1425,6 +1504,7 @@
     {
       "id": "squard",
       "name": "Squard",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1438,6 +1518,7 @@
     {
       "id": "izo",
       "name": "Izo",
+      "gender": "male",
       "wikiPage": "Izou",
       "variants": [
         {
@@ -1461,6 +1542,7 @@
     {
       "id": "thatch",
       "name": "Thatch",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1474,6 +1556,7 @@
     {
       "id": "namur",
       "name": "Namur",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1487,6 +1570,7 @@
     {
       "id": "blenheim",
       "name": "Blenheim",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1500,6 +1584,7 @@
     {
       "id": "haruta",
       "name": "Haruta",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1513,6 +1598,7 @@
     {
       "id": "rakuyo",
       "name": "Rakuyo",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1526,6 +1612,7 @@
     {
       "id": "atmos",
       "name": "Atmos",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1539,6 +1626,7 @@
     {
       "id": "curiel",
       "name": "Curiel",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1552,6 +1640,7 @@
     {
       "id": "kingdew",
       "name": "Kingdew",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1565,6 +1654,7 @@
     {
       "id": "doma",
       "name": "Doma",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1578,6 +1668,7 @@
     {
       "id": "whitey-bay",
       "name": "Whitey Bay",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1591,6 +1682,7 @@
     {
       "id": "lonz",
       "name": "Lonz",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1604,6 +1696,7 @@
     {
       "id": "momonga",
       "name": "Momonga",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1617,6 +1710,7 @@
     {
       "id": "strawberry",
       "name": "Strawberry",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1630,6 +1724,7 @@
     {
       "id": "onigumo",
       "name": "Onigumo",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1643,6 +1738,7 @@
     {
       "id": "doberman",
       "name": "Doberman",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1656,6 +1752,7 @@
     {
       "id": "dalmatian",
       "name": "Dalmatian",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1669,6 +1766,7 @@
     {
       "id": "fisher-tiger",
       "name": "Fisher Tiger",
+      "gender": "male",
       "variants": [
         {
           "id": "young",
@@ -1693,6 +1791,7 @@
     {
       "id": "otohime",
       "name": "Otohime",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1706,6 +1805,7 @@
     {
       "id": "neptune",
       "name": "Neptune",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1719,6 +1819,7 @@
     {
       "id": "shirahoshi",
       "name": "Shirahoshi",
+      "gender": "female",
       "variants": [
         {
           "id": "child",
@@ -1741,6 +1842,7 @@
     {
       "id": "fukaboshi",
       "name": "Fukaboshi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1754,6 +1856,7 @@
     {
       "id": "ryuboshi",
       "name": "Ryuboshi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1767,6 +1870,7 @@
     {
       "id": "manboshi",
       "name": "Manboshi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1780,6 +1884,7 @@
     {
       "id": "hody-jones",
       "name": "Hody Jones",
+      "gender": "male",
       "variants": [
         {
           "id": "normal",
@@ -1802,6 +1907,7 @@
     {
       "id": "vander-decken-ix",
       "name": "Vander Decken IX",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1817,6 +1923,7 @@
     {
       "id": "wadatsumi",
       "name": "Wadatsumi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1830,6 +1937,7 @@
     {
       "id": "den",
       "name": "Den",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1843,6 +1951,7 @@
     {
       "id": "madam-shyarly",
       "name": "Madam Shyarly",
+      "gender": "female",
       "wikiPage": "Shyarly",
       "variants": [
         {
@@ -1857,6 +1966,7 @@
     {
       "id": "gyro",
       "name": "Gyro",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1870,6 +1980,7 @@
     {
       "id": "zeo",
       "name": "Zeo",
+      "gender": "male",
       "variants": [
         {
           "id": "normal",
@@ -1892,6 +2003,7 @@
     {
       "id": "dosun",
       "name": "Dosun",
+      "gender": "male",
       "variants": [
         {
           "id": "normal",
@@ -1914,6 +2026,7 @@
     {
       "id": "daruma",
       "name": "Daruma",
+      "gender": "male",
       "variants": [
         {
           "id": "normal",
@@ -1936,6 +2049,7 @@
     {
       "id": "ikaros-much",
       "name": "Ikaros Much",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1949,6 +2063,7 @@
     {
       "id": "hyouzou",
       "name": "Hyouzou",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1962,6 +2077,7 @@
     {
       "id": "hammond",
       "name": "Hammond",
+      "gender": "male",
       "variants": [
         {
           "id": "base",

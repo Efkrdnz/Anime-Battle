@@ -26,6 +26,7 @@
     {
       "id": "monkey-d-garp",
       "name": "Monkey D. Garp",
+      "gender": "male",
       "wikiPage": "Monkey D. Garp",
       "search": "Garp",
       "variants": [
@@ -70,6 +71,7 @@
     {
       "id": "monkey-d-luffy",
       "name": "Monkey D. Luffy",
+      "gender": "male",
       "wikiPage": "Monkey D. Luffy",
       "variants": [
         {
@@ -129,6 +131,7 @@
     {
       "id": "edward-newgate",
       "name": "Edward Newgate",
+      "gender": "male",
       "wikiPage": "Edward Newgate",
       "search": "whitebeard",
       "variants": [
@@ -163,6 +166,7 @@
     {
       "id": "shanks",
       "name": "Shanks",
+      "gender": "male",
       "wikiPage": "Shanks",
       "variants": [
         {
@@ -192,6 +196,7 @@
     {
       "id": "roronoa-zoro",
       "name": "Roronoa Zoro",
+      "gender": "male",
       "wikiPage": "Roronoa Zoro",
       "variants": [
         {
@@ -234,6 +239,7 @@
     {
       "id": "vinsmoke-sanji",
       "name": "Sanji",
+      "gender": "male",
       "wikiPage": "Sanji",
       "search": "sanji",
       "variants": [
@@ -275,6 +281,7 @@
     {
       "id": "kaido",
       "name": "Kaido",
+      "gender": "male",
       "wikiPage": "Kaidou",
       "variants": [
         {
@@ -295,6 +302,7 @@
     {
       "id": "charlotte-linlin",
       "name": "Charlotte Linlin",
+      "gender": "female",
       "wikiPage": "Charlotte Linlin",
       "search": "big mom",
       "variants": [
@@ -316,6 +324,7 @@
     {
       "id": "marshall-d-teach",
       "name": "Marshall D. Teach",
+      "gender": "male",
       "wikiPage": "Marshall D. Teach",
       "search": "blackbeard",
       "variants": [
@@ -358,6 +367,7 @@
     {
       "id": "sakazuki",
       "name": "Sakazuki",
+      "gender": "male",
       "wikiPage": "Sakazuki",
       "search": "akainu",
       "variants": [
@@ -378,6 +388,7 @@
     {
       "id": "borsalino",
       "name": "Borsalino",
+      "gender": "male",
       "wikiPage": "Borsalino",
       "search": "kizaru",
       "variants": [
@@ -398,6 +409,7 @@
     {
       "id": "kuzan",
       "name": "Kuzan",
+      "gender": "male",
       "wikiPage": "Kuzan",
       "search": "aokiji",
       "variants": [
@@ -418,6 +430,7 @@
     {
       "id": "gol-d-roger",
       "name": "Gol D. Roger",
+      "gender": "male",
       "wikiPage": "Gol D. Roger",
       "search": "Gold Roger",
       "variants": [
@@ -450,6 +463,7 @@
     {
       "id": "dracule-mihawk",
       "name": "Dracule Mihawk",
+      "gender": "male",
       "wikiPage": "Dracule Mihawk",
       "variants": [
         {
@@ -468,6 +482,7 @@
     {
       "id": "silvers-rayleigh",
       "name": "Silvers Rayleigh",
+      "gender": "male",
       "wikiPage": "Silvers Rayleigh",
       "variants": [
         {
@@ -499,6 +514,7 @@
     {
       "id": "portgas-d-ace",
       "name": "Portgas D. Ace",
+      "gender": "male",
       "wikiPage": "Portgas D. Ace",
       "variants": [
         {
@@ -540,6 +556,7 @@
     {
       "id": "trafalgar-d-water-law",
       "name": "Trafalgar Law",
+      "gender": "male",
       "wikiPage": "Trafalgar D. Water Law",
       "variants": [
         {
@@ -571,6 +588,7 @@
     {
       "id": "nami",
       "name": "Nami",
+      "gender": "female",
       "wikiPage": "Nami",
       "variants": [
         {
@@ -596,6 +614,7 @@
     {
       "id": "usopp",
       "name": "Usopp",
+      "gender": "male",
       "wikiPage": "Usopp",
       "variants": [
         {
@@ -641,6 +660,7 @@
     {
       "id": "buggy",
       "name": "Buggy",
+      "gender": "male",
       "wikiPage": "Buggy",
       "variants": [
         {
@@ -686,6 +706,7 @@
     {
       "id": "coby",
       "name": "Coby",
+      "gender": "male",
       "wikiPage": "Koby",
       "variants": [
         {

@@ -1,7 +1,7 @@
 // PeerJS rooms. The host's peer id is derived from the room code, so friends join by code alone.
 import Peer, { type DataConnection } from 'peerjs';
 import type { MatchAction, MatchState, Player } from '../engine/match';
-import type { CustomPack } from '../types';
+import type { CharacterGroup, CustomPack } from '../types';
 import type { LobbyConfig } from '../lobby';
 
 export const MAX_PLAYERS = 4;
@@ -10,7 +10,7 @@ const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 
 export type HostMsg =
   | { t: 'lobby'; players: Player[]; config: LobbyConfig; you: string }
-  | { t: 'pack'; pack: CustomPack | null; overrides: Record<string, string> }
+  | { t: 'pack'; pack: CustomPack | null; overrides: Record<string, string>; groups: CharacterGroup[] }
   | { t: 'match'; match: MatchState | null }
   | { t: 'bye'; reason: string };
 

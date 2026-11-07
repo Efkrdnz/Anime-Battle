@@ -3,6 +3,7 @@
     {
       "id": "alvida",
       "name": "Alvida",
+      "gender": "female",
       "variants": [
         {
           "id": "east-blue",
@@ -29,6 +30,7 @@
     {
       "id": "axe-hand-morgan",
       "name": "Axe-Hand Morgan",
+      "gender": "male",
       "wikiPage": "Morgan",
       "search": "Morgan",
       "variants": [
@@ -53,6 +55,7 @@
     {
       "id": "helmeppo",
       "name": "Helmeppo",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -75,6 +78,7 @@
     {
       "id": "higuma",
       "name": "Higuma",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -88,6 +92,7 @@
     {
       "id": "captain-kuro",
       "name": "Captain Kuro",
+      "gender": "male",
       "wikiPage": "Kuro",
       "search": "Kuro",
       "variants": [
@@ -103,6 +108,7 @@
     {
       "id": "jango",
       "name": "Jango",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -116,6 +122,7 @@
     {
       "id": "don-krieg",
       "name": "Don Krieg",
+      "gender": "male",
       "wikiPage": "Krieg",
       "search": "Krieg",
       "variants": [
@@ -131,6 +138,7 @@
     {
       "id": "gin",
       "name": "Gin",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -144,6 +152,7 @@
     {
       "id": "pearl",
       "name": "Pearl",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -157,6 +166,7 @@
     {
       "id": "arlong",
       "name": "Arlong",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -170,6 +180,7 @@
     {
       "id": "hatchan",
       "name": "Hatchan",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -183,6 +194,7 @@
     {
       "id": "kuroobi",
       "name": "Kuroobi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -196,6 +208,7 @@
     {
       "id": "chew",
       "name": "Chew",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -209,6 +222,7 @@
     {
       "id": "nojiko",
       "name": "Nojiko",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -231,6 +245,7 @@
     {
       "id": "genzo",
       "name": "Genzo",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -253,6 +268,7 @@
     {
       "id": "bell-mere",
       "name": "Bell-mère",
+      "gender": "female",
       "wikiPage": "Bell-mère",
       "variants": [
         {
@@ -276,6 +292,7 @@
     {
       "id": "zeff",
       "name": "Zeff",
+      "gender": "male",
       "search": "Zeff",
       "variants": [
         {
@@ -299,6 +316,7 @@
     {
       "id": "smoker",
       "name": "Smoker",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -326,6 +344,7 @@
     {
       "id": "tashigi",
       "name": "Tashigi",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -348,6 +367,7 @@
     {
       "id": "hina",
       "name": "Hina",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -363,6 +383,7 @@
     {
       "id": "dalton",
       "name": "Dalton",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -378,6 +399,7 @@
     {
       "id": "wapol",
       "name": "Wapol",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -404,6 +426,7 @@
     {
       "id": "dr-kureha",
       "name": "Dr. Kureha",
+      "gender": "female",
       "wikiPage": "Kureha",
       "search": "Kureha",
       "variants": [
@@ -419,6 +442,7 @@
     {
       "id": "dr-hiriluk",
       "name": "Dr. Hiriluk",
+      "gender": "male",
       "wikiPage": "Hiriluk",
       "search": "Hiriluk",
       "variants": [
@@ -434,6 +458,7 @@
     {
       "id": "crocus",
       "name": "Crocus",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -447,6 +472,7 @@
     {
       "id": "laboon",
       "name": "Laboon",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -460,6 +486,7 @@
     {
       "id": "mr-1",
       "name": "Mr. 1 (Daz Bonez)",
+      "gender": "male",
       "wikiPage": "Daz Bonez",
       "search": "Daz Bonez",
       "variants": [
@@ -488,6 +515,7 @@
     {
       "id": "mr-2-bon-clay",
       "name": "Mr. 2 Bon Clay",
+      "gender": "male",
       "wikiPage": "Bentham",
       "search": "Bon Clay",
       "variants": [
@@ -516,6 +544,7 @@
     {
       "id": "mr-3",
       "name": "Mr. 3 (Galdino)",
+      "gender": "male",
       "wikiPage": "Galdino",
       "search": "Galdino",
       "variants": [
@@ -544,6 +573,7 @@
     {
       "id": "mr-4",
       "name": "Mr. 4 (Babe)",
+      "gender": "male",
       "wikiPage": "Babe",
       "search": "Mr. 4",
       "variants": [
@@ -559,6 +589,7 @@
     {
       "id": "mr-5",
       "name": "Mr. 5 (Gem)",
+      "gender": "male",
       "wikiPage": "Gem",
       "search": "Mr. 5",
       "variants": [
@@ -576,6 +607,7 @@
     {
       "id": "miss-doublefinger",
       "name": "Miss Doublefinger (Zala)",
+      "gender": "female",
       "wikiPage": "Zala",
       "search": "Miss Doublefinger",
       "variants": [
@@ -593,6 +625,7 @@
     {
       "id": "miss-valentine",
       "name": "Miss Valentine (Mikita)",
+      "gender": "female",
       "wikiPage": "Mikita",
       "search": "Miss Valentine",
       "variants": [
@@ -610,6 +643,7 @@
     {
       "id": "miss-goldenweek",
       "name": "Miss Goldenweek (Marianne)",
+      "gender": "female",
       "wikiPage": "Marianne",
       "search": "Miss Goldenweek",
       "variants": [
@@ -625,6 +659,7 @@
     {
       "id": "miss-merry-christmas",
       "name": "Miss Merry Christmas (Drophy)",
+      "gender": "female",
       "wikiPage": "Drophy",
       "search": "Miss Merry Christmas",
       "variants": [
@@ -642,6 +677,7 @@
     {
       "id": "crocodile",
       "name": "Crocodile",
+      "gender": "male",
       "variants": [
         {
           "id": "warlord",
@@ -670,6 +706,7 @@
     {
       "id": "nico-robin",
       "name": "Nico Robin",
+      "gender": "female",
       "search": "Nico Robin",
       "variants": [
         {
@@ -697,6 +734,7 @@
     {
       "id": "nefertari-vivi",
       "name": "Nefertari Vivi",
+      "gender": "female",
       "search": "Vivi",
       "variants": [
         {
@@ -720,6 +758,7 @@
     {
       "id": "koza",
       "name": "Koza",
+      "gender": "male",
       "wikiPage": "Koza",
       "search": "Koza",
       "variants": [
@@ -744,6 +783,7 @@
     {
       "id": "igaram",
       "name": "Igaram",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -766,6 +806,7 @@
     {
       "id": "pell",
       "name": "Pell",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -781,6 +822,7 @@
     {
       "id": "chaka",
       "name": "Chaka",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -796,6 +838,7 @@
     {
       "id": "nefertari-cobra",
       "name": "Nefertari Cobra",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -818,6 +861,7 @@
     {
       "id": "tony-tony-chopper",
       "name": "Tony Tony Chopper",
+      "gender": "male",
       "search": "Chopper",
       "variants": [
         {
@@ -855,6 +899,7 @@
     {
       "id": "bellamy",
       "name": "Bellamy",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -881,6 +926,7 @@
     {
       "id": "sarquiss",
       "name": "Sarquiss",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -902,6 +948,7 @@
     {
       "id": "mont-blanc-cricket",
       "name": "Mont Blanc Cricket",
+      "gender": "male",
       "search": "Cricket",
       "variants": [
         {
@@ -925,6 +972,7 @@
     {
       "id": "masira",
       "name": "Masira",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -938,6 +986,7 @@
     {
       "id": "shoujou",
       "name": "Shoujou",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -951,6 +1000,7 @@
     {
       "id": "enel",
       "name": "Enel",
+      "gender": "male",
       "variants": [
         {
           "id": "god",
@@ -979,6 +1029,7 @@
     {
       "id": "gan-fall",
       "name": "Gan Fall",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -994,6 +1045,7 @@
     {
       "id": "wyper",
       "name": "Wyper",
+      "gender": "male",
       "variants": [
         {
           "id": "warrior",
@@ -1018,6 +1070,7 @@
     {
       "id": "conis",
       "name": "Conis",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -1040,6 +1093,7 @@
     {
       "id": "ohm",
       "name": "Ohm",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1055,6 +1109,7 @@
     {
       "id": "satori",
       "name": "Satori",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1070,6 +1125,7 @@
     {
       "id": "shura",
       "name": "Shura",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1085,6 +1141,7 @@
     {
       "id": "gedatsu",
       "name": "Gedatsu",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1100,6 +1157,7 @@
     {
       "id": "kalgara",
       "name": "Kalgara",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1113,6 +1171,7 @@
     {
       "id": "mont-blanc-noland",
       "name": "Mont Blanc Noland",
+      "gender": "male",
       "search": "Noland",
       "variants": [
         {
@@ -1127,6 +1186,7 @@
     {
       "id": "yasopp",
       "name": "Yasopp",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1140,6 +1200,7 @@
     {
       "id": "lucky-roux",
       "name": "Lucky Roux",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -1162,6 +1223,7 @@
     {
       "id": "benn-beckman",
       "name": "Benn Beckman",
+      "gender": "male",
       "search": "Beckman",
       "variants": [
         {
@@ -1176,6 +1238,7 @@
     {
       "id": "makino",
       "name": "Makino",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -1198,6 +1261,7 @@
     {
       "id": "woop-slap",
       "name": "Woop Slap",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -1220,6 +1284,7 @@
     {
       "id": "scopper-gaban",
       "name": "Scopper Gaban",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1233,6 +1298,7 @@
     {
       "id": "shimotsuki-kuina",
       "name": "Shimotsuki Kuina",
+      "gender": "female",
       "search": "Kuina",
       "variants": [
         {
@@ -1247,6 +1313,7 @@
     {
       "id": "shimotsuki-koushirou",
       "name": "Shimotsuki Koushirou",
+      "gender": "male",
       "search": "Koushirou",
       "variants": [
         {
@@ -1261,6 +1328,7 @@
     {
       "id": "dorry",
       "name": "Dorry",
+      "gender": "male",
       "variants": [
         {
           "id": "giant-warrior",
@@ -1283,6 +1351,7 @@
     {
       "id": "brogy",
       "name": "Brogy",
+      "gender": "male",
       "variants": [
         {
           "id": "giant-warrior",
@@ -1305,6 +1374,7 @@
     {
       "id": "kaya",
       "name": "Kaya",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1318,6 +1388,7 @@
     {
       "id": "yosaku",
       "name": "Yosaku",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1331,6 +1402,7 @@
     {
       "id": "johnny",
       "name": "Johnny",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1344,6 +1416,7 @@
     {
       "id": "monkey-d-dragon",
       "name": "Monkey D. Dragon",
+      "gender": "male",
       "search": "Dragon",
       "variants": [
         {
@@ -1367,6 +1440,7 @@
     {
       "id": "chess",
       "name": "Chess",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1380,6 +1454,7 @@
     {
       "id": "kuromarimo",
       "name": "Kuromarimo",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1393,6 +1468,7 @@
     {
       "id": "patty",
       "name": "Patty",
+      "gender": "male",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -1415,6 +1491,7 @@
     {
       "id": "carne",
       "name": "Carne",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1428,6 +1505,7 @@
     {
       "id": "gaimon",
       "name": "Gaimon",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1441,6 +1519,7 @@
     {
       "id": "aisa",
       "name": "Aisa",
+      "gender": "female",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -1463,6 +1542,7 @@
     {
       "id": "pagaya",
       "name": "Pagaya",
+      "gender": "male",
       "variants": [
         {
           "id": "base",

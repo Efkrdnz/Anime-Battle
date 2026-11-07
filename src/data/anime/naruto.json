@@ -26,6 +26,7 @@
     {
       "id": "naruto-uzumaki",
       "name": "Naruto Uzumaki",
+      "gender": "male",
       "wikiPage": "Naruto Uzumaki",
       "variants": [
         {
@@ -124,6 +125,7 @@
     {
       "id": "sasuke-uchiha",
       "name": "Sasuke Uchiha",
+      "gender": "male",
       "wikiPage": "Sasuke Uchiha",
       "variants": [
         {
@@ -222,6 +224,7 @@
     {
       "id": "madara-uchiha",
       "name": "Madara Uchiha",
+      "gender": "male",
       "wikiPage": "Madara Uchiha",
       "variants": [
         {
@@ -281,6 +284,7 @@
     {
       "id": "hashirama-senju",
       "name": "Hashirama Senju",
+      "gender": "male",
       "wikiPage": "Hashirama Senju",
       "variants": [
         {
@@ -340,6 +344,7 @@
     {
       "id": "itachi-uchiha",
       "name": "Itachi Uchiha",
+      "gender": "male",
       "wikiPage": "Itachi Uchiha",
       "variants": [
         {
@@ -399,6 +404,7 @@
     {
       "id": "kakashi-hatake",
       "name": "Kakashi Hatake",
+      "gender": "male",
       "wikiPage": "Kakashi Hatake",
       "variants": [
         {
@@ -484,6 +490,7 @@
     {
       "id": "minato-namikaze",
       "name": "Minato Namikaze",
+      "gender": "male",
       "wikiPage": "Minato Namikaze",
       "variants": [
         {
@@ -529,6 +536,7 @@
     {
       "id": "obito-uchiha",
       "name": "Obito Uchiha",
+      "gender": "male",
       "wikiPage": "Obito Uchiha",
       "variants": [
         {
@@ -588,6 +596,7 @@
     {
       "id": "pain",
       "name": "Pain",
+      "gender": "male",
       "wikiPage": "Nagato",
       "variants": [
         {
@@ -634,6 +643,7 @@
     {
       "id": "jiraiya",
       "name": "Jiraiya",
+      "gender": "male",
       "wikiPage": "Jiraiya",
       "variants": [
         {
@@ -692,6 +702,7 @@
     {
       "id": "might-guy",
       "name": "Might Guy",
+      "gender": "male",
       "wikiPage": "Might Guy",
       "variants": [
         {
@@ -749,6 +760,7 @@
     {
       "id": "tsunade",
       "name": "Tsunade",
+      "gender": "female",
       "wikiPage": "Tsunade",
       "variants": [
         {
@@ -794,6 +806,7 @@
     {
       "id": "orochimaru",
       "name": "Orochimaru",
+      "gender": "male",
       "wikiPage": "Orochimaru",
       "variants": [
         {
@@ -853,6 +866,7 @@
     {
       "id": "gaara",
       "name": "Gaara",
+      "gender": "male",
       "wikiPage": "Gaara",
       "variants": [
         {
@@ -912,6 +926,7 @@
     {
       "id": "rock-lee",
       "name": "Rock Lee",
+      "gender": "male",
       "wikiPage": "Rock Lee",
       "variants": [
         {
@@ -956,6 +971,7 @@
     {
       "id": "hinata-hyuga",
       "name": "Hinata Hyuga",
+      "gender": "female",
       "wikiPage": "Hinata Hyūga",
       "variants": [
         {
@@ -1002,6 +1018,7 @@
     {
       "id": "kaguya-otsutsuki",
       "name": "Kaguya Otsutsuki",
+      "gender": "female",
       "wikiPage": "Kaguya Ōtsutsuki",
       "variants": [
         {
@@ -1022,6 +1039,7 @@
     {
       "id": "sakura-haruno",
       "name": "Sakura Haruno",
+      "gender": "female",
       "wikiPage": "Sakura Haruno",
       "variants": [
         {
@@ -1067,6 +1085,7 @@
     {
       "id": "shikamaru-nara",
       "name": "Shikamaru Nara",
+      "gender": "male",
       "wikiPage": "Shikamaru Nara",
       "variants": [
         {
@@ -1112,6 +1131,7 @@
     {
       "id": "konohamaru-sarutobi",
       "name": "Konohamaru Sarutobi",
+      "gender": "male",
       "wikiPage": "Konohamaru Sarutobi",
       "variants": [
         {

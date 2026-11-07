@@ -3,6 +3,7 @@
     {
       "id": "iruka-umino",
       "name": "Iruka Umino",
+      "gender": "male",
       "wikiPage": "Iruka Umino",
       "variants": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "mizuki",
       "name": "Mizuki",
+      "gender": "male",
       "wikiPage": "Mizuki",
       "variants": [
         {
@@ -52,6 +54,7 @@
     {
       "id": "ebisu",
       "name": "Ebisu",
+      "gender": "male",
       "wikiPage": "Ebisu",
       "variants": [
         {
@@ -70,6 +73,7 @@
     {
       "id": "hiruzen-sarutobi",
       "name": "Hiruzen Sarutobi",
+      "gender": "male",
       "wikiPage": "Hiruzen Sarutobi",
       "variants": [
         {
@@ -101,6 +105,7 @@
     {
       "id": "zabuza-momochi",
       "name": "Zabuza Momochi",
+      "gender": "male",
       "wikiPage": "Zabuza Momochi",
       "variants": [
         {
@@ -119,6 +124,7 @@
     {
       "id": "haku",
       "name": "Haku",
+      "gender": "male",
       "wikiPage": "Haku",
       "variants": [
         {
@@ -152,6 +158,7 @@
     {
       "id": "gato",
       "name": "Gato",
+      "gender": "male",
       "wikiPage": "Gatō",
       "variants": [
         {
@@ -170,6 +177,7 @@
     {
       "id": "tazuna",
       "name": "Tazuna",
+      "gender": "male",
       "wikiPage": "Tazuna",
       "variants": [
         {
@@ -188,6 +196,7 @@
     {
       "id": "inari",
       "name": "Inari",
+      "gender": "male",
       "wikiPage": "Inari",
       "variants": [
         {
@@ -219,6 +228,7 @@
     {
       "id": "tsunami",
       "name": "Tsunami",
+      "gender": "female",
       "wikiPage": "Tsunami",
       "variants": [
         {
@@ -237,6 +247,7 @@
     {
       "id": "gozu",
       "name": "Gozu",
+      "gender": "male",
       "wikiPage": "Gōzu",
       "variants": [
         {
@@ -255,6 +266,7 @@
     {
       "id": "meizu",
       "name": "Meizu",
+      "gender": "male",
       "wikiPage": "Meizu",
       "variants": [
         {
@@ -273,6 +285,7 @@
     {
       "id": "kiba-inuzuka",
       "name": "Kiba Inuzuka",
+      "gender": "male",
       "wikiPage": "Kiba Inuzuka",
       "variants": [
         {
@@ -319,6 +332,7 @@
     {
       "id": "akamaru",
       "name": "Akamaru",
+      "gender": "male",
       "wikiPage": "Akamaru",
       "variants": [
         {
@@ -350,6 +364,7 @@
     {
       "id": "shino-aburame",
       "name": "Shino Aburame",
+      "gender": "male",
       "wikiPage": "Shino Aburame",
       "variants": [
         {
@@ -396,6 +411,7 @@
     {
       "id": "choji-akimichi",
       "name": "Choji Akimichi",
+      "gender": "male",
       "wikiPage": "Chōji Akimichi",
       "variants": [
         {
@@ -455,6 +471,7 @@
     {
       "id": "ino-yamanaka",
       "name": "Ino Yamanaka",
+      "gender": "female",
       "wikiPage": "Ino Yamanaka",
       "variants": [
         {
@@ -501,6 +518,7 @@
     {
       "id": "neji-hyuga",
       "name": "Neji Hyuga",
+      "gender": "male",
       "wikiPage": "Neji Hyūga",
       "variants": [
         {
@@ -547,6 +565,7 @@
     {
       "id": "tenten",
       "name": "Tenten",
+      "gender": "female",
       "wikiPage": "Tenten",
       "variants": [
         {
@@ -590,6 +609,7 @@
     {
       "id": "kankuro",
       "name": "Kankuro",
+      "gender": "male",
       "wikiPage": "Kankurō",
       "variants": [
         {
@@ -633,6 +653,7 @@
     {
       "id": "temari",
       "name": "Temari",
+      "gender": "female",
       "wikiPage": "Temari",
       "variants": [
         {
@@ -676,6 +697,7 @@
     {
       "id": "kabuto-yakushi",
       "name": "Kabuto Yakushi",
+      "gender": "male",
       "wikiPage": "Kabuto Yakushi",
       "variants": [
         {
@@ -720,6 +742,7 @@
     {
       "id": "dosu-kinuta",
       "name": "Dosu Kinuta",
+      "gender": "male",
       "wikiPage": "Dosu Kinuta",
       "variants": [
         {
@@ -738,6 +761,7 @@
     {
       "id": "zaku-abumi",
       "name": "Zaku Abumi",
+      "gender": "male",
       "wikiPage": "Zaku Abumi",
       "variants": [
         {
@@ -756,6 +780,7 @@
     {
       "id": "kin-tsuchi",
       "name": "Kin Tsuchi",
+      "gender": "female",
       "wikiPage": "Kin Tsuchi",
       "variants": [
         {
@@ -774,6 +799,7 @@
     {
       "id": "yoroi-akado",
       "name": "Yoroi Akado",
+      "gender": "male",
       "wikiPage": "Yoroi Akadō",
       "variants": [
         {
@@ -792,6 +818,7 @@
     {
       "id": "misumi-tsurugi",
       "name": "Misumi Tsurugi",
+      "gender": "male",
       "wikiPage": "Misumi Tsurugi",
       "variants": [
         {
@@ -810,6 +837,7 @@
     {
       "id": "kurenai-yuhi",
       "name": "Kurenai Yuhi",
+      "gender": "female",
       "wikiPage": "Kurenai Yūhi",
       "variants": [
         {
@@ -841,6 +869,7 @@
     {
       "id": "asuma-sarutobi",
       "name": "Asuma Sarutobi",
+      "gender": "male",
       "wikiPage": "Asuma Sarutobi",
       "variants": [
         {
@@ -859,6 +888,7 @@
     {
       "id": "anko-mitarashi",
       "name": "Anko Mitarashi",
+      "gender": "female",
       "wikiPage": "Anko Mitarashi",
       "variants": [
         {
@@ -892,6 +922,7 @@
     {
       "id": "hayate-gekko",
       "name": "Hayate Gekko",
+      "gender": "male",
       "wikiPage": "Hayate Gekkō",
       "variants": [
         {
@@ -910,6 +941,7 @@
     {
       "id": "genma-shiranui",
       "name": "Genma Shiranui",
+      "gender": "male",
       "wikiPage": "Genma Shiranui",
       "variants": [
         {
@@ -928,6 +960,7 @@
     {
       "id": "raido-namiashi",
       "name": "Raido Namiashi",
+      "gender": "male",
       "wikiPage": "Raidō Namiashi",
       "variants": [
         {
@@ -946,6 +979,7 @@
     {
       "id": "ibiki-morino",
       "name": "Ibiki Morino",
+      "gender": "male",
       "wikiPage": "Ibiki Morino",
       "variants": [
         {
@@ -977,6 +1011,7 @@
     {
       "id": "yugao-uzuki",
       "name": "Yugao Uzuki",
+      "gender": "female",
       "wikiPage": "Yūgao Uzuki",
       "variants": [
         {
@@ -1008,6 +1043,7 @@
     {
       "id": "kidomaru",
       "name": "Kidomaru",
+      "gender": "male",
       "wikiPage": "Kidōmaru",
       "variants": [
         {
@@ -1041,6 +1077,7 @@
     {
       "id": "jirobo",
       "name": "Jirobo",
+      "gender": "male",
       "wikiPage": "Jirōbō",
       "variants": [
         {
@@ -1060,6 +1097,7 @@
     {
       "id": "sakon-and-ukon",
       "name": "Sakon and Ukon",
+      "gender": "male",
       "wikiPage": "Sakon and Ukon",
       "variants": [
         {
@@ -1093,6 +1131,7 @@
     {
       "id": "tayuya",
       "name": "Tayuya",
+      "gender": "female",
       "wikiPage": "Tayuya",
       "variants": [
         {
@@ -1126,6 +1165,7 @@
     {
       "id": "kimimaro",
       "name": "Kimimaro",
+      "gender": "male",
       "wikiPage": "Kimimaro",
       "variants": [
         {
@@ -1159,6 +1199,7 @@
     {
       "id": "shizune",
       "name": "Shizune",
+      "gender": "female",
       "wikiPage": "Shizune",
       "variants": [
         {
@@ -1190,6 +1231,7 @@
     {
       "id": "tonton",
       "name": "Tonton",
+      "gender": "female",
       "wikiPage": "Tonton",
       "variants": [
         {
@@ -1208,6 +1250,7 @@
     {
       "id": "kisame-hoshigaki",
       "name": "Kisame Hoshigaki",
+      "gender": "male",
       "wikiPage": "Kisame Hoshigaki",
       "variants": [
         {
@@ -1241,6 +1284,7 @@
     {
       "id": "gamabunta",
       "name": "Gamabunta",
+      "gender": "male",
       "wikiPage": "Gamabunta",
       "variants": [
         {
@@ -1259,6 +1303,7 @@
     {
       "id": "gamakichi",
       "name": "Gamakichi",
+      "gender": "male",
       "wikiPage": "Gamakichi",
       "variants": [
         {
@@ -1277,6 +1322,7 @@
     {
       "id": "gamatatsu",
       "name": "Gamatatsu",
+      "gender": "male",
       "wikiPage": "Gamatatsu",
       "variants": [
         {
@@ -1295,6 +1341,7 @@
     {
       "id": "teuchi",
       "name": "Teuchi",
+      "gender": "male",
       "wikiPage": "Teuchi",
       "variants": [
         {
@@ -1313,6 +1360,7 @@
     {
       "id": "ayame",
       "name": "Ayame",
+      "gender": "female",
       "wikiPage": "Ayame",
       "variants": [
         {
@@ -1331,6 +1379,7 @@
     {
       "id": "hanabi-hyuga",
       "name": "Hanabi Hyuga",
+      "gender": "female",
       "wikiPage": "Hanabi Hyūga",
       "variants": [
         {
@@ -1364,6 +1413,7 @@
     {
       "id": "hiashi-hyuga",
       "name": "Hiashi Hyuga",
+      "gender": "male",
       "wikiPage": "Hiashi Hyūga",
       "variants": [
         {
@@ -1383,6 +1433,7 @@
     {
       "id": "hizashi-hyuga",
       "name": "Hizashi Hyuga",
+      "gender": "male",
       "wikiPage": "Hizashi Hyūga",
       "variants": [
         {
@@ -1402,6 +1453,7 @@
     {
       "id": "kotetsu-hagane",
       "name": "Kotetsu Hagane",
+      "gender": "male",
       "wikiPage": "Kotetsu Hagane",
       "variants": [
         {
@@ -1420,6 +1472,7 @@
     {
       "id": "izumo-kamizuki",
       "name": "Izumo Kamizuki",
+      "gender": "male",
       "wikiPage": "Izumo Kamizuki",
       "variants": [
         {
@@ -1438,6 +1491,7 @@
     {
       "id": "baki",
       "name": "Baki",
+      "gender": "male",
       "wikiPage": "Baki",
       "variants": [
         {
@@ -1456,6 +1510,7 @@
     {
       "id": "rasa",
       "name": "Rasa",
+      "gender": "male",
       "wikiPage": "Rasa",
       "variants": [
         {
@@ -1489,6 +1544,7 @@
     {
       "id": "yashamaru",
       "name": "Yashamaru",
+      "gender": "male",
       "wikiPage": "Yashamaru",
       "variants": [
         {
@@ -1507,6 +1563,7 @@
     {
       "id": "idate-morino",
       "name": "Idate Morino",
+      "gender": "male",
       "wikiPage": "Idate Morino",
       "variants": [
         {
@@ -1525,6 +1582,7 @@
     {
       "id": "aoi-rokusho",
       "name": "Aoi Rokusho",
+      "gender": "male",
       "wikiPage": "Aoi Rokushō",
       "variants": [
         {
@@ -1543,6 +1601,7 @@
     {
       "id": "doto-kazahana",
       "name": "Doto Kazahana",
+      "gender": "male",
       "wikiPage": "Dotō Kazahana",
       "variants": [
         {
@@ -1574,6 +1633,7 @@
     {
       "id": "koyuki-kazahana",
       "name": "Koyuki Kazahana",
+      "gender": "female",
       "wikiPage": "Koyuki Kazahana",
       "variants": [
         {
@@ -1605,6 +1665,7 @@
     {
       "id": "temujin",
       "name": "Temujin",
+      "gender": "male",
       "wikiPage": "Temujin",
       "variants": [
         {
@@ -1623,6 +1684,7 @@
     {
       "id": "haido",
       "name": "Haido",
+      "gender": "male",
       "wikiPage": "Haido",
       "variants": [
         {
@@ -1654,6 +1716,7 @@
     {
       "id": "raiga-kurosuki",
       "name": "Raiga Kurosuki",
+      "gender": "male",
       "wikiPage": "Raiga Kurosuki",
       "variants": [
         {
@@ -1685,6 +1748,7 @@
     {
       "id": "ranmaru",
       "name": "Ranmaru",
+      "gender": "male",
       "wikiPage": "Ranmaru",
       "variants": [
         {
@@ -1704,6 +1768,7 @@
     {
       "id": "pakkun",
       "name": "Pakkun",
+      "gender": "male",
       "wikiPage": "Pakkun",
       "variants": [
         {
@@ -1722,6 +1787,7 @@
     {
       "id": "manda",
       "name": "Manda",
+      "gender": "male",
       "wikiPage": "Manda",
       "variants": [
         {
@@ -1740,6 +1806,7 @@
     {
       "id": "katsuyu",
       "name": "Katsuyu",
+      "gender": "female",
       "wikiPage": "Katsuyu",
       "variants": [
         {
@@ -1758,6 +1825,7 @@
     {
       "id": "moegi-kazamatsuri",
       "name": "Moegi Kazamatsuri",
+      "gender": "female",
       "wikiPage": "Moegi Kazamatsuri",
       "variants": [
         {
@@ -1789,6 +1857,7 @@
     {
       "id": "udon-ise",
       "name": "Udon Ise",
+      "gender": "male",
       "wikiPage": "Udon Ise",
       "variants": [
         {

@@ -25,6 +25,7 @@
     {
       "id": "ichigo-kurosaki",
       "name": "Ichigo Kurosaki",
+      "gender": "male",
       "variants": [
         {
           "id": "substitute",
@@ -67,6 +68,7 @@
     {
       "id": "sosuke-aizen",
       "name": "Sosuke Aizen",
+      "gender": "male",
       "variants": [
         {
           "id": "captain",
@@ -98,6 +100,7 @@
     {
       "id": "yhwach",
       "name": "Yhwach",
+      "gender": "male",
       "variants": [
         {
           "id": "quincy-king",
@@ -116,6 +119,7 @@
     {
       "id": "genryusai-shigekuni-yamamoto",
       "name": "Genryusai Shigekuni Yamamoto",
+      "gender": "male",
       "variants": [
         {
           "id": "captain-commander",
@@ -135,6 +139,7 @@
     {
       "id": "kenpachi-zaraki",
       "name": "Kenpachi Zaraki",
+      "gender": "male",
       "variants": [
         {
           "id": "eyepatch",
@@ -165,6 +170,7 @@
     {
       "id": "byakuya-kuchiki",
       "name": "Byakuya Kuchiki",
+      "gender": "male",
       "variants": [
         {
           "id": "captain",
@@ -183,6 +189,7 @@
     {
       "id": "ulquiorra-cifer",
       "name": "Ulquiorra Cifer",
+      "gender": "male",
       "variants": [
         {
           "id": "segunda-etapa",
@@ -201,6 +208,7 @@
     {
       "id": "grimmjow-jaegerjaquez",
       "name": "Grimmjow Jaegerjaquez",
+      "gender": "male",
       "variants": [
         {
           "id": "sexta-espada",
@@ -219,6 +227,7 @@
     {
       "id": "kisuke-urahara",
       "name": "Kisuke Urahara",
+      "gender": "male",
       "variants": [
         {
           "id": "shopkeeper",
@@ -237,6 +246,7 @@
     {
       "id": "yoruichi-shihoin",
       "name": "Yoruichi Shihoin",
+      "gender": "female",
       "variants": [
         {
           "id": "flash-goddess",
@@ -256,6 +266,7 @@
     {
       "id": "toshiro-hitsugaya",
       "name": "Toshiro Hitsugaya",
+      "gender": "male",
       "variants": [
         {
           "id": "captain",
@@ -275,6 +286,7 @@
     {
       "id": "rukia-kuchiki",
       "name": "Rukia Kuchiki",
+      "gender": "female",
       "variants": [
         {
           "id": "thirteenth-division",
@@ -293,6 +305,7 @@
     {
       "id": "renji-abarai",
       "name": "Renji Abarai",
+      "gender": "male",
       "variants": [
         {
           "id": "lieutenant",
@@ -311,6 +324,7 @@
     {
       "id": "retsu-unohana",
       "name": "Retsu Unohana",
+      "gender": "female",
       "variants": [
         {
           "id": "first-kenpachi",
@@ -329,6 +343,7 @@
     {
       "id": "shunsui-kyoraku",
       "name": "Shunsui Kyoraku",
+      "gender": "male",
       "variants": [
         {
           "id": "captain",
@@ -348,6 +363,7 @@
     {
       "id": "mayuri-kurotsuchi",
       "name": "Mayuri Kurotsuchi",
+      "gender": "male",
       "variants": [
         {
           "id": "captain",
@@ -366,6 +382,7 @@
     {
       "id": "uryu-ishida",
       "name": "Uryu Ishida",
+      "gender": "male",
       "variants": [
         {
           "id": "quincy",
@@ -385,6 +402,7 @@
     {
       "id": "orihime-inoue",
       "name": "Orihime Inoue",
+      "gender": "female",
       "variants": [
         {
           "id": "healer",
@@ -402,6 +420,7 @@
     {
       "id": "kon",
       "name": "Kon",
+      "gender": "male",
       "variants": [
         {
           "id": "mod-soul",
@@ -419,6 +438,7 @@
     {
       "id": "yasutora-sado",
       "name": "Yasutora Sado",
+      "gender": "male",
       "search": "chad",
       "variants": [
         {

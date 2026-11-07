@@ -1,11 +1,12 @@
 // App state. In solo and host sessions the match reducer runs here; clients mirror the host's snapshots.
 import { create } from 'zustand';
-import { loadOverrides, loadPacks, saveOverrides, savePacks } from './custom/storage';
+import { usedGroups } from './custom/groups';
+import { loadGroups, loadOverrides, loadPacks, saveGroups, saveOverrides, savePacks } from './custom/storage';
 import { createMatch, reduceMatch, type MatchAction, type MatchState, type Player, type PlayerAction } from './engine/match';
 import { randomSeed } from './engine/rng';
 import { buildPool, defaultConfig, matchSettings, startProblem, type LobbyConfig } from './lobby';
 import { ClientSession, HostSession, MAX_PLAYERS, type HostMsg } from './net/peer';
-import type { CustomPack, Entry } from './types';
+import type { CharacterGroup, CustomPack, Entry } from './types';
 
 export type Screen = 'home' | 'lobby' | 'game' | 'custom' | 'gallery';
 
@@ -30,6 +31,10 @@ interface State {
   packs: CustomPack[];
   overrides: Record<string, string>;
   remoteOverrides: Record<string, string>;
+  /** My saved character groups. */
+  groups: CharacterGroup[];
+  /** Groups the host sent for the current lobby. */
+  remoteGroups: CharacterGroup[];
   notice: string | null;
   busy: boolean;
 
@@ -48,6 +53,8 @@ interface State {
   savePack(pack: CustomPack): void;
   deletePack(id: string): void;
   setOverride(key: string, image: string | null): void;
+  saveGroup(group: CharacterGroup): void;
+  deleteGroup(id: string): void;
 }
 
 let host: HostSession | null = null;
@@ -59,10 +66,13 @@ function me(name: string, index: number, id: string): Player {
   return { id, name: name || 'Player', color: PLAYER_COLORS[index % PLAYER_COLORS.length] };
 }
 
-export const usePool = (): Entry[] => useGame((s) => buildPool(s.config, s.pack));
+/** Groups the pool can reference: mine plus any the host sent. */
+export const poolGroups = (s: Pick<State, 'groups' | 'remoteGroups'>): CharacterGroup[] => [...s.remoteGroups, ...s.groups];
+
+export const usePool = (): Entry[] => useGame((s) => buildPool(s.config, s.pack, poolGroups(s)));
 
 export const useGame = create<State>((set, get) => {
-  const poolNow = () => buildPool(get().config, get().pack);
+  const poolNow = () => buildPool(get().config, get().pack, poolGroups(get()));
 
   function broadcastLobby() {
     const { players, config } = get();
@@ -70,7 +80,9 @@ export const useGame = create<State>((set, get) => {
   }
 
   function broadcastPack(targetId?: string) {
-    const msg: HostMsg = { t: 'pack', pack: get().pack, overrides: get().overrides };
+    const { pack, config, overrides, groups } = get();
+    const ids = [...(config.groupIds ?? []), ...(pack?.groupIds ?? [])];
+    const msg: HostMsg = { t: 'pack', pack, overrides, groups: usedGroups(ids, groups) };
     if (targetId) host?.send(targetId, msg);
     else host?.broadcast(msg);
   }
@@ -93,7 +105,7 @@ export const useGame = create<State>((set, get) => {
         set({ players: msg.players, config: msg.config, session: { ...get().session, myId: msg.you } });
         break;
       case 'pack':
-        set({ pack: msg.pack, remoteOverrides: msg.overrides });
+        set({ pack: msg.pack, remoteOverrides: msg.overrides, remoteGroups: msg.groups ?? [] });
         break;
       case 'match':
         set({ match: msg.match, screen: msg.match ? 'game' : 'lobby' });
@@ -120,13 +132,15 @@ export const useGame = create<State>((set, get) => {
     packs: [],
     overrides: {},
     remoteOverrides: {},
+    groups: [],
+    remoteGroups: [],
     notice: null,
     busy: false,
 
     async init() {
       try {
-        const [packs, overrides] = await Promise.all([loadPacks(), loadOverrides()]);
-        set({ packs, overrides });
+        const [packs, overrides, groups] = await Promise.all([loadPacks(), loadOverrides(), loadGroups()]);
+        set({ packs, overrides, groups });
       } catch {
         set({ notice: 'Saved games could not be loaded (browser storage is blocked).' });
       }
@@ -158,7 +172,7 @@ export const useGame = create<State>((set, get) => {
       if (get().session.kind === 'client') return;
       const config = { ...get().config, ...patch };
       const pack = resolvePack(config);
-      const packChanged = pack !== get().pack;
+      const packChanged = pack !== get().pack || patch.groupIds !== undefined;
       set({ config, pack });
       broadcastLobby();
       if (packChanged) broadcastPack();
@@ -214,14 +228,14 @@ export const useGame = create<State>((set, get) => {
       const h = host;
       client = null;
       host = null;
-      set({ session: soloSession(), players: [], match: null, pack: null, remoteOverrides: {}, screen: 'home' });
+      set({ session: soloSession(), players: [], match: null, pack: null, remoteOverrides: {}, remoteGroups: [], screen: 'home' });
       c?.close();
       h?.close();
     },
 
     startMatch() {
       const { config, pack, session, players } = get();
-      if (session.kind === 'client' || startProblem(config, pack)) return;
+      if (session.kind === 'client' || startProblem(config, pack, poolGroups(get()))) return;
       const roster = players.length ? players : [me(get().name, 0, HOST_ID)];
       setMatch(createMatch(matchSettings(config, pack), roster, randomSeed(), poolNow()));
       set({ players: roster, screen: 'game' });
@@ -259,6 +273,20 @@ export const useGame = create<State>((set, get) => {
       set({ overrides });
       saveOverrides(overrides).catch(() => set({ notice: 'Could not save the picture.' }));
       if (host) broadcastPack();
+    },
+
+    saveGroup(group) {
+      const stamped = { ...group, updatedAt: Date.now() };
+      const groups = [...get().groups.filter((g) => g.id !== group.id), stamped];
+      set({ groups });
+      saveGroups(groups).catch(() => set({ notice: 'Could not save the group.' }));
+      if (host) broadcastPack();
+    },
+
+    deleteGroup(id) {
+      const groups = get().groups.filter((g) => g.id !== id);
+      set({ groups });
+      saveGroups(groups).catch(() => set({ notice: 'Could not save the change.' }));
     },
   };
 });

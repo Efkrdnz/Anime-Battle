@@ -4,14 +4,24 @@
   "color": "#ff6b35",
   "search": "chainsaw man",
   "attributes": [
-    { "id": "devilPower", "label": "Devil Power" },
-    { "id": "contract", "label": "Devil Contract" },
-    { "id": "form", "label": "Hybrid / Fiend Form" }
+    {
+      "id": "devilPower",
+      "label": "Devil Power"
+    },
+    {
+      "id": "contract",
+      "label": "Devil Contract"
+    },
+    {
+      "id": "form",
+      "label": "Hybrid / Fiend Form"
+    }
   ],
   "characters": [
     {
       "id": "denji",
       "name": "Denji",
+      "gender": "male",
       "variants": [
         {
           "id": "human",
@@ -50,6 +60,7 @@
     {
       "id": "makima",
       "name": "Makima",
+      "gender": "female",
       "variants": [
         {
           "id": "control-devil",
@@ -67,6 +78,7 @@
     {
       "id": "power",
       "name": "Power",
+      "gender": "female",
       "variants": [
         {
           "id": "blood-fiend",
@@ -84,6 +96,7 @@
     {
       "id": "aki-hayakawa",
       "name": "Aki Hayakawa",
+      "gender": "male",
       "variants": [
         {
           "id": "human",
@@ -111,6 +124,7 @@
     {
       "id": "reze",
       "name": "Reze",
+      "gender": "female",
       "variants": [
         {
           "id": "bomb-devil",
@@ -128,6 +142,7 @@
     {
       "id": "kishibe",
       "name": "Kishibe",
+      "gender": "male",
       "variants": [
         {
           "id": "veteran-hunter",
@@ -144,6 +159,7 @@
     {
       "id": "himeno",
       "name": "Himeno",
+      "gender": "female",
       "variants": [
         {
           "id": "ghost-devil",
@@ -161,6 +177,7 @@
     {
       "id": "angel-devil",
       "name": "Angel Devil",
+      "gender": "male",
       "variants": [
         {
           "id": "angel",
@@ -178,6 +195,7 @@
     {
       "id": "quanxi",
       "name": "Quanxi",
+      "gender": "female",
       "variants": [
         {
           "id": "first-devil-hunter",
@@ -195,6 +213,7 @@
     {
       "id": "katana-man",
       "name": "Katana Man",
+      "gender": "male",
       "variants": [
         {
           "id": "sawtooth-hybrid",
@@ -211,6 +230,7 @@
     {
       "id": "kobeni",
       "name": "Kobeni Higashiyama",
+      "gender": "female",
       "variants": [
         {
           "id": "terrified-intern",
@@ -227,6 +247,7 @@
     {
       "id": "asa-mitaka",
       "name": "Asa Mitaka",
+      "gender": "female",
       "variants": [
         {
           "id": "human",
@@ -254,6 +275,7 @@
     {
       "id": "pochita",
       "name": "Pochita",
+      "gender": "other",
       "variants": [
         {
           "id": "chainsaw-puppy",
@@ -270,6 +292,7 @@
     {
       "id": "gun-devil",
       "name": "Gun Devil",
+      "gender": "other",
       "variants": [
         {
           "id": "gun-devil",
@@ -287,6 +310,7 @@
     {
       "id": "darkness-devil",
       "name": "Darkness Devil",
+      "gender": "other",
       "variants": [
         {
           "id": "primal-fear",
@@ -304,6 +328,7 @@
     {
       "id": "fami",
       "name": "Fami",
+      "gender": "female",
       "variants": [
         {
           "id": "famine-devil",
@@ -321,6 +346,7 @@
     {
       "id": "nayuta",
       "name": "Nayuta",
+      "gender": "female",
       "variants": [
         {
           "id": "control-devil-child",
@@ -338,6 +364,7 @@
     {
       "id": "beam",
       "name": "Beam",
+      "gender": "male",
       "variants": [
         {
           "id": "shark-fiend",
@@ -355,6 +382,7 @@
     {
       "id": "yoshida-hirofumi",
       "name": "Hirofumi Yoshida",
+      "gender": "male",
       "variants": [
         {
           "id": "spy-hunter",

@@ -4,194 +4,565 @@
   "color": "#7b2cbf",
   "search": "jujutsu kaisen",
   "attributes": [
-    { "id": "cursedTechnique", "label": "Cursed Technique" },
-    { "id": "domain", "label": "Domain Expansion" },
-    { "id": "cursedEnergy", "label": "Cursed Energy" },
-    { "id": "rct", "label": "Reverse Cursed Technique" }
+    {
+      "id": "cursedTechnique",
+      "label": "Cursed Technique"
+    },
+    {
+      "id": "domain",
+      "label": "Domain Expansion"
+    },
+    {
+      "id": "cursedEnergy",
+      "label": "Cursed Energy"
+    },
+    {
+      "id": "rct",
+      "label": "Reverse Cursed Technique"
+    }
   ],
   "characters": [
     {
       "id": "satoru-gojou",
       "name": "Satoru Gojou",
+      "gender": "male",
       "variants": [
-        { "id": "teen", "label": "Teen (Hidden Inventory)", "rarity": "S", "stats": "A S A S S A", "traits": { "cursedTechnique": "Limitless + Six Eyes (just awakened)", "domain": "None yet", "cursedEnergy": "Vast, near-bottomless reserves", "rct": "Awakened mid-fight, near-instant healing" } },
-        { "id": "prime", "label": "Prime", "rarity": "SS", "stats": "S SS SS SS SS SS", "traits": { "cursedTechnique": "Limitless: Infinity, Blue, Red, Purple", "domain": "Unlimited Void", "cursedEnergy": "Boundless, zero-waste Six Eyes control", "rct": "Perfect, self-sustaining brain healing" } }
+        {
+          "id": "teen",
+          "label": "Teen (Hidden Inventory)",
+          "rarity": "S",
+          "stats": "A S A S S A",
+          "traits": {
+            "cursedTechnique": "Limitless + Six Eyes (just awakened)",
+            "domain": "None yet",
+            "cursedEnergy": "Vast, near-bottomless reserves",
+            "rct": "Awakened mid-fight, near-instant healing"
+          }
+        },
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "SS",
+          "stats": "S SS SS SS SS SS",
+          "traits": {
+            "cursedTechnique": "Limitless: Infinity, Blue, Red, Purple",
+            "domain": "Unlimited Void",
+            "cursedEnergy": "Boundless, zero-waste Six Eyes control",
+            "rct": "Perfect, self-sustaining brain healing"
+          }
+        }
       ]
     },
     {
       "id": "ryoumen-sukuna",
       "name": "Ryoumen Sukuna",
+      "gender": "male",
       "variants": [
-        { "id": "in-yuuji", "label": "In Yuuji (15 Fingers)", "rarity": "S", "stats": "S S S S S A", "traits": { "cursedTechnique": "Dismantle, Cleave, Fuga", "domain": "Malevolent Shrine", "cursedEnergy": "Enormous but vessel-limited", "rct": "Full RCT, heals fatal wounds" } },
-        { "id": "heian", "label": "Heian True Form", "rarity": "SS", "stats": "SS SS SS SS SS SS", "traits": { "cursedTechnique": "Dismantle, Cleave, Fuga, Mahoraga, Worldcutting Slash", "domain": "Malevolent Shrine (barrierless, absolute)", "cursedEnergy": "King of Curses, apex output", "rct": "Mastered, heals mid-battle" } }
+        {
+          "id": "in-yuuji",
+          "label": "In Yuuji (15 Fingers)",
+          "rarity": "S",
+          "stats": "S S S S S A",
+          "traits": {
+            "cursedTechnique": "Dismantle, Cleave, Fuga",
+            "domain": "Malevolent Shrine",
+            "cursedEnergy": "Enormous but vessel-limited",
+            "rct": "Full RCT, heals fatal wounds"
+          }
+        },
+        {
+          "id": "heian",
+          "label": "Heian True Form",
+          "rarity": "SS",
+          "stats": "SS SS SS SS SS SS",
+          "traits": {
+            "cursedTechnique": "Dismantle, Cleave, Fuga, Mahoraga, Worldcutting Slash",
+            "domain": "Malevolent Shrine (barrierless, absolute)",
+            "cursedEnergy": "King of Curses, apex output",
+            "rct": "Mastered, heals mid-battle"
+          }
+        }
       ]
     },
     {
       "id": "yuuji-itadori",
       "name": "Yuuji Itadori",
+      "gender": "male",
       "variants": [
-        { "id": "early", "label": "Early", "rarity": "B", "stats": "A A C A C S", "traits": { "cursedTechnique": "None (raw punches)", "cursedEnergy": "Lots, unrefined Black Flash instincts" } },
-        { "id": "shinjuku", "label": "Shinjuku", "rarity": "A", "stats": "S A B S B S", "traits": { "cursedTechnique": "Black Flash chains + Brother's Blood Manipulation", "domain": "None", "cursedEnergy": "Refined, Sukuna-tempered output", "rct": "None" } }
+        {
+          "id": "early",
+          "label": "Early",
+          "rarity": "B",
+          "stats": "A A C A C S",
+          "traits": {
+            "cursedTechnique": "None (raw punches)",
+            "cursedEnergy": "Lots, unrefined Black Flash instincts"
+          }
+        },
+        {
+          "id": "shinjuku",
+          "label": "Shinjuku",
+          "rarity": "A",
+          "stats": "S A B S B S",
+          "traits": {
+            "cursedTechnique": "Black Flash chains + Brother's Blood Manipulation",
+            "domain": "None",
+            "cursedEnergy": "Refined, Sukuna-tempered output",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "megumi-fushiguro",
       "name": "Megumi Fushiguro",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "B B A B A B", "traits": { "cursedTechnique": "Ten Shadows: Divine Dogs, Nue, Max Elephant", "domain": "Chimera Shadow Garden (incomplete)", "cursedEnergy": "Moderate, high ceiling", "rct": "None" } },
-        { "id": "possessed", "label": "Sukuna Possessed", "rarity": "A", "stats": "A A S A S A", "traits": { "cursedTechnique": "Ten Shadows + Sukuna's cursed techniques", "domain": "Malevolent Shrine (Sukuna's)", "cursedEnergy": "Sukuna-level, borrowed body", "rct": "Sukuna's RCT" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "cursedTechnique": "Ten Shadows: Divine Dogs, Nue, Max Elephant",
+            "domain": "Chimera Shadow Garden (incomplete)",
+            "cursedEnergy": "Moderate, high ceiling",
+            "rct": "None"
+          }
+        },
+        {
+          "id": "possessed",
+          "label": "Sukuna Possessed",
+          "rarity": "A",
+          "stats": "A A S A S A",
+          "traits": {
+            "cursedTechnique": "Ten Shadows + Sukuna's cursed techniques",
+            "domain": "Malevolent Shrine (Sukuna's)",
+            "cursedEnergy": "Sukuna-level, borrowed body",
+            "rct": "Sukuna's RCT"
+          }
+        }
       ]
     },
     {
       "id": "nobara-kugisaki",
       "name": "Nobara Kugisaki",
+      "gender": "female",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "C B B C B C", "traits": { "cursedTechnique": "Straw Doll Technique: Resonance and Hairpin", "cursedEnergy": "Average, tool-assisted" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B B C B C",
+          "traits": {
+            "cursedTechnique": "Straw Doll Technique: Resonance and Hairpin",
+            "cursedEnergy": "Average, tool-assisted"
+          }
+        }
       ]
     },
     {
       "id": "touji-fushiguro",
       "name": "Touji Fushiguro",
+      "gender": "male",
       "variants": [
-        { "id": "hidden-inventory", "label": "Prime (Hidden Inventory)", "rarity": "S", "stats": "SS S A A C S", "traits": { "cursedTechnique": "None (Heavenly Restriction)", "domain": "None", "cursedEnergy": "Zero, completely invisible to curses" } },
-        { "id": "reanimated", "label": "Reanimated", "rarity": "A", "stats": "SS S B A C S", "traits": { "cursedTechnique": "Inverted Spear of Heaven, Playful Cloud", "cursedEnergy": "Zero, Heavenly Restriction" } }
+        {
+          "id": "hidden-inventory",
+          "label": "Prime (Hidden Inventory)",
+          "rarity": "S",
+          "stats": "SS S A A C S",
+          "traits": {
+            "cursedTechnique": "None (Heavenly Restriction)",
+            "domain": "None",
+            "cursedEnergy": "Zero, completely invisible to curses"
+          }
+        },
+        {
+          "id": "reanimated",
+          "label": "Reanimated",
+          "rarity": "A",
+          "stats": "SS S B A C S",
+          "traits": {
+            "cursedTechnique": "Inverted Spear of Heaven, Playful Cloud",
+            "cursedEnergy": "Zero, Heavenly Restriction"
+          }
+        }
       ]
     },
     {
       "id": "yuuta-okkotsu",
       "name": "Yuuta Okkotsu",
+      "gender": "male",
       "variants": [
-        { "id": "jjk0", "label": "Jujutsu Kaisen 0", "rarity": "A", "stats": "A A B A S S", "traits": { "cursedTechnique": "Rika's Cursed Energy + Copy", "domain": "None", "cursedEnergy": "Rika-fueled, effectively limitless", "rct": "Rika-granted healing" } },
-        { "id": "shinjuku", "label": "Shinjuku", "rarity": "S", "stats": "S S S A SS SS", "traits": { "cursedTechnique": "Copy: Limitless, Dismantle, Cleave plus more", "domain": "True and Mutual Love", "cursedEnergy": "Vast, plus Rika's reserves", "rct": "Rika-assisted RCT" } }
+        {
+          "id": "jjk0",
+          "label": "Jujutsu Kaisen 0",
+          "rarity": "A",
+          "stats": "A A B A S S",
+          "traits": {
+            "cursedTechnique": "Rika's Cursed Energy + Copy",
+            "domain": "None",
+            "cursedEnergy": "Rika-fueled, effectively limitless",
+            "rct": "Rika-granted healing"
+          }
+        },
+        {
+          "id": "shinjuku",
+          "label": "Shinjuku",
+          "rarity": "S",
+          "stats": "S S S A SS SS",
+          "traits": {
+            "cursedTechnique": "Copy: Limitless, Dismantle, Cleave plus more",
+            "domain": "True and Mutual Love",
+            "cursedEnergy": "Vast, plus Rika's reserves",
+            "rct": "Rika-assisted RCT"
+          }
+        }
       ]
     },
     {
       "id": "suguru-getou",
       "name": "Suguru Getou",
+      "gender": "male",
       "variants": [
-        { "id": "prime", "label": "Prime", "rarity": "A", "stats": "B B S B S A", "traits": { "cursedTechnique": "Cursed Spirit Manipulation (Uzumaki, 1000+ curses)", "domain": "None", "cursedEnergy": "High, curse-absorbed", "rct": "None" } }
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "A",
+          "stats": "B B S B S A",
+          "traits": {
+            "cursedTechnique": "Cursed Spirit Manipulation (Uzumaki, 1000+ curses)",
+            "domain": "None",
+            "cursedEnergy": "High, curse-absorbed",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "kenjaku",
       "name": "Kenjaku",
+      "gender": "other",
       "variants": [
-        { "id": "geto-body", "label": "In Geto's Body", "rarity": "S", "stats": "B A SS A SS S", "traits": { "cursedTechnique": "Brain Transfer + Cursed Spirit Manipulation + stolen techniques", "domain": "Unknown, uses Womb Profusion", "cursedEnergy": "Huge, centuries of experience", "rct": "Brain RCT, Gojo-tier mastery" } }
+        {
+          "id": "geto-body",
+          "label": "In Geto's Body",
+          "rarity": "S",
+          "stats": "B A SS A SS S",
+          "traits": {
+            "cursedTechnique": "Brain Transfer + Cursed Spirit Manipulation + stolen techniques",
+            "domain": "Unknown, uses Womb Profusion",
+            "cursedEnergy": "Huge, centuries of experience",
+            "rct": "Brain RCT, Gojo-tier mastery"
+          }
+        }
       ]
     },
     {
       "id": "mahito",
       "name": "Mahito",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B A A C S B", "traits": { "cursedTechnique": "Idle Transfiguration (soul shaping)", "domain": "Self-Embodiment of Perfection", "cursedEnergy": "Large, born from human fear", "rct": "Soul regeneration" } },
-        { "id": "evolved", "label": "Evolved (Instant Spirit Body)", "rarity": "A", "stats": "A S A A SS A", "traits": { "cursedTechnique": "Instant Spirit Body of Distorted Killing", "domain": "Self-Embodiment of Perfection", "cursedEnergy": "Surged after soul awakening", "rct": "Soul regeneration" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A A C S B",
+          "traits": {
+            "cursedTechnique": "Idle Transfiguration (soul shaping)",
+            "domain": "Self-Embodiment of Perfection",
+            "cursedEnergy": "Large, born from human fear",
+            "rct": "Soul regeneration"
+          }
+        },
+        {
+          "id": "evolved",
+          "label": "Evolved (Instant Spirit Body)",
+          "rarity": "A",
+          "stats": "A S A A SS A",
+          "traits": {
+            "cursedTechnique": "Instant Spirit Body of Distorted Killing",
+            "domain": "Self-Embodiment of Perfection",
+            "cursedEnergy": "Surged after soul awakening",
+            "rct": "Soul regeneration"
+          }
+        }
       ]
     },
     {
       "id": "jogo",
       "name": "Jogo",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B A B B S B", "traits": { "cursedTechnique": "Disaster Flames, Meteor, Maximum: Meteor", "domain": "Coffin of the Iron Mountain", "cursedEnergy": "Special-Grade tier, volcanic", "rct": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A B B S B",
+          "traits": {
+            "cursedTechnique": "Disaster Flames, Meteor, Maximum: Meteor",
+            "domain": "Coffin of the Iron Mountain",
+            "cursedEnergy": "Special-Grade tier, volcanic",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "hanami",
       "name": "Hanami",
+      "gender": "other",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "B B B A A B", "traits": { "cursedTechnique": "Disaster Plants, Cursed Buds", "cursedEnergy": "Special-Grade, nature-bound" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B A A B",
+          "traits": {
+            "cursedTechnique": "Disaster Plants, Cursed Buds",
+            "cursedEnergy": "Special-Grade, nature-bound"
+          }
+        }
       ]
     },
     {
       "id": "kento-nanami",
       "name": "Kento Nanami",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "A B S A A A", "traits": { "cursedTechnique": "Ratio Technique (7:3 weak point)", "domain": "None", "cursedEnergy": "Grade 1, disciplined", "rct": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B S A A A",
+          "traits": {
+            "cursedTechnique": "Ratio Technique (7:3 weak point)",
+            "domain": "None",
+            "cursedEnergy": "Grade 1, disciplined",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "aoi-toudou",
       "name": "Aoi Toudou",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "A A S A S A", "traits": { "cursedTechnique": "Boogie Woogie (position swap)", "domain": "None", "cursedEnergy": "Grade 1, Black Flash user", "rct": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A S A S A",
+          "traits": {
+            "cursedTechnique": "Boogie Woogie (position swap)",
+            "domain": "None",
+            "cursedEnergy": "Grade 1, Black Flash user",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "maki-zenin",
       "name": "Maki Zenin",
+      "gender": "female",
       "variants": [
-        { "id": "glasses", "label": "Glasses Maki", "rarity": "C", "stats": "B B B C C B", "traits": { "cursedTechnique": "None (cursed tools)", "cursedEnergy": "Almost none, uses cursed tools" } },
-        { "id": "awakened", "label": "Awakened (Heavenly Restriction)", "rarity": "S", "stats": "SS S A A C S", "traits": { "cursedTechnique": "None (Heavenly Restriction)", "domain": "None", "cursedEnergy": "Zero, peak physical form" } }
+        {
+          "id": "glasses",
+          "label": "Glasses Maki",
+          "rarity": "C",
+          "stats": "B B B C C B",
+          "traits": {
+            "cursedTechnique": "None (cursed tools)",
+            "cursedEnergy": "Almost none, uses cursed tools"
+          }
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened (Heavenly Restriction)",
+          "rarity": "S",
+          "stats": "SS S A A C S",
+          "traits": {
+            "cursedTechnique": "None (Heavenly Restriction)",
+            "domain": "None",
+            "cursedEnergy": "Zero, peak physical form"
+          }
+        }
       ]
     },
     {
       "id": "kinji-hakari",
       "name": "Kinji Hakari",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "A A B A B A", "traits": { "cursedTechnique": "Private Pure Love Train (jackpot)", "domain": "Idle Death Gamble", "cursedEnergy": "Grade 1 until jackpot", "rct": "Auto-RCT during jackpot" } },
-        { "id": "jackpot", "label": "Jackpot", "rarity": "A", "stats": "S S A SS A SS", "traits": { "cursedTechnique": "Private Pure Love Train (infinite stamina)", "domain": "Idle Death Gamble", "cursedEnergy": "Endless reserve", "rct": "Auto-RCT, continuous healing" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A A B A B A",
+          "traits": {
+            "cursedTechnique": "Private Pure Love Train (jackpot)",
+            "domain": "Idle Death Gamble",
+            "cursedEnergy": "Grade 1 until jackpot",
+            "rct": "Auto-RCT during jackpot"
+          }
+        },
+        {
+          "id": "jackpot",
+          "label": "Jackpot",
+          "rarity": "A",
+          "stats": "S S A SS A SS",
+          "traits": {
+            "cursedTechnique": "Private Pure Love Train (infinite stamina)",
+            "domain": "Idle Death Gamble",
+            "cursedEnergy": "Endless reserve",
+            "rct": "Auto-RCT, continuous healing"
+          }
+        }
       ]
     },
     {
       "id": "yuki-tsukumo",
       "name": "Yuki Tsukumo",
+      "gender": "female",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "S A S A A A", "traits": { "cursedTechnique": "Bomber (mass-based Garuda summon)", "domain": "None", "cursedEnergy": "Special-Grade, Black Flash master", "rct": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S A S A A A",
+          "traits": {
+            "cursedTechnique": "Bomber (mass-based Garuda summon)",
+            "domain": "None",
+            "cursedEnergy": "Special-Grade, Black Flash master",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "choso",
       "name": "Choso",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B A A B A B", "traits": { "cursedTechnique": "Blood Manipulation: Piercing Blood, Supernova", "domain": "None", "cursedEnergy": "Special-Grade tier curse womb", "rct": "Blood-based recovery" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A A B A B",
+          "traits": {
+            "cursedTechnique": "Blood Manipulation: Piercing Blood, Supernova",
+            "domain": "None",
+            "cursedEnergy": "Special-Grade tier curse womb",
+            "rct": "Blood-based recovery"
+          }
+        }
       ]
     },
     {
       "id": "panda",
       "name": "Panda",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "A B B A C S", "traits": { "cursedTechnique": "Three-core Gorilla Mode", "cursedEnergy": "Self-powered cursed corpse" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A C S",
+          "traits": {
+            "cursedTechnique": "Three-core Gorilla Mode",
+            "cursedEnergy": "Self-powered cursed corpse"
+          }
+        }
       ]
     },
     {
       "id": "uraume",
       "name": "Uraume",
+      "gender": "other",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B A A B S A", "traits": { "cursedTechnique": "Ice Formation", "domain": "None", "cursedEnergy": "Special-Grade, loyal to Sukuna", "rct": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A A B S A",
+          "traits": {
+            "cursedTechnique": "Ice Formation",
+            "domain": "None",
+            "cursedEnergy": "Special-Grade, loyal to Sukuna",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "toge-inumaki",
       "name": "Toge Inumaki",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "C B B C A C", "traits": { "cursedTechnique": "Cursed Speech (throat-limited)", "cursedEnergy": "Grade 1, throat strain" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B C A C",
+          "traits": {
+            "cursedTechnique": "Cursed Speech (throat-limited)",
+            "cursedEnergy": "Grade 1, throat strain"
+          }
+        }
       ]
     },
     {
       "id": "hajime-kashimo",
       "name": "Hajime Kashimo",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "S S A S A B", "traits": { "cursedTechnique": "Lightning Discharge, Mythical Beast Amber", "cursedEnergy": "Culling Game veteran, 400-year fighter", "rct": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S S A S A B",
+          "traits": {
+            "cursedTechnique": "Lightning Discharge, Mythical Beast Amber",
+            "cursedEnergy": "Culling Game veteran, 400-year fighter",
+            "rct": "None"
+          }
+        }
       ]
     },
     {
       "id": "naoya-zenin",
       "name": "Naoya Zenin",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "B S C B B C", "traits": { "cursedTechnique": "Projection Sorcery (24 fps)", "cursedEnergy": "Grade 1, arrogant" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B S C B B C",
+          "traits": {
+            "cursedTechnique": "Projection Sorcery (24 fps)",
+            "cursedEnergy": "Grade 1, arrogant"
+          }
+        }
       ]
     },
     {
       "id": "kiyotaka-ijichi",
       "name": "Kiyotaka Ijichi",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "D D B D D D", "traits": { "cursedTechnique": "None (support only)", "cursedEnergy": "Negligible, mostly paperwork" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D B D D D",
+          "traits": {
+            "cursedTechnique": "None (support only)",
+            "cursedEnergy": "Negligible, mostly paperwork"
+          }
+        }
       ]
     },
     {
       "id": "junpei-yoshino",
       "name": "Junpei Yoshino",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "D D C D C C", "traits": { "cursedTechnique": "Moon Dregs (jellyfish shikigami)", "cursedEnergy": "Low, jellyfish-limited" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D C C",
+          "traits": {
+            "cursedTechnique": "Moon Dregs (jellyfish shikigami)",
+            "cursedEnergy": "Low, jellyfish-limited"
+          }
+        }
       ]
     }
   ]

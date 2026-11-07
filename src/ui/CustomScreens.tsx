@@ -4,24 +4,30 @@ import { fileToDataUrl } from '../custom/storage';
 import { ANIME, BUILTIN_ENTRIES } from '../data';
 import { entriesFromCustom } from '../engine/pool';
 import { useGame } from '../store';
-import { RARITIES, type CustomCharacter, type CustomPack, type Entry, type Rarity } from '../types';
+import { RARITIES, type CharacterGroup, type CustomCharacter, type CustomPack, type Entry, type Rarity } from '../types';
 import { CharacterCard, ImageEditor } from './components';
+import { GroupChips, GroupEditor, GroupsSection } from './GroupScreens';
 
 export function CustomScreen() {
   const packs = useGame((s) => s.packs);
-  const { go, openLobby, deletePack, savePack, setNotice } = useGame.getState();
+  const groups = useGame((s) => s.groups);
+  const { go, openLobby, deletePack, savePack, saveGroup, setNotice } = useGame.getState();
   const [draft, setDraft] = useState<CustomPack | null>(null);
+  const [groupDraft, setGroupDraft] = useState<CharacterGroup | null>(null);
 
   async function importFile(file: File | undefined) {
     if (!file) return;
     try {
-      savePack(parsePack(await file.text()));
+      const imported = parsePack(await file.text());
+      imported.groups.forEach(saveGroup);
+      savePack(imported.pack);
     } catch (err) {
       setNotice((err as Error).message);
     }
   }
 
   if (draft) return <PackEditor initial={draft} onClose={() => setDraft(null)} />;
+  if (groupDraft) return <GroupEditor initial={groupDraft} onClose={() => setGroupDraft(null)} />;
 
   return (
     <div>
@@ -68,7 +74,7 @@ export function CustomScreen() {
               <button className="btn small secondary" onClick={() => setDraft(p)}>
                 Edit
               </button>
-              <button className="btn small secondary" onClick={() => downloadPack(p)}>
+              <button className="btn small secondary" onClick={() => downloadPack(p, groups)}>
                 Export
               </button>
               <button className="btn small secondary" onClick={() => confirm(`Delete "${p.name}"?`) && deletePack(p.id)}>
@@ -78,6 +84,7 @@ export function CustomScreen() {
           </div>
         ))}
       </div>
+      <GroupsSection onEdit={setGroupDraft} />
     </div>
   );
 }
@@ -161,7 +168,7 @@ function PackEditor({ initial, onClose }: { initial: CustomPack; onClose: () => 
           </div>
 
           <div className="section">
-            <div className="section-title">Also roll characters from</div>
+            <div className="section-title">Also roll built-in characters from these anime</div>
             <div className="chips">
               {ANIME.map((a) => {
                 const on = pack.animeIds.includes(a.id);
@@ -176,6 +183,13 @@ function PackEditor({ initial, onClose }: { initial: CustomPack; onClose: () => 
                 );
               })}
             </div>
+            <div className="section-title" style={{ marginTop: 14 }}>
+              …only from these character groups (optional)
+            </div>
+            <GroupChips selected={pack.groupIds ?? []} onChange={(groupIds) => patch({ groupIds })} />
+            <p className="muted" style={{ fontSize: 12 }}>
+              Pick groups alone to roll them from every anime, or combine with anime above (e.g. Naruto + Females).
+            </p>
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 // Tiny IndexedDB key-value store (localStorage is too small for uploaded pictures).
-import type { CustomPack } from '../types';
+import type { CharacterGroup, CustomPack } from '../types';
 
 const DB_NAME = 'anime-battles';
 const STORE = 'kv';
@@ -39,6 +39,8 @@ export const loadOverrides = async () => (await kvGet<Record<string, string>>('o
 export const saveOverrides = (o: Record<string, string>) => kvSet('overrides', o);
 export const loadPacks = async () => (await kvGet<CustomPack[]>('packs')) ?? [];
 export const savePacks = (p: CustomPack[]) => kvSet('packs', p);
+export const loadGroups = async () => (await kvGet<CharacterGroup[]>('groups')) ?? [];
+export const saveGroups = (g: CharacterGroup[]) => kvSet('groups', g);
 
 const MAX_IMAGE_SIDE = 384;
 

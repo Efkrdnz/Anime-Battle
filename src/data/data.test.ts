@@ -24,6 +24,12 @@ describe('built-in anime data', () => {
     }
   });
 
+  it('gives every character a gender for the Females/Males groups', () => {
+    for (const anime of ANIME) {
+      for (const c of anime.characters) expect(['female', 'male', 'other'], `${anime.id}/${c.id}`).toContain(c.gender);
+    }
+  });
+
   it('has every rarity tier so rare pulls exist', () => {
     for (const r of RARITIES) expect(BUILTIN_ENTRIES.some((e) => e.rarity === r)).toBe(true);
   });

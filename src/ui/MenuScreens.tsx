@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react';
 import { ANIME, BUILTIN_ENTRIES } from '../data';
 import { availableSlots, startProblem, type LobbyConfig } from '../lobby';
 import { MAX_PLAYERS } from '../net/peer';
-import { useGame } from '../store';
+import { poolGroups, useGame } from '../store';
+import { GroupChips } from './GroupScreens';
 import { RARITIES } from '../types';
 
 export function HomeScreen({ initialCode }: { initialCode: string }) {
@@ -146,6 +147,10 @@ function CreateSettings({ config, readOnly }: { config: LobbyConfig; readOnly: b
           Anime-specific attributes (like Devil Fruit) can only be filled by characters from that anime.
         </p>
       </div>
+      <div className="section">
+        <div className="section-title">Only roll from character groups (optional)</div>
+        <GroupChips selected={config.groupIds ?? []} onChange={(groupIds) => updateConfig({ groupIds })} readOnly={readOnly} />
+      </div>
     </>
   );
 }
@@ -204,7 +209,10 @@ export function LobbyScreen() {
   const busy = useGame((s) => s.busy);
   const { updateConfig, hostRoom, startMatch, leaveSession, go } = useGame.getState();
   const readOnly = session.kind === 'client';
-  const problem = startProblem(config, pack);
+  const myGroups = useGame((s) => s.groups);
+  const remoteGroups = useGame((s) => s.remoteGroups);
+  const groups = useMemo(() => poolGroups({ groups: myGroups, remoteGroups }), [myGroups, remoteGroups]);
+  const problem = startProblem(config, pack, groups);
   const [copied, setCopied] = useState(false);
 
   function copyInvite() {

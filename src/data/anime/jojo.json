@@ -4,197 +4,498 @@
   "color": "#d4a017",
   "search": "jojo",
   "attributes": [
-    { "id": "stand", "label": "Stand" },
-    { "id": "hamon", "label": "Hamon / Spin / Vampirism" }
+    {
+      "id": "stand",
+      "label": "Stand"
+    },
+    {
+      "id": "hamon",
+      "label": "Hamon / Spin / Vampirism"
+    }
   ],
   "characters": [
     {
       "id": "jonathan-joestar",
       "name": "Jonathan Joestar",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "S B B S B S", "traits": { "stand": "None (Part 1 predates Stands)", "hamon": "Sunlight Yellow Overdrive, Zoom Punch" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B B S B S",
+          "traits": {
+            "stand": "None (Part 1 predates Stands)",
+            "hamon": "Sunlight Yellow Overdrive, Zoom Punch"
+          }
+        }
       ]
     },
     {
       "id": "joseph-joestar",
       "name": "Joseph Joestar",
+      "gender": "male",
       "variants": [
-        { "id": "young", "label": "Young (Battle Tendency)", "rarity": "A", "stats": "A A SS B S B", "traits": { "stand": "None", "hamon": "Hamon: Clacker Volley, Overdrive, trickster tactics" } },
-        { "id": "old", "label": "Old (Part 3)", "rarity": "B", "stats": "B B S C A C", "traits": { "stand": "Hermit Purple", "hamon": "Hamon (rusty), vine Stand" } }
+        {
+          "id": "young",
+          "label": "Young (Battle Tendency)",
+          "rarity": "A",
+          "stats": "A A SS B S B",
+          "traits": {
+            "stand": "None",
+            "hamon": "Hamon: Clacker Volley, Overdrive, trickster tactics"
+          }
+        },
+        {
+          "id": "old",
+          "label": "Old (Part 3)",
+          "rarity": "B",
+          "stats": "B B S C A C",
+          "traits": {
+            "stand": "Hermit Purple",
+            "hamon": "Hamon (rusty), vine Stand"
+          }
+        }
       ]
     },
     {
       "id": "jotaro-kujo",
       "name": "Jotaro Kujo",
+      "gender": "male",
       "variants": [
-        { "id": "part3", "label": "Part 3 (Stardust Crusaders)", "rarity": "S", "stats": "SS SS S A A A", "traits": { "stand": "Star Platinum: The World (time stop)", "hamon": "None" } },
-        { "id": "part6", "label": "Part 6 (Stone Ocean)", "rarity": "S", "stats": "SS SS S A A A", "traits": { "stand": "Star Platinum: The World (5-second stop)", "hamon": "None" } }
+        {
+          "id": "part3",
+          "label": "Part 3 (Stardust Crusaders)",
+          "rarity": "S",
+          "stats": "SS SS S A A A",
+          "traits": {
+            "stand": "Star Platinum: The World (time stop)",
+            "hamon": "None"
+          }
+        },
+        {
+          "id": "part6",
+          "label": "Part 6 (Stone Ocean)",
+          "rarity": "S",
+          "stats": "SS SS S A A A",
+          "traits": {
+            "stand": "Star Platinum: The World (5-second stop)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "dio-brando",
       "name": "Dio Brando",
+      "gender": "male",
       "variants": [
-        { "id": "vampire", "label": "Vampire (Part 1)", "rarity": "A", "stats": "S A S S A S", "traits": { "stand": "None", "hamon": "Vampirism: Space Ripper Stingy Eyes, regeneration" } },
-        { "id": "the-world", "label": "The World (Part 3)", "rarity": "S", "stats": "SS SS S SS A SS", "traits": { "stand": "The World (time stop)", "hamon": "Vampirism: regeneration, Joestar body" } },
-        { "id": "over-heaven", "label": "Over Heaven", "rarity": "SS", "stats": "SS SS SS SS SS SS", "traits": { "stand": "The World Over Heaven (rewrite reality)", "hamon": "Vampirism + Heaven Ascended" } }
+        {
+          "id": "vampire",
+          "label": "Vampire (Part 1)",
+          "rarity": "A",
+          "stats": "S A S S A S",
+          "traits": {
+            "stand": "None",
+            "hamon": "Vampirism: Space Ripper Stingy Eyes, regeneration"
+          }
+        },
+        {
+          "id": "the-world",
+          "label": "The World (Part 3)",
+          "rarity": "S",
+          "stats": "SS SS S SS A SS",
+          "traits": {
+            "stand": "The World (time stop)",
+            "hamon": "Vampirism: regeneration, Joestar body"
+          }
+        },
+        {
+          "id": "over-heaven",
+          "label": "Over Heaven",
+          "rarity": "SS",
+          "stats": "SS SS SS SS SS SS",
+          "traits": {
+            "stand": "The World Over Heaven (rewrite reality)",
+            "hamon": "Vampirism + Heaven Ascended"
+          }
+        }
       ]
     },
     {
       "id": "josuke-higashikata",
       "name": "Josuke Higashikata",
+      "gender": "male",
       "search": "josuke higashikata",
       "variants": [
-        { "id": "part4", "label": "Part 4 (Diamond is Unbreakable)", "rarity": "A", "stats": "A A B B A B", "traits": { "stand": "Crazy Diamond (restoration)", "hamon": "None" } }
+        {
+          "id": "part4",
+          "label": "Part 4 (Diamond is Unbreakable)",
+          "rarity": "A",
+          "stats": "A A B B A B",
+          "traits": {
+            "stand": "Crazy Diamond (restoration)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "yoshikage-kira",
       "name": "Yoshikage Kira",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "A B S B A B", "traits": { "stand": "Killer Queen + Bites the Dust", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B S B A B",
+          "traits": {
+            "stand": "Killer Queen + Bites the Dust",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "giorno-giovanna",
       "name": "Giorno Giovanna",
+      "gender": "male",
       "variants": [
-        { "id": "base", "label": "Gold Experience", "rarity": "A", "stats": "A A S B A B", "traits": { "stand": "Gold Experience (life creation)", "hamon": "None" } },
-        { "id": "requiem", "label": "Gold Experience Requiem", "rarity": "SS", "stats": "SS SS SS SS SS S", "traits": { "stand": "Gold Experience Requiem (returns to zero)", "hamon": "None" } }
+        {
+          "id": "base",
+          "label": "Gold Experience",
+          "rarity": "A",
+          "stats": "A A S B A B",
+          "traits": {
+            "stand": "Gold Experience (life creation)",
+            "hamon": "None"
+          }
+        },
+        {
+          "id": "requiem",
+          "label": "Gold Experience Requiem",
+          "rarity": "SS",
+          "stats": "SS SS SS SS SS S",
+          "traits": {
+            "stand": "Gold Experience Requiem (returns to zero)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "bruno-bucciarati",
       "name": "Bruno Bucciarati",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "A A S B A B", "traits": { "stand": "Sticky Fingers (zippers)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A S B A B",
+          "traits": {
+            "stand": "Sticky Fingers (zippers)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "diavolo",
       "name": "Diavolo",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "S", "stats": "A SS S B S B", "traits": { "stand": "King Crimson (time erase, epitaph)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "A SS S B S B",
+          "traits": {
+            "stand": "King Crimson (time erase, epitaph)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "jolyne-cujoh",
       "name": "Jolyne Cujoh",
+      "gender": "female",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B A S B A B", "traits": { "stand": "Stone Free (string body)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A S B A B",
+          "traits": {
+            "stand": "Stone Free (string body)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "enrico-pucci",
       "name": "Enrico Pucci",
+      "gender": "male",
       "variants": [
-        { "id": "base", "label": "C-Moon / Whitesnake", "rarity": "A", "stats": "A A S B S B", "traits": { "stand": "Whitesnake + C-Moon (gravity inversion)", "hamon": "None" } },
-        { "id": "made-in-heaven", "label": "Made in Heaven", "rarity": "SS", "stats": "SS SS S SS S S", "traits": { "stand": "Made in Heaven (accelerated time)", "hamon": "None" } }
+        {
+          "id": "base",
+          "label": "C-Moon / Whitesnake",
+          "rarity": "A",
+          "stats": "A A S B S B",
+          "traits": {
+            "stand": "Whitesnake + C-Moon (gravity inversion)",
+            "hamon": "None"
+          }
+        },
+        {
+          "id": "made-in-heaven",
+          "label": "Made in Heaven",
+          "rarity": "SS",
+          "stats": "SS SS S SS S S",
+          "traits": {
+            "stand": "Made in Heaven (accelerated time)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "johnny-joestar",
       "name": "Johnny Joestar",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B B A B A B", "traits": { "stand": "Tusk Act 1 to Act 4 (infinite rotation)", "hamon": "Golden Spin (Spin)" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "stand": "Tusk Act 1 to Act 4 (infinite rotation)",
+            "hamon": "Golden Spin (Spin)"
+          }
+        }
       ]
     },
     {
       "id": "gyro-zeppeli",
       "name": "Gyro Zeppeli",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "B A A B A B", "traits": { "stand": "Ball Breaker (Spin)", "hamon": "Golden Spin (steel balls)" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A A B A B",
+          "traits": {
+            "stand": "Ball Breaker (Spin)",
+            "hamon": "Golden Spin (steel balls)"
+          }
+        }
       ]
     },
     {
       "id": "funny-valentine",
       "name": "Funny Valentine",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "S", "stats": "A A S A SS A", "traits": { "stand": "D4C: Love Train", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "A A S A SS A",
+          "traits": {
+            "stand": "D4C: Love Train",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "kars",
       "name": "Kars",
+      "gender": "male",
       "variants": [
-        { "id": "ultimate", "label": "Ultimate Lifeform", "rarity": "S", "stats": "SS SS S SS S SS", "traits": { "stand": "None", "hamon": "Ultimate Lifeform: Light Mode, Divine Sword" } }
+        {
+          "id": "ultimate",
+          "label": "Ultimate Lifeform",
+          "rarity": "S",
+          "stats": "SS SS S SS S SS",
+          "traits": {
+            "stand": "None",
+            "hamon": "Ultimate Lifeform: Light Mode, Divine Sword"
+          }
+        }
       ]
     },
     {
       "id": "jean-pierre-polnareff",
       "name": "Jean Pierre Polnareff",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "B A B B A B", "traits": { "stand": "Silver Chariot (swordsman)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A B B A B",
+          "traits": {
+            "stand": "Silver Chariot (swordsman)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "noriaki-kakyoin",
       "name": "Noriaki Kakyoin",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "C B A C A B", "traits": { "stand": "Hierophant Green (Emerald Splash)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B A C A B",
+          "traits": {
+            "stand": "Hierophant Green (Emerald Splash)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "robert-e-o-speedwagon",
       "name": "Robert E. O. Speedwagon",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "C C B C C B", "traits": { "stand": "None", "hamon": "None (street smarts, razor hat)" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C C B",
+          "traits": {
+            "stand": "None",
+            "hamon": "None (street smarts, razor hat)"
+          }
+        }
       ]
     },
     {
       "id": "okuyasu-nijimura",
       "name": "Okuyasu Nijimura",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "A A D B B B", "traits": { "stand": "The Hand (space erasure)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A A D B B B",
+          "traits": {
+            "stand": "The Hand (space erasure)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "rohan-kishibe",
       "name": "Rohan Kishibe",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "C C S C S B", "traits": { "stand": "Heaven's Door (book of life)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C S C S B",
+          "traits": {
+            "stand": "Heaven's Door (book of life)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "caesar-anthonio-zeppeli",
       "name": "Caesar Anthonio Zeppeli",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "B A A B A B", "traits": { "stand": "None", "hamon": "Bubble Launcher, Sendo Wave Kick" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A A B A B",
+          "traits": {
+            "stand": "None",
+            "hamon": "Bubble Launcher, Sendo Wave Kick"
+          }
+        }
       ]
     },
     {
       "id": "wamuu",
       "name": "Wamuu",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "A", "stats": "S S A S S A", "traits": { "stand": "None", "hamon": "Pillar Man: Wind Mode, Divine Sandstorm" } }
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S S A S S A",
+          "traits": {
+            "stand": "None",
+            "hamon": "Pillar Man: Wind Mode, Divine Sandstorm"
+          }
+        }
       ]
     },
     {
       "id": "hol-horse",
       "name": "Hol Horse",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "C B C D C D", "traits": { "stand": "Emperor (gun Stand)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B C D C D",
+          "traits": {
+            "stand": "Emperor (gun Stand)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "narancia-ghirga",
       "name": "Narancia Ghirga",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "C B C D C C", "traits": { "stand": "Aerosmith (mini plane)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B C D C C",
+          "traits": {
+            "stand": "Aerosmith (mini plane)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "guido-mista",
       "name": "Guido Mista",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "B", "stats": "C B A C A B", "traits": { "stand": "Sex Pistols (bullet control)", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B A C A B",
+          "traits": {
+            "stand": "Sex Pistols (bullet control)",
+            "hamon": "None"
+          }
+        }
       ]
     },
     {
       "id": "koichi-hirose",
       "name": "Koichi Hirose",
+      "gender": "male",
       "variants": [
-        { "id": "base", "rarity": "C", "stats": "C B B C A B", "traits": { "stand": "Echoes ACT1 to ACT3", "hamon": "None" } }
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B B C A B",
+          "traits": {
+            "stand": "Echoes ACT1 to ACT3",
+            "hamon": "None"
+          }
+        }
       ]
     }
   ]

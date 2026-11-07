@@ -3,6 +3,7 @@
     {
       "id": "sai",
       "name": "Sai",
+      "gender": "male",
       "variants": [
         {
           "id": "part-ii",
@@ -33,6 +34,7 @@
     {
       "id": "yamato",
       "name": "Yamato",
+      "gender": "male",
       "variants": [
         {
           "id": "anbu-tenzo",
@@ -65,6 +67,7 @@
     {
       "id": "chiyo",
       "name": "Chiyo",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -82,6 +85,7 @@
     {
       "id": "sasori",
       "name": "Sasori",
+      "gender": "male",
       "variants": [
         {
           "id": "hiruko",
@@ -113,6 +117,7 @@
     {
       "id": "deidara",
       "name": "Deidara",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -131,6 +136,7 @@
     {
       "id": "hidan",
       "name": "Hidan",
+      "gender": "male",
       "variants": [
         {
           "id": "akatsuki",
@@ -163,6 +169,7 @@
     {
       "id": "kakuzu",
       "name": "Kakuzu",
+      "gender": "male",
       "variants": [
         {
           "id": "akatsuki",
@@ -195,6 +202,7 @@
     {
       "id": "konan",
       "name": "Konan",
+      "gender": "female",
       "variants": [
         {
           "id": "young",
@@ -226,6 +234,7 @@
     {
       "id": "zetsu",
       "name": "Zetsu",
+      "gender": "other",
       "wikiPage": "Black Zetsu",
       "variants": [
         {
@@ -259,6 +268,7 @@
     {
       "id": "nagato-uzumaki",
       "name": "Nagato Uzumaki",
+      "gender": "male",
       "wikiPage": "Nagato",
       "variants": [
         {
@@ -305,6 +315,7 @@
     {
       "id": "yahiko",
       "name": "Yahiko",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -322,6 +333,7 @@
     {
       "id": "danzo-shimura",
       "name": "Danzō Shimura",
+      "gender": "male",
       "variants": [
         {
           "id": "root-leader",
@@ -354,6 +366,7 @@
     {
       "id": "fu-yamanaka",
       "name": "Fū Yamanaka",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -371,6 +384,7 @@
     {
       "id": "torune-aburame",
       "name": "Torune Aburame",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -389,6 +403,7 @@
     {
       "id": "suigetsu-hozuki",
       "name": "Suigetsu Hōzuki",
+      "gender": "male",
       "variants": [
         {
           "id": "taka",
@@ -421,6 +436,7 @@
     {
       "id": "karin",
       "name": "Karin",
+      "gender": "female",
       "variants": [
         {
           "id": "taka",
@@ -453,6 +469,7 @@
     {
       "id": "jugo",
       "name": "Jūgo",
+      "gender": "male",
       "variants": [
         {
           "id": "calm",
@@ -485,6 +502,7 @@
     {
       "id": "killer-b",
       "name": "Killer B",
+      "gender": "male",
       "variants": [
         {
           "id": "part-ii",
@@ -530,6 +548,7 @@
     {
       "id": "a-fourth-raikage",
       "name": "A (Fourth Raikage)",
+      "gender": "male",
       "variants": [
         {
           "id": "fourth-raikage",
@@ -560,6 +579,7 @@
     {
       "id": "darui",
       "name": "Darui",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -578,6 +598,7 @@
     {
       "id": "cee",
       "name": "Cee",
+      "gender": "male",
       "wikiPage": "C",
       "variants": [
         {
@@ -597,6 +618,7 @@
     {
       "id": "mei-terumi",
       "name": "Mei Terumi",
+      "gender": "female",
       "wikiPage": "Mei Terumī",
       "variants": [
         {
@@ -616,6 +638,7 @@
     {
       "id": "chojuro",
       "name": "Chōjūrō",
+      "gender": "male",
       "variants": [
         {
           "id": "part-ii",
@@ -646,6 +669,7 @@
     {
       "id": "ao",
       "name": "Ao",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -664,6 +688,7 @@
     {
       "id": "onoki",
       "name": "Ōnoki",
+      "gender": "male",
       "variants": [
         {
           "id": "young",
@@ -696,6 +721,7 @@
     {
       "id": "kurotsuchi",
       "name": "Kurotsuchi",
+      "gender": "female",
       "variants": [
         {
           "id": "part-ii",
@@ -726,6 +752,7 @@
     {
       "id": "akatsuchi",
       "name": "Akatsuchi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -743,6 +770,7 @@
     {
       "id": "mifune",
       "name": "Mifune",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -760,6 +788,7 @@
     {
       "id": "kushina-uzumaki",
       "name": "Kushina Uzumaki",
+      "gender": "female",
       "variants": [
         {
           "id": "child",
@@ -805,6 +834,7 @@
     {
       "id": "tobirama-senju",
       "name": "Tobirama Senju",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -848,6 +878,7 @@
     {
       "id": "third-raikage",
       "name": "Third Raikage",
+      "gender": "male",
       "wikiPage": "A (Third Raikage)",
       "variants": [
         {
@@ -879,6 +910,7 @@
     {
       "id": "gengetsu-hozuki",
       "name": "Gengetsu Hōzuki",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -897,6 +929,7 @@
     {
       "id": "mu",
       "name": "Mū",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -915,6 +948,7 @@
     {
       "id": "yagura-karatachi",
       "name": "Yagura Karatachi",
+      "gender": "male",
       "variants": [
         {
           "id": "fourth-mizukage",
@@ -947,6 +981,7 @@
     {
       "id": "utakata",
       "name": "Utakata",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -979,6 +1014,7 @@
     {
       "id": "han",
       "name": "Han",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1011,6 +1047,7 @@
     {
       "id": "roshi",
       "name": "Rōshi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1043,6 +1080,7 @@
     {
       "id": "fuu",
       "name": "Fū",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1061,6 +1099,7 @@
     {
       "id": "yugito-nii",
       "name": "Yugito Nii",
+      "gender": "female",
       "variants": [
         {
           "id": "jinchuriki",
@@ -1093,6 +1132,7 @@
     {
       "id": "kinkaku",
       "name": "Kinkaku",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1125,6 +1165,7 @@
     {
       "id": "ginkaku",
       "name": "Ginkaku",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1143,6 +1184,7 @@
     {
       "id": "mangetsu-hozuki",
       "name": "Mangetsu Hōzuki",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1161,6 +1203,7 @@
     {
       "id": "kushimaru-kuriarare",
       "name": "Kushimaru Kuriarare",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1178,6 +1221,7 @@
     {
       "id": "jinpachi-munashi",
       "name": "Jinpachi Munashi",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1195,6 +1239,7 @@
     {
       "id": "jinin-akebino",
       "name": "Jinin Akebino",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1212,6 +1257,7 @@
     {
       "id": "ameyuri-ringo",
       "name": "Ameyuri Ringo",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1229,6 +1275,7 @@
     {
       "id": "fuguki-suikazan",
       "name": "Fuguki Suikazan",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1247,6 +1294,7 @@
     {
       "id": "shisui-uchiha",
       "name": "Shisui Uchiha",
+      "gender": "male",
       "variants": [
         {
           "id": "child",
@@ -1279,6 +1327,7 @@
     {
       "id": "izuna-uchiha",
       "name": "Izuna Uchiha",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1297,6 +1346,7 @@
     {
       "id": "indra-otsutsuki",
       "name": "Indra Ōtsutsuki",
+      "gender": "male",
       "variants": [
         {
           "id": "young",
@@ -1329,6 +1379,7 @@
     {
       "id": "asura-otsutsuki",
       "name": "Asura Ōtsutsuki",
+      "gender": "male",
       "variants": [
         {
           "id": "young",
@@ -1361,6 +1412,7 @@
     {
       "id": "hagoromo-otsutsuki",
       "name": "Hagoromo Ōtsutsuki",
+      "gender": "male",
       "variants": [
         {
           "id": "child",
@@ -1406,6 +1458,7 @@
     {
       "id": "hamura-otsutsuki",
       "name": "Hamura Ōtsutsuki",
+      "gender": "male",
       "variants": [
         {
           "id": "young",
@@ -1438,6 +1491,7 @@
     {
       "id": "toneri-otsutsuki",
       "name": "Toneri Ōtsutsuki",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1470,6 +1524,7 @@
     {
       "id": "kurama",
       "name": "Kurama",
+      "gender": "male",
       "variants": [
         {
           "id": "young",
@@ -1515,6 +1570,7 @@
     {
       "id": "shukaku",
       "name": "Shukaku",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1533,6 +1589,7 @@
     {
       "id": "gyuki",
       "name": "Gyūki",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1551,6 +1608,7 @@
     {
       "id": "matatabi",
       "name": "Matatabi",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1569,6 +1627,7 @@
     {
       "id": "son-goku",
       "name": "Son Gokū",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1587,6 +1646,7 @@
     {
       "id": "kokuo",
       "name": "Kokuō",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1605,6 +1665,7 @@
     {
       "id": "saiken",
       "name": "Saiken",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1623,6 +1684,7 @@
     {
       "id": "chomei",
       "name": "Chōmei",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1641,6 +1703,7 @@
     {
       "id": "isobu",
       "name": "Isobu",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1659,6 +1722,7 @@
     {
       "id": "ten-tails",
       "name": "Ten-Tails",
+      "gender": "other",
       "variants": [
         {
           "id": "beast",
@@ -1691,6 +1755,7 @@
     {
       "id": "guren",
       "name": "Guren",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1709,6 +1774,7 @@
     {
       "id": "yukimaru",
       "name": "Yukimaru",
+      "gender": "male",
       "wikiPage": "Yūkimaru",
       "variants": [
         {
@@ -1728,6 +1794,7 @@
     {
       "id": "menma-uzumaki",
       "name": "Menma Uzumaki",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1760,6 +1827,7 @@
     {
       "id": "dan-kato",
       "name": "Dan Katō",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1777,6 +1845,7 @@
     {
       "id": "nawaki",
       "name": "Nawaki",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1794,6 +1863,7 @@
     {
       "id": "kagami-uchiha",
       "name": "Kagami Uchiha",
+      "gender": "male",
       "variants": [
         {
           "id": "base",
@@ -1812,6 +1882,7 @@
     {
       "id": "rin-nohara",
       "name": "Rin Nohara",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -1830,6 +1901,7 @@
     {
       "id": "hanzo",
       "name": "Hanzō",
+      "gender": "male",
       "variants": [
         {
           "id": "base",

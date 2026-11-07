@@ -4,13 +4,20 @@
   "color": "#ff006e",
   "search": "dandadan",
   "attributes": [
-    { "id": "occultPower", "label": "Occult Power" },
-    { "id": "ally", "label": "Yokai / Alien Ally" }
+    {
+      "id": "occultPower",
+      "label": "Occult Power"
+    },
+    {
+      "id": "ally",
+      "label": "Yokai / Alien Ally"
+    }
   ],
   "characters": [
     {
       "id": "okarun",
       "name": "Ken Takakura",
+      "gender": "male",
       "search": "takakura",
       "variants": [
         {
@@ -48,6 +55,7 @@
     {
       "id": "momo-ayase",
       "name": "Momo Ayase",
+      "gender": "female",
       "variants": [
         {
           "id": "base",
@@ -74,6 +82,7 @@
     {
       "id": "seiko-ayase",
       "name": "Seiko Ayase",
+      "gender": "female",
       "variants": [
         {
           "id": "spiritual-medium",
@@ -90,6 +99,7 @@
     {
       "id": "turbo-granny",
       "name": "Turbo Granny",
+      "gender": "female",
       "variants": [
         {
           "id": "yokai",
@@ -106,6 +116,7 @@
     {
       "id": "aira-shiratori",
       "name": "Aira Shiratori",
+      "gender": "female",
       "variants": [
         {
           "id": "genius-schoolgirl",
@@ -122,6 +133,7 @@
     {
       "id": "jiji",
       "name": "Jiji",
+      "gender": "male",
       "variants": [
         {
           "id": "possessed",
@@ -138,6 +150,7 @@
     {
       "id": "evil-eye",
       "name": "Evil Eye",
+      "gender": "other",
       "variants": [
         {
           "id": "evil-eye",
@@ -154,6 +167,7 @@
     {
       "id": "serpo",
       "name": "Serpo",
+      "gender": "male",
       "variants": [
         {
           "id": "alien",
@@ -170,6 +184,7 @@
     {
       "id": "vamola",
       "name": "Vamola",
+      "gender": "female",
       "variants": [
         {
           "id": "vamola",
@@ -186,6 +201,7 @@
     {
       "id": "acrobatic-silky",
       "name": "Acrobatic Silky",
+      "gender": "female",
       "variants": [
         {
           "id": "acrobatic-silky",
@@ -202,6 +218,7 @@
     {
       "id": "count-saint-germain",
       "name": "Count Saint-Germain",
+      "gender": "male",
       "variants": [
         {
           "id": "alien-count",
@@ -218,6 +235,7 @@
     {
       "id": "dover-demon",
       "name": "Dover Demon",
+      "gender": "male",
       "variants": [
         {
           "id": "dover-demon",

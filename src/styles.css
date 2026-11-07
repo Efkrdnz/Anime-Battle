@@ -410,3 +410,11 @@ input:focus, select:focus { border-color: var(--accent); }
 .modal-backdrop { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.7); display: grid; place-items: center; z-index: 60; padding: 16px; }
 .modal { width: min(460px, 100%); }
 .modal .preview { display: flex; justify-content: center; margin-bottom: 14px; }
+
+/* ---------- Character groups ---------- */
+.lock { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 800; letter-spacing: 0.5px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 2px 6px; vertical-align: middle; }
+.pick { position: relative; border-radius: 14px; }
+.pick .card { transition: transform 0.1s, opacity 0.15s; }
+.pick:not(.on) .card { opacity: 0.6; }
+.pick.on .card { outline: 3px solid var(--accent-2); outline-offset: 2px; }
+.pick-check { position: absolute; top: -6px; right: -6px; z-index: 3; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-2); color: #000; font-weight: 800; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); pointer-events: none; }

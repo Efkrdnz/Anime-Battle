@@ -21,6 +21,7 @@
     {
       "id": "issei-hyoudou",
       "name": "Issei Hyoudou",
+      "gender": "male",
       "variants": [
         {
           "id": "boosted-gear",
@@ -71,6 +72,7 @@
     {
       "id": "rias-gremory",
       "name": "Rias Gremory",
+      "gender": "female",
       "variants": [
         {
           "id": "heiress",
@@ -88,6 +90,7 @@
     {
       "id": "akeno-himejima",
       "name": "Akeno Himejima",
+      "gender": "female",
       "variants": [
         {
           "id": "lightning-priestess",
@@ -105,6 +108,7 @@
     {
       "id": "koneko-toujou",
       "name": "Koneko Toujou",
+      "gender": "female",
       "variants": [
         {
           "id": "rook",
@@ -133,6 +137,7 @@
     {
       "id": "yuuto-kiba",
       "name": "Yuuto Kiba",
+      "gender": "male",
       "variants": [
         {
           "id": "sword-birth",
@@ -150,6 +155,7 @@
     {
       "id": "xenovia-quarta",
       "name": "Xenovia Quarta",
+      "gender": "female",
       "variants": [
         {
           "id": "durandal",
@@ -167,6 +173,7 @@
     {
       "id": "asia-argento",
       "name": "Asia Argento",
+      "gender": "female",
       "variants": [
         {
           "id": "twilight-healing",
@@ -184,6 +191,7 @@
     {
       "id": "gasper-vladi",
       "name": "Gasper Vladi",
+      "gender": "male",
       "variants": [
         {
           "id": "forbidden-balor-view",
@@ -212,6 +220,7 @@
     {
       "id": "vali-lucifer",
       "name": "Vali Lucifer",
+      "gender": "male",
       "variants": [
         {
           "id": "divine-dividing",
@@ -240,6 +249,7 @@
     {
       "id": "sairaorg-bael",
       "name": "Sairaorg Bael",
+      "gender": "male",
       "variants": [
         {
           "id": "leviathan-rook",
@@ -257,6 +267,7 @@
     {
       "id": "sirzechs-lucifer",
       "name": "Sirzechs Lucifer",
+      "gender": "male",
       "variants": [
         {
           "id": "true-form",
@@ -274,6 +285,7 @@
     {
       "id": "ajuka-beelzebub",
       "name": "Ajuka Beelzebub",
+      "gender": "male",
       "variants": [
         {
           "id": "satan",
@@ -292,6 +304,7 @@
     {
       "id": "serafall-leviathan",
       "name": "Serafall Leviathan",
+      "gender": "female",
       "variants": [
         {
           "id": "magical-girl",
@@ -309,6 +322,7 @@
     {
       "id": "azazel",
       "name": "Azazel",
+      "gender": "male",
       "variants": [
         {
           "id": "fallen-angel-governor",
@@ -326,6 +340,7 @@
     {
       "id": "michael",
       "name": "Michael",
+      "gender": "male",
       "variants": [
         {
           "id": "archangel",
@@ -344,6 +359,7 @@
     {
       "id": "ophis",
       "name": "Ophis",
+      "gender": "female",
       "variants": [
         {
           "id": "infinite-dragon-god",
@@ -361,6 +377,7 @@
     {
       "id": "great-red",
       "name": "Great Red",
+      "gender": "other",
       "variants": [
         {
           "id": "dragon-of-dreams",
@@ -379,6 +396,7 @@
     {
       "id": "cao-cao",
       "name": "Cao Cao",
+      "gender": "male",
       "variants": [
         {
           "id": "true-longinus",
@@ -396,6 +414,7 @@
     {
       "id": "rizevim-livan-lucifer",
       "name": "Rizevim Livan Lucifer",
+      "gender": "male",
       "variants": [
         {
           "id": "old-satan",
@@ -413,6 +432,7 @@
     {
       "id": "rossweisse",
       "name": "Rossweisse",
+      "gender": "female",
       "variants": [
         {
           "id": "valkyrie",
@@ -430,6 +450,7 @@
     {
       "id": "irina-shidou",
       "name": "Irina Shidou",
+      "gender": "female",
       "variants": [
         {
           "id": "angel",
@@ -447,6 +468,7 @@
     {
       "id": "kuroka",
       "name": "Kuroka",
+      "gender": "female",
       "variants": [
         {
           "id": "nekomata",
@@ -464,6 +486,7 @@
     {
       "id": "sona-sitri",
       "name": "Sona Sitri",
+      "gender": "female",
       "variants": [
         {
           "id": "student-council",
@@ -482,6 +505,7 @@
     {
       "id": "riser-phenex",
       "name": "Riser Phenex",
+      "gender": "male",
       "variants": [
         {
           "id": "phenex-heir",
