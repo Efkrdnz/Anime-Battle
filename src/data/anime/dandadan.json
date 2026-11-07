@@ -1,0 +1,235 @@
+{
+  "id": "dandadan",
+  "name": "Dandadan",
+  "color": "#ff006e",
+  "search": "dandadan",
+  "attributes": [
+    { "id": "occultPower", "label": "Occult Power" },
+    { "id": "ally", "label": "Yokai / Alien Ally" }
+  ],
+  "characters": [
+    {
+      "id": "okarun",
+      "name": "Ken Takakura",
+      "search": "takakura",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal Okarun",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {
+            "occultPower": "Occult nerd with zero fighting skill, big heart",
+            "ally": "Dreams of meeting an alien, stuck with Momo instead"
+          }
+        },
+        {
+          "id": "turbo-granny",
+          "label": "Turbo Granny Form",
+          "rarity": "A",
+          "stats": "A S B B A B",
+          "traits": {
+            "occultPower": "Turbo Granny's curse: super speed and lightning punches",
+            "ally": "Turbo Granny's spirit lives inside him"
+          }
+        },
+        {
+          "id": "full-power",
+          "label": "Full Power Okarun",
+          "rarity": "S",
+          "stats": "S SS B A A B",
+          "traits": {
+            "occultPower": "Pushes the curse past its limit, bursts of insane speed",
+            "ally": "Drains Turbo Granny's power to fight the impossible"
+          }
+        }
+      ]
+    },
+    {
+      "id": "momo-ayase",
+      "name": "Momo Ayase",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Awakened Momo",
+          "rarity": "B",
+          "stats": "C B B B B B",
+          "traits": {
+            "occultPower": "Psychokinesis: lifts people and objects with her mind",
+            "ally": "Her grandmother Seiko trained her in spiritual power"
+          }
+        },
+        {
+          "id": "psychic-peak",
+          "label": "Psychic Peak",
+          "rarity": "A",
+          "stats": "B B A A A B",
+          "traits": {
+            "occultPower": "Precise, large-scale psychokinesis in a pinch",
+            "ally": "Okarun's partner in every battle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seiko-ayase",
+      "name": "Seiko Ayase",
+      "variants": [
+        {
+          "id": "spiritual-medium",
+          "label": "Spiritual Medium",
+          "rarity": "A",
+          "stats": "B B S A S A",
+          "traits": {
+            "occultPower": "Powerful medium: sealing, exorcism and talismans",
+            "ally": "Momo's grandmother, scares yokai on sight"
+          }
+        }
+      ]
+    },
+    {
+      "id": "turbo-granny",
+      "name": "Turbo Granny",
+      "variants": [
+        {
+          "id": "yokai",
+          "label": "Yokai Form",
+          "rarity": "A",
+          "stats": "A S B A A B",
+          "traits": {
+            "occultPower": "Cursed speed, spits thunder-fast attacks and curses",
+            "ally": "Cannot be exorcised, fights alongside Okarun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aira-shiratori",
+      "name": "Aira Shiratori",
+      "variants": [
+        {
+          "id": "genius-schoolgirl",
+          "label": "Genius Schoolgirl",
+          "rarity": "B",
+          "stats": "C B A C B C",
+          "traits": {
+            "occultPower": "Sharp mind, deadly when pushed",
+            "ally": "Momo's loyal classmate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jiji",
+      "name": "Jiji",
+      "variants": [
+        {
+          "id": "possessed",
+          "label": "Possessed",
+          "rarity": "B",
+          "stats": "B B C B B B",
+          "traits": {
+            "occultPower": "Evil Eye's possession turns him into a nuisance",
+            "ally": "Evil Eye pulls the strings"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evil-eye",
+      "name": "Evil Eye",
+      "variants": [
+        {
+          "id": "evil-eye",
+          "label": "Evil Eye",
+          "rarity": "S",
+          "stats": "A A S S S A",
+          "traits": {
+            "occultPower": "Possession and eye-based curses",
+            "ally": "Spiritual predator hungry for new bodies"
+          }
+        }
+      ]
+    },
+    {
+      "id": "serpo",
+      "name": "Serpo",
+      "variants": [
+        {
+          "id": "alien",
+          "label": "Alien Invader",
+          "rarity": "A",
+          "stats": "A A A B S B",
+          "traits": {
+            "occultPower": "Alien tech, body control and spatial tricks",
+            "ally": "Serpo aliens abduct Okarun for experiments"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vamola",
+      "name": "Vamola",
+      "variants": [
+        {
+          "id": "vamola",
+          "label": "Vamola",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "occultPower": "Blood-hungry fighter with a flair for drama",
+            "ally": "Allies with the protagonists, reluctantly"
+          }
+        }
+      ]
+    },
+    {
+      "id": "acrobatic-silky",
+      "name": "Acrobatic Silky",
+      "variants": [
+        {
+          "id": "acrobatic-silky",
+          "label": "Acrobatic Silky",
+          "rarity": "B",
+          "stats": "B A C B B A",
+          "traits": {
+            "occultPower": "Flexible, fast and relentless stalker spirit",
+            "ally": "Starts as a menace, ends up helping"
+          }
+        }
+      ]
+    },
+    {
+      "id": "count-saint-germain",
+      "name": "Count Saint-Germain",
+      "variants": [
+        {
+          "id": "alien-count",
+          "label": "Alien Count",
+          "rarity": "A",
+          "stats": "A A S B S B",
+          "traits": {
+            "occultPower": "Cunning alien noble with space-warping abilities",
+            "ally": "Commands the Serpo invasion fleet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dover-demon",
+      "name": "Dover Demon",
+      "variants": [
+        {
+          "id": "dover-demon",
+          "label": "Dover Demon",
+          "rarity": "C",
+          "stats": "C B C C C C",
+          "traits": {
+            "occultPower": "Small, glowing-eyed cryptid with a creepy presence",
+            "ally": "Cryptid that tags along with the occult club"
+          }
+        }
+      ]
+    }
+  ]
+}

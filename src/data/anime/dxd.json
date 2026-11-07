@@ -1,0 +1,500 @@
+{
+  "id": "dxd",
+  "name": "High School DxD",
+  "color": "#c1121f",
+  "search": "high school dxd",
+  "attributes": [
+    {
+      "id": "sacredGear",
+      "label": "Sacred Gear"
+    },
+    {
+      "id": "race",
+      "label": "Race & Rank"
+    },
+    {
+      "id": "magic",
+      "label": "Magic / Power"
+    }
+  ],
+  "characters": [
+    {
+      "id": "issei-hyoudou",
+      "name": "Issei Hyoudou",
+      "variants": [
+        {
+          "id": "boosted-gear",
+          "label": "Boosted Gear",
+          "rarity": "B",
+          "stats": "B B C B B C",
+          "traits": {
+            "sacredGear": "Boosted Gear: doubles his power every ten seconds",
+            "race": "Reincarnated Devil, Pawn of Rias Gremory",
+            "magic": "Transfer and boost, a pervert with a dragon's arm"
+          }
+        },
+        {
+          "id": "balance-breaker",
+          "label": "Scale Mail",
+          "rarity": "A",
+          "stats": "A A B A B B",
+          "traits": {
+            "sacredGear": "Boosted Gear Scale Mail: full Welsh Dragon armor",
+            "race": "Pawn promoted by Rias, rising Devil star",
+            "magic": "Dragon Shot, Penetrate and Explosion"
+          }
+        },
+        {
+          "id": "cardinal-crimson-promotion",
+          "label": "Cardinal Crimson Promotion",
+          "rarity": "S",
+          "stats": "S S B S A A",
+          "traits": {
+            "sacredGear": "Boosted Gear with Queen promotion power",
+            "race": "Pawn promoted to Queen, Rias's strongest piece",
+            "magic": "Triaina-powered Queen attacks"
+          }
+        },
+        {
+          "id": "dragon-deification",
+          "label": "Dragon Deification",
+          "rarity": "SS",
+          "stats": "SS SS B SS A S",
+          "traits": {
+            "sacredGear": "Boosted Gear Gigantis Mode, a dragon god's form",
+            "race": "Dragon God, Rias's Pawn at max power",
+            "magic": "Dragon God Absolute, Dragon Star Strike"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rias-gremory",
+      "name": "Rias Gremory",
+      "variants": [
+        {
+          "id": "heiress",
+          "label": "Heiress of Gremory",
+          "rarity": "A",
+          "stats": "B B A A A B",
+          "traits": {
+            "sacredGear": "None, relies on Power of Destruction",
+            "race": "High-Class Devil, heiress to House Gremory",
+            "magic": "Power of Destruction: crimson magic that erases matter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "akeno-himejima",
+      "name": "Akeno Himejima",
+      "variants": [
+        {
+          "id": "lightning-priestess",
+          "label": "Lightning Priestess",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "sacredGear": "None, relies on Holy Lightning",
+            "race": "Queen, half Fallen Angel and half human",
+            "magic": "Thunder and Holy Lightning, a sadistic smile"
+          }
+        }
+      ]
+    },
+    {
+      "id": "koneko-toujou",
+      "name": "Koneko Toujou",
+      "variants": [
+        {
+          "id": "rook",
+          "label": "Rook",
+          "rarity": "B",
+          "stats": "A C B A B B",
+          "traits": {
+            "sacredGear": "None, relies on raw strength",
+            "race": "Rook, Nekomata-Shou",
+            "magic": "Super strength and Senjutsu"
+          }
+        },
+        {
+          "id": "nekomata-mode",
+          "label": "White Tiger / Nekomata",
+          "rarity": "A",
+          "stats": "S A B A A B",
+          "traits": {
+            "sacredGear": "None, Senjutsu channeling",
+            "race": "Rook, Nekoshou in cat form",
+            "magic": "White Tiger Mode, Senjutsu rage"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yuuto-kiba",
+      "name": "Yuuto Kiba",
+      "variants": [
+        {
+          "id": "sword-birth",
+          "label": "Sword Birth",
+          "rarity": "A",
+          "stats": "B S B B S B",
+          "traits": {
+            "sacredGear": "Sword Birth: creates any demonic or holy sword",
+            "race": "Knight, former Holy Sword test subject",
+            "magic": "Speed and swordsmanship, a prince's smile"
+          }
+        }
+      ]
+    },
+    {
+      "id": "xenovia-quarta",
+      "name": "Xenovia Quarta",
+      "variants": [
+        {
+          "id": "durandal",
+          "label": "Durandal Wielder",
+          "rarity": "A",
+          "stats": "S B B A A B",
+          "traits": {
+            "sacredGear": "None, wields the holy sword Durandal",
+            "race": "Knight, former Exorcist turned Devil",
+            "magic": "Holy aura, Excalibur Destruction and Ascalon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "asia-argento",
+      "name": "Asia Argento",
+      "variants": [
+        {
+          "id": "twilight-healing",
+          "label": "Twilight Healing",
+          "rarity": "C",
+          "stats": "D D B D B C",
+          "traits": {
+            "sacredGear": "Twilight Healing: heals any wound but one",
+            "race": "Bishop, former Holy Maiden",
+            "magic": "Healing aura, hits like a feather"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gasper-vladi",
+      "name": "Gasper Vladi",
+      "variants": [
+        {
+          "id": "forbidden-balor-view",
+          "label": "Forbidden Balor View",
+          "rarity": "B",
+          "stats": "D C B C B C",
+          "traits": {
+            "sacredGear": "Forbidden Balor View: freezes time with sight",
+            "race": "Bishop, half-vampire, loves cardboard boxes",
+            "magic": "Time freeze, bat transformation"
+          }
+        },
+        {
+          "id": "balor-breaker",
+          "label": "Balor Breaker",
+          "rarity": "A",
+          "stats": "C B A B S B",
+          "traits": {
+            "sacredGear": "Balor Breaker: Balance Breaker that stops everything",
+            "race": "Bishop, half-vampire, newly brave",
+            "magic": "Time stop and forbidden sight"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vali-lucifer",
+      "name": "Vali Lucifer",
+      "variants": [
+        {
+          "id": "divine-dividing",
+          "label": "Divine Dividing",
+          "rarity": "S",
+          "stats": "S S A S S A",
+          "traits": {
+            "sacredGear": "Divine Dividing: halves enemy power every 10 seconds",
+            "race": "Half-Devil, Lucifer's descendant",
+            "magic": "White Dragon Emperor, halving and transfer"
+          }
+        },
+        {
+          "id": "diabolos-dragon",
+          "label": "Juggernaut Drive / Diabolos Dragon",
+          "rarity": "S",
+          "stats": "SS S A SS A S",
+          "traits": {
+            "sacredGear": "Juggernaut Drive: sacrifices life for destruction",
+            "race": "Half-Devil, Lucifer's descendant",
+            "magic": "Diabolos Dragon: dragon and demon fused"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sairaorg-bael",
+      "name": "Sairaorg Bael",
+      "variants": [
+        {
+          "id": "leviathan-rook",
+          "label": "Leviathan Rook",
+          "rarity": "S",
+          "stats": "SS A A S A S",
+          "traits": {
+            "sacredGear": "None, born with no Sacred Gear",
+            "race": "Pure-blood Devil, heir to House Bael",
+            "magic": "Touki: aura-based fist fighting at devil level"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sirzechs-lucifer",
+      "name": "Sirzechs Lucifer",
+      "variants": [
+        {
+          "id": "true-form",
+          "label": "True Form",
+          "rarity": "SS",
+          "stats": "A A S SS SS S",
+          "traits": {
+            "sacredGear": "None, relies on the Power of Destruction",
+            "race": "Satan Lucifer, one of the Four Great Satans",
+            "magic": "Destruction magic that erases mountains"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ajuka-beelzebub",
+      "name": "Ajuka Beelzebub",
+      "variants": [
+        {
+          "id": "satan",
+          "label": "Satan Beelzebub",
+          "rarity": "S",
+          "stats": "B B SS A SS A",
+          "traits": {
+            "sacredGear": "None, inventor of the Evil Piece system",
+            "race": "Satan Beelzebub, Four Great Satans",
+            "magic": "Sorcery and invention, a genius in magic"
+          }
+        }
+      ],
+      "search": "Beelzebub"
+    },
+    {
+      "id": "serafall-leviathan",
+      "name": "Serafall Leviathan",
+      "variants": [
+        {
+          "id": "magical-girl",
+          "label": "Magical Girl",
+          "rarity": "A",
+          "stats": "B B A A S A",
+          "traits": {
+            "sacredGear": "None, ice magic prodigy",
+            "race": "Satan Leviathan, Four Great Satans",
+            "magic": "Ice sorcery, magical girl pose included"
+          }
+        }
+      ]
+    },
+    {
+      "id": "azazel",
+      "name": "Azazel",
+      "variants": [
+        {
+          "id": "fallen-angel-governor",
+          "label": "Fallen Angel Governor",
+          "rarity": "A",
+          "stats": "A A S A S A",
+          "traits": {
+            "sacredGear": "Sacred Gear researcher and creator",
+            "race": "Governor General of the Fallen Angels",
+            "magic": "Light spears, golden armor and inventions"
+          }
+        }
+      ]
+    },
+    {
+      "id": "michael",
+      "name": "Michael",
+      "variants": [
+        {
+          "id": "archangel",
+          "label": "Archangel",
+          "rarity": "S",
+          "stats": "S S S SS S S",
+          "traits": {
+            "sacredGear": "Holy powers backed by the Holy Trinity",
+            "race": "Archangel Michael, leader of the Angels",
+            "magic": "Holy light, Brave Saint command"
+          }
+        }
+      ],
+      "search": "Michael Archangel"
+    },
+    {
+      "id": "ophis",
+      "name": "Ophis",
+      "variants": [
+        {
+          "id": "infinite-dragon-god",
+          "label": "Infinite Dragon God",
+          "rarity": "SS",
+          "stats": "SS SS SS SS SS SS",
+          "traits": {
+            "sacredGear": "None, she is the power",
+            "race": "Dragon God of Infinity, the strongest being",
+            "magic": "Snake creation and infinite power"
+          }
+        }
+      ]
+    },
+    {
+      "id": "great-red",
+      "name": "Great Red",
+      "variants": [
+        {
+          "id": "dragon-of-dreams",
+          "label": "Dragon of Dreams",
+          "rarity": "SS",
+          "stats": "SS S S SS A SS",
+          "traits": {
+            "sacredGear": "None, the Dragon of Dreams",
+            "race": "True Dragon, the strongest dragon",
+            "magic": "Dimensional Gap guardian, almighty roar"
+          }
+        }
+      ],
+      "search": "Great Red Dragon"
+    },
+    {
+      "id": "cao-cao",
+      "name": "Cao Cao",
+      "variants": [
+        {
+          "id": "true-longinus",
+          "label": "True Longinus",
+          "rarity": "S",
+          "stats": "A A S A S A",
+          "traits": {
+            "sacredGear": "True Longinus: the spear that slays gods",
+            "race": "Human, leader of the Hero Faction",
+            "magic": "Spear mastery and Sacred Gear sorcery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rizevim-livan-lucifer",
+      "name": "Rizevim Livan Lucifer",
+      "variants": [
+        {
+          "id": "old-satan",
+          "label": "Old Satan Faction",
+          "rarity": "A",
+          "stats": "A A A S S A",
+          "traits": {
+            "sacredGear": "None, wields dark Lucifer magic",
+            "race": "Old Lucifer descendant, Satan's heir",
+            "magic": "Dark magic and destructive Devil power"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rossweisse",
+      "name": "Rossweisse",
+      "variants": [
+        {
+          "id": "valkyrie",
+          "label": "Valkyrie",
+          "rarity": "B",
+          "stats": "C B A B A B",
+          "traits": {
+            "sacredGear": "None, Nordic magic user",
+            "race": "Rook, former Valkyrie turned Devil",
+            "magic": "Norse magic and Valkyrie spears"
+          }
+        }
+      ]
+    },
+    {
+      "id": "irina-shidou",
+      "name": "Irina Shidou",
+      "variants": [
+        {
+          "id": "angel",
+          "label": "Angel",
+          "rarity": "B",
+          "stats": "B B C B B B",
+          "traits": {
+            "sacredGear": "None, wields a holy sword",
+            "race": "Reincarnated Angel, Ace of Michael",
+            "magic": "Holy aura and sword fighting"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kuroka",
+      "name": "Kuroka",
+      "variants": [
+        {
+          "id": "nekomata",
+          "label": "Nekomata",
+          "rarity": "A",
+          "stats": "B A A B S A",
+          "traits": {
+            "sacredGear": "None, relies on Senjutsu",
+            "race": "Rook, SS-class stray Devil",
+            "magic": "Senjutsu, illusions and Nekomata teleportation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sona-sitri",
+      "name": "Sona Sitri",
+      "variants": [
+        {
+          "id": "student-council",
+          "label": "Student Council President",
+          "rarity": "B",
+          "stats": "C B S C A B",
+          "traits": {
+            "sacredGear": "None, water-based magic",
+            "race": "High-Class Devil, heiress to House Sitri",
+            "magic": "Water magic and strategy"
+          }
+        }
+      ],
+      "search": "Souna Shitori"
+    },
+    {
+      "id": "riser-phenex",
+      "name": "Riser Phenex",
+      "variants": [
+        {
+          "id": "phenex-heir",
+          "label": "Immortal Phoenix",
+          "rarity": "C",
+          "stats": "B B C S C B",
+          "traits": {
+            "sacredGear": "None, relies on Phenex fire",
+            "race": "High-Class Devil, heir to House Phenex",
+            "magic": "Immortal phoenix flames and regeneration"
+          }
+        }
+      ]
+    }
+  ]
+}

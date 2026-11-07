@@ -1,0 +1,183 @@
+{
+  "id": "hxh",
+  "name": "Hunter x Hunter",
+  "color": "#2a9d8f",
+  "search": "hunter x hunter",
+  "attributes": [
+    { "id": "nenType", "label": "Nen Type" },
+    { "id": "hatsu", "label": "Hatsu" },
+    { "id": "aura", "label": "Aura Reserves" }
+  ],
+  "characters": [
+    {
+      "id": "gon-freecss",
+      "name": "Gon Freecss",
+      "variants": [
+        { "id": "hunter-exam", "label": "Hunter Exam", "rarity": "C", "stats": "C B B C D B", "traits": { "nenType": "Enhancer (unawakened)", "aura": "Untapped, leaking raw" } },
+        { "id": "chimera-ant", "label": "Chimera Ant Arc", "rarity": "B", "stats": "A A B B B A", "traits": { "nenType": "Enhancer", "hatsu": "Jajanken: Rock, Paper", "aura": "Large and growing" } },
+        { "id": "adult", "label": "Adult Gon", "rarity": "SS", "stats": "SS SS A S SS S", "traits": { "nenType": "Enhancer", "hatsu": "Jajanken: Giant Rock (Pitou-tier burst)", "aura": "Borrowed future, burned out for good" } }
+      ]
+    },
+    {
+      "id": "killua-zoldyck",
+      "name": "Killua Zoldyck",
+      "variants": [
+        { "id": "base", "rarity": "A", "stats": "B S S B A A", "traits": { "nenType": "Transmuter", "hatsu": "Lightning Palm, Thunderbolt, Whirlwind", "aura": "Large, trained by assassins" } },
+        { "id": "godspeed", "label": "Godspeed", "rarity": "S", "stats": "A SS S B S A", "traits": { "nenType": "Transmuter", "hatsu": "Godspeed: Narukami, Electric reflex", "aura": "Large, Lightning Palm fed" } }
+      ]
+    },
+    {
+      "id": "meruem",
+      "name": "Meruem",
+      "variants": [
+        { "id": "birth", "label": "Birth", "rarity": "A", "stats": "S S A S S A", "traits": { "nenType": "Specialist (unawakened)", "hatsu": "Raw aura, no true nen yet", "aura": "Absurd from birth" } },
+        { "id": "post-rose", "label": "Post-Rose", "rarity": "SS", "stats": "SS SS SS SS SS SS", "traits": { "nenType": "Specialist", "hatsu": "Absolute adaptation, Gungi-fuelled mastery", "aura": "Highest of Chimera Ants, poison-hardened" } }
+      ]
+    },
+    {
+      "id": "isaac-netero",
+      "name": "Isaac Netero",
+      "variants": [
+        { "id": "prime", "label": "Prime", "rarity": "SS", "stats": "SS SS S S SS SS", "traits": { "nenType": "Enhancer", "hatsu": "100-Type Guanyin Bodhisattva, Zero Hand", "aura": "Legendary, 12 Zodiac leader" } },
+        { "id": "old", "label": "Old (Chairman)", "rarity": "S", "stats": "S S S A S S", "traits": { "nenType": "Enhancer", "hatsu": "100-Type Guanyin Bodhisattva, Zero Hand", "aura": "Still immense after decades of prayer" } }
+      ]
+    },
+    {
+      "id": "hisoka-morow",
+      "name": "Hisoka Morow",
+      "variants": [
+        { "id": "base", "rarity": "A", "stats": "A A S A S A", "traits": { "nenType": "Transmuter", "hatsu": "Bungee Gum, Texture Surprise", "aura": "Large, bloodthirst-driven" } }
+      ]
+    },
+    {
+      "id": "chrollo-lucilfer",
+      "name": "Chrollo Lucilfer",
+      "variants": [
+        { "id": "base", "label": "Phantom Troupe Leader", "rarity": "A", "stats": "A A SS B S A", "traits": { "nenType": "Specialist", "hatsu": "Skill Hunter, Bandit's Secret", "aura": "High, stolen abilities amplify" } }
+      ]
+    },
+    {
+      "id": "kurapika",
+      "name": "Kurapika",
+      "variants": [
+        { "id": "base", "rarity": "B", "stats": "B A S B S B", "traits": { "nenType": "Conjurer", "hatsu": "Holy Chain, Judgment Chain, Emperor Time", "aura": "Moderate, vow-boosted" } },
+        { "id": "emperor-time", "label": "Emperor Time", "rarity": "S", "stats": "A S SS B SS B", "traits": { "nenType": "Specialist (Scarlet Eyes)", "hatsu": "Emperor Time: all six types at 100%", "aura": "Fully maxed, shortens lifespan" } }
+      ]
+    },
+    {
+      "id": "leorio-paradinight",
+      "name": "Leorio Paradinight",
+      "variants": [
+        { "id": "base", "rarity": "C", "stats": "C C B C C B", "traits": { "nenType": "Emitter", "hatsu": "Remote Punch (Mochi)", "aura": "Modest, medical focus" } }
+      ]
+    },
+    {
+      "id": "feitan-portor",
+      "name": "Feitan Portor",
+      "variants": [
+        { "id": "base", "rarity": "B", "stats": "A S A B A B", "traits": { "nenType": "Transmuter", "hatsu": "Pain Packer, Rising Sun (Pain-Pacer)", "aura": "Large, torture-focused" } }
+      ]
+    },
+    {
+      "id": "uvogin",
+      "name": "Uvogin",
+      "variants": [
+        { "id": "base", "rarity": "B", "stats": "S B C A B A", "traits": { "nenType": "Enhancer", "hatsu": "Big Bang Impact", "aura": "Brutal, cuts down on defence" } }
+      ]
+    },
+    {
+      "id": "neferpitou",
+      "name": "Neferpitou",
+      "variants": [
+        { "id": "base", "rarity": "S", "stats": "S SS S A S A", "traits": { "nenType": "Specialist", "hatsu": "Doctor Blythe, Terpsichora", "aura": "Royal Guard grade, elite" } }
+      ]
+    },
+    {
+      "id": "menthuthuyoupi",
+      "name": "Menthuthuyoupi",
+      "search": "youpi",
+      "variants": [
+        { "id": "base", "rarity": "A", "stats": "S A B S B A", "traits": { "nenType": "Enhancer", "hatsu": "Flying cannon: Aura blasts", "aura": "Royal Guard grade, Chimera defender" } }
+      ]
+    },
+    {
+      "id": "shaiapouf",
+      "name": "Shaiapouf",
+      "search": "pouf",
+      "variants": [
+        { "id": "base", "rarity": "A", "stats": "B A A B S A", "traits": { "nenType": "Manipulator", "hatsu": "Monster Puppet, Shadow Puppeteer", "aura": "Royal Guard grade, spy tool" } }
+      ]
+    },
+    {
+      "id": "zeno-zoldyck",
+      "name": "Zeno Zoldyck",
+      "variants": [
+        { "id": "base", "rarity": "S", "stats": "A S S A S A", "traits": { "nenType": "Transmuter", "hatsu": "Dragon Dive, Dragon Lance", "aura": "Legendary assassin, Zodiac peer" } }
+      ]
+    },
+    {
+      "id": "silva-zoldyck",
+      "name": "Silva Zoldyck",
+      "variants": [
+        { "id": "base", "rarity": "A", "stats": "S A A S A A", "traits": { "nenType": "Transmuter", "hatsu": "Dragon-style punches, shadow ninjutsu", "aura": "Huge, elite family head" } }
+      ]
+    },
+    {
+      "id": "illumi-zoldyck",
+      "name": "Illumi Zoldyck",
+      "variants": [
+        { "id": "base", "rarity": "A", "stats": "B A S B S A", "traits": { "nenType": "Manipulator", "hatsu": "Needle Man, shape-shifting puppeteer", "aura": "High, assassin trained" } }
+      ]
+    },
+    {
+      "id": "biscuit-krueger",
+      "name": "Biscuit Krueger",
+      "variants": [
+        { "id": "cute", "label": "Cute Form", "rarity": "B", "stats": "B A A B A B", "traits": { "nenType": "Transmuter", "hatsu": "Magical Esthetique, Heavenly Blessing", "aura": "Moderate, restrained" } },
+        { "id": "true", "label": "True Form", "rarity": "A", "stats": "A S S A S A", "traits": { "nenType": "Transmuter", "hatsu": "Magical Esthetique unleashed, muscle form", "aura": "Large, seasoned master" } }
+      ]
+    },
+    {
+      "id": "knuckle-bine",
+      "name": "Knuckle Bine",
+      "variants": [
+        { "id": "base", "rarity": "B", "stats": "A B B A B A", "traits": { "nenType": "Emitter", "hatsu": "Hakoware (Hakoware 3)", "aura": "Solid, power-fighter" } }
+      ]
+    },
+    {
+      "id": "kite",
+      "name": "Kite",
+      "variants": [
+        { "id": "base", "rarity": "B", "stats": "B A A B A B", "traits": { "nenType": "Conjurer", "hatsu": "Crazy Slots", "aura": "Ranger-grade, adventurer" } }
+      ]
+    },
+    {
+      "id": "ging-freecss",
+      "name": "Ging Freecss",
+      "variants": [
+        { "id": "base", "rarity": "S", "stats": "A A SS A SS A", "traits": { "nenType": "Conjurer", "hatsu": "Rock-Paper-Scissors variants, Rock Type: Rock", "aura": "Hunter of Hunters, legend" } }
+      ]
+    },
+    {
+      "id": "tonpa",
+      "name": "Tonpa",
+      "variants": [
+        { "id": "base", "rarity": "C", "stats": "D C C D D C", "traits": { "nenType": "None", "hatsu": "None", "aura": "Minimal, rookie crusher" } }
+      ]
+    },
+    {
+      "id": "morel-mackernasey",
+      "name": "Morel Mackernasey",
+      "variants": [
+        { "id": "base", "rarity": "B", "stats": "B B B B B B", "traits": { "nenType": "Conjurer", "hatsu": "Smoke Jail", "aura": "Hunter-class, support" } }
+      ]
+    },
+    {
+      "id": "pokkle",
+      "name": "Pokkle",
+      "variants": [
+        { "id": "base", "rarity": "C", "stats": "C C B C B C", "traits": { "nenType": "Conjurer", "hatsu": "Bow and arrows", "aura": "Low, bow specialist" } }
+      ]
+    }
+  ]
+}

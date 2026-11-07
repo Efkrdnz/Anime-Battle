@@ -1,0 +1,438 @@
+{
+  "id": "bleach",
+  "name": "Bleach",
+  "color": "#4361ee",
+  "search": "bleach",
+  "attributes": [
+    {
+      "id": "zanpakuto",
+      "label": "Zanpakutō"
+    },
+    {
+      "id": "bankai",
+      "label": "Bankai"
+    },
+    {
+      "id": "reiatsu",
+      "label": "Spiritual Pressure"
+    },
+    {
+      "id": "race",
+      "label": "Race / Powers"
+    }
+  ],
+  "characters": [
+    {
+      "id": "ichigo-kurosaki",
+      "name": "Ichigo Kurosaki",
+      "variants": [
+        {
+          "id": "substitute",
+          "label": "Substitute Shinigami",
+          "rarity": "B",
+          "stats": "A A B B B B",
+          "traits": {
+            "zanpakuto": "Zangetsu (giant cleaver)",
+            "bankai": "Tensa Zangetsu (speed, Getsuga Tenshou)",
+            "reiatsu": "Captain-level and rising fast",
+            "race": "Shinigami / Hollow / Quincy hybrid"
+          }
+        },
+        {
+          "id": "hollowfied",
+          "label": "Hollowfied",
+          "rarity": "A",
+          "stats": "S S B A B C",
+          "traits": {
+            "zanpakuto": "Zangetsu, Hollow mask boost",
+            "bankai": "Tensa Zangetsu + Hollow mask, Black Getsuga",
+            "reiatsu": "Beyond Captain, wild and unstable",
+            "race": "Shinigami fused with Hollow reiatsu"
+          }
+        },
+        {
+          "id": "true-bankai",
+          "label": "TYBW True Bankai",
+          "rarity": "SS",
+          "stats": "SS SS A SS S S",
+          "traits": {
+            "zanpakuto": "Zangetsu (Quincy blade, true form)",
+            "bankai": "Final Getsuga Tenshou, Mugetsu",
+            "reiatsu": "Rivals Yhwach, bends the world",
+            "race": "Full Shinigami, Hollow, and Quincy powers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sosuke-aizen",
+      "name": "Sosuke Aizen",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Fifth Division Captain",
+          "rarity": "A",
+          "stats": "A A SS A SS A",
+          "traits": {
+            "zanpakuto": "Kyoka Suigetsu (complete hypnosis)",
+            "bankai": "Unrevealed, never needed",
+            "reiatsu": "Captain-level on display, true limit hidden",
+            "race": "Shinigami"
+          }
+        },
+        {
+          "id": "hogyoku-fusion",
+          "label": "Hogyoku Fusion",
+          "rarity": "SS",
+          "stats": "SS SS SS SS SS SS",
+          "traits": {
+            "zanpakuto": "Kyoka Suigetsu, Hogyoku-fused",
+            "bankai": "Transcended, no longer needed",
+            "reiatsu": "Godlike, regenerates instantly",
+            "race": "Shinigami fused with the Hogyoku"
+          }
+        }
+      ],
+      "search": "Sousuke Aizen"
+    },
+    {
+      "id": "yhwach",
+      "name": "Yhwach",
+      "variants": [
+        {
+          "id": "quincy-king",
+          "label": "Quincy King",
+          "rarity": "SS",
+          "stats": "SS S SS SS SS S",
+          "traits": {
+            "zanpakuto": "None, Quincy Reishi weapons",
+            "bankai": "Almighty (sees and rewrites the future)",
+            "reiatsu": "Eclipses all, steals Soul King's power",
+            "race": "Quincy progenitor, Soul King's heart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "genryusai-shigekuni-yamamoto",
+      "name": "Genryusai Shigekuni Yamamoto",
+      "variants": [
+        {
+          "id": "captain-commander",
+          "label": "Captain-Commander",
+          "rarity": "S",
+          "stats": "SS A SS S SS A",
+          "traits": {
+            "zanpakuto": "Ryujin Jakka (strongest fire zanpakuto)",
+            "bankai": "Zanka no Tachi: Zanjitsu Shotenbu",
+            "reiatsu": "Oldest, most potent in Soul Society",
+            "race": "Shinigami, 1000-year Captain-Commander"
+          }
+        }
+      ],
+      "search": "Yamamoto"
+    },
+    {
+      "id": "kenpachi-zaraki",
+      "name": "Kenpachi Zaraki",
+      "variants": [
+        {
+          "id": "eyepatch",
+          "label": "Eyepatch Sealed",
+          "rarity": "A",
+          "stats": "S A C S C SS",
+          "traits": {
+            "zanpakuto": "Nozarashi (sealed, unnamed)",
+            "bankai": "None, sword unknown",
+            "reiatsu": "Huge but half-suppressed by the eyepatch",
+            "race": "Shinigami, born brawler"
+          }
+        },
+        {
+          "id": "unleashed",
+          "label": "Unbound",
+          "rarity": "S",
+          "stats": "SS A B S C SS",
+          "traits": {
+            "zanpakuto": "Nozarashi, awakened spirit",
+            "bankai": "Unrevealed, but raw power for days",
+            "reiatsu": "Monstrous, full-force combat",
+            "race": "Shinigami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "byakuya-kuchiki",
+      "name": "Byakuya Kuchiki",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Sixth Division Captain",
+          "rarity": "A",
+          "stats": "A S A A S B",
+          "traits": {
+            "zanpakuto": "Senbonzakura (1000 blade petals)",
+            "bankai": "Senbonzakura Kageyoshi (blade storm)",
+            "reiatsu": "High Captain, noble house heir",
+            "race": "Shinigami, Kuchiki clan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ulquiorra-cifer",
+      "name": "Ulquiorra Cifer",
+      "variants": [
+        {
+          "id": "segunda-etapa",
+          "label": "Segunda Etapa",
+          "rarity": "S",
+          "stats": "S SS S S A A",
+          "traits": {
+            "zanpakuto": "Murcielago (bat-winged Resurreccion)",
+            "bankai": "None, Hollow-based power",
+            "reiatsu": "Above Captain, near Aizen's level of fear",
+            "race": "Espada No. 4 Arrancar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grimmjow-jaegerjaquez",
+      "name": "Grimmjow Jaegerjaquez",
+      "variants": [
+        {
+          "id": "sexta-espada",
+          "label": "Sexta Espada",
+          "rarity": "B",
+          "stats": "A S B A B B",
+          "traits": {
+            "zanpakuto": "Pantera (panther Resurreccion)",
+            "bankai": "None, Arrancar",
+            "reiatsu": "Captain-level, volatile",
+            "race": "Espada No. 6 Arrancar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kisuke-urahara",
+      "name": "Kisuke Urahara",
+      "variants": [
+        {
+          "id": "shopkeeper",
+          "label": "Shopkeeper",
+          "rarity": "S",
+          "stats": "A S SS A SS A",
+          "traits": {
+            "zanpakuto": "Benihime (blood-red inversion)",
+            "bankai": "Kannonbiraki Benihime (immense power)",
+            "reiatsu": "Captain-level, intentionally suppressed",
+            "race": "Shinigami and genius inventor"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yoruichi-shihoin",
+      "name": "Yoruichi Shihoin",
+      "variants": [
+        {
+          "id": "flash-goddess",
+          "label": "Flash Goddess",
+          "rarity": "A",
+          "stats": "A SS A A S A",
+          "traits": {
+            "zanpakuto": "None, hand-to-hand and Kido",
+            "bankai": "None, Shunko Raiko fusion",
+            "reiatsu": "Captain-level, shapeshifts into a cat",
+            "race": "Shinigami, Shihoin noble"
+          }
+        }
+      ],
+      "search": "Yoruichi"
+    },
+    {
+      "id": "toshiro-hitsugaya",
+      "name": "Toshiro Hitsugaya",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Tenth Division Captain",
+          "rarity": "A",
+          "stats": "A S A A A B",
+          "traits": {
+            "zanpakuto": "Hyorinmaru (strongest ice-type)",
+            "bankai": "Daiguren Hyorinmaru (ice dragon wings)",
+            "reiatsu": "Captain-level, weather control",
+            "race": "Shinigami prodigy"
+          }
+        }
+      ],
+      "search": "Toushirou Hitsugaya"
+    },
+    {
+      "id": "rukia-kuchiki",
+      "name": "Rukia Kuchiki",
+      "variants": [
+        {
+          "id": "thirteenth-division",
+          "label": "Lieutenant",
+          "rarity": "B",
+          "stats": "B B B B A C",
+          "traits": {
+            "zanpakuto": "Sode no Shirayuki (purest white ice)",
+            "bankai": "Hakka no Togame (absolute zero)",
+            "reiatsu": "Lieutenant-level, sharp ice",
+            "race": "Shinigami, Kuchiki adopted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "renji-abarai",
+      "name": "Renji Abarai",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Lieutenant",
+          "rarity": "B",
+          "stats": "A B C A B A",
+          "traits": {
+            "zanpakuto": "Zabimaru (baboon-snake bone)",
+            "bankai": "Hihio Zabimaru (bone-snake multi-part)",
+            "reiatsu": "High Lieutenant, near Captain",
+            "race": "Shinigami, Rukongai-born"
+          }
+        }
+      ]
+    },
+    {
+      "id": "retsu-unohana",
+      "name": "Retsu Unohana",
+      "variants": [
+        {
+          "id": "first-kenpachi",
+          "label": "First Kenpachi",
+          "rarity": "S",
+          "stats": "S S SS S SS S",
+          "traits": {
+            "zanpakuto": "Minazuki (flesh-sealing sword)",
+            "bankai": "Minazuki Bankai (infinite healing sword)",
+            "reiatsu": "Beyond Captain, Kenpachi's heir",
+            "race": "Shinigami, the first Kenpachi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shunsui-kyoraku",
+      "name": "Shunsui Kyoraku",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Captain-Commander",
+          "rarity": "S",
+          "stats": "S A SS S S A",
+          "traits": {
+            "zanpakuto": "Katen Kyokotsu (the Flower Wind)",
+            "bankai": "Katen Kyokotsu: Karamatsu Shinju",
+            "reiatsu": "Captain-level, Yamamoto's student",
+            "race": "Shinigami, lazy genius"
+          }
+        }
+      ],
+      "search": "Shunsui"
+    },
+    {
+      "id": "mayuri-kurotsuchi",
+      "name": "Mayuri Kurotsuchi",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Twelfth Division Captain",
+          "rarity": "A",
+          "stats": "B B SS A S B",
+          "traits": {
+            "zanpakuto": "Ashisogi Jizo (poison, hallucination)",
+            "bankai": "Konjiki Ashisogi Jizo (giant larval form)",
+            "reiatsu": "High Captain, adaptive science",
+            "race": "Shinigami scientist, cyborg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "uryu-ishida",
+      "name": "Uryu Ishida",
+      "variants": [
+        {
+          "id": "quincy",
+          "label": "Quincy",
+          "rarity": "B",
+          "stats": "B A A B A B",
+          "traits": {
+            "zanpakuto": "None, Quincy arrows",
+            "bankai": "Quincy: Vollstandig (Licht Regen)",
+            "reiatsu": "Captain-adjacent, Quincy Reishi",
+            "race": "Quincy, Schutzstaffel heir"
+          }
+        }
+      ],
+      "search": "Uryuu Ishida"
+    },
+    {
+      "id": "orihime-inoue",
+      "name": "Orihime Inoue",
+      "variants": [
+        {
+          "id": "healer",
+          "label": "Healer",
+          "rarity": "C",
+          "stats": "D C B C S B",
+          "traits": {
+            "zanpakuto": "None, Shun Shun Rikka fairy shields",
+            "reiatsu": "Moderate, reality-rejection ability",
+            "race": "Human with Santen Kesshun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kon",
+      "name": "Kon",
+      "variants": [
+        {
+          "id": "mod-soul",
+          "label": "Mod Soul",
+          "rarity": "C",
+          "stats": "D C D D C C",
+          "traits": {
+            "zanpakuto": "None, borrows Ichigo's body",
+            "reiatsu": "Minimal, plush toy energy",
+            "race": "Artificial Mod Soul"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yasutora-sado",
+      "name": "Yasutora Sado",
+      "search": "chad",
+      "variants": [
+        {
+          "id": "chad",
+          "label": "Chad",
+          "rarity": "C",
+          "stats": "A C C A C B",
+          "traits": {
+            "zanpakuto": "None, Brazo Derecha de Gigante",
+            "reiatsu": "Moderate, grows with training",
+            "race": "Human with Fullbring-like arm powers"
+          }
+        }
+      ]
+    }
+  ]
+}

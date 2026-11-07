@@ -1,0 +1,372 @@
+{
+  "id": "csm",
+  "name": "Chainsaw Man",
+  "color": "#ff6b35",
+  "search": "chainsaw man",
+  "attributes": [
+    { "id": "devilPower", "label": "Devil Power" },
+    { "id": "contract", "label": "Devil Contract" },
+    { "id": "form", "label": "Hybrid / Fiend Form" }
+  ],
+  "characters": [
+    {
+      "id": "denji",
+      "name": "Denji",
+      "variants": [
+        {
+          "id": "human",
+          "label": "Human Denji",
+          "rarity": "C",
+          "stats": "C C D C D B",
+          "traits": {
+            "devilPower": "Just a broke teen with a rusty chain and a dream",
+            "contract": "Sold organs to the yakuza, owes a mountain of debt"
+          }
+        },
+        {
+          "id": "chainsaw-man",
+          "label": "Chainsaw Man",
+          "rarity": "S",
+          "stats": "A A C S B SS",
+          "traits": {
+            "devilPower": "Chainsaw blades from head, arms and legs, heals with blood",
+            "contract": "Pochita's heart: the Chainsaw Devil lives inside him",
+            "form": "Chainsaw Man hybrid, rips through devils like paper"
+          }
+        },
+        {
+          "id": "pochita-chainsaw-man",
+          "label": "Pochita's Chainsaw Man",
+          "rarity": "SS",
+          "stats": "SS SS B SS S SS",
+          "traits": {
+            "devilPower": "Hero of Hell: erases devils and their very names",
+            "contract": "Pochita fully in control, Denji's dream made real",
+            "form": "Pure Chainsaw Devil, the nightmare devils fear"
+          }
+        }
+      ]
+    },
+    {
+      "id": "makima",
+      "name": "Makima",
+      "variants": [
+        {
+          "id": "control-devil",
+          "label": "Control Devil",
+          "rarity": "SS",
+          "stats": "A A SS SS SS S",
+          "traits": {
+            "devilPower": "Absolute control over anyone she deems beneath her",
+            "contract": "Heals from fatal wounds by passing damage to Japanese citizens",
+            "form": "Control Devil, hides behind calm smiles and dog leashes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "variants": [
+        {
+          "id": "blood-fiend",
+          "label": "Blood Fiend",
+          "rarity": "B",
+          "stats": "A B C B B C",
+          "traits": {
+            "devilPower": "Blood weapons: hammers, spears, and the Blood Devil's might",
+            "contract": "Pledged loyalty to Denji and the cat Meowy",
+            "form": "Horned fiend, boastful and genuinely terrible at math"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aki-hayakawa",
+      "name": "Aki Hayakawa",
+      "variants": [
+        {
+          "id": "human",
+          "label": "Human Aki",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "devilPower": "Cursed katana sheath backed by Fox Devil's help",
+            "contract": "Fox Devil: offers a head in exchange for a kitsune-gate summon"
+          }
+        },
+        {
+          "id": "gun-fiend",
+          "label": "Gun Fiend",
+          "rarity": "A",
+          "stats": "A A B B A C",
+          "traits": {
+            "devilPower": "Gun Devil limbs, fires bullets from his own palm",
+            "contract": "Gun Fiend contract: gives up his human life for revenge",
+            "form": "Gun Fiend, vengeance sharpened into a barrel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reze",
+      "name": "Reze",
+      "variants": [
+        {
+          "id": "bomb-devil",
+          "label": "Bomb Devil",
+          "rarity": "A",
+          "stats": "B S A B A B",
+          "traits": {
+            "devilPower": "Explodes by touching a pin in her neck, can detonate herself",
+            "contract": "Soviet Union's fiend soldier, reborn through a mission",
+            "form": "Bomb Devil, a flying blast hybrid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kishibe",
+      "name": "Kishibe",
+      "variants": [
+        {
+          "id": "veteran-hunter",
+          "label": "Veteran Hunter",
+          "rarity": "A",
+          "stats": "A A S A S A",
+          "traits": {
+            "devilPower": "Sakura's gun-fu skills plus Cyber Devil contracts",
+            "contract": "Devils drawn to him by trained contracts of blood and iron"
+          }
+        }
+      ]
+    },
+    {
+      "id": "himeno",
+      "name": "Himeno",
+      "variants": [
+        {
+          "id": "ghost-devil",
+          "label": "Ghost Devil Contract",
+          "rarity": "B",
+          "stats": "C B B C B C",
+          "traits": {
+            "devilPower": "Ghost Devil right arm, can sneak around and hit hard",
+            "contract": "Ghost Devil: pays with Himeno's right eye",
+            "form": "Ghost Arm manifestation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-devil",
+      "name": "Angel Devil",
+      "variants": [
+        {
+          "id": "angel",
+          "label": "Angel Devil",
+          "rarity": "C",
+          "stats": "D C C D C D",
+          "traits": {
+            "devilPower": "Steals years of life with a touch",
+            "contract": "Lazy contract: wants to do nothing at all",
+            "form": "Angelic devil in a kind face and a shabby halo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quanxi",
+      "name": "Quanxi",
+      "variants": [
+        {
+          "id": "first-devil-hunter",
+          "label": "First Devil Hunter",
+          "rarity": "A",
+          "stats": "S A A A S A",
+          "traits": {
+            "devilPower": "Fiends serve her: Rat and Fox and a Power-Devil pair",
+            "contract": "Fiend army bound to her, built from Devil-like contracts",
+            "form": "Swords and crossbow with devils at her side"
+          }
+        }
+      ]
+    },
+    {
+      "id": "katana-man",
+      "name": "Katana Man",
+      "variants": [
+        {
+          "id": "sawtooth-hybrid",
+          "label": "Katana Man",
+          "rarity": "B",
+          "stats": "A A C B B B",
+          "traits": {
+            "devilPower": "Katana blades grown from his arms, a mirror of Chainsaw Man",
+            "contract": "Yakuza loyalty, lust for revenge, unfinished bravado"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kobeni",
+      "name": "Kobeni Higashiyama",
+      "variants": [
+        {
+          "id": "terrified-intern",
+          "label": "Terrified Rookie",
+          "rarity": "C",
+          "stats": "D A C A D S",
+          "traits": {
+            "devilPower": "Panicked dodging, survives every battle by accident",
+            "contract": "Contract with the Devil Hunters: just wants her job to end"
+          }
+        }
+      ]
+    },
+    {
+      "id": "asa-mitaka",
+      "name": "Asa Mitaka",
+      "variants": [
+        {
+          "id": "human",
+          "label": "Human Asa",
+          "rarity": "C",
+          "stats": "D C B D C C",
+          "traits": {
+            "devilPower": "Overthinks everything, hates being average",
+            "contract": "Shared body with Yoru: promised to help destroy Chainsaw Man"
+          }
+        },
+        {
+          "id": "war-devil",
+          "label": "War Fiend (Yoru)",
+          "rarity": "A",
+          "stats": "A A S B S B",
+          "traits": {
+            "devilPower": "Summons weapons from the War Devil's victims",
+            "contract": "Shares a body with Asa and a mutual obsession with Denji",
+            "form": "War Fiend hybrid, skeletal hands and blades"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pochita",
+      "name": "Pochita",
+      "variants": [
+        {
+          "id": "chainsaw-puppy",
+          "label": "Chainsaw Puppy",
+          "rarity": "B",
+          "stats": "C B B C A B",
+          "traits": {
+            "devilPower": "Fluffy chainsaw dog, can still revive Denji",
+            "contract": "Contract: heart for Denji's happy, ordinary life"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gun-devil",
+      "name": "Gun Devil",
+      "variants": [
+        {
+          "id": "gun-devil",
+          "label": "Gun Devil",
+          "rarity": "SS",
+          "stats": "SS S B SS A S",
+          "traits": {
+            "devilPower": "Killed 1.2 million people in 10 minutes",
+            "contract": "Fears nothing but Chainsaw Man",
+            "form": "Immense cluster of guns and tentacles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "darkness-devil",
+      "name": "Darkness Devil",
+      "variants": [
+        {
+          "id": "primal-fear",
+          "label": "Primal Fear",
+          "rarity": "S",
+          "stats": "SS B B SS B S",
+          "traits": {
+            "devilPower": "Plunges the world into darkness, overpowering fear",
+            "contract": "Hell's elder terror, nothing short of apocalyptic",
+            "form": "Giant shadowy mass with eyes everywhere"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fami",
+      "name": "Fami",
+      "variants": [
+        {
+          "id": "famine-devil",
+          "label": "Famine Devil",
+          "rarity": "S",
+          "stats": "S A A S S S",
+          "traits": {
+            "devilPower": "Starves enemies, turns hunger into a weapon",
+            "contract": "Horseman of the Apocalypse, takes control of Denji's hunger",
+            "form": "Famine Devil, mounted and ravenous"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nayuta",
+      "name": "Nayuta",
+      "variants": [
+        {
+          "id": "control-devil-child",
+          "label": "Control Devil Reborn",
+          "rarity": "S",
+          "stats": "C B A B S B",
+          "traits": {
+            "devilPower": "Reborn Control Devil, rule over anyone she calls",
+            "contract": "Bound to Denji as his adopted little sister",
+            "form": "Child with a Makima's authority and a Makima's smile"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beam",
+      "name": "Beam",
+      "variants": [
+        {
+          "id": "shark-fiend",
+          "label": "Shark Fiend",
+          "rarity": "C",
+          "stats": "B B C B C B",
+          "traits": {
+            "devilPower": "Shark fiend, can swim through the ground like water",
+            "contract": "Fiend servitude: loves Chainsaw Man",
+            "form": "Shark-headed fiend with a stuffed Denji doll"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yoshida-hirofumi",
+      "name": "Hirofumi Yoshida",
+      "variants": [
+        {
+          "id": "spy-hunter",
+          "label": "Spy Hunter",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "devilPower": "Sound-based tricks, hypnosis and a bag of surprises",
+            "contract": "Contract with the Control Devil's rival: Yoru's watcher"
+          }
+        }
+      ]
+    }
+  ]
+}

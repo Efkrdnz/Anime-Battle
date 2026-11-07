@@ -1,0 +1,448 @@
+{
+  "id": "onepiece",
+  "name": "One Piece",
+  "color": "#e63946",
+  "search": "one piece",
+  "attributes": [
+    {
+      "id": "devilFruit",
+      "label": "Devil Fruit"
+    },
+    {
+      "id": "observationHaki",
+      "label": "Observation Haki"
+    },
+    {
+      "id": "armamentHaki",
+      "label": "Armament Haki"
+    },
+    {
+      "id": "conquerorsHaki",
+      "label": "Conqueror's Haki"
+    }
+  ],
+  "characters": [
+    {
+      "id": "monkey-d-garp",
+      "name": "Monkey D. Garp",
+      "variants": [
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "S",
+          "stats": "SS A A SS A S",
+          "traits": {
+            "observationHaki": "Master level (Hero of the Marines)",
+            "armamentHaki": "Fist of Love, rivals Roger's",
+            "conquerorsHaki": "Awakened enough to clash with Roger's"
+          }
+        },
+        {
+          "id": "old",
+          "label": "Old",
+          "rarity": "A",
+          "stats": "S B A S A B",
+          "traits": {
+            "observationHaki": "Advanced, senses battlefield flow",
+            "armamentHaki": "Galaxy Impact, one-shots a Warlord-tier foe",
+            "conquerorsHaki": "Present, never fully used in public"
+          }
+        }
+      ],
+      "search": "Garp"
+    },
+    {
+      "id": "monkey-d-luffy",
+      "name": "Monkey D. Luffy",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "A B C A C B",
+          "traits": {
+            "devilFruit": "Gomu Gomu no Mi (rubber body)",
+            "observationHaki": "Raw instinct, awakens at Skypiea",
+            "armamentHaki": "Undeveloped until Sabaody",
+            "conquerorsHaki": "Latent, flickers at Amazon Lily"
+          }
+        },
+        {
+          "id": "gear-4",
+          "label": "Gear 4",
+          "rarity": "A",
+          "stats": "S S B S A A",
+          "traits": {
+            "devilFruit": "Gomu Gomu no Mi, Boundman / Tankman",
+            "observationHaki": "Future sight at a basic level",
+            "armamentHaki": "Coating at a high level, Haoshoku infusion",
+            "conquerorsHaki": "Infuses attacks with Conqueror's"
+          }
+        },
+        {
+          "id": "gear-5",
+          "label": "Gear 5",
+          "rarity": "SS",
+          "stats": "SS SS B SS S A",
+          "traits": {
+            "devilFruit": "Hito Hito no Mi, Model: Nika (Sun God)",
+            "observationHaki": "Advanced (future sight)",
+            "armamentHaki": "Advanced, Gigant-scale coating",
+            "conquerorsHaki": "Awakened, can even affect fruit users"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edward-newgate",
+      "name": "Edward Newgate",
+      "search": "whitebeard",
+      "variants": [
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "SS",
+          "stats": "SS S A SS S S",
+          "traits": {
+            "devilFruit": "Gura Gura no Mi (tremor, world-shaker)",
+            "observationHaki": "Master level, reads Roger's moves",
+            "armamentHaki": "Master level, cracks the air itself",
+            "conquerorsHaki": "Supreme, awakened to rival Roger"
+          }
+        },
+        {
+          "id": "marineford",
+          "label": "Marineford",
+          "rarity": "S",
+          "stats": "SS B A S S C",
+          "traits": {
+            "devilFruit": "Gura Gura no Mi (cracks the sky)",
+            "observationHaki": "High level, aged but sharp",
+            "armamentHaki": "Master level, tanks Akainu's magma",
+            "conquerorsHaki": "Supreme, shatters the sky"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shanks",
+      "name": "Shanks",
+      "variants": [
+        {
+          "id": "yonko",
+          "label": "Yonko",
+          "rarity": "S",
+          "stats": "SS S SS S SS A",
+          "traits": {
+            "observationHaki": "Master level, sees ahead of Mihawk",
+            "armamentHaki": "Master level, blades coated in black",
+            "conquerorsHaki": "Supreme, knocks out armies by glaring"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roronoa-zoro",
+      "name": "Roronoa Zoro",
+      "variants": [
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "S S B S SS S",
+          "traits": {
+            "observationHaki": "Advanced, slices without eye contact",
+            "armamentHaki": "King of Hell, Enma-coated slashes",
+            "conquerorsHaki": "Awakened at Wano, coats Enma"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vinsmoke-sanji",
+      "name": "Sanji",
+      "search": "sanji",
+      "variants": [
+        {
+          "id": "post-timeskip",
+          "label": "Germa Raid Suit",
+          "rarity": "A",
+          "stats": "S S B A S A",
+          "traits": {
+            "devilFruit": "None (Germa 66 genetic mods)",
+            "observationHaki": "Advanced, hears the voice of all things",
+            "armamentHaki": "Ifrit Jambe, burning black legs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kaido",
+      "name": "Kaido",
+      "variants": [
+        {
+          "id": "beasts-pirates",
+          "label": "Hybrid Dragon",
+          "rarity": "S",
+          "stats": "SS A B SS A SS",
+          "traits": {
+            "devilFruit": "Uo Uo no Mi, Model: Seiryu (Azure Dragon)",
+            "observationHaki": "Moderate, relies on brute force",
+            "armamentHaki": "Master level, Ryuo coated Kanabo",
+            "conquerorsHaki": "Supreme, rivals Roger and Whitebeard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "charlotte-linlin",
+      "name": "Charlotte Linlin",
+      "search": "big mom",
+      "variants": [
+        {
+          "id": "yonko",
+          "label": "Yonko",
+          "rarity": "S",
+          "stats": "SS A C SS B SS",
+          "traits": {
+            "devilFruit": "Soru Soru no Mi (soul-stealing Homies)",
+            "observationHaki": "Advanced, senses souls and life",
+            "armamentHaki": "Master level, Prometheus Zeus infusions",
+            "conquerorsHaki": "Supreme, shatters minds"
+          }
+        }
+      ]
+    },
+    {
+      "id": "marshall-d-teach",
+      "name": "Marshall D. Teach",
+      "search": "blackbeard",
+      "variants": [
+        {
+          "id": "yonko",
+          "label": "Two Fruits",
+          "rarity": "A",
+          "stats": "S B S S A A",
+          "traits": {
+            "devilFruit": "Yami Yami no Mi + Gura Gura no Mi",
+            "observationHaki": "Moderate, rarely needs it",
+            "armamentHaki": "Advanced, coats the quake fist",
+            "conquerorsHaki": "Awakened, seen at Marineford end"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sakazuki",
+      "name": "Sakazuki",
+      "search": "akainu",
+      "variants": [
+        {
+          "id": "fleet-admiral",
+          "label": "Fleet Admiral",
+          "rarity": "A",
+          "stats": "S A B S A S",
+          "traits": {
+            "devilFruit": "Magu Magu no Mi (magma logia)",
+            "observationHaki": "Advanced, hunts down his targets",
+            "armamentHaki": "Master level, magma-coated fists"
+          }
+        }
+      ]
+    },
+    {
+      "id": "borsalino",
+      "name": "Borsalino",
+      "search": "kizaru",
+      "variants": [
+        {
+          "id": "admiral",
+          "label": "Admiral",
+          "rarity": "A",
+          "stats": "A SS B A A B",
+          "traits": {
+            "devilFruit": "Pika Pika no Mi (light logia)",
+            "observationHaki": "Advanced, locks onto targets by sight",
+            "armamentHaki": "Advanced, Yasakani no Magatama"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kuzan",
+      "name": "Kuzan",
+      "search": "aokiji",
+      "variants": [
+        {
+          "id": "admiral",
+          "label": "Admiral",
+          "rarity": "A",
+          "stats": "S A A A A A",
+          "traits": {
+            "devilFruit": "Hie Hie no Mi (ice logia)",
+            "observationHaki": "Advanced, ex-Admiral reflexes",
+            "armamentHaki": "Advanced, clashes with Akainu for 10 days"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gol-d-roger",
+      "name": "Gol D. Roger",
+      "variants": [
+        {
+          "id": "pirate-king",
+          "label": "Pirate King",
+          "rarity": "SS",
+          "stats": "SS S SS S SS A",
+          "traits": {
+            "observationHaki": "Voice of All Things, heard Poneglyphs",
+            "armamentHaki": "Master level, Ace of the sea",
+            "conquerorsHaki": "Supreme, coats weapons and shatters seas"
+          }
+        }
+      ],
+      "search": "Gold Roger"
+    },
+    {
+      "id": "dracule-mihawk",
+      "name": "Dracule Mihawk",
+      "variants": [
+        {
+          "id": "warlord",
+          "label": "Warlord",
+          "rarity": "S",
+          "stats": "S S SS A SS A",
+          "traits": {
+            "observationHaki": "Master level, reads Shanks' sword",
+            "armamentHaki": "Master level, coats Yoru"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silvers-rayleigh",
+      "name": "Silvers Rayleigh",
+      "variants": [
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "S",
+          "stats": "SS S SS S S S",
+          "traits": {
+            "observationHaki": "Master level, Roger's right hand",
+            "armamentHaki": "Master level, coats his Shusui",
+            "conquerorsHaki": "Supreme, taught to Luffy"
+          }
+        },
+        {
+          "id": "old",
+          "label": "Old",
+          "rarity": "A",
+          "stats": "S A SS A S B",
+          "traits": {
+            "observationHaki": "Master level, Dark King",
+            "armamentHaki": "Master level, shut down a Pacifista fleet",
+            "conquerorsHaki": "Supreme, still scares Admirals"
+          }
+        }
+      ]
+    },
+    {
+      "id": "portgas-d-ace",
+      "name": "Portgas D. Ace",
+      "variants": [
+        {
+          "id": "second-division",
+          "label": "Second Division Commander",
+          "rarity": "B",
+          "stats": "A A B B B B",
+          "traits": {
+            "devilFruit": "Mera Mera no Mi (fire logia)",
+            "observationHaki": "Moderate, spotted by Whitebeard",
+            "armamentHaki": "Advanced, fights Marine Vice Admirals",
+            "conquerorsHaki": "Latent, son of the Pirate King"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trafalgar-d-water-law",
+      "name": "Trafalgar Law",
+      "variants": [
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A A SS B S B",
+          "traits": {
+            "devilFruit": "Ope Ope no Mi (Room, surgery god)",
+            "observationHaki": "Advanced, senses presence in Room",
+            "armamentHaki": "Advanced, Kikoku-coated slashes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "variants": [
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "C",
+          "stats": "D C S D B C",
+          "traits": {
+            "observationHaki": "None, but reads the sky perfectly"
+          }
+        }
+      ]
+    },
+    {
+      "id": "usopp",
+      "name": "Usopp",
+      "variants": [
+        {
+          "id": "post-timeskip",
+          "label": "Sogeking",
+          "rarity": "C",
+          "stats": "D C A D B C",
+          "traits": {
+            "observationHaki": "Awakened at Dressrosa, snipes anything"
+          }
+        }
+      ]
+    },
+    {
+      "id": "buggy",
+      "name": "Buggy",
+      "variants": [
+        {
+          "id": "yonko",
+          "label": "Yonko (Rumored)",
+          "rarity": "C",
+          "stats": "C C B C C D",
+          "traits": {
+            "devilFruit": "Bara Bara no Mi (split body, slash-proof)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coby",
+      "name": "Coby",
+      "variants": [
+        {
+          "id": "post-timeskip",
+          "label": "Rear Admiral",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {
+            "observationHaki": "Advanced, master level for his rank",
+            "armamentHaki": "Developing under Garp's training"
+          }
+        }
+      ]
+    }
+  ]
+}
