@@ -3,6 +3,7 @@
   "name": "One Piece",
   "color": "#e63946",
   "search": "one piece",
+  "wiki": "onepiece",
   "attributes": [
     {
       "id": "devilFruit",
@@ -25,6 +26,8 @@
     {
       "id": "monkey-d-garp",
       "name": "Monkey D. Garp",
+      "wikiPage": "Monkey D. Garp",
+      "search": "Garp",
       "variants": [
         {
           "id": "prime",
@@ -35,7 +38,8 @@
             "observationHaki": "Master level (Hero of the Marines)",
             "armamentHaki": "Fist of Love, rivals Roger's",
             "conquerorsHaki": "Awakened enough to clash with Roger's"
-          }
+          },
+          "wikiImage": "File:Monkey D. Garp Middle Aged Portrait.png"
         },
         {
           "id": "old",
@@ -46,14 +50,27 @@
             "observationHaki": "Advanced, senses battlefield flow",
             "armamentHaki": "Galaxy Impact, one-shots a Warlord-tier foe",
             "conquerorsHaki": "Present, never fully used in public"
-          }
+          },
+          "wikiImage": "File:Monkey D. Garp Anime Infobox.png"
+        },
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "S",
+          "stats": "SS A B SS B A",
+          "traits": {
+            "observationHaki": "Raw battle sense, instinctive dodging",
+            "armamentHaki": "Hardened fists, matched Roger blow for blow",
+            "conquerorsHaki": "Already rivals the Pirate King"
+          },
+          "wikiImage": "File:Garp Young.png"
         }
-      ],
-      "search": "Garp"
+      ]
     },
     {
       "id": "monkey-d-luffy",
       "name": "Monkey D. Luffy",
+      "wikiPage": "Monkey D. Luffy",
       "variants": [
         {
           "id": "pre-timeskip",
@@ -65,7 +82,8 @@
             "observationHaki": "Raw instinct, awakens at Skypiea",
             "armamentHaki": "Undeveloped until Sabaody",
             "conquerorsHaki": "Latent, flickers at Amazon Lily"
-          }
+          },
+          "wikiImage": "File:Monkey D. Luffy Anime Pre Timeskip Infobox.png"
         },
         {
           "id": "gear-4",
@@ -77,7 +95,8 @@
             "observationHaki": "Future sight at a basic level",
             "armamentHaki": "Coating at a high level, Haoshoku infusion",
             "conquerorsHaki": "Infuses attacks with Conqueror's"
-          }
+          },
+          "wikiImage": "File:Luffy Gear Four Thousand Storm.png"
         },
         {
           "id": "gear-5",
@@ -89,13 +108,28 @@
             "observationHaki": "Advanced (future sight)",
             "armamentHaki": "Advanced, Gigant-scale coating",
             "conquerorsHaki": "Awakened, can even affect fruit users"
-          }
+          },
+          "wikiImage": "File:Gear 5 Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A S B A B A",
+          "traits": {
+            "devilFruit": "Gomu Gomu no Mi (Gear 2 / Gear 3)",
+            "observationHaki": "Awakened at Sabaody, reads minds",
+            "armamentHaki": "Coats fists and limbs in black",
+            "conquerorsHaki": "Mastered, knocks out thousands"
+          },
+          "wikiImage": "File:Monkey D. Luffy Anime Post Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "edward-newgate",
       "name": "Edward Newgate",
+      "wikiPage": "Edward Newgate",
       "search": "whitebeard",
       "variants": [
         {
@@ -108,7 +142,8 @@
             "observationHaki": "Master level, reads Roger's moves",
             "armamentHaki": "Master level, cracks the air itself",
             "conquerorsHaki": "Supreme, awakened to rival Roger"
-          }
+          },
+          "wikiImage": "File:Edward Newgate as a Young Pirate.png"
         },
         {
           "id": "marineford",
@@ -120,13 +155,15 @@
             "observationHaki": "High level, aged but sharp",
             "armamentHaki": "Master level, tanks Akainu's magma",
             "conquerorsHaki": "Supreme, shatters the sky"
-          }
+          },
+          "wikiImage": "File:Edward Newgate Anime Infobox.png"
         }
       ]
     },
     {
       "id": "shanks",
       "name": "Shanks",
+      "wikiPage": "Shanks",
       "variants": [
         {
           "id": "yonko",
@@ -137,13 +174,25 @@
             "observationHaki": "Master level, sees ahead of Mihawk",
             "armamentHaki": "Master level, blades coated in black",
             "conquerorsHaki": "Supreme, knocks out armies by glaring"
-          }
+          },
+          "wikiImage": "File:Shanks Anime Infobox.png"
+        },
+        {
+          "id": "cabin-boy",
+          "label": "Cabin Boy",
+          "rarity": "B",
+          "stats": "C B B C B C",
+          "traits": {
+            "observationHaki": "Developing, taught by the Roger Pirates"
+          },
+          "wikiImage": "File:Young Shanks.png"
         }
       ]
     },
     {
       "id": "roronoa-zoro",
       "name": "Roronoa Zoro",
+      "wikiPage": "Roronoa Zoro",
       "variants": [
         {
           "id": "post-timeskip",
@@ -154,13 +203,38 @@
             "observationHaki": "Advanced, slices without eye contact",
             "armamentHaki": "King of Hell, Enma-coated slashes",
             "conquerorsHaki": "Awakened at Wano, coats Enma"
-          }
+          },
+          "wikiImage": "File:Roronoa Zoro Anime Post Timeskip Infobox.png"
+        },
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "A B B A A B",
+          "traits": {
+            "observationHaki": "Instinct only, senses killing intent",
+            "armamentHaki": "Undeveloped until after the timeskip"
+          },
+          "wikiImage": "File:Roronoa Zoro Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "king-of-hell",
+          "label": "King of Hell (Wano)",
+          "rarity": "S",
+          "stats": "S S A S SS S",
+          "traits": {
+            "observationHaki": "Advanced, slices without eye contact",
+            "armamentHaki": "Enma drains Haki for black-coated slashes",
+            "conquerorsHaki": "Awakened at Wano, coats Enma"
+          },
+          "wikiImage": "File:Zoro's Third Wano Outfit.png"
         }
       ]
     },
     {
       "id": "vinsmoke-sanji",
       "name": "Sanji",
+      "wikiPage": "Sanji",
       "search": "sanji",
       "variants": [
         {
@@ -172,13 +246,36 @@
             "devilFruit": "None (Germa 66 genetic mods)",
             "observationHaki": "Advanced, hears the voice of all things",
             "armamentHaki": "Ifrit Jambe, burning black legs"
-          }
+          },
+          "wikiImage": "File:Sanji's Raid Suit.png"
+        },
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B S B B A B",
+          "traits": {
+            "observationHaki": "Instinct, hears the voice of the kitchen"
+          },
+          "wikiImage": "File:Sanji Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip-base",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A S B A S A",
+          "traits": {
+            "observationHaki": "Advanced, tracks Haki across the battlefield",
+            "armamentHaki": "Diable Jambe, burning black legs"
+          },
+          "wikiImage": "File:Sanji Anime Post Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "kaido",
       "name": "Kaido",
+      "wikiPage": "Kaidou",
       "variants": [
         {
           "id": "beasts-pirates",
@@ -190,13 +287,15 @@
             "observationHaki": "Moderate, relies on brute force",
             "armamentHaki": "Master level, Ryuo coated Kanabo",
             "conquerorsHaki": "Supreme, rivals Roger and Whitebeard"
-          }
+          },
+          "wikiImage": "File:Kaidou Anime Infobox.png"
         }
       ]
     },
     {
       "id": "charlotte-linlin",
       "name": "Charlotte Linlin",
+      "wikiPage": "Charlotte Linlin",
       "search": "big mom",
       "variants": [
         {
@@ -209,13 +308,15 @@
             "observationHaki": "Advanced, senses souls and life",
             "armamentHaki": "Master level, Prometheus Zeus infusions",
             "conquerorsHaki": "Supreme, shatters minds"
-          }
+          },
+          "wikiImage": "File:Charlotte Linlin Anime Infobox.png"
         }
       ]
     },
     {
       "id": "marshall-d-teach",
       "name": "Marshall D. Teach",
+      "wikiPage": "Marshall D. Teach",
       "search": "blackbeard",
       "variants": [
         {
@@ -228,13 +329,36 @@
             "observationHaki": "Moderate, rarely needs it",
             "armamentHaki": "Advanced, coats the quake fist",
             "conquerorsHaki": "Awakened, seen at Marineford end"
-          }
+          },
+          "wikiImage": "File:Blackbeard with Yami Yami no Mi and Gura Gura no Mi.png"
+        },
+        {
+          "id": "pre-fruit",
+          "label": "Pre-Fruit",
+          "rarity": "B",
+          "stats": "B C B B B B",
+          "traits": {
+            "armamentHaki": "Early talent, already brawling"
+          },
+          "wikiImage": "File:Marshall D. Teach Young.png"
+        },
+        {
+          "id": "yami-yami",
+          "label": "Yami Yami",
+          "rarity": "A",
+          "stats": "A B A S B A",
+          "traits": {
+            "devilFruit": "Yami Yami no Mi (darkness logia)",
+            "armamentHaki": "Moderate, coated fists"
+          },
+          "wikiImage": "File:Marshall D. Teach Anime Pre Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "sakazuki",
       "name": "Sakazuki",
+      "wikiPage": "Sakazuki",
       "search": "akainu",
       "variants": [
         {
@@ -246,13 +370,15 @@
             "devilFruit": "Magu Magu no Mi (magma logia)",
             "observationHaki": "Advanced, hunts down his targets",
             "armamentHaki": "Master level, magma-coated fists"
-          }
+          },
+          "wikiImage": "File:Sakazuki Anime Post Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "borsalino",
       "name": "Borsalino",
+      "wikiPage": "Borsalino",
       "search": "kizaru",
       "variants": [
         {
@@ -264,13 +390,15 @@
             "devilFruit": "Pika Pika no Mi (light logia)",
             "observationHaki": "Advanced, locks onto targets by sight",
             "armamentHaki": "Advanced, Yasakani no Magatama"
-          }
+          },
+          "wikiImage": "File:Borsalino Anime Infobox.png"
         }
       ]
     },
     {
       "id": "kuzan",
       "name": "Kuzan",
+      "wikiPage": "Kuzan",
       "search": "aokiji",
       "variants": [
         {
@@ -282,13 +410,16 @@
             "devilFruit": "Hie Hie no Mi (ice logia)",
             "observationHaki": "Advanced, ex-Admiral reflexes",
             "armamentHaki": "Advanced, clashes with Akainu for 10 days"
-          }
+          },
+          "wikiImage": "File:Kuzan Anime Pre Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "gol-d-roger",
       "name": "Gol D. Roger",
+      "wikiPage": "Gol D. Roger",
+      "search": "Gold Roger",
       "variants": [
         {
           "id": "pirate-king",
@@ -299,14 +430,27 @@
             "observationHaki": "Voice of All Things, heard Poneglyphs",
             "armamentHaki": "Master level, Ace of the sea",
             "conquerorsHaki": "Supreme, coats weapons and shatters seas"
-          }
+          },
+          "wikiImage": "File:Gol D. Roger Anime Infobox.png"
+        },
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "A",
+          "stats": "S A S A A A",
+          "traits": {
+            "observationHaki": "Voice of All Things in its early days",
+            "armamentHaki": "Rising swordsmanship, Haki-coated",
+            "conquerorsHaki": "Born with it, awes rivals"
+          },
+          "wikiImage": "File:Young Roger Portrait.png"
         }
-      ],
-      "search": "Gold Roger"
+      ]
     },
     {
       "id": "dracule-mihawk",
       "name": "Dracule Mihawk",
+      "wikiPage": "Dracule Mihawk",
       "variants": [
         {
           "id": "warlord",
@@ -316,13 +460,15 @@
           "traits": {
             "observationHaki": "Master level, reads Shanks' sword",
             "armamentHaki": "Master level, coats Yoru"
-          }
+          },
+          "wikiImage": "File:Dracule Mihawk Anime Infobox.png"
         }
       ]
     },
     {
       "id": "silvers-rayleigh",
       "name": "Silvers Rayleigh",
+      "wikiPage": "Silvers Rayleigh",
       "variants": [
         {
           "id": "prime",
@@ -333,7 +479,8 @@
             "observationHaki": "Master level, Roger's right hand",
             "armamentHaki": "Master level, coats his Shusui",
             "conquerorsHaki": "Supreme, taught to Luffy"
-          }
+          },
+          "wikiImage": "File:Silvers Rayleigh Young.png"
         },
         {
           "id": "old",
@@ -344,13 +491,15 @@
             "observationHaki": "Master level, Dark King",
             "armamentHaki": "Master level, shut down a Pacifista fleet",
             "conquerorsHaki": "Supreme, still scares Admirals"
-          }
+          },
+          "wikiImage": "File:Silvers Rayleigh Anime Infobox.png"
         }
       ]
     },
     {
       "id": "portgas-d-ace",
       "name": "Portgas D. Ace",
+      "wikiPage": "Portgas D. Ace",
       "variants": [
         {
           "id": "second-division",
@@ -362,13 +511,36 @@
             "observationHaki": "Moderate, spotted by Whitebeard",
             "armamentHaki": "Advanced, fights Marine Vice Admirals",
             "conquerorsHaki": "Latent, son of the Pirate King"
-          }
+          },
+          "wikiImage": "File:Portgas D. Ace Anime Infobox.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Portgas D. Ace Child Portrait.png"
+        },
+        {
+          "id": "marineford",
+          "label": "Marineford",
+          "rarity": "A",
+          "stats": "A A B B A B",
+          "traits": {
+            "devilFruit": "Mera Mera no Mi (fire logia)",
+            "observationHaki": "Moderate, spots attacks mid-fight",
+            "armamentHaki": "Advanced, fights Admirals",
+            "conquerorsHaki": "Used against Marine soldiers at Marineford"
+          },
+          "wikiImage": "File:Ace During The Battle of Marineford.png"
         }
       ]
     },
     {
       "id": "trafalgar-d-water-law",
       "name": "Trafalgar Law",
+      "wikiPage": "Trafalgar D. Water Law",
       "variants": [
         {
           "id": "post-timeskip",
@@ -379,13 +551,27 @@
             "devilFruit": "Ope Ope no Mi (Room, surgery god)",
             "observationHaki": "Advanced, senses presence in Room",
             "armamentHaki": "Advanced, Kikoku-coated slashes"
-          }
+          },
+          "wikiImage": "File:Trafalgar D. Water Law Anime Post Timeskip Infobox.png"
+        },
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B A S B A B",
+          "traits": {
+            "devilFruit": "Ope Ope no Mi (Room, surgery god)",
+            "observationHaki": "Moderate, senses presence in Room",
+            "armamentHaki": "Developing, Kikoku-coated slashes"
+          },
+          "wikiImage": "File:Trafalgar D. Water Law Anime Pre Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "nami",
       "name": "Nami",
+      "wikiPage": "Nami",
       "variants": [
         {
           "id": "post-timeskip",
@@ -394,13 +580,23 @@
           "stats": "D C S D B C",
           "traits": {
             "observationHaki": "None, but reads the sky perfectly"
-          }
+          },
+          "wikiImage": "File:Nami Anime Post Timeskip Infobox.png"
+        },
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "C",
+          "stats": "D D B D C C",
+          "traits": {},
+          "wikiImage": "File:Nami Anime Pre Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "usopp",
       "name": "Usopp",
+      "wikiPage": "Usopp",
       "variants": [
         {
           "id": "post-timeskip",
@@ -409,13 +605,43 @@
           "stats": "D C A D B C",
           "traits": {
             "observationHaki": "Awakened at Dressrosa, snipes anything"
-          }
+          },
+          "wikiImage": "File:Usopp Anime Sogeking.png"
+        },
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "C",
+          "stats": "D C B D B C",
+          "traits": {},
+          "wikiImage": "File:Usopp Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "god-usopp",
+          "label": "God Usopp",
+          "rarity": "B",
+          "stats": "D C A D A C",
+          "traits": {
+            "observationHaki": "Awakened at Dressrosa, snipes anything"
+          },
+          "wikiImage": "File:God Usopp.png"
+        },
+        {
+          "id": "post-timeskip-base",
+          "label": "Post-Timeskip",
+          "rarity": "C",
+          "stats": "D C A D B C",
+          "traits": {
+            "observationHaki": "Awakened, lands shots across the battlefield"
+          },
+          "wikiImage": "File:Usopp Anime Post Timeskip Infobox.png"
         }
       ]
     },
     {
       "id": "buggy",
       "name": "Buggy",
+      "wikiPage": "Buggy",
       "variants": [
         {
           "id": "yonko",
@@ -424,13 +650,43 @@
           "stats": "C C B C C D",
           "traits": {
             "devilFruit": "Bara Bara no Mi (split body, slash-proof)"
-          }
+          },
+          "wikiImage": "File:Buggy Anime Post Timeskip Infobox.png"
+        },
+        {
+          "id": "cabin-boy",
+          "label": "Cabin Boy",
+          "rarity": "C",
+          "stats": "C C C C C D",
+          "traits": {},
+          "wikiImage": "File:Young Buggy at the Roger Pirates.png"
+        },
+        {
+          "id": "captain",
+          "label": "Pre-Timeskip Captain",
+          "rarity": "C",
+          "stats": "C C C B C C",
+          "traits": {
+            "devilFruit": "Bara Bara no Mi (split body, slash-proof)"
+          },
+          "wikiImage": "File:Buggy Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "cross-guild",
+          "label": "Cross Guild",
+          "rarity": "C",
+          "stats": "C C B B C C",
+          "traits": {
+            "devilFruit": "Bara Bara no Mi (split body, slash-proof)"
+          },
+          "wikiImage": "File:Buggy's Full Appearance.png"
         }
       ]
     },
     {
       "id": "coby",
       "name": "Coby",
+      "wikiPage": "Koby",
       "variants": [
         {
           "id": "post-timeskip",
@@ -440,7 +696,35 @@
           "traits": {
             "observationHaki": "Advanced, master level for his rank",
             "armamentHaki": "Developing under Garp's training"
-          }
+          },
+          "wikiImage": "File:Koby Anime Post Timeskip Infobox.png"
+        },
+        {
+          "id": "morgan-arc",
+          "label": "Morgan Arc",
+          "rarity": "C",
+          "stats": "D D D D D D",
+          "traits": {},
+          "wikiImage": "File:Koby Before Training Portrait.png"
+        },
+        {
+          "id": "marineford",
+          "label": "Marineford",
+          "rarity": "C",
+          "stats": "D D C D D C",
+          "traits": {},
+          "wikiImage": "File:Koby Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "hero",
+          "label": "Hero Coby",
+          "rarity": "B",
+          "stats": "B B A B B B",
+          "traits": {
+            "observationHaki": "Advanced, hears the voice of the battlefield",
+            "armamentHaki": "Fists hardened with black Haki"
+          },
+          "wikiImage": "File:Koby Portrait.png"
         }
       ]
     }

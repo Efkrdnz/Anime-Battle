@@ -1,0 +1,1976 @@
+{
+  "characters": [
+    {
+      "id": "foxy",
+      "name": "Foxy",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B C C B C B",
+          "traits": {
+            "devilFruit": "Noro Noro no Mi, slow-beam field"
+          },
+          "wikiImage": "File:Foxy Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "B",
+          "stats": "B C C B B B",
+          "traits": {
+            "devilFruit": "Noro Noro no Mi, honed slowing beams"
+          },
+          "wikiImage": "File:Foxy Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "porche",
+      "name": "Porche",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B C C C C",
+          "traits": {},
+          "wikiImage": "File:Porche Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "franky",
+      "name": "Franky",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "A",
+          "stats": "A C B A A B",
+          "traits": {},
+          "wikiImage": "File:Franky Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A B B S A A",
+          "traits": {},
+          "wikiImage": "File:Franky Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "iceburg",
+      "name": "Iceburg",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C S C A C",
+          "traits": {},
+          "wikiImage": "File:Iceburg Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "paulie",
+      "name": "Paulie",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B C B B B B",
+          "traits": {},
+          "wikiImage": "File:Paulie Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Paulie Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "tom",
+      "name": "Tom",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C D S B S D",
+          "traits": {},
+          "wikiImage": "File:Tom Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kokoro",
+      "name": "Kokoro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D A C A C",
+          "traits": {},
+          "wikiImage": "File:Kokoro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "chimney",
+      "name": "Chimney",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {},
+          "wikiImage": "File:Chimney Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gonbe",
+      "name": "Gonbe",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D C D D D D",
+          "traits": {},
+          "wikiImage": "File:Gonbe Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "yokozuna",
+      "name": "Yokozuna",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A C D A D B",
+          "traits": {},
+          "wikiImage": "File:Yokozuna Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "mozu",
+      "name": "Mozu",
+      "wikiPage": "Mozu and Kiwi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B B C B B B",
+          "traits": {},
+          "wikiImage": "File:Mozu Portrait.png"
+        }
+      ]
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "wikiPage": "Mozu and Kiwi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B B C B B B",
+          "traits": {},
+          "wikiImage": "File:Kiwi Portrait.png"
+        }
+      ]
+    },
+    {
+      "id": "zambai",
+      "name": "Zambai",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Zambai Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "tilestone",
+      "name": "Tilestone",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B B C",
+          "traits": {},
+          "wikiImage": "File:Tilestone Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "rob-lucci",
+      "name": "Rob Lucci",
+      "variants": [
+        {
+          "id": "enies-lobby",
+          "label": "Enies Lobby",
+          "rarity": "A",
+          "stats": "A S A A S A",
+          "traits": {
+            "devilFruit": "Neko Neko no Mi, Model: Leopard (Zoan)"
+          },
+          "wikiImage": "File:Rob Lucci Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "S",
+          "stats": "S S A S S A",
+          "traits": {
+            "devilFruit": "Neko Neko no Mi, Model: Leopard (Zoan)",
+            "observationHaki": "Reads opponents in battle at Egghead",
+            "armamentHaki": "Hardens Rokuogan and claws"
+          },
+          "wikiImage": "File:Rob Lucci Anime Post Timeskip Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S S A S S A",
+          "traits": {
+            "devilFruit": "Awakened Leopard, keeps full human wits",
+            "observationHaki": "Predicts attacks with Haki",
+            "armamentHaki": "Armament-coated Rokushiki strikes"
+          },
+          "wikiImage": "File:Neko Neko no Mi Model Leopard Awakened Form.png"
+        }
+      ]
+    },
+    {
+      "id": "kaku",
+      "name": "Kaku",
+      "variants": [
+        {
+          "id": "enies-lobby",
+          "label": "Enies Lobby",
+          "rarity": "B",
+          "stats": "A A B A A B",
+          "traits": {
+            "devilFruit": "Ushi Ushi no Mi, Model: Giraffe (Zoan)"
+          },
+          "wikiImage": "File:Kaku Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "A",
+          "stats": "S A B S S A",
+          "traits": {
+            "devilFruit": "Awakened Giraffe, shapeshifting limbs",
+            "armamentHaki": "Hardens his four-sword stance"
+          },
+          "wikiImage": "File:Ushi Ushi no Mi Model Giraffe Awakened Form.png"
+        }
+      ]
+    },
+    {
+      "id": "jabra",
+      "name": "Jabra",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A S B B A B",
+          "traits": {
+            "devilFruit": "Inu Inu no Mi, Model: Wolf (Zoan)"
+          },
+          "wikiImage": "File:Jabra Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "blueno",
+      "name": "Blueno",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A B B A B",
+          "traits": {
+            "devilFruit": "Doa Doa no Mi (doors anywhere)"
+          },
+          "wikiImage": "File:Blueno Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kalifa",
+      "name": "Kalifa",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B C A C",
+          "traits": {
+            "devilFruit": "Awa Awa no Mi (soap bubbles)"
+          },
+          "wikiImage": "File:Kalifa Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kumadori",
+      "name": "Kumadori",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A A B",
+          "traits": {},
+          "wikiImage": "File:Kumadori Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "fukurou",
+      "name": "Fukurou",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C A C B B B",
+          "traits": {},
+          "wikiImage": "File:Fukurou Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "spandam",
+      "name": "Spandam",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D D D",
+          "traits": {},
+          "wikiImage": "File:Spandam Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "nero",
+      "name": "Nero",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B B C B C B",
+          "traits": {},
+          "wikiImage": "File:Nero Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "nico-olvia",
+      "name": "Nico Olvia",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D S D S D",
+          "traits": {},
+          "wikiImage": "File:Nico Olvia Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "clou-d-clover",
+      "name": "Clover",
+      "wikiPage": "Clou D. Clover",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D S D A D",
+          "traits": {},
+          "wikiImage": "File:Clou D. Clover Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jaguar-d-saul",
+      "name": "Jaguar D. Saul",
+      "variants": [
+        {
+          "id": "young-marine",
+          "label": "Young Marine",
+          "rarity": "B",
+          "stats": "S B B A B B",
+          "traits": {},
+          "wikiImage": "File:Jaguar D. Saul as a Young Marine.png"
+        },
+        {
+          "id": "vice-admiral",
+          "label": "Ohara-Era Vice Admiral",
+          "rarity": "A",
+          "stats": "S B B S A S",
+          "traits": {
+            "armamentHaki": "Giant-scale Haki-backed punches"
+          },
+          "wikiImage": "File:Jaguar D. Saul Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gecko-moria",
+      "name": "Gecko Moria",
+      "variants": [
+        {
+          "id": "thriller-bark",
+          "label": "Thriller Bark Warlord",
+          "rarity": "A",
+          "stats": "S B A A A S",
+          "traits": {
+            "devilFruit": "Kage Kage no Mi (shadow stealing)"
+          },
+          "wikiImage": "File:Gecko Moria Anime Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A B A A A A",
+          "traits": {
+            "devilFruit": "Kage Kage no Mi, shadows restocked"
+          },
+          "wikiImage": "File:Moria Post Timeskip Color Scheme.png"
+        }
+      ]
+    },
+    {
+      "id": "absalom",
+      "name": "Absalom",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C B B B",
+          "traits": {
+            "devilFruit": "Suke Suke no Mi (invisibility)"
+          },
+          "wikiImage": "File:Absalom Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "perona",
+      "name": "Perona",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "D C B D A C",
+          "traits": {
+            "devilFruit": "Horo Horo no Mi (negative ghosts)"
+          },
+          "wikiImage": "File:Perona Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "B",
+          "stats": "D C B C S C",
+          "traits": {
+            "devilFruit": "Horo Horo no Mi, bigger ghost swarms"
+          },
+          "wikiImage": "File:Perona Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "dr-hogback",
+      "name": "Doctor Hogback",
+      "wikiPage": "Hogback",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D S D S D",
+          "traits": {},
+          "wikiImage": "File:Hogback Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "victoria-cindry",
+      "name": "Victoria Cindry",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Victoria Cindry Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shimotsuki-ryuma",
+      "name": "Shimotsuki Ryuma",
+      "variants": [
+        {
+          "id": "living",
+          "label": "Living",
+          "rarity": "A",
+          "stats": "S A S A S A",
+          "traits": {},
+          "wikiImage": "File:Shimotsuki Ryuma Anime Infobox.png"
+        },
+        {
+          "id": "zombie",
+          "label": "Zombie",
+          "rarity": "A",
+          "stats": "S A A A S B",
+          "traits": {},
+          "wikiImage": "File:Ryuma (Zombie) Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "oars",
+      "name": "Oars",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "SS C C S C S",
+          "traits": {},
+          "wikiImage": "File:Oars Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "little-oars-jr",
+      "name": "Little Oars Jr.",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C A C A",
+          "traits": {},
+          "wikiImage": "File:Little Oars Jr. Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "brook",
+      "name": "Brook",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "C B B C A C",
+          "traits": {
+            "devilFruit": "Yomi Yomi no Mi (revived skeleton)"
+          },
+          "wikiImage": "File:Brook Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "B A A B S B",
+          "traits": {
+            "devilFruit": "Yomi Yomi no Mi, soul-chilling music",
+            "observationHaki": "Senses presences, bonus to dodge",
+            "armamentHaki": "Coats his sword with hardened soul"
+          },
+          "wikiImage": "File:Brook Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "bartholomew-kuma",
+      "name": "Bartholomew Kuma",
+      "variants": [
+        {
+          "id": "warlord",
+          "label": "Warlord",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "devilFruit": "Nikyu Nikyu no Mi (repel anything)"
+          },
+          "wikiImage": "File:Bartholomew Kuma Anime Infobox.png"
+        },
+        {
+          "id": "pacifista",
+          "label": "Pacifista",
+          "rarity": "A",
+          "stats": "S A C S B S",
+          "traits": {
+            "devilFruit": "Nikyu Nikyu no Mi, paw-pad cannon"
+          },
+          "wikiImage": "File:Bartholomew Kuma Pacifista Programming.png"
+        }
+      ]
+    },
+    {
+      "id": "eustass-kid",
+      "name": "Eustass Kid",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "A",
+          "stats": "A B B A B A",
+          "traits": {
+            "devilFruit": "Jiki Jiki no Mi (magnetism)"
+          },
+          "wikiImage": "File:Eustass Kid Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "S",
+          "stats": "S A A S A S",
+          "traits": {
+            "devilFruit": "Jiki Jiki no Mi, awakened scrap armor",
+            "armamentHaki": "Metal-coated punches in Wano",
+            "conquerorsHaki": "Clashes with Big Mom"
+          },
+          "wikiImage": "File:Eustass Kid Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "killer",
+      "name": "Killer",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Killer Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A S B B A A",
+          "traits": {},
+          "wikiImage": "File:Killer Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "basil-hawkins",
+      "name": "Basil Hawkins",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "devilFruit": "Wara Wara no Mi (straw voodoo)"
+          },
+          "wikiImage": "File:Basil Hawkins Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A B A A A A",
+          "traits": {
+            "devilFruit": "Wara Wara no Mi, Straw Man Rulership",
+            "armamentHaki": "Straw-coated blows"
+          },
+          "wikiImage": "File:Basil Hawkins Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "scratchmen-apoo",
+      "name": "Scratchmen Apoo",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "devilFruit": "Oto Oto no Mi (sound manipulation)"
+          },
+          "wikiImage": "File:Scratchmen Apoo Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A A A B S A",
+          "traits": {
+            "devilFruit": "Oto Oto no Mi, concert-hall shockwaves"
+          },
+          "wikiImage": "File:Scratchmen Apoo Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "x-drake",
+      "name": "X Drake",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {
+            "devilFruit": "Ryu Ryu no Mi, Model: Allosaurus (Ancient Zoan)"
+          },
+          "wikiImage": "File:X Drake Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "S B A S B A",
+          "traits": {
+            "devilFruit": "Ryu Ryu no Mi, Model: Allosaurus (Ancient Zoan)",
+            "observationHaki": "Tracks foes as a Marine spy",
+            "armamentHaki": "Hardens claws and bite"
+          },
+          "wikiImage": "File:X Drake Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "capone-bege",
+      "name": "Capone Bege",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B B S B A B",
+          "traits": {
+            "devilFruit": "Shiro Shiro no Mi (fortress body)"
+          },
+          "wikiImage": "File:Capone Bege Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A B S A S B",
+          "traits": {
+            "devilFruit": "Shiro Shiro no Mi, crew fights inside him"
+          },
+          "wikiImage": "File:Capone Bege Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "urouge",
+      "name": "Urouge",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S B B S B A",
+          "traits": {},
+          "wikiImage": "File:Urouge Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jewelry-bonney",
+      "name": "Jewelry Bonney",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "B B B C B B",
+          "traits": {
+            "devilFruit": "Toshi Toshi no Mi (age shifting)"
+          },
+          "wikiImage": "File:Jewelry Bonney Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "A A B B S B",
+          "traits": {
+            "devilFruit": "Toshi Toshi no Mi, ages foes and herself"
+          },
+          "wikiImage": "File:Jewelry Bonney Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "duval",
+      "name": "Duval",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {},
+          "wikiImage": "File:Duval Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "camie",
+      "name": "Camie",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "C",
+          "stats": "D C C D D C",
+          "traits": {},
+          "wikiImage": "File:Camie Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "C",
+          "stats": "D C C D C C",
+          "traits": {},
+          "wikiImage": "File:Camie Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "pappug",
+      "name": "Pappug",
+      "wikiPage": "Pappag",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D D D D D",
+          "traits": {},
+          "wikiImage": "File:Pappag Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "saint-charlos",
+      "name": "Saint Charlos",
+      "wikiPage": "Rosward Charlos",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D D D D C",
+          "traits": {},
+          "wikiImage": "File:Rosward Charlos Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "saint-roswald",
+      "name": "Saint Roswald",
+      "wikiPage": "Rosward Rosward",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D D D D C",
+          "traits": {},
+          "wikiImage": "File:Rosward Rosward Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sentomaru",
+      "name": "Sentomaru",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Sentomaru Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Sentomaru Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "caribou",
+      "name": "Caribou",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B C C B B B",
+          "traits": {
+            "devilFruit": "Numa Numa no Mi (swamp body)"
+          },
+          "wikiImage": "File:Caribou Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shakky",
+      "name": "Shakky",
+      "wikiPage": "Shakuyaku",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C B C",
+          "traits": {},
+          "wikiImage": "File:Shakuyaku Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "heat",
+      "name": "Heat",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B C B C B",
+          "traits": {},
+          "wikiImage": "File:Heat Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B C B C B",
+          "traits": {},
+          "wikiImage": "File:Wire Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "boa-hancock",
+      "name": "Boa Hancock",
+      "variants": [
+        {
+          "id": "warlord",
+          "label": "Warlord",
+          "rarity": "S",
+          "stats": "A S A S A S",
+          "traits": {
+            "devilFruit": "Mero Mero no Mi (petrifying love)",
+            "observationHaki": "Senses Luffy and incoming strikes",
+            "armamentHaki": "Hardened kicks that fell Pacifista",
+            "conquerorsHaki": "Awakened, repels weaker foes"
+          },
+          "wikiImage": "File:Boa Hancock Anime Infobox.png"
+        },
+        {
+          "id": "young",
+          "label": "Young (Slave Days)",
+          "rarity": "C",
+          "stats": "D C C D C C",
+          "traits": {
+            "devilFruit": "Mero Mero no Mi, newly eaten"
+          },
+          "wikiImage": "File:Hancock Age 12.png"
+        }
+      ]
+    },
+    {
+      "id": "boa-sandersonia",
+      "name": "Boa Sandersonia",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A B A",
+          "traits": {
+            "devilFruit": "Hebi Hebi no Mi, Model: Anaconda (Zoan)"
+          },
+          "wikiImage": "File:Boa Sandersonia Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "boa-marigold",
+      "name": "Boa Marigold",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A B A",
+          "traits": {
+            "devilFruit": "Hebi Hebi no Mi, Model: King Cobra (Zoan)"
+          },
+          "wikiImage": "File:Boa Marigold Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gloriosa",
+      "name": "Gloriosa (Nyon)",
+      "wikiPage": "Gloriosa",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C A C A C",
+          "traits": {},
+          "wikiImage": "File:Gloriosa Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "marguerite",
+      "name": "Marguerite",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {},
+          "wikiImage": "File:Marguerite Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "aphelandra",
+      "name": "Aphelandra",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {},
+          "wikiImage": "File:Aphelandra Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "magellan",
+      "name": "Magellan",
+      "variants": [
+        {
+          "id": "chief-warden",
+          "label": "Chief Warden (Pre-Timeskip)",
+          "rarity": "S",
+          "stats": "S B A S A S",
+          "traits": {
+            "devilFruit": "Doku Doku no Mi (poison, Venom Demon)"
+          },
+          "wikiImage": "File:Magellan Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "vice-warden",
+          "label": "Vice Warden (Post-Timeskip)",
+          "rarity": "S",
+          "stats": "S B A S A S",
+          "traits": {
+            "devilFruit": "Doku Doku no Mi (poison, Venom Demon)"
+          },
+          "wikiImage": "File:Magellan Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hannyabal",
+      "name": "Hannyabal",
+      "variants": [
+        {
+          "id": "deputy-warden",
+          "label": "Deputy Warden",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Hannyabal Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "warden",
+          "label": "Warden",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Hannyabal Manga Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shiryu",
+      "name": "Shiryu",
+      "variants": [
+        {
+          "id": "impel-down",
+          "label": "Impel Down",
+          "rarity": "A",
+          "stats": "A S A A S A",
+          "traits": {},
+          "wikiImage": "File:Shiryu Anime Infobox.png"
+        },
+        {
+          "id": "blackbeard-pirates",
+          "label": "Blackbeard Pirates",
+          "rarity": "A",
+          "stats": "A S A A S A",
+          "traits": {
+            "devilFruit": "Suke Suke no Mi (invisibility)"
+          },
+          "wikiImage": "File:Shiryu One Piece Thousand Storm.png"
+        }
+      ]
+    },
+    {
+      "id": "sadi",
+      "name": "Sadi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A B B A B",
+          "traits": {},
+          "wikiImage": "File:Sadi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "domino",
+      "name": "Domino",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B B C B C",
+          "traits": {},
+          "wikiImage": "File:Domino Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "saldeath",
+      "name": "Saldeath",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {},
+          "wikiImage": "File:Saldeath Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "minotaurus",
+      "name": "Minotaurus",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C S C A",
+          "traits": {
+            "devilFruit": "Awakened Holstein cow Zoan"
+          },
+          "wikiImage": "File:Minotaurus Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "minokoala",
+      "name": "Minokoala",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {
+            "devilFruit": "Awakened koala Zoan"
+          },
+          "wikiImage": "File:Minokoala Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "emporio-ivankov",
+      "name": "Emporio Ivankov",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S A B S A A",
+          "traits": {
+            "devilFruit": "Horu Horu no Mi (hormone control)"
+          },
+          "wikiImage": "File:Emporio Ivankov Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "inazuma",
+      "name": "Inazuma",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B C B B A B",
+          "traits": {
+            "devilFruit": "Choki Choki no Mi (scissor body)"
+          },
+          "wikiImage": "File:Inazuma Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jinbe",
+      "name": "Jinbe",
+      "variants": [
+        {
+          "id": "warlord",
+          "label": "Warlord",
+          "rarity": "S",
+          "stats": "S A S S A S",
+          "traits": {
+            "armamentHaki": "Fish-Man Karate backed by hardening"
+          },
+          "wikiImage": "File:Jinbe's Outfit Marineford Arc.png"
+        },
+        {
+          "id": "straw-hat",
+          "label": "Straw Hat Helmsman",
+          "rarity": "S",
+          "stats": "S A S S S S",
+          "traits": {
+            "observationHaki": "Reads incoming attacks in melee",
+            "armamentHaki": "Hardened Fish-Man Karate"
+          },
+          "wikiImage": "File:Jinbe Portrait.png"
+        }
+      ]
+    },
+    {
+      "id": "catarina-devon",
+      "name": "Catarina Devon",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A B B B B",
+          "traits": {
+            "devilFruit": "Inu Inu no Mi, Model: Kyubi no Kitsune"
+          },
+          "wikiImage": "File:Catarina Devon Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vasco-shot",
+      "name": "Vasco Shot",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C S C B",
+          "traits": {},
+          "wikiImage": "File:Vasco Shot Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "avalo-pizarro",
+      "name": "Avalo Pizarro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B B A B A",
+          "traits": {
+            "devilFruit": "Shima Shima no Mi (island body)"
+          },
+          "wikiImage": "File:Avalo Pizarro Anime Pre Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sengoku",
+      "name": "Sengoku",
+      "variants": [
+        {
+          "id": "fleet-admiral",
+          "label": "Fleet Admiral",
+          "rarity": "S",
+          "stats": "S B S S S A",
+          "traits": {
+            "devilFruit": "Hito Hito no Mi, Model: Daibutsu (Mythical Zoan)",
+            "observationHaki": "Commands the whole war from the front",
+            "armamentHaki": "Golden Buddha fists"
+          },
+          "wikiImage": "File:Sengoku Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "retired",
+          "label": "Retired",
+          "rarity": "A",
+          "stats": "A B S A S B",
+          "traits": {
+            "devilFruit": "Hito Hito no Mi, Model: Daibutsu (Mythical Zoan)",
+            "armamentHaki": "Still shatters Dressrosa steel"
+          },
+          "wikiImage": "File:Sengoku Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "tsuru",
+      "name": "Tsuru",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B B S B A B",
+          "traits": {
+            "devilFruit": "Woshu Woshu no Mi (laundering)",
+            "armamentHaki": "Hardened as a long-standing vice admiral"
+          },
+          "wikiImage": "File:Tsuru Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "marco",
+      "name": "Marco",
+      "wikiPage": "Polo Marco",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "A",
+          "stats": "A S A S S S",
+          "traits": {
+            "devilFruit": "Tori Tori no Mi, Model: Phoenix (Mythical Zoan)",
+            "observationHaki": "Senses allies and foes across the war",
+            "armamentHaki": "Blue flame kicks"
+          },
+          "wikiImage": "File:Polo Marco Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "devilFruit": "Tori Tori no Mi, Model: Phoenix (Mythical Zoan)",
+            "observationHaki": "Senses allies and foes across the war",
+            "armamentHaki": "Blue flame kicks and hardened talons"
+          },
+          "wikiImage": "File:Polo Marco Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jozu",
+      "name": "Jozu",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B B S A S",
+          "traits": {
+            "devilFruit": "Kira Kira no Mi (diamond body)"
+          },
+          "wikiImage": "File:Jozu Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vista",
+      "name": "Vista",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A A A S B",
+          "traits": {
+            "armamentHaki": "Flower-sword strikes cut Haki-guarded foes"
+          },
+          "wikiImage": "File:Vista Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "squard",
+      "name": "Squard",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B C B B C",
+          "traits": {},
+          "wikiImage": "File:Squard Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "izo",
+      "name": "Izo",
+      "wikiPage": "Izou",
+      "variants": [
+        {
+          "id": "pre-timeskip",
+          "label": "Pre-Timeskip",
+          "rarity": "A",
+          "stats": "B A A B A B",
+          "traits": {},
+          "wikiImage": "File:Izou Anime Pre Timeskip Infobox.png"
+        },
+        {
+          "id": "post-timeskip",
+          "label": "Post-Timeskip",
+          "rarity": "A",
+          "stats": "B A A B A B",
+          "traits": {},
+          "wikiImage": "File:Izou Anime Post Timeskip Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "thatch",
+      "name": "Thatch",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {},
+          "wikiImage": "File:Thatch Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "namur",
+      "name": "Namur",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S A B S B A",
+          "traits": {},
+          "wikiImage": "File:Namur Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "blenheim",
+      "name": "Blenheim",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Blenheim Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "haruta",
+      "name": "Haruta",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B S B B B B",
+          "traits": {},
+          "wikiImage": "File:Haruta Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "rakuyo",
+      "name": "Rakuyo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Rakuyo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "atmos",
+      "name": "Atmos",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C A C B",
+          "traits": {},
+          "wikiImage": "File:Atmos Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "curiel",
+      "name": "Curiel",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B S B",
+          "traits": {},
+          "wikiImage": "File:Curiel Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kingdew",
+      "name": "Kingdew",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Kingdew Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "doma",
+      "name": "Doma",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {},
+          "wikiImage": "File:Doma Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "whitey-bay",
+      "name": "Whitey Bay",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Whitey Bay Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "lonz",
+      "name": "Lonz",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C S C B",
+          "traits": {},
+          "wikiImage": "File:Lonz Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "momonga",
+      "name": "Momonga",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Momonga Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Strawberry Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "onigumo",
+      "name": "Onigumo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Onigumo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "doberman",
+      "name": "Doberman",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Doberman Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "dalmatian",
+      "name": "Dalmatian",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Dalmatian Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "fisher-tiger",
+      "name": "Fisher Tiger",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Fisher Tiger Young.png"
+        },
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "A",
+          "stats": "S A B S B A",
+          "traits": {
+            "armamentHaki": "Hardens Fish-Man Karate"
+          },
+          "wikiImage": "File:Fisher Tiger Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "otohime",
+      "name": "Otohime",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D S D S D",
+          "traits": {},
+          "wikiImage": "File:Otohime Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B A S A A",
+          "traits": {},
+          "wikiImage": "File:Neptune Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shirahoshi",
+      "name": "Shirahoshi",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D D D D S D",
+          "traits": {},
+          "wikiImage": "File:Shirahoshi Summons Sea Kings as a Child.png"
+        },
+        {
+          "id": "princess",
+          "label": "Princess",
+          "rarity": "B",
+          "stats": "D D C B S D",
+          "traits": {},
+          "wikiImage": "File:Shirahoshi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "fukaboshi",
+      "name": "Fukaboshi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A A B B B B",
+          "traits": {},
+          "wikiImage": "File:Fukaboshi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "ryuboshi",
+      "name": "Ryuboshi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {},
+          "wikiImage": "File:Ryuboshi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "manboshi",
+      "name": "Manboshi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Manboshi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hody-jones",
+      "name": "Hody Jones",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {},
+          "wikiImage": "File:Hody Jones Anime Infobox.png"
+        },
+        {
+          "id": "energy-steroid",
+          "label": "Energy Steroid",
+          "rarity": "A",
+          "stats": "SS B B S B A",
+          "traits": {},
+          "wikiImage": "File:Hody Jones Transformed.png"
+        }
+      ]
+    },
+    {
+      "id": "vander-decken-ix",
+      "name": "Vander Decken IX",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B C B",
+          "traits": {
+            "devilFruit": "Mato Mato no Mi (homing targets)"
+          },
+          "wikiImage": "File:Vander Decken IX Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "wadatsumi",
+      "name": "Wadatsumi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C S C A",
+          "traits": {},
+          "wikiImage": "File:Wadatsumi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "den",
+      "name": "Den",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C A C A C",
+          "traits": {},
+          "wikiImage": "File:Den Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "madam-shyarly",
+      "name": "Madam Shyarly",
+      "wikiPage": "Shyarly",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D A C A D",
+          "traits": {},
+          "wikiImage": "File:Shyarly Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gyro",
+      "name": "Gyro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Gyro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "zeo",
+      "name": "Zeo",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "C",
+          "stats": "B B C B C B",
+          "traits": {},
+          "wikiImage": "File:Zeo Anime Infobox.png"
+        },
+        {
+          "id": "energy-steroid",
+          "label": "Energy Steroid",
+          "rarity": "B",
+          "stats": "S B C A C A",
+          "traits": {},
+          "wikiImage": "File:Zeo with Energy Steroids.png"
+        }
+      ]
+    },
+    {
+      "id": "dosun",
+      "name": "Dosun",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Dosun Anime Infobox.png"
+        },
+        {
+          "id": "energy-steroid",
+          "label": "Energy Steroid",
+          "rarity": "B",
+          "stats": "S C C A C A",
+          "traits": {},
+          "wikiImage": "File:Dosun's Energy Steroid Strength.png"
+        }
+      ]
+    },
+    {
+      "id": "daruma",
+      "name": "Daruma",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Daruma Anime Infobox.png"
+        },
+        {
+          "id": "energy-steroid",
+          "label": "Energy Steroid",
+          "rarity": "B",
+          "stats": "S C C A C A",
+          "traits": {},
+          "wikiImage": "File:Daruma Using The Energy Steroids.png"
+        }
+      ]
+    },
+    {
+      "id": "ikaros-much",
+      "name": "Ikaros Much",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C A C B",
+          "traits": {},
+          "wikiImage": "File:Ikaros Much Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hyouzou",
+      "name": "Hyouzou",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B A B",
+          "traits": {},
+          "wikiImage": "File:Hyouzou Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hammond",
+      "name": "Hammond",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A A C B B B",
+          "traits": {},
+          "wikiImage": "File:Hammond Anime Infobox.png"
+        }
+      ]
+    }
+  ]
+}

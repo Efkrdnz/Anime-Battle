@@ -14,7 +14,7 @@ function parseStats(stats: string): Record<string, Rank> {
   return result;
 }
 
-/** images: "animeId/characterId" -> URL, produced by scripts/fetch-images.mjs. */
+/** images: "animeId/characterId[/variantId]" -> URL, produced by scripts/fetch-images.mjs. */
 export function entriesFromAnime(anime: RawAnime, images: Record<string, string> = {}): Entry[] {
   return anime.characters.flatMap((c) =>
     c.variants.map((v) => ({
@@ -25,7 +25,7 @@ export function entriesFromAnime(anime: RawAnime, images: Record<string, string>
       name: c.name,
       label: v.label,
       rarity: v.rarity,
-      image: v.image ?? c.image ?? images[`${anime.id}/${c.id}`],
+      image: v.image ?? images[`${anime.id}/${c.id}/${v.id}`] ?? c.image ?? images[`${anime.id}/${c.id}`],
       stats: parseStats(v.stats),
       traits: v.traits,
     })),

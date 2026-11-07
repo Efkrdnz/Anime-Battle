@@ -41,7 +41,7 @@ export function CharacterCard({ entry, size = 'md', onEdit, onClick }: CardProps
       title={`${entry.name}${entry.label ? ` (${entry.label})` : ''}`}
     >
       {image && !failed ? (
-        <img className="pic" src={image} alt={entry.name} loading="lazy" draggable={false} onError={() => setFailed(true)} />
+        <img className="pic" src={image} alt={entry.name} loading="lazy" referrerPolicy="no-referrer" draggable={false} onError={() => setFailed(true)} />
       ) : (
         <div className="initials">{initials(entry.name)}</div>
       )}

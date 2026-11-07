@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { RANKS, RARITIES } from '../types';
 import { ANIME, BUILTIN_ENTRIES } from '.';
+import images from './images.json';
 
 describe('built-in anime data', () => {
   it('has unique entry keys', () => {
@@ -25,6 +26,12 @@ describe('built-in anime data', () => {
 
   it('has every rarity tier so rare pulls exist', () => {
     for (const r of RARITIES) expect(BUILTIN_ENTRIES.some((e) => e.rarity === r)).toBe(true);
+  });
+
+  it.each(ANIME.filter((a) => a.wiki).map((a) => [a.name, a] as const))('%s resolves most per-form wiki pictures', (_, anime) => {
+    const forms = anime.characters.flatMap((c) => c.variants.filter((v) => v.wikiImage).map((v) => `${anime.id}/${c.id}/${v.id}`));
+    const resolved = forms.filter((key) => key in (images as Record<string, string>));
+    expect(resolved.length / Math.max(1, forms.length)).toBeGreaterThan(0.8);
   });
 
   it('has a picture for nearly every character', () => {

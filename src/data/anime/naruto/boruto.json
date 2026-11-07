@@ -1,0 +1,825 @@
+{
+  "characters": [
+    {
+      "id": "boruto-uzumaki",
+      "name": "Boruto Uzumaki",
+      "variants": [
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Byakugan-adjacent (Jōgan latent)",
+            "natureRelease": "Wind, Lightning, Fire",
+            "chakra": "Large, Uzumaki stock",
+            "signatureJutsu": "Rasengan, Shadow Clone, Kagebunshin Barrage"
+          },
+          "wikiImage": "File:Boruto.png"
+        },
+        {
+          "id": "karma",
+          "label": "Karma",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Kāma (Momoshiki seal), Jōgan",
+            "natureRelease": "Wind, Lightning, Fire",
+            "chakra": "Vast, Karma-enhanced",
+            "signatureJutsu": "Karma Rasengan, Borushiki Storm"
+          },
+          "wikiImage": "File:Borushiki Storm.png"
+        },
+        {
+          "id": "timeskip",
+          "label": "Timeskip (Blue Vortex)",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "kekkeiGenkai": "Karma, Jōgan, Eight-Gates-style training",
+            "natureRelease": "Wind, Lightning, Fire, Water",
+            "chakra": "Vast, Karma-amplified",
+            "signatureJutsu": "Karma: Vortex Rasengan, Eye of Truth"
+          },
+          "wikiImage": "File:Boruto-TBV.png"
+        }
+      ]
+    },
+    {
+      "id": "sarada-uchiha",
+      "name": "Sarada Uchiha",
+      "variants": [
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (2-3 tomoe)",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Moderate, Uchiha trained",
+            "signatureJutsu": "Chidori Current, Katon: Fireball, Sharingan"
+          },
+          "wikiImage": "File:Sarada.png"
+        },
+        {
+          "id": "timeskip",
+          "label": "Timeskip (Mangekyō)",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "kekkeiGenkai": "Mangekyō Sharingan, Susanoo",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Large",
+            "signatureJutsu": "Mangekyō Susanoo, Amaterasu-class flames"
+          },
+          "wikiImage": "File:Sarada-TBV.png"
+        }
+      ]
+    },
+    {
+      "id": "mitsuki",
+      "name": "Mitsuki",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Normal",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "kekkeiGenkai": "Orochimaru's synthetic body",
+            "natureRelease": "Lightning, Wind, Snake",
+            "chakra": "Large, artificial",
+            "signatureJutsu": "Snake Hands, Sage Mode-adjacent transformation"
+          },
+          "wikiImage": "File:Mitsuki Fullbody.png"
+        },
+        {
+          "id": "sage-mode",
+          "label": "Sage Mode",
+          "rarity": "A",
+          "stats": "A A A A S A",
+          "traits": {
+            "kekkeiGenkai": "Orochimaru-grade natural energy",
+            "natureRelease": "Lightning, Wind, Snake",
+            "chakra": "Large, natural energy",
+            "signatureJutsu": "Sage Mode: Snake Dragon, Thousand Snake Bite"
+          },
+          "wikiImage": "File:TBV Mitsuki Fullbody.png"
+        }
+      ]
+    },
+    {
+      "id": "kawaki",
+      "name": "Kawaki",
+      "variants": [
+        {
+          "id": "part-ii",
+          "label": "Part II",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Kāma (Isshiki seal), Karma",
+            "natureRelease": "Wind, Lightning, Fire",
+            "chakra": "Large",
+            "signatureJutsu": "Karma, Omnipotence adaptation"
+          },
+          "wikiImage": "File:Kawaki infobox.png"
+        },
+        {
+          "id": "karma",
+          "label": "Karma (Kawashiki)",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "kekkeiGenkai": "Kāma (Isshiki seal), Karma",
+            "natureRelease": "Wind, Lightning, Fire",
+            "chakra": "Vast, Karma-amplified",
+            "signatureJutsu": "Karma: Kawashiki, Adamantine Chakra Chain"
+          },
+          "wikiImage": "File:Kawashiki Storm.png"
+        },
+        {
+          "id": "timeskip",
+          "label": "Timeskip",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "kekkeiGenkai": "Karma, Isshiki lineage",
+            "natureRelease": "Wind, Lightning, Fire",
+            "chakra": "Vast",
+            "signatureJutsu": "Karma: Void Rasengan, Eye of Omnipotence"
+          },
+          "wikiImage": "File:Kawaki TBV Full appearance.png"
+        }
+      ]
+    },
+    {
+      "id": "himawari-uzumaki",
+      "name": "Himawari Uzumaki",
+      "variants": [
+        {
+          "id": "part-i",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C B C B C",
+          "traits": {
+            "kekkeiGenkai": "Byakugan, Uzumaki lineage",
+            "natureRelease": "Wind, Lightning",
+            "chakra": "Large, innate Kurama link",
+            "signatureJutsu": "Gentle Fist foundations, Byakugan"
+          },
+          "wikiImage": "File:Himawari Part I.png"
+        },
+        {
+          "id": "kurama-jinchuriki",
+          "label": "Kurama Jinchūriki",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Byakugan, Kurama link",
+            "natureRelease": "Wind, Lightning, Fire",
+            "chakra": "Vast, Kurama link",
+            "signatureJutsu": "Nine-Tails Chakra Mode, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Himawari's Jinchūriki Power.png"
+        },
+        {
+          "id": "timeskip",
+          "label": "Timeskip",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "kekkeiGenkai": "Byakugan, Uzumaki lineage",
+            "natureRelease": "Wind, Lightning",
+            "chakra": "Large",
+            "signatureJutsu": "Byakugan, Gentle Fist, Kurama-boosted Rasengan"
+          },
+          "wikiImage": "File:Himawari-TBV.png"
+        }
+      ]
+    },
+    {
+      "id": "shikadai-nara",
+      "name": "Shikadai Nara",
+      "variants": [
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "C B A C B B",
+          "traits": {
+            "kekkeiGenkai": "Nara Shadow Manipulation",
+            "natureRelease": "Yin, Wind",
+            "chakra": "Moderate",
+            "signatureJutsu": "Shadow Imitation, Shadow Bind"
+          },
+          "wikiImage": "File:Shikadai Nara.png"
+        },
+        {
+          "id": "part-ii",
+          "label": "Part II",
+          "rarity": "A",
+          "stats": "B B S B A B",
+          "traits": {
+            "kekkeiGenkai": "Nara Shadow Manipulation",
+            "natureRelease": "Yin, Wind, Earth",
+            "chakra": "Large",
+            "signatureJutsu": "Shadow Strangle, Shadow Possession Tactics"
+          },
+          "wikiImage": "File:Shikadai Part II.png"
+        }
+      ]
+    },
+    {
+      "id": "inojin-yamanaka",
+      "name": "Inojin Yamanaka",
+      "variants": [
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "C B B C B B",
+          "traits": {
+            "kekkeiGenkai": "Yamanaka mind jutsu",
+            "natureRelease": "Yin, Ink",
+            "chakra": "Moderate",
+            "signatureJutsu": "Super Beast Scroll, Mind Body Switch"
+          },
+          "wikiImage": "File:Inojin movie.png"
+        },
+        {
+          "id": "timeskip",
+          "label": "Timeskip",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "kekkeiGenkai": "Yamanaka mind jutsu",
+            "natureRelease": "Yin, Ink",
+            "chakra": "Large",
+            "signatureJutsu": "Super Beast Imitation, Mind Transmission"
+          },
+          "wikiImage": "File:Inojin Yamanaka- TBV.png"
+        }
+      ]
+    },
+    {
+      "id": "chocho-akimichi",
+      "name": "Chōchō Akimichi",
+      "variants": [
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "A C C B C A",
+          "traits": {
+            "kekkeiGenkai": "Calorie conversion",
+            "natureRelease": "Earth, Fire",
+            "chakra": "Large, fat-fueled",
+            "signatureJutsu": "Expansion Technique, Human Bullet Tank"
+          },
+          "wikiImage": "File:Chōchō Akimichi.png"
+        },
+        {
+          "id": "butterfly-mode",
+          "label": "Butterfly Mode",
+          "rarity": "A",
+          "stats": "S A B A B S",
+          "traits": {
+            "kekkeiGenkai": "Butterfly Mode",
+            "natureRelease": "Chakra wings",
+            "chakra": "Vast, calorie-fueled",
+            "signatureJutsu": "Butterfly Mode, Partial Expansion"
+          },
+          "wikiImage": "File:Super Chōchō Butterfly Mode.png"
+        }
+      ]
+    },
+    {
+      "id": "metal-lee",
+      "name": "Metal Lee",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A A B B C B",
+          "traits": {
+            "kekkeiGenkai": "Eight Gates, Youth",
+            "natureRelease": "None",
+            "chakra": "Low ninjutsu",
+            "signatureJutsu": "Strong Fist, Leaf Hurricane, Drunken Fist"
+          },
+          "wikiImage": "File:Metal Lee.png"
+        }
+      ]
+    },
+    {
+      "id": "iwabee-yuino",
+      "name": "Iwabee Yūino",
+      "wikiPage": "Iwabee Yuino",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {
+            "natureRelease": "Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Earth Release: Rock Brick Cane"
+          },
+          "wikiImage": "File:Iwabee Yuino.png"
+        }
+      ]
+    },
+    {
+      "id": "denki-kaminarimon",
+      "name": "Denki Kaminarimon",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {
+            "natureRelease": "Lightning",
+            "chakra": "Moderate",
+            "signatureJutsu": "Raiton Fingers, Lightning Bullets"
+          },
+          "wikiImage": "File:Denki Kaminarimon.png"
+        }
+      ]
+    },
+    {
+      "id": "sumire-kakei",
+      "name": "Sumire Kakei",
+      "variants": [
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "C B B C B B",
+          "traits": {
+            "kekkeiGenkai": "Kakei Clan Sensor-Seal",
+            "natureRelease": "Water, Wood",
+            "chakra": "Moderate, clone-fed",
+            "signatureJutsu": "Wood Clone, Water Spirit Wave, Sealing"
+          },
+          "wikiImage": "File:Sumire Kakei.png"
+        },
+        {
+          "id": "timeskip",
+          "label": "Timeskip",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "kekkeiGenkai": "Kakei Clan Sensor-Seal",
+            "natureRelease": "Water, Wood",
+            "chakra": "Large",
+            "signatureJutsu": "Water Wave Blast, Wood Clone, Chakra absorption"
+          },
+          "wikiImage": "File:Sumire Blue Vortex's Appearance.png"
+        }
+      ]
+    },
+    {
+      "id": "kagura-karatachi",
+      "name": "Kagura Karatachi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A B A A B",
+          "traits": {
+            "kekkeiGenkai": "Karatachi legacy",
+            "natureRelease": "Water, Lightning",
+            "chakra": "High",
+            "signatureJutsu": "Hiramekarei Slice, Water Prison"
+          },
+          "wikiImage": "File:Kagura Karatachi.png"
+        }
+      ]
+    },
+    {
+      "id": "momoshiki-otsutsuki",
+      "name": "Momoshiki Ōtsutsuki",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Normal",
+          "rarity": "S",
+          "stats": "S S S S S S",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Chakra absorption",
+            "natureRelease": "Lightning, Fire, Wind",
+            "chakra": "Vast, Ōtsutsuki chakra",
+            "signatureJutsu": "Kāma, Absorption, Rinnegan"
+          },
+          "wikiImage": "File:Momoshiki Ōtsutsuki.png"
+        },
+        {
+          "id": "movie",
+          "label": "Absorbed Beast Form",
+          "rarity": "S",
+          "stats": "SS S A SS S S",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Chakra absorption",
+            "natureRelease": "Lightning, Fire, Wind",
+            "chakra": "Vast, absorbed chakra",
+            "signatureJutsu": "Giant Spirit Strike, Tailed Beast Fusion"
+          },
+          "wikiImage": "File:Momoshiki Movie transformation.png"
+        }
+      ]
+    },
+    {
+      "id": "kinshiki-otsutsuki",
+      "name": "Kinshiki Ōtsutsuki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Ōtsutsuki chakra, Axe wielder",
+            "natureRelease": "Lightning, Earth",
+            "chakra": "Large",
+            "signatureJutsu": "Kinshiki Axe, Chakra-Sealing Tool"
+          },
+          "wikiImage": "File:Kinshiki.png"
+        }
+      ]
+    },
+    {
+      "id": "urashiki-otsutsuki",
+      "name": "Urashiki Ōtsutsuki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Spacetime Sealing",
+            "natureRelease": "Water, Space, Rinnegan",
+            "chakra": "Large",
+            "signatureJutsu": "Rinnegan: Dimensional Rods, Chakra Absorption"
+          },
+          "wikiImage": "File:Urashiki.png"
+        }
+      ]
+    },
+    {
+      "id": "isshiki-otsutsuki",
+      "name": "Isshiki Ōtsutsuki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "SS",
+          "stats": "S SS S SS SS SS",
+          "traits": {
+            "kekkeiGenkai": "Kokugan, Sukunahikona, Daikokuten",
+            "natureRelease": "Space, Gravity, Inner Light",
+            "chakra": "Vast, Kokugan-power",
+            "signatureJutsu": "Sukunahikona, Daikokuten, Chakra Kill, Space Slice"
+          },
+          "wikiImage": "File:Isshiki.png"
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "name": "Code",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Kāma, bio-augmentation, Sage-Mode",
+            "natureRelease": "Fire, Lightning, Wind",
+            "chakra": "Large",
+            "signatureJutsu": "Karma Hold, Chakra Chain Edge"
+          },
+          "wikiImage": "File:Code.png"
+        },
+        {
+          "id": "limiters-removed",
+          "label": "Limiters Removed",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "kekkeiGenkai": "Kāma, bio-augmentation, Sage-Mode",
+            "natureRelease": "Fire, Lightning, Wind",
+            "chakra": "Vast, limiter-free",
+            "signatureJutsu": "Limit Break: Kokugan, Karma Blast"
+          },
+          "wikiImage": "File:Code's Limiters Removed.png"
+        }
+      ]
+    },
+    {
+      "id": "ada",
+      "name": "Ada",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "C B S B S B",
+          "traits": {
+            "kekkeiGenkai": "Senrigan, Omnipotence",
+            "natureRelease": "Information Sense",
+            "chakra": "Large",
+            "signatureJutsu": "Senrigan Sensing, Omnipotence granting"
+          },
+          "wikiImage": "File:Ada Infobox Image.png"
+        }
+      ]
+    },
+    {
+      "id": "daemon",
+      "name": "Daemon",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B A A B",
+          "traits": {
+            "kekkeiGenkai": "Kāma, Daemon seal",
+            "natureRelease": "Spirit/blades",
+            "chakra": "Large",
+            "signatureJutsu": "Daemon Awakening, Blade Barrage"
+          },
+          "wikiImage": "File:Daemon infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "delta",
+      "name": "Delta",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Initial Appearance",
+          "rarity": "A",
+          "stats": "A B B A A B",
+          "traits": {
+            "kekkeiGenkai": "Android augmentation",
+            "natureRelease": "Lightning",
+            "chakra": "Large",
+            "signatureJutsu": "Light Beam, Chakra-absorption Assimilation"
+          },
+          "wikiImage": "File:Delta's Initial Appearance.png"
+        },
+        {
+          "id": "reprogrammed",
+          "label": "Reprogrammed",
+          "rarity": "A",
+          "stats": "S A B S A A",
+          "traits": {
+            "kekkeiGenkai": "Android augmentation",
+            "natureRelease": "Lightning",
+            "chakra": "Large",
+            "signatureJutsu": "Beam Barrage, Genin Combat Assist"
+          },
+          "wikiImage": "File:Delta Reprogrammed.png"
+        }
+      ]
+    },
+    {
+      "id": "boro",
+      "name": "Boro",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Normal",
+          "rarity": "B",
+          "stats": "B B C B B B",
+          "traits": {
+            "kekkeiGenkai": "Cloaked Absorption",
+            "natureRelease": "Water, Dark Virus",
+            "chakra": "Large",
+            "signatureJutsu": "Dark Virus Release, Boro's Absorption"
+          },
+          "wikiImage": "File:Boro.png"
+        },
+        {
+          "id": "rampage",
+          "label": "Rampage Mode",
+          "rarity": "A",
+          "stats": "S B C S A A",
+          "traits": {
+            "kekkeiGenkai": "Boro Chakra Overdrive",
+            "natureRelease": "Dark Virus",
+            "chakra": "Large, overdriven",
+            "signatureJutsu": "Rampage Mode: Fist Slam, Virus Burst"
+          },
+          "wikiImage": "File:Boro's Rampage Mode.png"
+        }
+      ]
+    },
+    {
+      "id": "koji-kashin",
+      "name": "Kōji Kashin",
+      "wikiPage": "Koji Kashin",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Kara Inner",
+          "rarity": "B",
+          "stats": "B B A B B B",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan-adjacent (Kara Seal)",
+            "natureRelease": "Wind, Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Rasengan, Massive Rasengan"
+          },
+          "wikiImage": "File:Koji.png"
+        },
+        {
+          "id": "sage-mode",
+          "label": "Sage Mode",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "kekkeiGenkai": "Sage senjutsu",
+            "natureRelease": "Wind, Earth",
+            "chakra": "Large, natural energy",
+            "signatureJutsu": "Sage Mode: Rasengan, Toad-style kata"
+          },
+          "wikiImage": "File:Sage Mode Koji.png"
+        }
+      ]
+    },
+    {
+      "id": "amado",
+      "name": "Amado",
+      "wikiPage": "Amado Sanzu",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C A C A C",
+          "traits": {
+            "kekkeiGenkai": "Scientist/medic",
+            "natureRelease": "None",
+            "chakra": "Low",
+            "signatureJutsu": "Medical Ninjutsu, Kara technology"
+          },
+          "wikiImage": "File:Amado.png"
+        }
+      ]
+    },
+    {
+      "id": "shin-uchiha",
+      "name": "Shin Uchiha",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Sasuke Shinden",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (3 tomoe)",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Moderate",
+            "signatureJutsu": "Fire Style: Fireball, Sharingan Reflection"
+          },
+          "wikiImage": "File:Shin uchiha.png"
+        },
+        {
+          "id": "edo",
+          "label": "Edo Tensei",
+          "rarity": "B",
+          "stats": "B B B SS B SS",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (3 tomoe)",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Unlimited (Edo Tensei)",
+            "signatureJutsu": "Fire Style: Great Fireball, Edo Tensei"
+          },
+          "wikiImage": "File:Edo Shin OL.png"
+        }
+      ]
+    },
+    {
+      "id": "deepa",
+      "name": "Deepa",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C A B B",
+          "traits": {
+            "kekkeiGenkai": "Cybernetic arm",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Large",
+            "signatureJutsu": "Cyber-Fire Fist, Armored Charge"
+          },
+          "wikiImage": "File:Deepa.png"
+        }
+      ]
+    },
+    {
+      "id": "victor",
+      "name": "Victor",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B A C A C",
+          "traits": {
+            "kekkeiGenkai": "Chakra Manipulation (Kara)",
+            "natureRelease": "Water, Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Kara-grade summoning, Chakra Disruption"
+          },
+          "wikiImage": "File:Victor.png"
+        }
+      ]
+    },
+    {
+      "id": "garo",
+      "name": "Garō",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C A B B",
+          "traits": {
+            "kekkeiGenkai": "Rampage seal",
+            "natureRelease": "Earth",
+            "chakra": "Large",
+            "signatureJutsu": "Rampage Fist, Brute Force"
+          },
+          "wikiImage": "File:Garō.png"
+        }
+      ]
+    },
+    {
+      "id": "wasabi-izuno",
+      "name": "Wasabi Izuno",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D C B C B C",
+          "traits": {
+            "kekkeiGenkai": "Summoning contract (Cat)",
+            "natureRelease": "Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Cat Summoning, Chakra Sensor"
+          },
+          "wikiImage": "File:Wasabi.png"
+        }
+      ]
+    },
+    {
+      "id": "namida-suzumeno",
+      "name": "Namida Suzumeno",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D C B C B C",
+          "traits": {
+            "kekkeiGenkai": "Pacing speed",
+            "natureRelease": "Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Shock Wave Roar, Support ninjutsu"
+          },
+          "wikiImage": "File:Namida.png"
+        }
+      ]
+    },
+    {
+      "id": "mirai-sarutobi",
+      "name": "Mirai Sarutobi",
+      "variants": [
+        {
+          "id": "baby",
+          "label": "Baby",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {
+            "natureRelease": "None",
+            "chakra": "Tiny",
+            "signatureJutsu": "Cuteness, Lullaby"
+          },
+          "wikiImage": "File:Kurenai's child The Last.png"
+        },
+        {
+          "id": "genin",
+          "label": "Genin",
+          "rarity": "B",
+          "stats": "C B B C B B",
+          "traits": {
+            "kekkeiGenkai": "Genjutsu aptitude",
+            "natureRelease": "Fire (potential)",
+            "chakra": "Moderate",
+            "signatureJutsu": "Twin Blades, Illusion Jutsu"
+          },
+          "wikiImage": "File:Mirai Genin.png"
+        }
+      ]
+    }
+  ]
+}

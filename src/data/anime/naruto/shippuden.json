@@ -1,0 +1,1849 @@
+{
+  "characters": [
+    {
+      "id": "sai",
+      "name": "Sai",
+      "variants": [
+        {
+          "id": "part-ii",
+          "label": "Part II",
+          "rarity": "B",
+          "stats": "C B B C B C",
+          "traits": {
+            "natureRelease": "Ink (Chōjū Giga)",
+            "chakra": "Average chunin-level",
+            "signatureJutsu": "Super Beast Scroll, Ink Snake Bind"
+          },
+          "wikiImage": "File:Sai Infobox.png"
+        },
+        {
+          "id": "boruto-era",
+          "label": "Boruto Era",
+          "rarity": "B",
+          "stats": "C B A C B C",
+          "traits": {
+            "natureRelease": "Ink (Chōjū Giga)",
+            "chakra": "Average, refined control",
+            "signatureJutsu": "Super Beast Imitation Drawing, Ink Tiger"
+          },
+          "wikiImage": "File:Sai Part III.png"
+        }
+      ]
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato",
+      "variants": [
+        {
+          "id": "anbu-tenzo",
+          "label": "ANBU Tenzō",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Wood Release (Hashirama cells)",
+            "natureRelease": "Wood, Earth, Water",
+            "chakra": "Moderate, drained by Wood Release",
+            "signatureJutsu": "Wood Style: Four-Pillar Prison"
+          },
+          "wikiImage": "File:Young ANBU Yamato OL.png"
+        },
+        {
+          "id": "captain-yamato",
+          "label": "Captain Yamato",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "kekkeiGenkai": "Wood Release (Hashirama cells)",
+            "natureRelease": "Wood, Earth, Water",
+            "chakra": "Above average, suppresses tailed beasts",
+            "signatureJutsu": "Wood Style: Deep Forest Emergence"
+          },
+          "wikiImage": "File:Yamato newshot.png"
+        }
+      ]
+    },
+    {
+      "id": "chiyo",
+      "name": "Chiyo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C S C S C",
+          "traits": {
+            "natureRelease": "Wind, Poison (puppet craft)",
+            "chakra": "Moderate, elderly",
+            "signatureJutsu": "Ten Puppets, White Secret: Spirit Rescue"
+          },
+          "wikiImage": "File:Chiyo.png"
+        }
+      ]
+    },
+    {
+      "id": "sasori",
+      "name": "Sasori",
+      "variants": [
+        {
+          "id": "hiruko",
+          "label": "Hiruko",
+          "rarity": "B",
+          "stats": "B B A S A B",
+          "traits": {
+            "natureRelease": "Poison, Magnet (iron sand)",
+            "chakra": "Moderate, stored in puppet core",
+            "signatureJutsu": "Hiruko tail blade, poison needles"
+          },
+          "wikiImage": "File:Hiruko.png"
+        },
+        {
+          "id": "true-form",
+          "label": "True Form",
+          "rarity": "A",
+          "stats": "B A S A S B",
+          "traits": {
+            "kekkeiGenkai": "Magnet Release (Iron Sand)",
+            "natureRelease": "Magnet, Fire, Wind",
+            "chakra": "High, spread across puppet army",
+            "signatureJutsu": "Third Kazekage, Hundred Puppets Performance"
+          },
+          "wikiImage": "File:Sasori - Akatsuki.png"
+        }
+      ]
+    },
+    {
+      "id": "deidara",
+      "name": "Deidara",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A A B S B",
+          "traits": {
+            "kekkeiGenkai": "Explosion Release",
+            "natureRelease": "Earth, Wind, Explosion",
+            "chakra": "High, clay mouth hands",
+            "signatureJutsu": "C2 Dragon, C4 Karura, C0 Self-Destruct"
+          },
+          "wikiImage": "File:Deidara - Akatsuki.png"
+        }
+      ]
+    },
+    {
+      "id": "hidan",
+      "name": "Hidan",
+      "variants": [
+        {
+          "id": "akatsuki",
+          "label": "Akatsuki",
+          "rarity": "A",
+          "stats": "B A C S B S",
+          "traits": {
+            "kekkeiGenkai": "Jashinist immortality",
+            "natureRelease": "None",
+            "chakra": "Average chakra, divine immortality",
+            "signatureJutsu": "Death-Controlling Possession Blood, Scythe"
+          },
+          "wikiImage": "File:Hidan - Akatsuki.png"
+        },
+        {
+          "id": "ritual",
+          "label": "Curse Ritual",
+          "rarity": "A",
+          "stats": "A A C SS B SS",
+          "traits": {
+            "kekkeiGenkai": "Jashinist immortality",
+            "natureRelease": "None",
+            "chakra": "Average, sustained by ritual",
+            "signatureJutsu": "Curse Ritual: Linked Wounds, Impalement"
+          },
+          "wikiImage": "File:Hidan Ritual.png"
+        }
+      ]
+    },
+    {
+      "id": "kakuzu",
+      "name": "Kakuzu",
+      "variants": [
+        {
+          "id": "akatsuki",
+          "label": "Akatsuki",
+          "rarity": "A",
+          "stats": "A B A S A S",
+          "traits": {
+            "kekkeiGenkai": "Earth Grudge Fear (five hearts)",
+            "natureRelease": "Wind, Fire, Lightning, Water, Earth",
+            "chakra": "Vast via stolen hearts",
+            "signatureJutsu": "Earth Grudge Fear, Wind: Pressure Damage"
+          },
+          "wikiImage": "File:Kakuzu - Akatsuki.png"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Tensei",
+          "rarity": "A",
+          "stats": "A B A SS A SS",
+          "traits": {
+            "kekkeiGenkai": "Earth Grudge Fear (five hearts)",
+            "natureRelease": "Wind, Fire, Lightning, Water, Earth",
+            "chakra": "Unlimited (Edo Tensei)",
+            "signatureJutsu": "Earth Grudge Fear, Wind: Rasenshuriken"
+          },
+          "wikiImage": "File:Edo Kakuzu.png"
+        }
+      ]
+    },
+    {
+      "id": "konan",
+      "name": "Konan",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young Konan",
+          "rarity": "C",
+          "stats": "D C B C C C",
+          "traits": {
+            "natureRelease": "Paper (origami)",
+            "chakra": "Low, orphan-level",
+            "signatureJutsu": "Paper Shuriken, origami folding"
+          },
+          "wikiImage": "File:Young Konan OL.png"
+        },
+        {
+          "id": "angel",
+          "label": "Angel of Ame",
+          "rarity": "A",
+          "stats": "B A S B S B",
+          "traits": {
+            "kekkeiGenkai": "Paper Release",
+            "natureRelease": "Paper, Water, Explosive tags",
+            "chakra": "High",
+            "signatureJutsu": "Paper Clone, Sea of Explosive Paper Seals"
+          },
+          "wikiImage": "File:Konan Angel OL.png"
+        }
+      ]
+    },
+    {
+      "id": "zetsu",
+      "name": "Zetsu",
+      "wikiPage": "Black Zetsu",
+      "variants": [
+        {
+          "id": "white",
+          "label": "White Zetsu",
+          "rarity": "C",
+          "stats": "C B C C C C",
+          "traits": {
+            "kekkeiGenkai": "Hashirama cell clone",
+            "natureRelease": "Camouflage, Earth merging",
+            "chakra": "Low, Zetsu spawn",
+            "signatureJutsu": "Mass clone army, earth merging"
+          },
+          "wikiImage": "File:White Zetsu fullbody.png"
+        },
+        {
+          "id": "black",
+          "label": "Black Zetsu",
+          "rarity": "A",
+          "stats": "B A S B S A",
+          "traits": {
+            "kekkeiGenkai": "Will of Kaguya, Shinju chakra",
+            "natureRelease": "Yin, Earth merging",
+            "chakra": "Large, Kaguya-sourced",
+            "signatureJutsu": "Chakra Receiver gifting, Spores, Shapeshift"
+          },
+          "wikiImage": "File:BZetsufull.png"
+        }
+      ]
+    },
+    {
+      "id": "nagato-uzumaki",
+      "name": "Nagato Uzumaki",
+      "wikiPage": "Nagato",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child Nagato",
+          "rarity": "C",
+          "stats": "D C B C C D",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki lineage, dormant Rinnegan",
+            "natureRelease": "Latent",
+            "chakra": "Large, Uzumaki-level",
+            "signatureJutsu": "Uzumaki chakra, sealing aptitude"
+          },
+          "wikiImage": "File:Child Nagato.PNG"
+        },
+        {
+          "id": "akatsuki-leader",
+          "label": "Akatsuki Leader",
+          "rarity": "A",
+          "stats": "C B S C SS B",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Uzumaki lineage",
+            "natureRelease": "Fire, Wind, Earth, Lightning, Water",
+            "chakra": "Vast, strained by Six Paths control",
+            "signatureJutsu": "Six Paths of Pain, Chibaku Tensei, Outer Path"
+          },
+          "wikiImage": "File:Nagato.png"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Tensei",
+          "rarity": "A",
+          "stats": "B B S SS SS SS",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Uzumaki lineage",
+            "natureRelease": "Fire, Wind, Earth, Lightning, Water",
+            "chakra": "Unlimited (Edo Tensei)",
+            "signatureJutsu": "Rinne Rebirth, Six Paths of Pain"
+          },
+          "wikiImage": "File:Nagato's War Attire.png"
+        }
+      ]
+    },
+    {
+      "id": "yahiko",
+      "name": "Yahiko",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B C B C",
+          "traits": {
+            "natureRelease": "Water",
+            "chakra": "Moderate",
+            "signatureJutsu": "Kunai combat, Ame leadership"
+          },
+          "wikiImage": "File:Yahiko.png"
+        }
+      ]
+    },
+    {
+      "id": "danzo-shimura",
+      "name": "Danzō Shimura",
+      "variants": [
+        {
+          "id": "root-leader",
+          "label": "Root Leader",
+          "rarity": "A",
+          "stats": "B B S B S B",
+          "traits": {
+            "kekkeiGenkai": "Sealing Technique (Sai)",
+            "natureRelease": "Wind, Earth, Fire, Lightning, Water",
+            "chakra": "High, mixed with Hashirama cells",
+            "signatureJutsu": "Wind Style: Vacuum Sphere, Sealing Technique"
+          },
+          "wikiImage": "File:Danzo full.png"
+        },
+        {
+          "id": "hokage",
+          "label": "Sixth Hokage",
+          "rarity": "A",
+          "stats": "B B S A S B",
+          "traits": {
+            "kekkeiGenkai": "Sharingan arm, Wood Release implants",
+            "natureRelease": "Wind, Fire, Wood, Earth, Water",
+            "chakra": "High, Sharingan-assisted",
+            "signatureJutsu": "Izanagi, Kotoamatsukami, Wood Release"
+          },
+          "wikiImage": "File:Danzo in Hokage wear.png"
+        }
+      ]
+    },
+    {
+      "id": "fu-yamanaka",
+      "name": "Fū Yamanaka",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C B C",
+          "traits": {
+            "natureRelease": "Yin (mind jutsu)",
+            "chakra": "Moderate, Root-trained",
+            "signatureJutsu": "Mind Body Switch, Root sealing"
+          },
+          "wikiImage": "File:Fu 1.png"
+        }
+      ]
+    },
+    {
+      "id": "torune-aburame",
+      "name": "Torune Aburame",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B C A C",
+          "traits": {
+            "kekkeiGenkai": "Kikaichū Parasitic Insects",
+            "natureRelease": "Poison, Sealing",
+            "chakra": "Moderate, shared with hive",
+            "signatureJutsu": "Kikaichū Parasitic Insects, Poison Mist"
+          },
+          "wikiImage": "File:Torune Anime.png"
+        }
+      ]
+    },
+    {
+      "id": "suigetsu-hozuki",
+      "name": "Suigetsu Hōzuki",
+      "variants": [
+        {
+          "id": "taka",
+          "label": "Taka",
+          "rarity": "B",
+          "stats": "A A B S B B",
+          "traits": {
+            "kekkeiGenkai": "Hydrification",
+            "natureRelease": "Water",
+            "chakra": "Moderate, high water reservoir",
+            "signatureJutsu": "Hydrification, Executioner's Blade"
+          },
+          "wikiImage": "File:Suigetsu Hōzuki.png"
+        },
+        {
+          "id": "boruto-era",
+          "label": "Boruto Era",
+          "rarity": "B",
+          "stats": "A A B S B B",
+          "traits": {
+            "kekkeiGenkai": "Hydrification",
+            "natureRelease": "Water",
+            "chakra": "Moderate, high water reservoir",
+            "signatureJutsu": "Water Gun, Hydrification, Samehada"
+          },
+          "wikiImage": "File:Suigetsu part III.png"
+        }
+      ]
+    },
+    {
+      "id": "karin",
+      "name": "Karin",
+      "variants": [
+        {
+          "id": "taka",
+          "label": "Taka",
+          "rarity": "C",
+          "stats": "D C B C B C",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki lineage, healing bite",
+            "natureRelease": "Sensor type",
+            "chakra": "Moderate, sensor and healer",
+            "signatureJutsu": "Sensing, Adamantine Chains, Heal Bite"
+          },
+          "wikiImage": "File:Karin full.png"
+        },
+        {
+          "id": "boruto-era",
+          "label": "Boruto Era",
+          "rarity": "C",
+          "stats": "D C B B B B",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki lineage, healing bite",
+            "natureRelease": "Sensor type",
+            "chakra": "Moderate, sensor and healer",
+            "signatureJutsu": "Sensing, Adamantine Chains, Heal Bite"
+          },
+          "wikiImage": "File:Karin p3.png"
+        }
+      ]
+    },
+    {
+      "id": "jugo",
+      "name": "Jūgo",
+      "variants": [
+        {
+          "id": "calm",
+          "label": "Calm",
+          "rarity": "B",
+          "stats": "B B C B C B",
+          "traits": {
+            "kekkeiGenkai": "Nature energy absorption",
+            "natureRelease": "Natural energy",
+            "chakra": "High, unstable",
+            "signatureJutsu": "Nature Energy Absorption, Beast Transformation"
+          },
+          "wikiImage": "File:Jūgo.png"
+        },
+        {
+          "id": "cursed-seal",
+          "label": "Cursed Seal Transformation",
+          "rarity": "A",
+          "stats": "S A C A B A",
+          "traits": {
+            "kekkeiGenkai": "Nature energy absorption",
+            "natureRelease": "Natural energy",
+            "chakra": "Rage-boosted",
+            "signatureJutsu": "Cursed Seal Level 2, Booster Fist"
+          },
+          "wikiImage": "File:Jugo's Level 2 state.png"
+        }
+      ]
+    },
+    {
+      "id": "killer-b",
+      "name": "Killer B",
+      "variants": [
+        {
+          "id": "part-ii",
+          "label": "Part II",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Eight-Tails jinchūriki",
+            "natureRelease": "Lightning, Water",
+            "chakra": "Vast, Gyūki-boosted",
+            "signatureJutsu": "Seven Swords Style, Lariat, Ink Art"
+          },
+          "wikiImage": "File:Killer B.png"
+        },
+        {
+          "id": "eight-tails-mode",
+          "label": "Eight-Tails Mode",
+          "rarity": "S",
+          "stats": "S A B S A S",
+          "traits": {
+            "kekkeiGenkai": "Eight-Tails jinchūriki",
+            "natureRelease": "Lightning, Water",
+            "chakra": "Vast, Gyūki cloak",
+            "signatureJutsu": "Eight-Tails Cloak, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Killer B's Tailed Beast Mode.png"
+        },
+        {
+          "id": "boruto-era",
+          "label": "Boruto Era",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Eight-Tails jinchūriki",
+            "natureRelease": "Lightning, Water",
+            "chakra": "Vast, Gyūki-boosted",
+            "signatureJutsu": "Eight-Tails Cloak, Seven Swords Style"
+          },
+          "wikiImage": "File:B Boruto era.png"
+        }
+      ]
+    },
+    {
+      "id": "a-fourth-raikage",
+      "name": "A (Fourth Raikage)",
+      "variants": [
+        {
+          "id": "fourth-raikage",
+          "label": "Fourth Raikage",
+          "rarity": "A",
+          "stats": "S S B S B A",
+          "traits": {
+            "natureRelease": "Lightning, Earth",
+            "chakra": "High, Lightning Release armor",
+            "signatureJutsu": "Lightning Style Chakra Mode, Lariat"
+          },
+          "wikiImage": "File:Fourth Raikage full.png"
+        },
+        {
+          "id": "lightning-armor",
+          "label": "Lightning Armor",
+          "rarity": "S",
+          "stats": "SS SS B S A A",
+          "traits": {
+            "natureRelease": "Lightning",
+            "chakra": "Vast, armor-fueled",
+            "signatureJutsu": "Lightning Release Armor, Lariat"
+          },
+          "wikiImage": "File:Raiton no yoroi.png"
+        }
+      ]
+    },
+    {
+      "id": "darui",
+      "name": "Darui",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "kekkeiGenkai": "Black Lightning",
+            "natureRelease": "Lightning, Water",
+            "chakra": "High",
+            "signatureJutsu": "Black Lightning, Laser Circus, Kangekiha"
+          },
+          "wikiImage": "File:Darui.png"
+        }
+      ]
+    },
+    {
+      "id": "cee",
+      "name": "Cee",
+      "wikiPage": "C",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B A C A B",
+          "traits": {
+            "kekkeiGenkai": "Sensor Type",
+            "natureRelease": "Lightning",
+            "chakra": "Moderate, sensor-boosted",
+            "signatureJutsu": "Lightning Style: Rai-Kōchū, Sensory Barrier"
+          },
+          "wikiImage": "File:C full.png"
+        }
+      ]
+    },
+    {
+      "id": "mei-terumi",
+      "name": "Mei Terumi",
+      "wikiPage": "Mei Terumī",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "C B S B S A",
+          "traits": {
+            "kekkeiGenkai": "Boil Release, Lava Release",
+            "natureRelease": "Water, Fire, Earth",
+            "chakra": "Vast",
+            "signatureJutsu": "Boil Release: Skilled Mist, Lava Melting"
+          },
+          "wikiImage": "File:Mei.png"
+        }
+      ]
+    },
+    {
+      "id": "chojuro",
+      "name": "Chōjūrō",
+      "variants": [
+        {
+          "id": "part-ii",
+          "label": "Part II",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "natureRelease": "Water, Lightning",
+            "chakra": "High, sword-fed",
+            "signatureJutsu": "Blast Sword Hiramekarei, Mist Hidden"
+          },
+          "wikiImage": "File:Chojuro 2.png"
+        },
+        {
+          "id": "sixth-mizukage",
+          "label": "Sixth Mizukage",
+          "rarity": "A",
+          "stats": "B B A A A A",
+          "traits": {
+            "natureRelease": "Water, Lightning",
+            "chakra": "High, sword-fed",
+            "signatureJutsu": "Hiramekarei Shōhō, Raiton: Raitei"
+          },
+          "wikiImage": "File:Chojuro Part III.png"
+        }
+      ]
+    },
+    {
+      "id": "ao",
+      "name": "Ao",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B A B B B",
+          "traits": {
+            "kekkeiGenkai": "Byakugan (stolen)",
+            "natureRelease": "Water",
+            "chakra": "Moderate",
+            "signatureJutsu": "Byakugan Detection, Mist Hidden Jutsu"
+          },
+          "wikiImage": "File:Ao.png"
+        }
+      ]
+    },
+    {
+      "id": "onoki",
+      "name": "Ōnoki",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young Ōnoki",
+          "rarity": "B",
+          "stats": "B A B B A B",
+          "traits": {
+            "kekkeiGenkai": "Dust Release (Kekkei Tōta)",
+            "natureRelease": "Earth, Wind, Fire",
+            "chakra": "Large, growing",
+            "signatureJutsu": "Light Weight Rock, Dust Release basics"
+          },
+          "wikiImage": "File:Young Ōnoki.png"
+        },
+        {
+          "id": "third-tsuchikage",
+          "label": "Third Tsuchikage",
+          "rarity": "A",
+          "stats": "C C S C S B",
+          "traits": {
+            "kekkeiGenkai": "Dust Release (Kekkei Tōta)",
+            "natureRelease": "Earth, Wind, Fire",
+            "chakra": "Vast, age-limited",
+            "signatureJutsu": "Dust Release: Detachment of the Primitive World"
+          },
+          "wikiImage": "File:Ōnoki.png"
+        }
+      ]
+    },
+    {
+      "id": "kurotsuchi",
+      "name": "Kurotsuchi",
+      "variants": [
+        {
+          "id": "part-ii",
+          "label": "Part II",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "natureRelease": "Lava, Earth, Wind",
+            "chakra": "Moderate",
+            "signatureJutsu": "Lava Release: Rapid Wave, Rock Boundary"
+          },
+          "wikiImage": "File:Kurotsuchi Part II.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "natureRelease": "Lava, Earth, Wind",
+            "chakra": "Large",
+            "signatureJutsu": "Lava Release: Rapid Wave, Earth Cavern"
+          },
+          "wikiImage": "File:Kurotsuchi Adult.png"
+        }
+      ]
+    },
+    {
+      "id": "akatsuchi",
+      "name": "Akatsuchi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A C C A C B",
+          "traits": {
+            "natureRelease": "Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Earth Style: Rock Fist, Wall Barrage"
+          },
+          "wikiImage": "File:Akatsuchi Part II.png"
+        }
+      ]
+    },
+    {
+      "id": "mifune",
+      "name": "Mifune",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "natureRelease": "Iaido (no chakra)",
+            "chakra": "No chakra, samurai spirit",
+            "signatureJutsu": "Iaido, Blade Dance"
+          },
+          "wikiImage": "File:Mifune full.png"
+        }
+      ]
+    },
+    {
+      "id": "kushina-uzumaki",
+      "name": "Kushina Uzumaki",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C B C C C",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki lineage",
+            "natureRelease": "Wind (developing)",
+            "chakra": "Large for her age",
+            "signatureJutsu": "Chain foundations, Uzumaki fuinjutsu"
+          },
+          "wikiImage": "File:Kid Kushina.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "B B A B S A",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki lineage, Adamantine Chains",
+            "natureRelease": "Wind, Water, Lightning",
+            "chakra": "Enormous",
+            "signatureJutsu": "Adamantine Sealing Chains, Sealing Techniques"
+          },
+          "wikiImage": "File:Kushina Uzumaki full.png"
+        },
+        {
+          "id": "nine-tails-cloak",
+          "label": "Nine-Tails Cloak",
+          "rarity": "S",
+          "stats": "A A A A A S",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki lineage, Adamantine Chains",
+            "natureRelease": "Wind, Water, Lightning",
+            "chakra": "Enormous, plus Kurama",
+            "signatureJutsu": "Version 1 Cloak, Chakra Chain Barrier"
+          },
+          "wikiImage": "File:Kushina's Version 1 Form.png"
+        }
+      ]
+    },
+    {
+      "id": "tobirama-senju",
+      "name": "Tobirama Senju",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "A S S B S A",
+          "traits": {
+            "kekkeiGenkai": "Sensory ability",
+            "natureRelease": "Water, Lightning, Earth, Fire, Wind",
+            "chakra": "Large, efficient",
+            "signatureJutsu": "Flying Thunder God, Water Dragon, Edo Tensei"
+          },
+          "wikiImage": "File:Tobirama Senju full.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C A D B C",
+          "traits": {
+            "natureRelease": "Water (Senju heritage)",
+            "chakra": "Small",
+            "signatureJutsu": "Basic Water Style, Kunai Training"
+          },
+          "wikiImage": "File:Kid Tobirama.png"
+        },
+        {
+          "id": "second-hokage",
+          "label": "Second Hokage",
+          "rarity": "S",
+          "stats": "A SS S A SS A",
+          "traits": {
+            "kekkeiGenkai": "Flying Thunder God precursor",
+            "natureRelease": "Water, Lightning, Fire, Earth, Wind",
+            "chakra": "Vast, Senju-level",
+            "signatureJutsu": "Flying Thunder God, Water Dragon Bullet, Edo Tensei"
+          },
+          "wikiImage": "File:Tobirama Senju.png"
+        }
+      ]
+    },
+    {
+      "id": "third-raikage",
+      "name": "Third Raikage",
+      "wikiPage": "A (Third Raikage)",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Raikage",
+          "rarity": "A",
+          "stats": "S A B S B B",
+          "traits": {
+            "natureRelease": "Lightning, Earth",
+            "chakra": "High",
+            "signatureJutsu": "Lightning Release Armor, Spear Hand"
+          },
+          "wikiImage": "File:3rd Raikage full.png"
+        },
+        {
+          "id": "lightning-chakra-mode",
+          "label": "Lightning Chakra Mode",
+          "rarity": "S",
+          "stats": "SS SS B S A A",
+          "traits": {
+            "natureRelease": "Lightning",
+            "chakra": "Vast, Raiton shroud",
+            "signatureJutsu": "Lightning Chakra Mode, Jigokuzuki"
+          },
+          "wikiImage": "File:Third Raikage's Lightning Chakra Mode.png"
+        }
+      ]
+    },
+    {
+      "id": "gengetsu-hozuki",
+      "name": "Gengetsu Hōzuki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "C B S B S B",
+          "traits": {
+            "kekkeiGenkai": "Steam Release",
+            "natureRelease": "Water, Fire, Steam",
+            "chakra": "Vast",
+            "signatureJutsu": "Steam Release: Boiling Rage Slice, Ohamaguri"
+          },
+          "wikiImage": "File:Second Mizukage-Full.png"
+        }
+      ]
+    },
+    {
+      "id": "mu",
+      "name": "Mū",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A A B S B",
+          "traits": {
+            "kekkeiGenkai": "Dust Release (Kekkei Tōta)",
+            "natureRelease": "Earth, Wind, Fire, Dust",
+            "chakra": "High",
+            "signatureJutsu": "Dust Release: Primitive World, Invisibility"
+          },
+          "wikiImage": "File:Mu full.png"
+        }
+      ]
+    },
+    {
+      "id": "yagura-karatachi",
+      "name": "Yagura Karatachi",
+      "variants": [
+        {
+          "id": "fourth-mizukage",
+          "label": "Fourth Mizukage",
+          "rarity": "A",
+          "stats": "B A A A A A",
+          "traits": {
+            "kekkeiGenkai": "Three-Tails jinchūriki",
+            "natureRelease": "Water, Fire",
+            "chakra": "Vast, Isobu-boosted",
+            "signatureJutsu": "Three-Tails Cloak, Hot Water Dragon"
+          },
+          "wikiImage": "File:Yagura.png"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Tensei",
+          "rarity": "A",
+          "stats": "B A A SS A SS",
+          "traits": {
+            "kekkeiGenkai": "Three-Tails jinchūriki",
+            "natureRelease": "Water, Fire",
+            "chakra": "Unlimited (Edo Tensei)",
+            "signatureJutsu": "Three-Tails Cloak, Coral Palace"
+          },
+          "wikiImage": "File:Edo Yagura.png"
+        }
+      ]
+    },
+    {
+      "id": "utakata",
+      "name": "Utakata",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Jinchūriki",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Six-Tails jinchūriki",
+            "natureRelease": "Water, Acid",
+            "chakra": "Large, Saiken-boosted",
+            "signatureJutsu": "Bubble Release, Acid Water Spray"
+          },
+          "wikiImage": "File:Utakata.png"
+        },
+        {
+          "id": "six-tails-cloak",
+          "label": "Six-Tails Cloak",
+          "rarity": "A",
+          "stats": "A B B A A A",
+          "traits": {
+            "kekkeiGenkai": "Six-Tails jinchūriki",
+            "natureRelease": "Water, Acid",
+            "chakra": "Vast, Saiken cloak",
+            "signatureJutsu": "Slug Cloak, Corrosive Bubble Bomb"
+          },
+          "wikiImage": "File:Utakata's Version 2 Form.png"
+        }
+      ]
+    },
+    {
+      "id": "han",
+      "name": "Han",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Jinchūriki",
+          "rarity": "A",
+          "stats": "S A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Five-Tails jinchūriki",
+            "natureRelease": "Fire, Steam",
+            "chakra": "Vast, Kokuō-boosted",
+            "signatureJutsu": "Steam Armor, Fungus Kick"
+          },
+          "wikiImage": "File:Han.png"
+        },
+        {
+          "id": "five-tails-cloak",
+          "label": "Five-Tails Cloak",
+          "rarity": "A",
+          "stats": "S A B S A S",
+          "traits": {
+            "kekkeiGenkai": "Five-Tails jinchūriki",
+            "natureRelease": "Fire, Steam",
+            "chakra": "Vast, Kokuō cloak",
+            "signatureJutsu": "Steam Release: Lava Cannon, Five-Tails Bomb"
+          },
+          "wikiImage": "File:Han Version 2.png"
+        }
+      ]
+    },
+    {
+      "id": "roshi",
+      "name": "Rōshi",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Jinchūriki",
+          "rarity": "A",
+          "stats": "A B B A A A",
+          "traits": {
+            "kekkeiGenkai": "Four-Tails jinchūriki",
+            "natureRelease": "Lava, Fire",
+            "chakra": "Vast, Son Gokū-boosted",
+            "signatureJutsu": "Lava Release: Rapid Wave, Lava Armor"
+          },
+          "wikiImage": "File:Roshi.png"
+        },
+        {
+          "id": "four-tails-cloak",
+          "label": "Four-Tails Cloak",
+          "rarity": "A",
+          "stats": "S A B S A S",
+          "traits": {
+            "kekkeiGenkai": "Four-Tails jinchūriki",
+            "natureRelease": "Lava, Fire",
+            "chakra": "Vast, Son Gokū cloak",
+            "signatureJutsu": "Four-Tails Cloak, Lava Ball Bomb"
+          },
+          "wikiImage": "File:Rōshi transformed into Son.png"
+        }
+      ]
+    },
+    {
+      "id": "fuu",
+      "name": "Fū",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C A C C B B",
+          "traits": {
+            "kekkeiGenkai": "Seven-Tails jinchūriki",
+            "natureRelease": "Wind, Scale dust",
+            "chakra": "Large, Chōmei-boosted",
+            "signatureJutsu": "Chōmei Wing Bursts, Scale Powder Mist"
+          },
+          "wikiImage": "File:Fu.png"
+        }
+      ]
+    },
+    {
+      "id": "yugito-nii",
+      "name": "Yugito Nii",
+      "variants": [
+        {
+          "id": "jinchuriki",
+          "label": "Jinchūriki",
+          "rarity": "A",
+          "stats": "B A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Two-Tails jinchūriki",
+            "natureRelease": "Lightning, Fire",
+            "chakra": "Vast, Matatabi-boosted",
+            "signatureJutsu": "Blue Flame Cloak, Fire Style"
+          },
+          "wikiImage": "File:Yugito Full.png"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Tensei",
+          "rarity": "A",
+          "stats": "B A B SS A SS",
+          "traits": {
+            "kekkeiGenkai": "Two-Tails jinchūriki",
+            "natureRelease": "Lightning, Fire",
+            "chakra": "Unlimited (Edo Tensei)",
+            "signatureJutsu": "Two-Tails Blue Flame Cloak"
+          },
+          "wikiImage": "File:Edo Yugito.png"
+        }
+      ]
+    },
+    {
+      "id": "kinkaku",
+      "name": "Kinkaku",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Kinkaku",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Sage tool wielder",
+            "natureRelease": "Fire, Water, Wind",
+            "chakra": "Moderate",
+            "signatureJutsu": "Golden Rope, Gourd of Seal"
+          },
+          "wikiImage": "File:Kinkaku 268.png"
+        },
+        {
+          "id": "nine-tails-chakra",
+          "label": "Nine-Tails Chakra",
+          "rarity": "A",
+          "stats": "S A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Nine-Tails chakra (ingested)",
+            "natureRelease": "Fire, Wind, Water",
+            "chakra": "Vast, Kurama chakra",
+            "signatureJutsu": "Nine-Tails Cloak, Sage Tool Seal Sword"
+          },
+          "wikiImage": "File:Kinkaku's Jinchuriki Transformation.png"
+        }
+      ]
+    },
+    {
+      "id": "ginkaku",
+      "name": "Ginkaku",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Sage tool wielder",
+            "natureRelease": "Water, Fire, Wind",
+            "chakra": "Moderate",
+            "signatureJutsu": "Crimson Gourd, Fan of Seven Stars"
+          },
+          "wikiImage": "File:Ginkaku 268.png"
+        }
+      ]
+    },
+    {
+      "id": "mangetsu-hozuki",
+      "name": "Mangetsu Hōzuki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Hydrification",
+            "natureRelease": "Water",
+            "chakra": "Moderate",
+            "signatureJutsu": "Hydrification, Water Gun, Kubikiribōchō"
+          },
+          "wikiImage": "File:Mangetsu hozuki.png"
+        }
+      ]
+    },
+    {
+      "id": "kushimaru-kuriarare",
+      "name": "Kushimaru Kuriarare",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B C B B B",
+          "traits": {
+            "natureRelease": "Water, Lightning",
+            "chakra": "Moderate",
+            "signatureJutsu": "Needle Sword Nuibari, Sword Dance"
+          },
+          "wikiImage": "File:Kushimaru Kuriarare.png"
+        }
+      ]
+    },
+    {
+      "id": "jinpachi-munashi",
+      "name": "Jinpachi Munashi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "natureRelease": "Water",
+            "chakra": "Moderate",
+            "signatureJutsu": "Shibuki Explosive Blade, Mist swordsmanship"
+          },
+          "wikiImage": "File:Jinpachi Munashi.png"
+        }
+      ]
+    },
+    {
+      "id": "jinin-akebino",
+      "name": "Jinin Akebino",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B B B B",
+          "traits": {
+            "natureRelease": "Water",
+            "chakra": "Moderate",
+            "signatureJutsu": "Kabutowari Blade, kenjutsu"
+          },
+          "wikiImage": "File:Jinin full.png"
+        }
+      ]
+    },
+    {
+      "id": "ameyuri-ringo",
+      "name": "Ameyuri Ringo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A B B A B",
+          "traits": {
+            "natureRelease": "Lightning, Water",
+            "chakra": "High",
+            "signatureJutsu": "Twin Lightning Blades Kiba, Raiton: Raiga"
+          },
+          "wikiImage": "File:Ameyuri.png"
+        }
+      ]
+    },
+    {
+      "id": "fuguki-suikazan",
+      "name": "Fuguki Suikazan",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B C A B A",
+          "traits": {
+            "kekkeiGenkai": "Self-expanding body",
+            "natureRelease": "Water, Wind",
+            "chakra": "Large",
+            "signatureJutsu": "Hair Needle Shot, Samehada wielder"
+          },
+          "wikiImage": "File:Fuguki suikazan.png"
+        }
+      ]
+    },
+    {
+      "id": "shisui-uchiha",
+      "name": "Shisui Uchiha",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D B B C B C",
+          "traits": {
+            "kekkeiGenkai": "Sharingan",
+            "natureRelease": "Fire",
+            "chakra": "Low",
+            "signatureJutsu": "Body Flicker, Fire Style: Fireball"
+          },
+          "wikiImage": "File:Shisui Child OL.png"
+        },
+        {
+          "id": "teen",
+          "label": "Shisui of the Body Flicker",
+          "rarity": "S",
+          "stats": "B SS S A S A",
+          "traits": {
+            "kekkeiGenkai": "Mangekyō Sharingan (Kotoamatsukami)",
+            "natureRelease": "Fire, Wind, Water",
+            "chakra": "Large",
+            "signatureJutsu": "Body Flicker, Kotoamatsukami, Susanoo"
+          },
+          "wikiImage": "File:Shisui-Full.png"
+        }
+      ]
+    },
+    {
+      "id": "izuna-uchiha",
+      "name": "Izuna Uchiha",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A S B A B",
+          "traits": {
+            "kekkeiGenkai": "Mangekyō Sharingan",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "High",
+            "signatureJutsu": "Fire Style: Great Fireball, Susanoo"
+          },
+          "wikiImage": "File:Izuna Uchiha.png"
+        }
+      ]
+    },
+    {
+      "id": "indra-otsutsuki",
+      "name": "Indra Ōtsutsuki",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young Indra",
+          "rarity": "A",
+          "stats": "B S A B S B",
+          "traits": {
+            "kekkeiGenkai": "Sharingan, Susanoo",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Vast, Ōtsutsuki chakra",
+            "signatureJutsu": "Susanoo, Chidori, Fire Release"
+          },
+          "wikiImage": "File:Indra Ōtsutsuki.png"
+        },
+        {
+          "id": "elderly",
+          "label": "Elderly Indra",
+          "rarity": "A",
+          "stats": "B A S B S A",
+          "traits": {
+            "kekkeiGenkai": "Sharingan, Perfect Susanoo",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Vast",
+            "signatureJutsu": "Perfect Susanoo, Amaterasu"
+          },
+          "wikiImage": "File:Elderly Indra.png"
+        }
+      ]
+    },
+    {
+      "id": "asura-otsutsuki",
+      "name": "Asura Ōtsutsuki",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young Asura",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "Sage spirit",
+            "natureRelease": "Earth, Wind",
+            "chakra": "Large",
+            "signatureJutsu": "Hyper-physical strength, Earth Style"
+          },
+          "wikiImage": "File:Young Asura.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult Asura",
+          "rarity": "S",
+          "stats": "S A B S S S",
+          "traits": {
+            "kekkeiGenkai": "Sage spirit, Six Paths Senjutsu",
+            "natureRelease": "Wind, Earth, Fire",
+            "chakra": "Vast, Ten-Tails cloak",
+            "signatureJutsu": "Asura Path, Six Paths strength"
+          },
+          "wikiImage": "File:Asura Ōtsutsuki.png"
+        }
+      ]
+    },
+    {
+      "id": "hagoromo-otsutsuki",
+      "name": "Hagoromo Ōtsutsuki",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "B",
+          "stats": "C B A C S B",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan",
+            "natureRelease": "Yin-Yang",
+            "chakra": "Large, Ōtsutsuki child",
+            "signatureJutsu": "Yin-Yang Release basics, Rinnegan awakening"
+          },
+          "wikiImage": "File:Kid Hagoromo.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "S",
+          "stats": "S S S S S S",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Six Paths Senjutsu",
+            "natureRelease": "Wind, Fire, Water, Earth, Lightning, Yin-Yang",
+            "chakra": "Vast",
+            "signatureJutsu": "Truth-Seeking Orbs, Six Paths Senjutsu"
+          },
+          "wikiImage": "File:Adult Hagoromo.png"
+        },
+        {
+          "id": "sage-of-six-paths",
+          "label": "Sage of Six Paths",
+          "rarity": "SS",
+          "stats": "S SS SS SS SS SS",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan, Six Paths Senjutsu",
+            "natureRelease": "Yin-Yang, all five natures",
+            "chakra": "Vast, Ten-Tails jinchūriki",
+            "signatureJutsu": "Creation of All Things, Chibaku Tensei"
+          },
+          "wikiImage": "File:Hagoromo full appearance.png"
+        }
+      ]
+    },
+    {
+      "id": "hamura-otsutsuki",
+      "name": "Hamura Ōtsutsuki",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young Hamura",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "kekkeiGenkai": "Byakugan",
+            "natureRelease": "Yin-Yang",
+            "chakra": "Large",
+            "signatureJutsu": "Byakugan, Gentle Fist foundations"
+          },
+          "wikiImage": "File:Hamura fullbody.png"
+        },
+        {
+          "id": "elder",
+          "label": "Elder Hamura",
+          "rarity": "S",
+          "stats": "S S S S S A",
+          "traits": {
+            "kekkeiGenkai": "Byakugan, Tenseigan",
+            "natureRelease": "Yin-Yang",
+            "chakra": "Vast",
+            "signatureJutsu": "Tenseigan Chakra Mode, Moon Palace"
+          },
+          "wikiImage": "File:Hamura Old.png"
+        }
+      ]
+    },
+    {
+      "id": "toneri-otsutsuki",
+      "name": "Toneri Ōtsutsuki",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Toneri",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "kekkeiGenkai": "Byakugan, Tenseigan",
+            "natureRelease": "Water, Earth, Wind",
+            "chakra": "Vast, Moon-based",
+            "signatureJutsu": "Tenseigan, Moon Crater Blast"
+          },
+          "wikiImage": "File:Toneri - The Last.png"
+        },
+        {
+          "id": "tenseigan-chakra-mode",
+          "label": "Tenseigan Chakra Mode",
+          "rarity": "S",
+          "stats": "S S A S S A",
+          "traits": {
+            "kekkeiGenkai": "Tenseigan",
+            "natureRelease": "All five natures, Yin-Yang",
+            "chakra": "Vast, Hamura legacy",
+            "signatureJutsu": "Tenseigan Chakra Mode, Moon Dragon"
+          },
+          "wikiImage": "File:Tenseigan Chakra Mode.png"
+        }
+      ]
+    },
+    {
+      "id": "kurama",
+      "name": "Kurama",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young Kurama",
+          "rarity": "B",
+          "stats": "C C B C C B",
+          "traits": {
+            "kekkeiGenkai": "Nine-Tails",
+            "natureRelease": "Fire, Lightning, Wind",
+            "chakra": "Large, young beast",
+            "signatureJutsu": "Young Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Young Kurama.png"
+        },
+        {
+          "id": "nine-tails",
+          "label": "Nine-Tails",
+          "rarity": "S",
+          "stats": "SS A A SS S SS",
+          "traits": {
+            "kekkeiGenkai": "Nine-Tails, hatred reservoir",
+            "natureRelease": "Fire, Lightning, Wind",
+            "chakra": "Nigh-limitless",
+            "signatureJutsu": "Tailed Beast Bomb, Tailed Beast Mode"
+          },
+          "wikiImage": "File:Kurama2.png"
+        },
+        {
+          "id": "yin-yang",
+          "label": "Yin-Yang Kurama",
+          "rarity": "S",
+          "stats": "S A B S S S",
+          "traits": {
+            "kekkeiGenkai": "Nine-Tails half chakra",
+            "natureRelease": "Fire, Lightning, Wind",
+            "chakra": "Half-chakra, Yin and Yang halves",
+            "signatureJutsu": "Tailed Beast Bomb, Chakra Cloak"
+          },
+          "wikiImage": "File:YinYangKurama.png"
+        }
+      ]
+    },
+    {
+      "id": "shukaku",
+      "name": "Shukaku",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B C A A A",
+          "traits": {
+            "kekkeiGenkai": "One-Tail, Sand Release",
+            "natureRelease": "Wind, Earth, Sand",
+            "chakra": "Vast",
+            "signatureJutsu": "Sand Armor, Wind Cannon, Sand Binding"
+          },
+          "wikiImage": "File:Shukaku.png"
+        }
+      ]
+    },
+    {
+      "id": "gyuki",
+      "name": "Gyūki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S A B S A S",
+          "traits": {
+            "kekkeiGenkai": "Eight-Tails, Ink Release",
+            "natureRelease": "Lightning, Water, Earth",
+            "chakra": "Vast",
+            "signatureJutsu": "Tailed Beast Bomb, Ink Squid Escape"
+          },
+          "wikiImage": "File:Gyuki.png"
+        }
+      ]
+    },
+    {
+      "id": "matatabi",
+      "name": "Matatabi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A S B A A A",
+          "traits": {
+            "kekkeiGenkai": "Two-Tails, Blue Flame",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Vast",
+            "signatureJutsu": "Blue Flame Breath, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Matatabi.png"
+        }
+      ]
+    },
+    {
+      "id": "son-goku",
+      "name": "Son Gokū",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Four-Tails, Lava Release",
+            "natureRelease": "Lava, Fire",
+            "chakra": "Vast",
+            "signatureJutsu": "Lava Release: Lava Spit, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Son Goku.png"
+        }
+      ]
+    },
+    {
+      "id": "kokuo",
+      "name": "Kokuō",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A S B A A A",
+          "traits": {
+            "kekkeiGenkai": "Five-Tails, Steam Release",
+            "natureRelease": "Fire, Steam",
+            "chakra": "Vast",
+            "signatureJutsu": "Horse Fire, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Kokuo.png"
+        }
+      ]
+    },
+    {
+      "id": "saiken",
+      "name": "Saiken",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Six-Tails, Acid Release",
+            "natureRelease": "Water, Acid",
+            "chakra": "Vast",
+            "signatureJutsu": "Acid Mist, Slug Squirt, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Saiken.png"
+        }
+      ]
+    },
+    {
+      "id": "chomei",
+      "name": "Chōmei",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A S B A A A",
+          "traits": {
+            "kekkeiGenkai": "Seven-Tails, Scale Release",
+            "natureRelease": "Wind, Scale dust",
+            "chakra": "Vast",
+            "signatureJutsu": "Scale Powder, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Chomei.png"
+        }
+      ]
+    },
+    {
+      "id": "isobu",
+      "name": "Isobu",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B B S A S",
+          "traits": {
+            "kekkeiGenkai": "Three-Tails, Coral Barrier",
+            "natureRelease": "Water, Coral",
+            "chakra": "Vast",
+            "signatureJutsu": "Coral Palace, Tailed Beast Bomb"
+          },
+          "wikiImage": "File:Isobu.png"
+        }
+      ]
+    },
+    {
+      "id": "ten-tails",
+      "name": "Ten-Tails",
+      "variants": [
+        {
+          "id": "beast",
+          "label": "Beast",
+          "rarity": "S",
+          "stats": "SS A B SS S SS",
+          "traits": {
+            "kekkeiGenkai": "Divine Tree origin",
+            "natureRelease": "All five natures",
+            "chakra": "Nigh-limitless, nature itself",
+            "signatureJutsu": "Ten-Tails Bijūdama, Divine Tree Roots"
+          },
+          "wikiImage": "File:Juubi NXB.png"
+        },
+        {
+          "id": "final-form",
+          "label": "Final Form",
+          "rarity": "S",
+          "stats": "SS S B SS SS SS",
+          "traits": {
+            "kekkeiGenkai": "Divine Tree origin, Rinnegan",
+            "natureRelease": "All natures, Yin-Yang",
+            "chakra": "Nigh-limitless",
+            "signatureJutsu": "Truth-Seeking Orb Barrage"
+          },
+          "wikiImage": "File:Juubi NXB 3rd form.png"
+        }
+      ]
+    },
+    {
+      "id": "guren",
+      "name": "Guren",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A B B A B",
+          "traits": {
+            "kekkeiGenkai": "Crystal Release",
+            "natureRelease": "Crystal, Water",
+            "chakra": "High",
+            "signatureJutsu": "Crystal Needle Shower, Crystal Prison"
+          },
+          "wikiImage": "File:Guren full.png"
+        }
+      ]
+    },
+    {
+      "id": "yukimaru",
+      "name": "Yukimaru",
+      "wikiPage": "Yūkimaru",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D C C C C C",
+          "traits": {
+            "kekkeiGenkai": "Crystal Release (stolen)",
+            "natureRelease": "Crystal",
+            "chakra": "Low, boy",
+            "signatureJutsu": "Crimson Fruit Barrage"
+          },
+          "wikiImage": "File:Yukimaru2.png"
+        }
+      ]
+    },
+    {
+      "id": "menma-uzumaki",
+      "name": "Menma Uzumaki",
+      "variants": [
+        {
+          "id": "base",
+          "label": "Menma",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "kekkeiGenkai": "Nine-Tails jinchūriki",
+            "natureRelease": "Wind, Fire, Lightning",
+            "chakra": "Enormous, Kurama-boosted",
+            "signatureJutsu": "Rasengan, Black Kurama Chakra Mode"
+          },
+          "wikiImage": "File:Menma Uzumaki.png"
+        },
+        {
+          "id": "nine-tails-jinchuriki",
+          "label": "Kurama Jinchūriki",
+          "rarity": "S",
+          "stats": "S S B S A S",
+          "traits": {
+            "kekkeiGenkai": "Nine-Tails jinchūriki, Dark Kurama",
+            "natureRelease": "Wind, Fire, Lightning",
+            "chakra": "Nigh-limitless, Dark Kurama",
+            "signatureJutsu": "Dark Nine-Tails Bijūdama, Menma Rasengan"
+          },
+          "wikiImage": "File:Jinchuriki Menma.png"
+        }
+      ]
+    },
+    {
+      "id": "dan-kato",
+      "name": "Dan Katō",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C B C",
+          "traits": {
+            "natureRelease": "Water",
+            "chakra": "Moderate",
+            "signatureJutsu": "Medical Ninjutsu, Great Waterfall"
+          },
+          "wikiImage": "File:Dan HDshot.png"
+        }
+      ]
+    },
+    {
+      "id": "nawaki",
+      "name": "Nawaki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D C C C C C",
+          "traits": {
+            "natureRelease": "Wind (potential)",
+            "chakra": "Low, young",
+            "signatureJutsu": "Shuriken Throw, Hokage dream"
+          },
+          "wikiImage": "File:Nawaki Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kagami-uchiha",
+      "name": "Kagami Uchiha",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B A B B B",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (3 tomoe)",
+            "natureRelease": "Fire",
+            "chakra": "High",
+            "signatureJutsu": "Fire Style: Great Fireball, Sharingan Copy"
+          },
+          "wikiImage": "File:Kagami-Uchiha.png"
+        }
+      ]
+    },
+    {
+      "id": "rin-nohara",
+      "name": "Rin Nohara",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C B C",
+          "traits": {
+            "kekkeiGenkai": "Three-Tails jinchūriki (briefly)",
+            "natureRelease": "Water, Medical",
+            "chakra": "Moderate",
+            "signatureJutsu": "Medical Ninjutsu, Water Wall"
+          },
+          "wikiImage": "File:Rin full.png"
+        }
+      ]
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzō",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B A S A S A",
+          "traits": {
+            "kekkeiGenkai": "Poison immunity",
+            "natureRelease": "Poison, Wind, Water",
+            "chakra": "Large",
+            "signatureJutsu": "Great Poison Smoke, Chain Sickle"
+          },
+          "wikiImage": "File:Hanzo full appearance.png"
+        }
+      ]
+    }
+  ]
+}

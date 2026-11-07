@@ -255,7 +255,11 @@ export function GalleryScreen() {
   const changed = useGame((s) => Object.keys(s.overrides).length);
   const [animeId, setAnimeId] = useState(ANIME[0].id);
   const [editing, setEditing] = useState<Entry | null>(null);
-  const entries = BUILTIN_ENTRIES.filter((e) => e.animeId === animeId);
+  const [query, setQuery] = useState('');
+  const q = query.trim().toLowerCase();
+  const entries = BUILTIN_ENTRIES.filter(
+    (e) => e.animeId === animeId && (!q || `${e.name} ${e.label ?? ''}`.toLowerCase().includes(q)),
+  );
 
   return (
     <div>
@@ -274,6 +278,10 @@ export function GalleryScreen() {
             {a.name}
           </button>
         ))}
+        <input placeholder="Search characters…" value={query} onChange={(e) => setQuery(e.target.value)} />
+        <span className="muted" style={{ alignSelf: 'center' }}>
+          {entries.length} shown
+        </span>
       </div>
       <div className="char-grid">
         {entries.map((e) => (

@@ -18,6 +18,8 @@ export interface RawVariant {
   traits: Record<string, string>;
   /** Overrides the character image for this form. */
   image?: string;
+  /** Fandom wiki file title showing this form, e.g. "File:Garp Young.png" (resolved by scripts/fetch-images.mjs). */
+  wikiImage?: string;
 }
 
 export interface RawCharacter {
@@ -25,6 +27,8 @@ export interface RawCharacter {
   name: string;
   /** AniList search override when the plain name is ambiguous. */
   search?: string;
+  /** Fandom wiki page title when it differs from the name. */
+  wikiPage?: string;
   image?: string;
   variants: RawVariant[];
 }
@@ -35,6 +39,8 @@ export interface RawAnime {
   color: string;
   /** Title fragment used to disambiguate AniList character search results. */
   search: string;
+  /** Fandom subdomain used for per-form pictures, e.g. "onepiece". */
+  wiki?: string;
   attributes: { id: string; label: string }[];
   characters: RawCharacter[];
 }

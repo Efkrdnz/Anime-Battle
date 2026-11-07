@@ -85,6 +85,18 @@ describe('roll', () => {
     expect(common / 4000).toBeLessThan(expected + 0.05);
   });
 
+  it('keeps tier odds independent of how many characters each tier has', () => {
+    const common = pool.find((e) => e.rarity === 'C')!;
+    const mythic = pool.find((e) => e.rarity === 'SS')!;
+    const crowd = [...Array.from({ length: 200 }, (_, i) => ({ ...common, key: `c${i}` })), mythic];
+    const rand = mulberry32(11);
+    let ss = 0;
+    for (let i = 0; i < 4000; i++) if (weightedPick(crowd, rand)!.rarity === 'SS') ss++;
+    const expected = RARITY_WEIGHT.SS / (RARITY_WEIGHT.C + RARITY_WEIGHT.SS);
+    expect(ss / 4000).toBeGreaterThan(expected - 0.03);
+    expect(ss / 4000).toBeLessThan(expected + 0.03);
+  });
+
   it('falls back to repeats when all unique entries are used', () => {
     const all = new Set(pool.map((e) => e.key));
     expect(rollEntry(pool, universalSlots(), all, mulberry32(1))).toBeDefined();

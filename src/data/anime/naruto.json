@@ -3,6 +3,7 @@
   "name": "Naruto",
   "color": "#f77f00",
   "search": "naruto",
+  "wiki": "naruto",
   "attributes": [
     {
       "id": "kekkeiGenkai",
@@ -25,6 +26,7 @@
     {
       "id": "naruto-uzumaki",
       "name": "Naruto Uzumaki",
+      "wikiPage": "Naruto Uzumaki",
       "variants": [
         {
           "id": "part-1",
@@ -36,7 +38,8 @@
             "natureRelease": "Wind (developing)",
             "chakra": "Enormous, Kurama leaks through",
             "signatureJutsu": "Shadow Clone, Rasengan, Sexy Jutsu"
-          }
+          },
+          "wikiImage": "File:Naruto Part I.png"
         },
         {
           "id": "sage-mode",
@@ -48,7 +51,8 @@
             "natureRelease": "Wind (Rasenshuriken)",
             "chakra": "Vast, plus natural energy",
             "signatureJutsu": "Sage Art: Rasenshuriken, Frog Kata"
-          }
+          },
+          "wikiImage": "File:Naruto's Sage Mode.png"
         },
         {
           "id": "baryon-mode",
@@ -60,13 +64,67 @@
             "natureRelease": "Wind, Fire, Lightning, Earth, Water via Sage",
             "chakra": "Nigh-limitless, but burns life force",
             "signatureJutsu": "Baryon Mode, Bijuu Rasenshuriken"
-          }
+          },
+          "wikiImage": "File:Naruto's Baryon Mode.png"
+        },
+        {
+          "id": "part-2",
+          "label": "Part II",
+          "rarity": "A",
+          "stats": "A S B A A S",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki vitality, Nine-Tails Jinchuriki",
+            "natureRelease": "Wind (Rasenshuriken)",
+            "chakra": "Immense, Kurama-backed",
+            "signatureJutsu": "Tailed Beast Cloak, Rasenshuriken"
+          },
+          "wikiImage": "File:Naruto Part II.png"
+        },
+        {
+          "id": "kurama-mode",
+          "label": "Kurama Mode",
+          "rarity": "S",
+          "stats": "S S B S A SS",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki vitality, Kurama link",
+            "natureRelease": "Wind (Rasenshuriken)",
+            "chakra": "Vast, shared with Kurama",
+            "signatureJutsu": "Bijuu Mode, Tailed Beast Bomb Rasengan"
+          },
+          "wikiImage": "File:Naruto's Kurama Mode.png"
+        },
+        {
+          "id": "six-paths-sage",
+          "label": "Six Paths Sage Mode",
+          "rarity": "SS",
+          "stats": "SS SS A S SS SS",
+          "traits": {
+            "kekkeiGenkai": "Six Paths Sage power, Truth-Seeking Orbs",
+            "natureRelease": "All five natures via Sage Art",
+            "chakra": "Near-limitless, Kurama and Hagoromo",
+            "signatureJutsu": "Six Paths Rasenshuriken, Truth-Seeking Orbs"
+          },
+          "wikiImage": "File:Naruto's SPSM.png"
+        },
+        {
+          "id": "adult-hokage",
+          "label": "Seventh Hokage",
+          "rarity": "S",
+          "stats": "S S A S S S",
+          "traits": {
+            "kekkeiGenkai": "Uzumaki vitality, Kurama retained",
+            "natureRelease": "Wind, Water (limited)",
+            "chakra": "Immense, Kurama-backed",
+            "signatureJutsu": "Rasengan variants, Nine-Tails Chakra Mode"
+          },
+          "wikiImage": "File:Naruto Part III.png"
         }
       ]
     },
     {
       "id": "sasuke-uchiha",
       "name": "Sasuke Uchiha",
+      "wikiPage": "Sasuke Uchiha",
       "variants": [
         {
           "id": "part-1",
@@ -78,7 +136,8 @@
             "natureRelease": "Fire, Lightning (Chidori)",
             "chakra": "Above Genin average",
             "signatureJutsu": "Chidori, Fire Style: Fireball"
-          }
+          },
+          "wikiImage": "File:Sasuke Part I.png"
         },
         {
           "id": "rinnegan",
@@ -90,13 +149,80 @@
             "natureRelease": "Fire, Lightning, Wind, Earth, Water, Yin-Yang",
             "chakra": "Immense, Hagoromo's gift",
             "signatureJutsu": "Indra's Arrow, Amenotejikara"
-          }
+          },
+          "wikiImage": "File:Sasuke - Rinnegan.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C B D C D",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (dormant)",
+            "natureRelease": "Fire (Uchiha heritage)",
+            "chakra": "Small, a prodigy for his age",
+            "signatureJutsu": "Fireball Jutsu (attempt), Shuriken Throw"
+          },
+          "wikiImage": "File:Sasuke child.png"
+        },
+        {
+          "id": "curse-mark",
+          "label": "Curse Mark",
+          "rarity": "A",
+          "stats": "A A B A B B",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (3 tomoe), Curse Mark Level 2",
+            "natureRelease": "Fire, Lightning (Chidori)",
+            "chakra": "Boosted by Orochimaru seal",
+            "signatureJutsu": "Chidori, Curse Mark Level 2 Transformation"
+          },
+          "wikiImage": "File:Sasuke Cursed Mode.png"
+        },
+        {
+          "id": "part-2",
+          "label": "Part II",
+          "rarity": "A",
+          "stats": "A S A A A A",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (3 tomoe), Curse Mark",
+            "natureRelease": "Fire, Lightning, Snake summoning",
+            "chakra": "Large, sharply refined",
+            "signatureJutsu": "Chidori Sharp Spear, Kirin precursor, Snake Summon"
+          },
+          "wikiImage": "File:Sasuke Part 2.png"
+        },
+        {
+          "id": "mangekyo",
+          "label": "Mangekyo",
+          "rarity": "S",
+          "stats": "A S S A S A",
+          "traits": {
+            "kekkeiGenkai": "Mangekyo Sharingan, Susanoo",
+            "natureRelease": "Fire, Lightning, Amaterasu",
+            "chakra": "High, drained by Mangekyo",
+            "signatureJutsu": "Amaterasu, Susanoo, Kirin"
+          },
+          "wikiImage": "File:Sasuke Akatsuki.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "S",
+          "stats": "S S S A S A",
+          "traits": {
+            "kekkeiGenkai": "Eternal Mangekyo, Rinnegan (one eye)",
+            "natureRelease": "Fire, Lightning, Yin-Yang",
+            "chakra": "Immense",
+            "signatureJutsu": "Susanoo, Chidori Senbon, Indra Arrow"
+          },
+          "wikiImage": "File:Sasuke Part 3.png"
         }
       ]
     },
     {
       "id": "madara-uchiha",
       "name": "Madara Uchiha",
+      "wikiPage": "Madara Uchiha",
       "variants": [
         {
           "id": "edo-tensei",
@@ -108,7 +234,8 @@
             "natureRelease": "Fire, Wind, Lightning, Earth, Water",
             "chakra": "Infinite as a reanimated body",
             "signatureJutsu": "Susanoo, Meteor, Limbo"
-          }
+          },
+          "wikiImage": "File:Madara Reanimated.png"
         },
         {
           "id": "six-paths",
@@ -120,13 +247,41 @@
             "natureRelease": "All five natures, Yin-Yang",
             "chakra": "Ten-Tails Jinchuriki scale",
             "signatureJutsu": "Chibaku Tensei, Truth-Seeking Balls"
-          }
+          },
+          "wikiImage": "File:Madara Jinchuriki anime.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C B D B D",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (awakening)",
+            "natureRelease": "Fire (Uchiha heritage)",
+            "chakra": "Small but promising",
+            "signatureJutsu": "Basic Fire Style, Shuriken Throw"
+          },
+          "wikiImage": "File:Kid Madara.png"
+        },
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "S",
+          "stats": "S S SS S SS A",
+          "traits": {
+            "kekkeiGenkai": "Eternal Mangekyo, Susanoo",
+            "natureRelease": "Fire, Wind, Lightning, Earth, Water",
+            "chakra": "Vast, Uchiha-record",
+            "signatureJutsu": "Perfect Susanoo, Majestic Destroyer Flame, Katon"
+          },
+          "wikiImage": "File:Madara fullbody.png"
         }
       ]
     },
     {
       "id": "hashirama-senju",
       "name": "Hashirama Senju",
+      "wikiPage": "Hashirama Senju",
       "variants": [
         {
           "id": "first-hokage",
@@ -138,13 +293,54 @@
             "natureRelease": "Earth, Water, Wood",
             "chakra": "Colossal, even tames Kurama",
             "signatureJutsu": "Wood Style: True Several Thousand Hands"
-          }
+          },
+          "wikiImage": "File:Shodai Hokage.PNG"
+        },
+        {
+          "id": "warring-states",
+          "label": "Warring States",
+          "rarity": "S",
+          "stats": "S S S S SS A",
+          "traits": {
+            "kekkeiGenkai": "Wood Release",
+            "natureRelease": "Wood, Water, Earth, Fire, Wind",
+            "chakra": "Colossal",
+            "signatureJutsu": "Wood Dragon, Deep Forest Emergence, Mokuton Clone"
+          },
+          "wikiImage": "File:Hashirama Senju full body.png"
+        },
+        {
+          "id": "sage-mode",
+          "label": "Sage Mode",
+          "rarity": "SS",
+          "stats": "S S S S SS SS",
+          "traits": {
+            "kekkeiGenkai": "Wood Release, Sage senjutsu",
+            "natureRelease": "Wood, Water, Earth, Fire, Wind",
+            "chakra": "Colossal, plus natural energy",
+            "signatureJutsu": "Sage Art: Wood Golem, Deep Forest Emergence"
+          },
+          "wikiImage": "File:Hashirama's Sage Mode.png"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Tensei",
+          "rarity": "S",
+          "stats": "S S S S SS SS",
+          "traits": {
+            "kekkeiGenkai": "Wood Release, Mokuton clone",
+            "natureRelease": "Wood, Water, Earth",
+            "chakra": "Infinite as a reanimated body",
+            "signatureJutsu": "Wood Dragon, Shinrai Tree Technique"
+          },
+          "wikiImage": "File:Hashirama Senju.png"
         }
       ]
     },
     {
       "id": "itachi-uchiha",
       "name": "Itachi Uchiha",
+      "wikiPage": "Itachi Uchiha",
       "variants": [
         {
           "id": "akatsuki",
@@ -156,13 +352,54 @@
             "natureRelease": "Fire, Water",
             "chakra": "Above Kage but body fragile",
             "signatureJutsu": "Susanoo, Totsuka Blade, Izanami"
-          }
+          },
+          "wikiImage": "File:Itachi Akatsuki.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "B",
+          "stats": "C A S C A C",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (3 tomoe)",
+            "natureRelease": "Fire",
+            "chakra": "Above-average for a child",
+            "signatureJutsu": "Fireball Jutsu, Kunai Shuriken Combo"
+          },
+          "wikiImage": "File:Itachi Child OL.png"
+        },
+        {
+          "id": "anbu",
+          "label": "Anbu",
+          "rarity": "A",
+          "stats": "A S S A S A",
+          "traits": {
+            "kekkeiGenkai": "Mangekyo Sharingan",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Large, Anbu-captain level",
+            "signatureJutsu": "Tsukuyomi, Amaterasu, Anbu Kenjutsu"
+          },
+          "wikiImage": "File:Itachi ANBU Online.png"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Tensei",
+          "rarity": "S",
+          "stats": "A S S S S SS",
+          "traits": {
+            "kekkeiGenkai": "Eternal Mangekyo, Susanoo",
+            "natureRelease": "Fire, Lightning",
+            "chakra": "Infinite as a reanimated body",
+            "signatureJutsu": "Susanoo (Totsuka, Yata), Izanami"
+          },
+          "wikiImage": "File:Edo Itachi NXB.png"
         }
       ]
     },
     {
       "id": "kakashi-hatake",
       "name": "Kakashi Hatake",
+      "wikiPage": "Kakashi Hatake",
       "variants": [
         {
           "id": "sharingan",
@@ -174,7 +411,8 @@
             "natureRelease": "Lightning, Earth, Water, Fire, Wind",
             "chakra": "Average, drains quickly with Sharingan",
             "signatureJutsu": "Raikiri, Kamui, Thousand Jutsu"
-          }
+          },
+          "wikiImage": "File:Kakashi Hatake.png"
         },
         {
           "id": "dms",
@@ -186,13 +424,67 @@
             "natureRelease": "Lightning, Earth, Water, Fire, Wind",
             "chakra": "Large after Hashirama blood, lacking before",
             "signatureJutsu": "Kamui Raikiri, Purple Lightning Susanoo"
-          }
+          },
+          "wikiImage": "File:Kakashi's Susanoo.png"
+        },
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "B",
+          "stats": "C A A C A C",
+          "traits": {
+            "kekkeiGenkai": "Borrowed Sharingan (not yet)",
+            "natureRelease": "Lightning (Chidori)",
+            "chakra": "Small, a genius prodigy",
+            "signatureJutsu": "Chakra White Light Sabre, Kunai Fighting"
+          },
+          "wikiImage": "File:Kakashi Hatake full (Younger).png"
+        },
+        {
+          "id": "anbu",
+          "label": "Anbu",
+          "rarity": "A",
+          "stats": "A S S A S B",
+          "traits": {
+            "kekkeiGenkai": "Borrowed Sharingan",
+            "natureRelease": "Lightning, Fire, Water, Earth, Wind",
+            "chakra": "Moderate, Anbu elite",
+            "signatureJutsu": "Chidori, Lightning Blade, Sharingan Copy"
+          },
+          "wikiImage": "File:Kakashi Anbu.png"
+        },
+        {
+          "id": "hokage",
+          "label": "Sixth Hokage",
+          "rarity": "S",
+          "stats": "A S S A S A",
+          "traits": {
+            "kekkeiGenkai": "Mangekyo Sharingan, Kamui",
+            "natureRelease": "Lightning, Fire, Water, Earth, Wind",
+            "chakra": "Large after Obito's gift",
+            "signatureJutsu": "Kamui, Raikiri, Perfect Susanoo"
+          },
+          "wikiImage": "File:Hokage Kakashi.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "A S S A S B",
+          "traits": {
+            "kekkeiGenkai": "Mangekyo Sharingan (Kamui)",
+            "natureRelease": "Lightning, Fire, Water, Earth, Wind",
+            "chakra": "Moderate",
+            "signatureJutsu": "Raikiri, Kamui, Chidori Current"
+          },
+          "wikiImage": "File:Kakashi Part III.png"
         }
       ]
     },
     {
       "id": "minato-namikaze",
       "name": "Minato Namikaze",
+      "wikiPage": "Minato Namikaze",
       "variants": [
         {
           "id": "fourth-hokage",
@@ -203,13 +495,41 @@
             "natureRelease": "Wind, Lightning, Water, Fire",
             "chakra": "Large, Kurama half sealed in him",
             "signatureJutsu": "Flying Raijin, Rasengan, Reaper Death Seal"
-          }
+          },
+          "wikiImage": "File:Minato becomes hokage.png"
+        },
+        {
+          "id": "jonin",
+          "label": "Jonin",
+          "rarity": "A",
+          "stats": "A SS S A S A",
+          "traits": {
+            "kekkeiGenkai": "Flying Thunder God, Rasengan",
+            "natureRelease": "Wind (Rasengan), Lightning",
+            "chakra": "Good, efficiency over scale",
+            "signatureJutsu": "Flying Thunder God, Rasengan"
+          },
+          "wikiImage": "File:Minato Jonin.png"
+        },
+        {
+          "id": "edo-sage",
+          "label": "Edo Sage",
+          "rarity": "S",
+          "stats": "S SS S S SS SS",
+          "traits": {
+            "kekkeiGenkai": "Sage senjutsu, Flying Thunder God",
+            "natureRelease": "Wind, Lightning",
+            "chakra": "Infinite as a reanimated body",
+            "signatureJutsu": "Sage Art: Flying Thunder God, Rasengan"
+          },
+          "wikiImage": "File:Minato's Sage Mode.png"
         }
       ]
     },
     {
       "id": "obito-uchiha",
       "name": "Obito Uchiha",
+      "wikiPage": "Obito Uchiha",
       "variants": [
         {
           "id": "ten-tails-jinchuriki",
@@ -221,14 +541,54 @@
             "natureRelease": "Wood, Fire, Lightning, and more",
             "chakra": "Ten-Tails sized",
             "signatureJutsu": "Kamui, Truth-Seeking Balls, Kamui Shuriken"
-          }
+          },
+          "wikiImage": "File:Obito Uchiha.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C B D C D",
+          "traits": {
+            "kekkeiGenkai": "Sharingan (awakening)",
+            "natureRelease": "Fire",
+            "chakra": "Small",
+            "signatureJutsu": "Fireball Jutsu, Goggles Boy Kick"
+          },
+          "wikiImage": "File:Kid Obito full.png"
+        },
+        {
+          "id": "masked-man",
+          "label": "Masked Man",
+          "rarity": "S",
+          "stats": "A SS S A S A",
+          "traits": {
+            "kekkeiGenkai": "Mangekyo Sharingan, Kamui",
+            "natureRelease": "Fire, Wind, Lightning",
+            "chakra": "Great, bolstered by Hashirama cells",
+            "signatureJutsu": "Kamui, Wood Release, Gudodama"
+          },
+          "wikiImage": "File:Obito as the Masked Man.png"
+        },
+        {
+          "id": "unmasked",
+          "label": "Unmasked",
+          "rarity": "S",
+          "stats": "A S S A S A",
+          "traits": {
+            "kekkeiGenkai": "Eternal Mangekyo, Rinnegan (one eye)",
+            "natureRelease": "Fire, Wind, Wood (Hashirama cells)",
+            "chakra": "Great, boosted by Hashirama cells",
+            "signatureJutsu": "Kamui, Wood Release, Gudodama"
+          },
+          "wikiImage": "File:Obito Uchiha full.png"
         }
-      ],
-      "search": "Tobi"
+      ]
     },
     {
       "id": "pain",
       "name": "Pain",
+      "wikiPage": "Nagato",
       "variants": [
         {
           "id": "six-paths-of-pain",
@@ -240,13 +600,41 @@
             "natureRelease": "Fire, Wind, Water, Earth, Lightning",
             "chakra": "Large, split across six bodies",
             "signatureJutsu": "Shinra Tensei, Almighty Push, Chibaku Tensei"
-          }
+          },
+          "wikiImage": "File:Six Paths Pain.png"
+        },
+        {
+          "id": "child",
+          "label": "Child Nagato",
+          "rarity": "C",
+          "stats": "D C B D C D",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan (awakened early)",
+            "natureRelease": "Wind (Rinnegan), Fire",
+            "chakra": "Small, Uzumaki-lineage reserves",
+            "signatureJutsu": "Hand-to-Hand Training"
+          },
+          "wikiImage": "File:Child Nagato.PNG"
+        },
+        {
+          "id": "edo-tensei",
+          "label": "Edo Nagato",
+          "rarity": "A",
+          "stats": "C B S C S SS",
+          "traits": {
+            "kekkeiGenkai": "Rinnegan",
+            "natureRelease": "All five natures via Rinnegan",
+            "chakra": "Infinite as a reanimated body",
+            "signatureJutsu": "Summoning Rinnegan Toad, Almighty Push"
+          },
+          "wikiImage": "File:Nagato Edo Crippled.png"
         }
       ]
     },
     {
       "id": "jiraiya",
       "name": "Jiraiya",
+      "wikiPage": "Jiraiya",
       "variants": [
         {
           "id": "sage-mode",
@@ -257,13 +645,54 @@
             "natureRelease": "Fire, Wind, Earth, Water",
             "chakra": "Above Kage-level",
             "signatureJutsu": "Sage Art: Frog Song, Rasengan, Toad Mouth Trap"
-          }
+          },
+          "wikiImage": "File:Sage mode.png"
+        },
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "kekkeiGenkai": "No kekkei genkai",
+            "natureRelease": "Fire, Earth",
+            "chakra": "Large for his age",
+            "signatureJutsu": "Frog Song, Toad Oil Fire Bullet"
+          },
+          "wikiImage": "File:Jiraiya Young.png"
+        },
+        {
+          "id": "sannin",
+          "label": "Sannin",
+          "rarity": "A",
+          "stats": "A A S A S A",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "Fire, Earth, Water",
+            "chakra": "Large",
+            "signatureJutsu": "Needle Jizo, Rasengan, Toad Summoning"
+          },
+          "wikiImage": "File:Jiraiya Young Adult.png"
+        },
+        {
+          "id": "hermit",
+          "label": "Toad Hermit",
+          "rarity": "A",
+          "stats": "A A S A S B",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "Fire, Earth, Wind (Rasengan)",
+            "chakra": "Large",
+            "signatureJutsu": "Rasengan, Toad Oil Fire Bullet"
+          },
+          "wikiImage": "File:Jiraiya full2.png"
         }
       ]
     },
     {
       "id": "might-guy",
       "name": "Might Guy",
+      "wikiPage": "Might Guy",
       "variants": [
         {
           "id": "eight-gates",
@@ -273,13 +702,54 @@
           "traits": {
             "chakra": "Low ninjutsu, boosted by Gates opened",
             "signatureJutsu": "Night Guy, Morning Peacock, Daytime Tiger"
-          }
+          },
+          "wikiImage": "File:Guy's Eight Inner Gates.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D B B D C B",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "None (taijutsu-only)",
+            "chakra": "Small, yet trained to exhaustion",
+            "signatureJutsu": "Rock Lee-style bag training"
+          },
+          "wikiImage": "File:Kid Might Guy.png"
+        },
+        {
+          "id": "base",
+          "label": "Base",
+          "rarity": "A",
+          "stats": "S SS B S C S",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "None (taijutsu-only)",
+            "chakra": "Moderate, trained",
+            "signatureJutsu": "Dynamic Entry, Leaf Hurricane, Morning Peacock"
+          },
+          "wikiImage": "File:Might Guy.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "S S B S C S",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "None (taijutsu-only)",
+            "chakra": "Moderate, trained",
+            "signatureJutsu": "Dynamic Entry, Gate Release, Evening Elephant"
+          },
+          "wikiImage": "File:Might Guy Part III.png"
         }
       ]
     },
     {
       "id": "tsunade",
       "name": "Tsunade",
+      "wikiPage": "Tsunade",
       "variants": [
         {
           "id": "fifth-hokage",
@@ -290,13 +760,41 @@
             "natureRelease": "Earth, Water (minor)",
             "chakra": "Large, stored in the Strength of 100 Seal",
             "signatureJutsu": "Heavenly Kick of Pain, Creation Rebirth"
-          }
+          },
+          "wikiImage": "File:Tsunade as Hokage.PNG"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C B D C C",
+          "traits": {
+            "kekkeiGenkai": "Senju lineage",
+            "natureRelease": "Water (Senju heritage)",
+            "chakra": "Large for her age",
+            "signatureJutsu": "Basic Water Style, Strength Training"
+          },
+          "wikiImage": "File:Kid Tsunade.png"
+        },
+        {
+          "id": "sannin",
+          "label": "Sannin",
+          "rarity": "A",
+          "stats": "S B S A S B",
+          "traits": {
+            "kekkeiGenkai": "Senju lineage, Mitotic Regeneration",
+            "natureRelease": "Water, Earth",
+            "chakra": "Immense",
+            "signatureJutsu": "Heavenly Foot of Pain, Katsuyu Summoning"
+          },
+          "wikiImage": "File:Tsunade full.png"
         }
       ]
     },
     {
       "id": "orochimaru",
       "name": "Orochimaru",
+      "wikiPage": "Orochimaru",
       "variants": [
         {
           "id": "sannin",
@@ -308,13 +806,54 @@
             "natureRelease": "Wind, Fire, Earth, Water, Lightning",
             "chakra": "Large, replenishes with new bodies",
             "signatureJutsu": "Edo Tensei, Kusanagi, Eight-Branched Snake"
-          }
+          },
+          "wikiImage": "File:Orochimaru Infobox.png"
+        },
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D C S D B D",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "None shown",
+            "chakra": "Small",
+            "signatureJutsu": "Basic Poison Training, Snake Summons"
+          },
+          "wikiImage": "File:Orochimaru As A Kid.PNG"
+        },
+        {
+          "id": "akatsuki",
+          "label": "Akatsuki",
+          "rarity": "A",
+          "stats": "B A S B S B",
+          "traits": {
+            "kekkeiGenkai": "Snake-Sage, Immortality",
+            "natureRelease": "Fire, Wind, Earth, Water, Lightning",
+            "chakra": "Vast",
+            "signatureJutsu": "Edo Tensei, Kusanagi Sword, Snake Hands"
+          },
+          "wikiImage": "File:Orochimaru's Akatsuki Attire.png"
+        },
+        {
+          "id": "part-3",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "B A S B S B",
+          "traits": {
+            "kekkeiGenkai": "Snake-Sage, Immortality",
+            "natureRelease": "Wind, Earth, Water",
+            "chakra": "Large",
+            "signatureJutsu": "Edo Tensei, Eight-Headed Snake, Kusanagi"
+          },
+          "wikiImage": "File:Orochimaru Part III.png"
         }
       ]
     },
     {
       "id": "gaara",
       "name": "Gaara",
+      "wikiPage": "Gaara",
       "variants": [
         {
           "id": "kazekage",
@@ -326,13 +865,54 @@
             "natureRelease": "Sand, Magnet",
             "chakra": "Large, Shukaku remnants",
             "signatureJutsu": "Sand Coffin, Sand Tsunami, Sand Armor"
-          }
+          },
+          "wikiImage": "File:Gaara Part II.png"
+        },
+        {
+          "id": "part-1",
+          "label": "Part I",
+          "rarity": "A",
+          "stats": "A A B S B A",
+          "traits": {
+            "kekkeiGenkai": "Shukaku Jinchuriki, Sand control",
+            "natureRelease": "Wind, Earth (Sand)",
+            "chakra": "Huge, Shukaku leaks through",
+            "signatureJutsu": "Sand Coffin, Sand Burial, Absolute Shield"
+          },
+          "wikiImage": "File:Gaara in Part I.png"
+        },
+        {
+          "id": "full-shukaku",
+          "label": "Full Shukaku",
+          "rarity": "A",
+          "stats": "S A C S C A",
+          "traits": {
+            "kekkeiGenkai": "Shukaku Jinchuriki, Sand control",
+            "natureRelease": "Wind, Earth (Sand)",
+            "chakra": "Overwhelming, tailed beast scale",
+            "signatureJutsu": "Sand Tailed Beast Bomb, Sand Clone"
+          },
+          "wikiImage": "File:Full Shukaku Gaara.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "A A A S A A",
+          "traits": {
+            "kekkeiGenkai": "Sand control (Magnet Release)",
+            "natureRelease": "Wind, Earth, Magnet Release",
+            "chakra": "Large",
+            "signatureJutsu": "Sand Armor, Magnet Release, Sand Binding"
+          },
+          "wikiImage": "File:Gaara Part III.png"
         }
       ]
     },
     {
       "id": "rock-lee",
       "name": "Rock Lee",
+      "wikiPage": "Rock Lee",
       "variants": [
         {
           "id": "part-1",
@@ -342,13 +922,41 @@
           "traits": {
             "chakra": "No ninjutsu capacity at all",
             "signatureJutsu": "Primary Lotus, Leaf Hurricane"
-          }
+          },
+          "wikiImage": "File:Rock Lee Part I.png"
+        },
+        {
+          "id": "part-2",
+          "label": "Part II",
+          "rarity": "A",
+          "stats": "S S C A A A",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "None (taijutsu only)",
+            "chakra": "Small, strong reserves for Gates",
+            "signatureJutsu": "Primary Lotus, Hidden Lotus, Gate Release"
+          },
+          "wikiImage": "File:Lee timeskip.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "S S B A A A",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "None (taijutsu only)",
+            "chakra": "Small, trained",
+            "signatureJutsu": "Leaf Hurricane, Dynamic Strike, Gate Release"
+          },
+          "wikiImage": "File:Lee Part III.png"
         }
       ]
     },
     {
       "id": "hinata-hyuga",
       "name": "Hinata Hyuga",
+      "wikiPage": "Hinata Hyūga",
       "variants": [
         {
           "id": "shippuden",
@@ -360,14 +968,41 @@
             "natureRelease": "None shown",
             "chakra": "Above Chunin, Hyuga reserves",
             "signatureJutsu": "Twin Lion Fists, Eight Trigrams 64 Palms"
-          }
+          },
+          "wikiImage": "File:Hinata Part II.png"
+        },
+        {
+          "id": "part-1",
+          "label": "Part I",
+          "rarity": "C",
+          "stats": "C B B C B B",
+          "traits": {
+            "kekkeiGenkai": "Byakugan",
+            "natureRelease": "Water (Water Release affinity)",
+            "chakra": "Moderate, Hyuga reserves",
+            "signatureJutsu": "Gentle Fist, Eight Trigrams 64 Palms"
+          },
+          "wikiImage": "File:Hinata p1 render.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "kekkeiGenkai": "Byakugan",
+            "natureRelease": "Lightning (limited), Water",
+            "chakra": "Large",
+            "signatureJutsu": "Twin Lion Fists, Eight Trigrams Palm"
+          },
+          "wikiImage": "File:Hinata Uzumaki.png"
         }
-      ],
-      "search": "Hinata Hyuuga"
+      ]
     },
     {
       "id": "kaguya-otsutsuki",
       "name": "Kaguya Otsutsuki",
+      "wikiPage": "Kaguya Ōtsutsuki",
       "variants": [
         {
           "id": "goddess",
@@ -379,14 +1014,15 @@
             "natureRelease": "All natures, Yin-Yang, Dimensions",
             "chakra": "Primordial, Shinju-sized",
             "signatureJutsu": "Infinite Tsukuyomi, Dimension Shifting"
-          }
+          },
+          "wikiImage": "File:Kaguya Ōtsutsuki.png"
         }
-      ],
-      "search": "Kaguya Ootsutsuki"
+      ]
     },
     {
       "id": "sakura-haruno",
       "name": "Sakura Haruno",
+      "wikiPage": "Sakura Haruno",
       "variants": [
         {
           "id": "shippuden",
@@ -397,13 +1033,41 @@
             "natureRelease": "Earth (minor)",
             "chakra": "Large, stored in Strength of 100 Seal",
             "signatureJutsu": "Cherry Blossom Impact, Creation Rebirth"
-          }
+          },
+          "wikiImage": "File:Sakura Haruno Shippūden.png"
+        },
+        {
+          "id": "part-1",
+          "label": "Part I",
+          "rarity": "C",
+          "stats": "C C A C B C",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "Earth, Water (potential)",
+            "chakra": "Small, perfect control",
+            "signatureJutsu": "Substitution, Clone, Inner Sakura"
+          },
+          "wikiImage": "File:Sakura Part I.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult (Byakugo)",
+          "rarity": "A",
+          "stats": "S A A A S A",
+          "traits": {
+            "kekkeiGenkai": "Strength of a Hundred Seal",
+            "natureRelease": "Earth, Water",
+            "chakra": "Large, stored in Byakugo",
+            "signatureJutsu": "Cherry Blossom Impact, Creation Rebirth"
+          },
+          "wikiImage": "File:Sakura Part III.png"
         }
       ]
     },
     {
       "id": "shikamaru-nara",
       "name": "Shikamaru Nara",
+      "wikiPage": "Shikamaru Nara",
       "variants": [
         {
           "id": "jonin",
@@ -414,13 +1078,41 @@
             "natureRelease": "Shadow-Yin, minor Fire",
             "chakra": "Chunin-level pool",
             "signatureJutsu": "Shadow Possession, Shadow Stitching"
-          }
+          },
+          "wikiImage": "File:Shikamaru full.png"
+        },
+        {
+          "id": "part-1",
+          "label": "Part I",
+          "rarity": "B",
+          "stats": "C B S C A C",
+          "traits": {
+            "kekkeiGenkai": "None (Nara clan technique)",
+            "natureRelease": "Fire (limited)",
+            "chakra": "Low",
+            "signatureJutsu": "Shadow Possession, Shadow Neck Bind"
+          },
+          "wikiImage": "File:Shikamaru Part I.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "B",
+          "stats": "C B SS C A C",
+          "traits": {
+            "kekkeiGenkai": "None (Nara clan technique)",
+            "natureRelease": "Fire, Earth",
+            "chakra": "Moderate",
+            "signatureJutsu": "Shadow Sewing, Shadow Imitation, Dark Fuuma"
+          },
+          "wikiImage": "File:Shikamaru Part III.png"
         }
       ]
     },
     {
       "id": "konohamaru-sarutobi",
       "name": "Konohamaru Sarutobi",
+      "wikiPage": "Konohamaru Sarutobi",
       "variants": [
         {
           "id": "kid",
@@ -430,7 +1122,34 @@
           "traits": {
             "chakra": "Small, academy-student level",
             "signatureJutsu": "Sexy Jutsu, Rasengan (clumsily)"
-          }
+          },
+          "wikiImage": "File:Konohamaru p1.png"
+        },
+        {
+          "id": "part-2",
+          "label": "Part II",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "Wind, Fire",
+            "chakra": "Medium",
+            "signatureJutsu": "Rasengan, Ninja Art: Harem Jutsu"
+          },
+          "wikiImage": "File:Konohamaru Sarutobi.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "A A B A A B",
+          "traits": {
+            "kekkeiGenkai": "None",
+            "natureRelease": "Wind, Fire",
+            "chakra": "Large",
+            "signatureJutsu": "Rasengan, Fire Style: Burning Ash"
+          },
+          "wikiImage": "File:Konohamaru Part 3.png"
         }
       ]
     }

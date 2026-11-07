@@ -1,0 +1,2304 @@
+{
+  "characters": [
+    {
+      "id": "caesar-clown",
+      "name": "Caesar Clown",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C A C A C",
+          "traits": {
+            "devilFruit": "Gasu Gasu no Mi, poison gas Logia"
+          },
+          "wikiImage": "File:Caesar Clown Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "monet",
+      "name": "Monet",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B B B C",
+          "traits": {
+            "devilFruit": "Yuki Yuki no Mi, snow Logia harpy"
+          },
+          "wikiImage": "File:Monet Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vergo",
+      "name": "Vergo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B A A A A",
+          "traits": {
+            "observationHaki": "Senses presences across a whole base",
+            "armamentHaki": "Master-level, hardens bamboo staff and body"
+          },
+          "wikiImage": "File:Vergo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "donquixote-doflamingo",
+      "name": "Donquixote Doflamingo",
+      "variants": [
+        {
+          "id": "shichibukai",
+          "label": "Shichibukai",
+          "rarity": "S",
+          "stats": "A A S A S A",
+          "traits": {
+            "devilFruit": "Ito Ito no Mi, string Paramecia",
+            "observationHaki": "Senses opponents through string vibrations",
+            "armamentHaki": "Coats strings to cut through steel",
+            "conquerorsHaki": "Latent, paralyzes lesser foes"
+          },
+          "wikiImage": "File:Donquixote Doflamingo Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S S S S S A",
+          "traits": {
+            "devilFruit": "Awakened Ito Ito, turns the island to strings",
+            "observationHaki": "Master level, predicts sword paths",
+            "armamentHaki": "Hardened strings slice through mountains",
+            "conquerorsHaki": "Brainwashes weak minds, fights Luffy equally"
+          },
+          "wikiImage": "File:Donquixote Doflamingo Post Timeskip Manga Color Scheme.png"
+        }
+      ]
+    },
+    {
+      "id": "trebol",
+      "name": "Trebol",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B C B C B B",
+          "traits": {
+            "devilFruit": "Beta Beta no Mi, sticky mucus Paramecia"
+          },
+          "wikiImage": "File:Trebol Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "diamante",
+      "name": "Diamante",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "devilFruit": "Hira Hira no Mi, flutter flag Paramecia",
+            "armamentHaki": "Coats his flying cape"
+          },
+          "wikiImage": "File:Diamante Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "pica",
+      "name": "Pica",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S C B S B A",
+          "traits": {
+            "devilFruit": "Ishi Ishi no Mi, becomes a stone colossus"
+          },
+          "wikiImage": "File:Pica Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {
+            "devilFruit": "Hobi Hobi no Mi, toy-turning Paramecia"
+          },
+          "wikiImage": "File:Sugar Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "baby-5",
+      "name": "Baby 5",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C D C C C",
+          "traits": {
+            "devilFruit": "Buki Buki no Mi, weapon body Paramecia"
+          },
+          "wikiImage": "File:Baby 5 Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "buffalo",
+      "name": "Buffalo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C D C D C",
+          "traits": {
+            "devilFruit": "Guru Guru no Mi, spinning blade-arms Paramecia"
+          },
+          "wikiImage": "File:Buffalo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "senor-pink",
+      "name": "Señor Pink",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B D C B C C",
+          "traits": {
+            "devilFruit": "Sui Sui no Mi, swimming through solids"
+          },
+          "wikiImage": "File:Senor Pink Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "dellinger",
+      "name": "Dellinger",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A C B B B",
+          "traits": {
+            "armamentHaki": "Coats his kicks and fish-man karate"
+          },
+          "wikiImage": "File:Dellinger Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "machvise",
+      "name": "Machvise",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C D B D C",
+          "traits": {
+            "devilFruit": "Ton Ton no Mi, ton-weight body Paramecia"
+          },
+          "wikiImage": "File:Machvise Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gladius",
+      "name": "Gladius",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C C",
+          "traits": {
+            "devilFruit": "Pamu Pamu no Mi, explosive Paramecia"
+          },
+          "wikiImage": "File:Gladius Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "lao-g",
+      "name": "Lao G",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B A B S B",
+          "traits": {
+            "observationHaki": "Reads opponent through blind spots",
+            "armamentHaki": "Jio-Ken style coating mastered over decades"
+          },
+          "wikiImage": "File:Lao G Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "rebecca",
+      "name": "Rebecca",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B C B C",
+          "traits": {},
+          "wikiImage": "File:Rebecca Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kyros",
+      "name": "Kyros",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "armamentHaki": "Coats sword as the one-legged gladiator"
+          },
+          "wikiImage": "File:Kyros Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "riku-dold-iii",
+      "name": "Riku Dold III",
+      "wikiPage": "Riku Doldo III",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B C B B C B",
+          "traits": {
+            "armamentHaki": "Coats his sword, king of Dressrosa"
+          },
+          "wikiImage": "File:Riku Doldo III Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C B C B C",
+          "traits": {
+            "devilFruit": "Giro Giro no Mi, sees through everything"
+          },
+          "wikiImage": "File:Viola Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "cavendish",
+      "name": "Cavendish",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "armamentHaki": "Coats Durandal in battle"
+          },
+          "wikiImage": "File:Cavendish Anime Infobox.png"
+        },
+        {
+          "id": "hakuba",
+          "label": "Hakuba",
+          "rarity": "A",
+          "stats": "A A B B A B",
+          "traits": {
+            "armamentHaki": "Bloodlust coats Durandal for Hakuba slashes"
+          },
+          "wikiImage": "File:Hakuba Defeats D Block Competitors.png"
+        }
+      ]
+    },
+    {
+      "id": "bartolomeo",
+      "name": "Bartolomeo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B C C A C B",
+          "traits": {
+            "devilFruit": "Bari Bari no Mi, impenetrable barrier"
+          },
+          "wikiImage": "File:Bartolomeo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sabo",
+      "name": "Sabo",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "C",
+          "stats": "D C B D C D",
+          "traits": {},
+          "wikiImage": "File:Sabo Kid Manga Color Scheme.png"
+        },
+        {
+          "id": "revolutionary",
+          "label": "Revolutionary",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "observationHaki": "Intermediate tracking",
+            "armamentHaki": "Dragon Claw coated with Haki"
+          },
+          "wikiImage": "File:Sabo Anime Infobox.png"
+        },
+        {
+          "id": "mera-mera",
+          "label": "Mera Mera",
+          "rarity": "S",
+          "stats": "S A A A S A",
+          "traits": {
+            "devilFruit": "Mera Mera no Mi, flame Logia",
+            "observationHaki": "Dodges strikes via foresight",
+            "armamentHaki": "Fire fist mixed with Dragon Claw Haki coating"
+          },
+          "wikiImage": "File:Sabo Using the Mera Mera no Mi.png"
+        }
+      ]
+    },
+    {
+      "id": "fujitora",
+      "name": "Fujitora",
+      "wikiPage": "Issho",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "S A S S S A",
+          "traits": {
+            "devilFruit": "Zushi Zushi no Mi, gravity Paramecia",
+            "observationHaki": "Master, sees the future while blind",
+            "armamentHaki": "Coats sword and gravity blast"
+          },
+          "wikiImage": "File:Issho Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "ryokugyu",
+      "name": "Ryokugyu",
+      "wikiPage": "Aramaki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "S A A S A S",
+          "traits": {
+            "devilFruit": "Mori Mori no Mi, forest Logia",
+            "observationHaki": "Senses presences across Wano",
+            "armamentHaki": "Hardened wooden body and strikes"
+          },
+          "wikiImage": "File:Aramaki Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B C C C C",
+          "traits": {},
+          "wikiImage": "File:Leo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "elizabello-ii",
+      "name": "Elizabello II",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A C B A B B",
+          "traits": {
+            "armamentHaki": "Coats his body and fists"
+          },
+          "wikiImage": "File:Elizabello II Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "ideo",
+      "name": "Ideo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C A C B",
+          "traits": {
+            "armamentHaki": "Coats his body in Haki"
+          },
+          "wikiImage": "File:Ideo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hajrudin",
+      "name": "Hajrudin",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "S C C S C A",
+          "traits": {
+            "armamentHaki": "Giants coat their fists"
+          },
+          "wikiImage": "File:Hajrudin Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "orlumbus",
+      "name": "Orlumbus",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C B B B",
+          "traits": {
+            "armamentHaki": "Coats his body"
+          },
+          "wikiImage": "File:Orlumbus Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "chinjao",
+      "name": "Chinjao",
+      "variants": [
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "A",
+          "stats": "S A B S A A",
+          "traits": {
+            "observationHaki": "Sharp reflexes in Hasshoken",
+            "armamentHaki": "Hasshoken fists coated with Haki"
+          },
+          "wikiImage": "File:Chinjao 30 Years Ago.png"
+        },
+        {
+          "id": "old",
+          "label": "Old",
+          "rarity": "B",
+          "stats": "A B B A A B",
+          "traits": {
+            "armamentHaki": "Hasshoken coated fists"
+          },
+          "wikiImage": "File:Chinjao Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sai",
+      "name": "Sai",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C A C B",
+          "traits": {},
+          "wikiImage": "File:Sai Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "giolla",
+      "name": "Giolla",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C C C C",
+          "traits": {
+            "devilFruit": "Ato Ato no Mi, art-turning Paramecia"
+          },
+          "wikiImage": "File:Giolla Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "abdullah",
+      "name": "Abdullah",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C B B B",
+          "traits": {
+            "armamentHaki": "Coats his scimitar"
+          },
+          "wikiImage": "File:Abdullah Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jeet",
+      "name": "Jeet",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C B B B",
+          "traits": {
+            "armamentHaki": "Coats his double hammers"
+          },
+          "wikiImage": "File:Jeet Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hack",
+      "name": "Hack",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A B B A B",
+          "traits": {
+            "armamentHaki": "Fish-man karate coating"
+          },
+          "wikiImage": "File:Hack Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "trafalgar-lami",
+      "name": "Trafalgar Lami",
+      "wikiPage": "Trafalgar Lami",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D D D",
+          "traits": {},
+          "wikiImage": "File:Trafalgar Lami Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "inuarashi",
+      "name": "Inuarashi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "devilFruit": "Mink species, Electro and Sulong form",
+            "armamentHaki": "Coats his Dugoru-sabre"
+          },
+          "wikiImage": "File:Inuarashi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "nekomamushi",
+      "name": "Nekomamushi",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "observationHaki": "Sharp senses of a feline mink",
+            "armamentHaki": "Coats his bayonet and fists"
+          },
+          "wikiImage": "File:Nekomamushi Anime Infobox.png"
+        },
+        {
+          "id": "sulong",
+          "label": "Sulong",
+          "rarity": "S",
+          "stats": "S S B S A A",
+          "traits": {
+            "observationHaki": "Enhanced senses under the full moon",
+            "armamentHaki": "Coated claws over a Sulong rampage"
+          },
+          "wikiImage": "File:Nekomamushi's Sulong Form.png"
+        }
+      ]
+    },
+    {
+      "id": "pedro",
+      "name": "Pedro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "armamentHaki": "Coated machete (thin, trained edge)"
+          },
+          "wikiImage": "File:Pedro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "B",
+          "stats": "C A C C B B",
+          "traits": {},
+          "wikiImage": "File:Carrot Anime Infobox.png"
+        },
+        {
+          "id": "sulong",
+          "label": "Sulong",
+          "rarity": "A",
+          "stats": "A S C B B A",
+          "traits": {
+            "devilFruit": "Sulong transformation under the full moon"
+          },
+          "wikiImage": "File:Carrot Sulong Form.png"
+        }
+      ]
+    },
+    {
+      "id": "wanda",
+      "name": "Wanda",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B C B C B",
+          "traits": {
+            "armamentHaki": "Mink speed and coating"
+          },
+          "wikiImage": "File:Wanda Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "tama",
+      "name": "Tama",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D D D",
+          "traits": {
+            "devilFruit": "Kibi Kibi no Mi, tames animals with dango"
+          },
+          "wikiImage": "File:Kurozumi Tama Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-katakuri",
+      "name": "Charlotte Katakuri",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "S",
+          "stats": "S S S S S S",
+          "traits": {
+            "devilFruit": "Mochi Mochi no Mi, mochi Logia-like Paramecia",
+            "observationHaki": "Future sight, sees a few seconds ahead",
+            "armamentHaki": "Mochi coated Haki, deflects weak attacks",
+            "conquerorsHaki": "Hinted, never fully displayed"
+          },
+          "wikiImage": "File:Charlotte Katakuri Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S S S S S S",
+          "traits": {
+            "devilFruit": "Awakened Mochi, turns terrain into mochi",
+            "observationHaki": "Future sight at near-flawless level",
+            "armamentHaki": "Armament Haki of the highest level"
+          },
+          "wikiImage": "File:Katakuri Armament Haki Logia Form.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-cracker",
+      "name": "Charlotte Cracker",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B A A A A",
+          "traits": {
+            "devilFruit": "Bisu Bisu no Mi, biscuit Paramecia",
+            "observationHaki": "Instinctive reaction in combat",
+            "armamentHaki": "Coats his fists and soldier armor"
+          },
+          "wikiImage": "File:Charlotte Cracker Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-smoothie",
+      "name": "Charlotte Smoothie",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B A A A B",
+          "traits": {
+            "devilFruit": "Shibo Shibo no Mi, wringing Paramecia",
+            "armamentHaki": "Wrings the juice from foes"
+          },
+          "wikiImage": "File:Charlotte Smoothie Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-oven",
+      "name": "Charlotte Oven",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B B A B A",
+          "traits": {
+            "devilFruit": "Netsu Netsu no Mi, heat Paramecia",
+            "armamentHaki": "Coats his red-hot fists"
+          },
+          "wikiImage": "File:Charlotte Oven Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-perospero",
+      "name": "Charlotte Perospero",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B B A A S B",
+          "traits": {
+            "devilFruit": "Pero Pero no Mi, candy Paramecia",
+            "observationHaki": "Nimble reactions to threats",
+            "armamentHaki": "Coats candy strikes"
+          },
+          "wikiImage": "File:Charlotte Perospero Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-pudding",
+      "name": "Charlotte Pudding",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "D C A D B C",
+          "traits": {
+            "devilFruit": "Memo Memo no Mi, memory Paramecia"
+          },
+          "wikiImage": "File:Charlotte Pudding Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-daifuku",
+      "name": "Charlotte Daifuku",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A C B A B B",
+          "traits": {
+            "devilFruit": "Hoya Hoya no Mi, genie Paramecia",
+            "armamentHaki": "Coats bullet and fist"
+          },
+          "wikiImage": "File:Charlotte Daifuku Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-brulee",
+      "name": "Charlotte Brulee",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B A C A B",
+          "traits": {
+            "devilFruit": "Mira Mira no Mi, mirror Paramecia",
+            "armamentHaki": "Coated mirror slashes"
+          },
+          "wikiImage": "File:Charlotte Brûlée Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-compote",
+      "name": "Charlotte Compote",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Charlotte Compote Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-opera",
+      "name": "Charlotte Opera",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "A D C A C B",
+          "traits": {},
+          "wikiImage": "File:Charlotte Opera Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-galette",
+      "name": "Charlotte Galette",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Charlotte Galette Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-mont-d-or",
+      "name": "Charlotte Mont-d'Or",
+      "wikiPage": "Charlotte Mont-d'Or",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C B C",
+          "traits": {
+            "devilFruit": "Buku Buku no Mi, book-prison Paramecia"
+          },
+          "wikiImage": "File:Charlotte Mont-d'Or Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-praline",
+      "name": "Charlotte Praline",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Charlotte Praline Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-snack",
+      "name": "Charlotte Snack",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "B C C B C B",
+          "traits": {},
+          "wikiImage": "File:Charlotte Snack Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vinsmoke-judge",
+      "name": "Vinsmoke Judge",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B B S B S B",
+          "traits": {
+            "armamentHaki": "Armored and coated in scientific gear"
+          },
+          "wikiImage": "File:Vinsmoke Judge Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vinsmoke-reiju",
+      "name": "Vinsmoke Reiju",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C B B C B B",
+          "traits": {
+            "devilFruit": "Poison immunity from Vinsmoke genetics",
+            "armamentHaki": "Coats combat strikes"
+          },
+          "wikiImage": "File:Vinsmoke Reiju Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vinsmoke-ichiji",
+      "name": "Vinsmoke Ichiji",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B B A B",
+          "traits": {
+            "armamentHaki": "Coats his Raid Suit strikes"
+          },
+          "wikiImage": "File:Vinsmoke Ichiji Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vinsmoke-niji",
+      "name": "Vinsmoke Niji",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B B A B",
+          "traits": {
+            "armamentHaki": "Coats his Raid Suit strikes"
+          },
+          "wikiImage": "File:Vinsmoke Niji Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "vinsmoke-yonji",
+      "name": "Vinsmoke Yonji",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A B B A B",
+          "traits": {
+            "armamentHaki": "Coats his Raid Suit strikes"
+          },
+          "wikiImage": "File:Vinsmoke Yonji Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "stussy",
+      "name": "Stussy",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B C B B",
+          "traits": {
+            "devilFruit": "Batto Batto no Mi, bat-bat zoan",
+            "armamentHaki": "Coats strikes as a CP0 agent"
+          },
+          "wikiImage": "File:Stussy Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "morgans",
+      "name": "Morgans",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {},
+          "wikiImage": "File:Morgans Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kozuki-oden",
+      "name": "Kozuki Oden",
+      "variants": [
+        {
+          "id": "young",
+          "label": "Young",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "armamentHaki": "Coats Ame no Habakiri early in life",
+            "conquerorsHaki": "Latent, unleashed against Whitebeard"
+          },
+          "wikiImage": "File:Oden at Age 20.png"
+        },
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "S",
+          "stats": "SS A A SS S S",
+          "traits": {
+            "observationHaki": "Sensed attackers through his two-sword style",
+            "armamentHaki": "Two-sword style coating clashes with Kaido",
+            "conquerorsHaki": "Supreme King Haki, clashes with Whitebeard"
+          },
+          "wikiImage": "File:Kouzuki Oden Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kozuki-momonosuke",
+      "name": "Kozuki Momonosuke",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "C",
+          "stats": "D D C D D D",
+          "traits": {
+            "devilFruit": "Artificial SMILE fruit, dragon zoan (flightless)"
+          },
+          "wikiImage": "File:Kouzuki Momonosuke Anime Infobox.png"
+        },
+        {
+          "id": "dragon",
+          "label": "Adult Dragon",
+          "rarity": "A",
+          "stats": "S B C S B A",
+          "traits": {
+            "devilFruit": "SMILE dragon zoan, controls clouds",
+            "armamentHaki": "Hardened scales and Bolo Breath"
+          },
+          "wikiImage": "File:Momonosuke's Adult Dragon Form.png"
+        }
+      ]
+    },
+    {
+      "id": "kozuki-hiyori",
+      "name": "Kozuki Hiyori",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D B D C C",
+          "traits": {},
+          "wikiImage": "File:Kouzuki Hiyori Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kin-emon",
+      "name": "Kin'emon",
+      "wikiPage": "Kin'emon",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "devilFruit": "Fuku Fuku no Mi, clothing-changing Paramecia",
+            "armamentHaki": "Coats his swords and Foxfire Style"
+          },
+          "wikiImage": "File:Kin'emon Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "denjiro",
+      "name": "Denjiro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B B A B A A",
+          "traits": {
+            "armamentHaki": "Coats his blade, formidable swordsman"
+          },
+          "wikiImage": "File:Denjiro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kawamatsu",
+      "name": "Kawamatsu",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "armamentHaki": "Coats his blade, kappa swordsman"
+          },
+          "wikiImage": "File:Kawamatsu Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "raizo",
+      "name": "Raizo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A B B B B",
+          "traits": {
+            "devilFruit": "Maki Maki no Mi, scroll Paramecia + ninjutsu"
+          },
+          "wikiImage": "File:Raizo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kikunojo",
+      "name": "Kikunojo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "armamentHaki": "Coats her blade, ex-Komurasaki"
+          },
+          "wikiImage": "File:Kikunojo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "ashura-doji",
+      "name": "Ashura Doji",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "armamentHaki": "Coats his blades"
+          },
+          "wikiImage": "File:Ashura Doji Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato",
+      "variants": [
+        {
+          "id": "human",
+          "label": "Human",
+          "rarity": "A",
+          "stats": "S A A S A A",
+          "traits": {
+            "observationHaki": "Hardened awareness of her opponents",
+            "armamentHaki": "Coats her club for Thunder Bagua",
+            "conquerorsHaki": "Supreme King Haki, infuses her strikes"
+          },
+          "wikiImage": "File:Yamato Anime Infobox.png"
+        },
+        {
+          "id": "human-beast",
+          "label": "Human-Beast",
+          "rarity": "S",
+          "stats": "S S A S A S",
+          "traits": {
+            "devilFruit": "Inu Inu no Mi, Model: Okuchi no Makami",
+            "observationHaki": "Intensified senses as a wolf deity",
+            "armamentHaki": "Coated club and frost-ice attacks",
+            "conquerorsHaki": "Supreme King Haki on her breath"
+          },
+          "wikiImage": "File:Inu Inu no Mi, Model Okuchi no Makami Human-Beast Form.png"
+        }
+      ]
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "variants": [
+        {
+          "id": "alber",
+          "label": "Alber (Child)",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {},
+          "wikiImage": "File:Arber as a Child.png"
+        },
+        {
+          "id": "king",
+          "label": "King",
+          "rarity": "A",
+          "stats": "S A A S A A",
+          "traits": {
+            "devilFruit": "Ryu Ryu no Mi, Model: Pteranodon (ancient zoan)",
+            "observationHaki": "Aware of nearby battles in Onigashima",
+            "armamentHaki": "Armament Haki hardens his blade and wings"
+          },
+          "wikiImage": "File:King Anime Infobox.png"
+        },
+        {
+          "id": "lunarian",
+          "label": "Lunarian",
+          "rarity": "S",
+          "stats": "SS S A S A S",
+          "traits": {
+            "devilFruit": "Ancient zoan plus Lunarian flame-body",
+            "observationHaki": "Heightened awareness in flight",
+            "armamentHaki": "Flames and coating, hardened to Zoro"
+          },
+          "wikiImage": "File:King Unmasked Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B B S A A",
+          "traits": {
+            "devilFruit": "Ryu Ryu no Mi, Model: Brachiosaurus (ancient zoan)",
+            "armamentHaki": "Coats his artificial limbs"
+          },
+          "wikiImage": "File:Queen Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jack",
+      "name": "Jack",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "S B C S B A",
+          "traits": {
+            "devilFruit": "Zou Zou no Mi, Model: Mammoth (ancient zoan)",
+            "armamentHaki": "Coats his hardened fists"
+          },
+          "wikiImage": "File:Jack Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "whos-who",
+      "name": "Who's-Who",
+      "wikiPage": "Who's-Who",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "devilFruit": "Neko Neko no Mi, Model: Saber Tiger (ancient zoan)",
+            "armamentHaki": "Coats his claws"
+          },
+          "wikiImage": "File:Who's-Who Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "black-maria",
+      "name": "Black Maria",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "devilFruit": "Kumo Kumo no Mi, Model: Rosamygale (ancient)",
+            "armamentHaki": "Coats thread attacks"
+          },
+          "wikiImage": "File:Black Maria Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sasaki",
+      "name": "Sasaki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {
+            "devilFruit": "Ryu Ryu no Mi, Model: Triceratops (ancient zoan)",
+            "armamentHaki": "Coats his horns"
+          },
+          "wikiImage": "File:Sasaki Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "ulti",
+      "name": "Ulti",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B B A B B",
+          "traits": {
+            "devilFruit": "Ryu Ryu, Model: Pachycephalosaurus (ancient)",
+            "armamentHaki": "Coats her headbutts"
+          },
+          "wikiImage": "File:Ulti Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "page-one",
+      "name": "Page One",
+      "variants": [
+        {
+          "id": "human",
+          "label": "Human",
+          "rarity": "B",
+          "stats": "B B C B C B",
+          "traits": {
+            "armamentHaki": "Coats his hands"
+          },
+          "wikiImage": "File:Page One Anime Infobox.png"
+        },
+        {
+          "id": "hybrid",
+          "label": "Spinosaurus Hybrid",
+          "rarity": "A",
+          "stats": "S B C S C A",
+          "traits": {
+            "devilFruit": "Ryu Ryu no Mi, Model: Spinosaurus (ancient zoan)",
+            "armamentHaki": "Coated claws and tail"
+          },
+          "wikiImage": "File:Page One spinosaurus-human hybrid form Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "kurozumi-orochi",
+      "name": "Kurozumi Orochi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {
+            "devilFruit": "Hebi Hebi, Model: Yamata no Orochi (mythical)"
+          },
+          "wikiImage": "File:Kurozumi Orochi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kurozumi-kanjuro",
+      "name": "Kurozumi Kanjuro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "B B A B S B",
+          "traits": {
+            "devilFruit": "Fude Fude no Mi, brush-drawn creations",
+            "armamentHaki": "Coats his blade"
+          },
+          "wikiImage": "File:Kurozumi Kanjuro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kurozumi-semimaru",
+      "name": "Kurozumi Semimaru",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {},
+          "wikiImage": "File:Kurozumi Semimaru Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kurozumi-higurashi",
+      "name": "Kurozumi Higurashi",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {},
+          "wikiImage": "File:Kurozumi Higurashi Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "hyogoro",
+      "name": "Hyogoro",
+      "wikiPage": "Hyogoro",
+      "variants": [
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "A",
+          "stats": "A A B A A A",
+          "traits": {
+            "armamentHaki": "Coats his sword and boil-ice"
+          },
+          "wikiImage": "File:Hyougoro at Age 29.png"
+        },
+        {
+          "id": "old",
+          "label": "Old",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "armamentHaki": "Coats his blade"
+          },
+          "wikiImage": "File:Hyougoro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shinobu",
+      "name": "Shinobu",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B C C B C",
+          "traits": {
+            "devilFruit": "Juku Juku no Mi, ripening Paramecia"
+          },
+          "wikiImage": "File:Shinobu Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shimotsuki-yasuie",
+      "name": "Shimotsuki Yasuie",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D B D B D",
+          "traits": {},
+          "wikiImage": "File:Shimotsuki Yasuie Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shimotsuki-ushimaru",
+      "name": "Shimotsuki Ushimaru",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {},
+          "wikiImage": "File:Shimotsuki Ushimaru Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kozuki-toki",
+      "name": "Kozuki Toki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D B D C D",
+          "traits": {
+            "devilFruit": "Toki Toki no Mi, time-leap Paramecia"
+          },
+          "wikiImage": "File:Kouzuki Toki Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "kozuki-sukiyaki",
+      "name": "Kozuki Sukiyaki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C B C B C",
+          "traits": {},
+          "wikiImage": "File:Kouzuki Sukiyaki Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "name": "Speed",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B A B B A B",
+          "traits": {
+            "devilFruit": "Kanabo clubs and Flying Six speed (no fruit)",
+            "armamentHaki": "Coats his clubs"
+          },
+          "wikiImage": "File:Speed Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "figarland-shamrock",
+      "name": "Figarland Shamrock",
+      "wikiPage": "Figarland Shamrock",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "armamentHaki": "Coats the Cerberus sword",
+            "conquerorsHaki": "Supreme King Haki hinted by the Gorosei"
+          },
+          "wikiImage": "File:Figarland Shamrock Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jaygarcia-saturn",
+      "name": "Jaygarcia Saturn",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "armamentHaki": "Coats his sword and strikes",
+            "observationHaki": "Sensed Luffy approaching during dinner",
+            "conquerorsHaki": "Supreme King Haki hinted"
+          },
+          "wikiImage": "File:Jaygarcia Saturn Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S A S S S S",
+          "traits": {
+            "devilFruit": "Mythical Zoan, Gyuki bull-spider demon form",
+            "armamentHaki": "Hardened beast-form body and strikes",
+            "conquerorsHaki": "Supreme King Haki in full beast form"
+          },
+          "wikiImage": "File:Saturn Awakened Beast Form Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "marcus-mars",
+      "name": "Marcus Mars",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "armamentHaki": "Coats his katana",
+            "observationHaki": "Anticipates opposing moves in Elbaf"
+          },
+          "wikiImage": "File:Marcus Mars Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S A S S S S",
+          "traits": {
+            "devilFruit": "Mythical Zoan, winged beast form",
+            "armamentHaki": "Coated beast body and talon strikes",
+            "conquerorsHaki": "Supreme King Haki in beast form"
+          },
+          "wikiImage": "File:Mars Awakened Beast Form Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "topman-warcury",
+      "name": "Topman Warcury",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "armamentHaki": "Coats his fists and body",
+            "observationHaki": "Reads combat flow from his duty"
+          },
+          "wikiImage": "File:Topman Warcury Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S A S S S S",
+          "traits": {
+            "devilFruit": "Mythical Zoan, blazing beast form",
+            "armamentHaki": "Coats his fiery body and strikes",
+            "conquerorsHaki": "Supreme King Haki in beast form"
+          },
+          "wikiImage": "File:Warcury Awakened Beast Form Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "shepherd-ju-peter",
+      "name": "Shepherd Ju Peter",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "armamentHaki": "Coats his body and strikes",
+            "observationHaki": "Sharp senses in the Marie Geoise"
+          },
+          "wikiImage": "File:Shepherd Ju Peter Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S A S S S S",
+          "traits": {
+            "devilFruit": "Mythical Zoan, monstrous beast form",
+            "armamentHaki": "Coated beast body and strikes",
+            "conquerorsHaki": "Supreme King Haki in beast form"
+          },
+          "wikiImage": "File:Peter Awakened Beast Form Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "ethanbaron-v-nusjuro",
+      "name": "Ethanbaron V. Nusjuro",
+      "variants": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "rarity": "A",
+          "stats": "A A A A S A",
+          "traits": {
+            "armamentHaki": "Coats Shodai Kitetsu with an ancient technique",
+            "observationHaki": "Detects Luffy on the Holy Land",
+            "conquerorsHaki": "Supreme King Haki hinted"
+          },
+          "wikiImage": "File:Ethanbaron V. Nusjuro Anime Infobox.png"
+        },
+        {
+          "id": "awakened",
+          "label": "Awakened",
+          "rarity": "S",
+          "stats": "S A S S S S",
+          "traits": {
+            "devilFruit": "Mythical Zoan, demonic beast form",
+            "armamentHaki": "Coated beast strikes with Shodai Kitetsu",
+            "conquerorsHaki": "Supreme King Haki in beast form"
+          },
+          "wikiImage": "File:Nusjuro Human Beast Form Anime Concept Art.png"
+        }
+      ]
+    },
+    {
+      "id": "imu",
+      "name": "Imu",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "SS",
+          "stats": "SS S SS SS SS SS",
+          "traits": {
+            "devilFruit": "Unknown, summons the Abyss and Black Sun powers",
+            "observationHaki": "Senses thoughts across Mary Geoise",
+            "armamentHaki": "Hardened dark void armor",
+            "conquerorsHaki": "Supreme King Haki, rules the World Government"
+          },
+          "wikiImage": "File:Nerona Imu Portrait.png"
+        }
+      ]
+    },
+    {
+      "id": "figarland-garling",
+      "name": "Figarland Garling",
+      "wikiPage": "Figarland Garling",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "S A S S A S",
+          "traits": {
+            "armamentHaki": "Coats his sword at the highest level",
+            "observationHaki": "Heightened sensing in Elbaf",
+            "conquerorsHaki": "Supreme King Haki, leads the Holy Knights"
+          },
+          "wikiImage": "File:Figarland Garling Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "SS A A SS A S",
+          "traits": {
+            "devilFruit": "Mythical Zoan-like frost beast form (hinted)",
+            "armamentHaki": "Coats his massive body and fists",
+            "conquerorsHaki": "Supreme King Haki, challenges Imu"
+          },
+          "wikiImage": "File:Loki Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "dr-vegapunk",
+      "name": "Dr. Vegapunk",
+      "wikiPage": "Vegapunk",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C S C SS C",
+          "traits": {
+            "devilFruit": "Nomi Nomi no Mi, knowledge-absorbing Paramecia"
+          },
+          "wikiImage": "File:Vegapunk Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "lilith",
+      "name": "Lilith",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B S C A C",
+          "traits": {},
+          "wikiImage": "File:Lilith Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shaka",
+      "name": "Shaka",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B S C A C",
+          "traits": {},
+          "wikiImage": "File:Shaka Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "edison",
+      "name": "Edison",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C B S C A C",
+          "traits": {},
+          "wikiImage": "File:Edison Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "pythagoras",
+      "name": "Pythagoras",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C A C B C",
+          "traits": {},
+          "wikiImage": "File:Pythagoras Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B C S C A C",
+          "traits": {},
+          "wikiImage": "File:Atlas Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "york",
+      "name": "York",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C A C B C",
+          "traits": {},
+          "wikiImage": "File:York Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "shiki",
+      "name": "Shiki",
+      "variants": [
+        {
+          "id": "prime",
+          "label": "Prime",
+          "rarity": "S",
+          "stats": "S A A A S A",
+          "traits": {
+            "devilFruit": "Fuwa Fuwa no Mi, levitation Paramecia",
+            "observationHaki": "Sharp senses of the Golden Lion",
+            "armamentHaki": "Coats his swords on his peg legs",
+            "conquerorsHaki": "Supreme King Haki, once rivaled Roger"
+          },
+          "wikiImage": "File:Shiki Anime Concept Art.png"
+        },
+        {
+          "id": "old",
+          "label": "Strong World",
+          "rarity": "S",
+          "stats": "S A A S S A",
+          "traits": {
+            "devilFruit": "Fuwa Fuwa no Mi, levitation Paramecia",
+            "observationHaki": "Sharp senses of the Golden Lion",
+            "armamentHaki": "Coats his swords"
+          },
+          "wikiImage": "File:Shiki Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "z",
+      "name": "Z",
+      "wikiPage": "Z",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "S A A S A A",
+          "traits": {
+            "observationHaki": "Veteran admiral awareness",
+            "armamentHaki": "Coated Rock-fist hardened by decades",
+            "conquerorsHaki": "Hinted by his raw presence"
+          },
+          "wikiImage": "File:Z Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "ain",
+      "name": "Ain",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B B A B A",
+          "traits": {
+            "devilFruit": "Toshi Toshi no Mi, years-stealing Paramecia",
+            "armamentHaki": "Coats her fists"
+          },
+          "wikiImage": "File:Ain Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "douglas-bullet",
+      "name": "Douglas Bullet",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "S",
+          "stats": "S A A S B S",
+          "traits": {
+            "devilFruit": "Gasha Gasha no Mi, debris absorbing Paramecia",
+            "observationHaki": "Heightened reflexes",
+            "armamentHaki": "Coats his body in raw Haki"
+          },
+          "wikiImage": "File:Douglas Bullet Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "buena-festa",
+      "name": "Buena Festa",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {},
+          "wikiImage": "File:Buena Festa Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "byrnndi-world",
+      "name": "Byrnndi World",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B A A A A",
+          "traits": {
+            "devilFruit": "Moa Moa no Mi, extension Paramecia",
+            "armamentHaki": "Coats his body"
+          },
+          "wikiImage": "File:Byrnndi World Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gild-tesoro",
+      "name": "Gild Tesoro",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "A B A A A A",
+          "traits": {
+            "devilFruit": "Gol Gol no Mi, gold Paramecia"
+          },
+          "wikiImage": "File:Gild Tesoro Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "dice",
+      "name": "Dice",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Dice Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "baccarat",
+      "name": "Baccarat",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "C C B C B C",
+          "traits": {
+            "devilFruit": "Raki Raki no Mi, luck Paramecia"
+          },
+          "wikiImage": "File:Baccarat Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "carina",
+      "name": "Carina",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D C C D C D",
+          "traits": {},
+          "wikiImage": "File:Carina Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "gasparde",
+      "name": "Gasparde",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "devilFruit": "Ame Ame no Mi, candy-syrup Paramecia"
+          },
+          "wikiImage": "File:Gasparde Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "uta",
+      "name": "Uta",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "A",
+          "stats": "C B B C A B",
+          "traits": {
+            "devilFruit": "Uta Uta no Mi, song Paramecia",
+            "observationHaki": "Fast reflexes",
+            "armamentHaki": "Coats strikes when pressed"
+          },
+          "wikiImage": "File:Uta Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "dr-indigo",
+      "name": "Dr. Indigo",
+      "wikiPage": "Dr. Indigo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "devilFruit": "Rafflesia-based plant powers"
+          },
+          "wikiImage": "File:Indigo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "scarlet",
+      "name": "Scarlet",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D B D C D",
+          "traits": {},
+          "wikiImage": "File:Scarlet Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "baron-omatsuri",
+      "name": "Baron Omatsuri",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {},
+          "wikiImage": "File:Omatsuri Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "name": "Apis",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D C D",
+          "traits": {
+            "devilFruit": "Hiso Hiso no Mi, speaks to animals"
+          },
+          "wikiImage": "File:Apis Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "eric",
+      "name": "Eric",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "devilFruit": "Kama Kama no Mi, wind-sickle Paramecia"
+          },
+          "wikiImage": "File:Eric Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "nelson-royal",
+      "name": "Nelson Royal",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C D C C C C",
+          "traits": {},
+          "wikiImage": "File:Nelson Royal Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "salchow",
+      "name": "Salchow",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {},
+          "wikiImage": "File:Salchow Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "puzzle",
+      "name": "Puzzle",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Puzzle Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "jonathan",
+      "name": "Jonathan",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "A B C B B B",
+          "traits": {},
+          "wikiImage": "File:Jonathan Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "largo",
+      "name": "Largo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "devilFruit": "Ami Ami no Mi, net-weaving Paramecia"
+          },
+          "wikiImage": "File:Largo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "corto",
+      "name": "Corto",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Corto Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "yoko",
+      "name": "Yoko",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Yoko Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "sayo",
+      "name": "Sayo",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "D D C D D D",
+          "traits": {},
+          "wikiImage": "File:Sayo Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "bill",
+      "name": "Bill",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "devilFruit": "Gutsu Gutsu no Mi, weapon-forging Paramecia"
+          },
+          "wikiImage": "File:Bill Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "desire",
+      "name": "Desire",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C B C C C",
+          "traits": {},
+          "wikiImage": "File:Desire Anime Infobox.png"
+        }
+      ]
+    },
+    {
+      "id": "peseta",
+      "name": "Peseta",
+      "variants": [
+        {
+          "id": "base",
+          "rarity": "C",
+          "stats": "C C C C C C",
+          "traits": {},
+          "wikiImage": "File:Peseta Anime Infobox.png"
+        }
+      ]
+    }
+  ]
+}

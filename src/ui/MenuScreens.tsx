@@ -120,7 +120,7 @@ function CreateSettings({ config, readOnly }: { config: LobbyConfig; readOnly: b
               disabled={readOnly}
               onClick={() => toggleAnime(a.id)}
             >
-              {covers[a.id] && <img src={covers[a.id]} alt="" />}
+              {covers[a.id] && <img src={covers[a.id]} alt="" referrerPolicy="no-referrer" />}
               <span>{a.name}</span>
               <div className="check">{on ? '✓' : ''}</div>
             </button>
