@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { RANKS, RARITIES } from '../types';
 import { ANIME, BUILTIN_ENTRIES } from '.';
 import images from './images.json';
+import { TIER_CATEGORIES, categoryKeys, resolvePick, tierEntry } from './tierlists';
 
 describe('built-in anime data', () => {
   it('has unique entry keys', () => {
@@ -43,5 +44,21 @@ describe('built-in anime data', () => {
   it('has a picture for nearly every character', () => {
     const withImage = BUILTIN_ENTRIES.filter((e) => e.image).length;
     expect(withImage / BUILTIN_ENTRIES.length).toBeGreaterThan(0.95);
+  });
+});
+
+describe('tier list categories', () => {
+  it.each(TIER_CATEGORIES.map((c) => [c.name, c] as const))('%s resolves every pick', (_, category) => {
+    const missing = category.picks.filter((p) => !resolvePick(p));
+    expect(missing).toEqual([]);
+    const keys = categoryKeys(category);
+    expect(keys.length).toBeGreaterThanOrEqual(8);
+    const withImage = keys.filter((k) => tierEntry(k)?.image).length;
+    expect(withImage / keys.length).toBeGreaterThan(0.9);
+  });
+
+  it('has unique category ids', () => {
+    const ids = TIER_CATEGORIES.map((c) => c.id);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 });

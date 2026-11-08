@@ -3,6 +3,7 @@ import { useGame } from './store';
 import { CustomScreen, GalleryScreen } from './ui/CustomScreens';
 import { GameScreen } from './ui/GameScreen';
 import { HomeScreen, LobbyScreen } from './ui/MenuScreens';
+import { TierGameScreen } from './ui/TierScreens';
 import { isMuted, setMuted } from './ui/sfx';
 
 const ROOM_PARAM = new URLSearchParams(location.search).get('room')?.toUpperCase().slice(0, 5) ?? '';
@@ -30,6 +31,7 @@ export function App() {
       {screen === 'home' && <HomeScreen initialCode={ROOM_PARAM} />}
       {screen === 'lobby' && <LobbyScreen />}
       {screen === 'game' && <GameScreen />}
+      {screen === 'tier' && <TierGameScreen />}
       {screen === 'custom' && <CustomScreen />}
       {screen === 'gallery' && <GalleryScreen />}
       {notice && (

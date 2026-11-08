@@ -6,7 +6,7 @@ import { animeSlots, canFill, customSlots, entriesFromCustom, universalSlots } f
 import type { CharacterGroup, CustomPack, Entry, Slot } from './types';
 
 export interface LobbyConfig {
-  mode: 'create' | 'custom';
+  mode: 'create' | 'custom' | 'tierlist';
   animeIds: string[];
   /** Selected slot ids (character creation mode only; custom games use every category). */
   slotIds: string[];
@@ -15,6 +15,10 @@ export interface LobbyConfig {
   rerolls: number;
   voting: boolean;
   packId: string | null;
+  /** Tier list category id, or 'random'. */
+  tierCategory?: string;
+  /** How many characters a tier list deals. */
+  tierCount?: number;
 }
 
 export function defaultSlotIds(animeIds: string[]): string[] {
@@ -24,7 +28,16 @@ export function defaultSlotIds(animeIds: string[]): string[] {
 }
 
 export function defaultConfig(): LobbyConfig {
-  return { mode: 'create', animeIds: ['onepiece'], slotIds: defaultSlotIds(['onepiece']), rerolls: 1, voting: true, packId: null };
+  return {
+    mode: 'create',
+    animeIds: ['onepiece'],
+    slotIds: defaultSlotIds(['onepiece']),
+    rerolls: 1,
+    voting: true,
+    packId: null,
+    tierCategory: 'random',
+    tierCount: 16,
+  };
 }
 
 export function availableSlots(config: LobbyConfig, pack: CustomPack | null): Slot[] {
@@ -77,6 +90,7 @@ export function matchSettings(config: LobbyConfig, pack: CustomPack | null): Mat
 
 /** Why the match cannot start yet, or null. */
 export function startProblem(config: LobbyConfig, pack: CustomPack | null, groups: CharacterGroup[] = []): string | null {
+  if (config.mode === 'tierlist') return null;
   if (config.mode === 'custom' && !pack) return 'Pick a custom game.';
   if (config.mode === 'create' && config.animeIds.length === 0 && (config.groupIds ?? []).length === 0) {
     return 'Pick at least one anime or character group.';

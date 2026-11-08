@@ -1,6 +1,7 @@
 // PeerJS rooms. The host's peer id is derived from the room code, so friends join by code alone.
 import Peer, { type DataConnection } from 'peerjs';
 import type { MatchAction, MatchState, Player } from '../engine/match';
+import type { TierAction, TierMatch } from '../engine/tier';
 import type { CharacterGroup, CustomPack } from '../types';
 import type { LobbyConfig } from '../lobby';
 
@@ -12,9 +13,10 @@ export type HostMsg =
   | { t: 'lobby'; players: Player[]; config: LobbyConfig; you: string }
   | { t: 'pack'; pack: CustomPack | null; overrides: Record<string, string>; groups: CharacterGroup[] }
   | { t: 'match'; match: MatchState | null }
+  | { t: 'tier'; tier: TierMatch | null }
   | { t: 'bye'; reason: string };
 
-export type ClientMsg = { t: 'hello'; name: string } | { t: 'action'; action: MatchAction };
+export type ClientMsg = { t: 'hello'; name: string } | { t: 'action'; action: MatchAction } | { t: 'tier'; action: TierAction };
 
 function makeCode(): string {
   return Array.from({ length: 5 }, () => CODE_ALPHABET[Math.floor(Math.random() * CODE_ALPHABET.length)]).join('');
@@ -34,6 +36,7 @@ function openPeer(id?: string): Promise<Peer> {
 export interface HostHandlers {
   onHello(id: string, name: string): void;
   onAction(id: string, action: MatchAction): void;
+  onTierAction(id: string, action: TierAction): void;
   onLeave(id: string): void;
 }
 
@@ -51,6 +54,7 @@ export class HostSession {
         const msg = raw as ClientMsg;
         if (msg?.t === 'hello' && typeof msg.name === 'string') handlers.onHello(conn.peer, msg.name.slice(0, 20));
         if (msg?.t === 'action' && msg.action) handlers.onAction(conn.peer, msg.action);
+        if (msg?.t === 'tier' && msg.action) handlers.onTierAction(conn.peer, msg.action);
       });
       conn.on('close', () => {
         this.conns.delete(conn.peer);

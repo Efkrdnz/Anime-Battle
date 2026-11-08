@@ -44,5 +44,17 @@ export const sfx = {
     };
     notes[rarity].forEach((f, i) => tone(f, i * 0.08, 0.35, rarity === 'SS' ? 'sawtooth' : 'triangle', 0.07));
   },
+  pick: () => tone(880, 0, 0.05, 'triangle', 0.05),
+  /** Drop into a tier: higher tiers ring higher. */
+  drop(tierIndex: number) {
+    const base = [784, 659, 587, 523, 440, 330][tierIndex] ?? 262;
+    tone(base, 0, 0.12, 'triangle', 0.08);
+    tone(base * 1.5, 0.05, 0.12, 'sine', 0.05);
+  },
+  slam() {
+    tone(70, 0, 0.5, 'sine', 0.35);
+    tone(140, 0, 0.3, 'square', 0.06);
+    [523, 659, 784].forEach((f) => tone(f, 0.05, 0.5, 'sawtooth', 0.04));
+  },
   win: () => [523, 659, 784, 1046, 784, 1046].forEach((f, i) => tone(f, i * 0.12, 0.3, 'triangle', 0.08)),
 };

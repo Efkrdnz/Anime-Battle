@@ -4,6 +4,7 @@ import { availableSlots, startProblem, type LobbyConfig } from '../lobby';
 import { MAX_PLAYERS } from '../net/peer';
 import { poolGroups, useGame } from '../store';
 import { GroupChips } from './GroupScreens';
+import { TierSettings } from './TierScreens';
 import { RARITIES } from '../types';
 
 export function HomeScreen({ initialCode }: { initialCode: string }) {
@@ -29,6 +30,13 @@ export function HomeScreen({ initialCode }: { initialCode: string }) {
           <h2>Character Creation</h2>
           <p>Spin for characters and slot them into Strength, Speed, Devil Fruit, Domain Expansion… then vote on the best build.</p>
           <span className="emoji">🎰</span>
+        </button>
+        <button className="mode-card tier-mode" onClick={() => openLobby('tierlist')}>
+          <h2>
+            Tier List <span className="badge-new">NEW</span>
+          </h2>
+          <p>A random category, the same characters for everyone. Rank them S to F, then compare lists with your friends.</p>
+          <span className="emoji">🏆</span>
         </button>
         <button className="mode-card" onClick={() => go('custom')}>
           <h2>Custom Games</h2>
@@ -226,33 +234,37 @@ export function LobbyScreen() {
         <button className="btn small secondary" onClick={() => (session.kind === 'solo' ? go('home') : leaveSession())}>
           ← {session.kind === 'solo' ? 'Back' : 'Leave room'}
         </button>
-        <h2>{config.mode === 'custom' ? 'Custom Game' : 'Character Creation'}</h2>
+        <h2>{config.mode === 'custom' ? 'Custom Game' : config.mode === 'tierlist' ? 'Tier List' : 'Character Creation'}</h2>
       </div>
       <div className="lobby-grid">
         <div className="panel">
-          {config.mode === 'custom' ? <CustomSettings config={config} readOnly={readOnly} /> : <CreateSettings config={config} readOnly={readOnly} />}
-          <div className="section row">
-            <div>
-              <div className="section-title">Rerolls per player</div>
-              <div className="chips">
-                {[0, 1, 2, 3].map((n) => (
-                  <button key={n} className={`chip ${config.rerolls === n ? 'on' : ''}`} disabled={readOnly} onClick={() => updateConfig({ rerolls: n })}>
-                    {n}
-                  </button>
-                ))}
+          {config.mode === 'custom' && <CustomSettings config={config} readOnly={readOnly} />}
+          {config.mode === 'create' && <CreateSettings config={config} readOnly={readOnly} />}
+          {config.mode === 'tierlist' && <TierSettings config={config} readOnly={readOnly} />}
+          {config.mode !== 'tierlist' && (
+            <div className="section row">
+              <div>
+                <div className="section-title">Rerolls per player</div>
+                <div className="chips">
+                  {[0, 1, 2, 3].map((n) => (
+                    <button key={n} className={`chip ${config.rerolls === n ? 'on' : ''}`} disabled={readOnly} onClick={() => updateConfig({ rerolls: n })}>
+                      {n}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <div className="section-title">Vote for a winner (multiplayer)</div>
+                <div className="chips">
+                  {[true, false].map((v) => (
+                    <button key={String(v)} className={`chip ${config.voting === v ? 'on' : ''}`} disabled={readOnly} onClick={() => updateConfig({ voting: v })}>
+                      {v ? 'Yes' : 'No, just for fun'}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
-            <div>
-              <div className="section-title">Vote for a winner (multiplayer)</div>
-              <div className="chips">
-                {[true, false].map((v) => (
-                  <button key={String(v)} className={`chip ${config.voting === v ? 'on' : ''}`} disabled={readOnly} onClick={() => updateConfig({ voting: v })}>
-                    {v ? 'Yes' : 'No, just for fun'}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
+          )}
         </div>
 
         <div className="panel">

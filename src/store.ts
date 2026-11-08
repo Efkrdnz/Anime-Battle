@@ -4,11 +4,16 @@ import { usedGroups } from './custom/groups';
 import { loadGroups, loadOverrides, loadPacks, saveGroups, saveOverrides, savePacks } from './custom/storage';
 import { createMatch, reduceMatch, type MatchAction, type MatchState, type Player, type PlayerAction } from './engine/match';
 import { randomSeed } from './engine/rng';
+import { createTierMatch, reduceTier, sampleKeys, type TierAction, type TierList, type TierMatch, type TierPlayerAction } from './engine/tier';
+import { categoryKeys, pickTierCategory, topicOf } from './data/tierlists';
 import { buildPool, defaultConfig, matchSettings, startProblem, type LobbyConfig } from './lobby';
 import { ClientSession, HostSession, MAX_PLAYERS, type HostMsg } from './net/peer';
 import type { CharacterGroup, CustomPack, Entry } from './types';
 
-export type Screen = 'home' | 'lobby' | 'game' | 'custom' | 'gallery';
+export type Screen = 'home' | 'lobby' | 'game' | 'custom' | 'gallery' | 'tier';
+
+/** My in-progress tier list; `pool` holds the characters not ranked yet. */
+export type TierDraft = TierList & { pool: string[] };
 
 export interface Session {
   kind: 'solo' | 'host' | 'client';
@@ -28,6 +33,10 @@ interface State {
   /** Pack used by the current custom lobby (own pack on the host, received pack on clients). */
   pack: CustomPack | null;
   match: MatchState | null;
+  /** Current tier list match (host-owned; clients mirror it). */
+  tier: TierMatch | null;
+  /** My draft for the tier match with this seed. */
+  tierDraft: { seed: number; draft: TierDraft } | null;
   packs: CustomPack[];
   overrides: Record<string, string>;
   remoteOverrides: Record<string, string>;
@@ -49,6 +58,8 @@ interface State {
   leaveSession(): void;
   startMatch(): void;
   dispatch(action: PlayerAction): void;
+  tierDispatch(action: TierPlayerAction): void;
+  setTierDraft(seed: number, draft: TierDraft): void;
   backToLobby(): void;
   savePack(pack: CustomPack): void;
   deletePack(id: string): void;
@@ -92,6 +103,18 @@ export const useGame = create<State>((set, get) => {
     host?.broadcast({ t: 'match', match });
   }
 
+  function setTier(tier: TierMatch | null) {
+    set({ tier });
+    host?.broadcast({ t: 'tier', tier });
+  }
+
+  function applyTierAction(action: TierAction) {
+    const { tier } = get();
+    if (!tier) return;
+    const next = reduceTier(tier, action);
+    if (next !== tier) setTier(next);
+  }
+
   function applyAction(action: MatchAction) {
     const { match } = get();
     if (!match) return;
@@ -109,6 +132,9 @@ export const useGame = create<State>((set, get) => {
         break;
       case 'match':
         set({ match: msg.match, screen: msg.match ? 'game' : 'lobby' });
+        break;
+      case 'tier':
+        set({ tier: msg.tier, screen: msg.tier ? 'tier' : 'lobby' });
         break;
       case 'bye':
         get().leaveSession();
@@ -129,6 +155,8 @@ export const useGame = create<State>((set, get) => {
     config: defaultConfig(),
     pack: null,
     match: null,
+    tier: null,
+    tierDraft: null,
     packs: [],
     overrides: {},
     remoteOverrides: {},
@@ -161,6 +189,7 @@ export const useGame = create<State>((set, get) => {
         config,
         pack: resolvePack(config),
         match: null,
+        tier: null,
         screen: 'lobby',
         players: get().players.length ? get().players : [me(get().name, 0, HOST_ID)],
       });
@@ -184,7 +213,7 @@ export const useGame = create<State>((set, get) => {
         host = await HostSession.create({
           onHello(id, name) {
             const { players, match } = get();
-            if (match) return host?.kick(id, 'That match already started.');
+            if (match || get().tier) return host?.kick(id, 'That match already started.');
             if (players.length >= MAX_PLAYERS) return host?.kick(id, 'That room is full.');
             set({ players: [...players.filter((p) => p.id !== id), me(name, players.length, id)] });
             broadcastLobby();
@@ -193,10 +222,16 @@ export const useGame = create<State>((set, get) => {
           onAction(id, action) {
             applyAction({ ...action, playerId: id } as MatchAction);
           },
+          onTierAction(id, action) {
+            // Only the host may force a reveal.
+            if (action?.type === 'reveal') return;
+            applyTierAction({ ...action, playerId: id } as TierAction);
+          },
           onLeave(id) {
             set({ players: get().players.filter((p) => p.id !== id) });
             broadcastLobby();
             applyAction({ type: 'leave', playerId: id });
+            applyTierAction({ type: 'leave', playerId: id });
           },
         });
         set({ session: { kind: 'host', code: host.code, myId: HOST_ID }, players: [me(get().name, 0, HOST_ID)] });
@@ -228,7 +263,7 @@ export const useGame = create<State>((set, get) => {
       const h = host;
       client = null;
       host = null;
-      set({ session: soloSession(), players: [], match: null, pack: null, remoteOverrides: {}, remoteGroups: [], screen: 'home' });
+      set({ session: soloSession(), players: [], match: null, tier: null, tierDraft: null, pack: null, remoteOverrides: {}, remoteGroups: [], screen: 'home' });
       c?.close();
       h?.close();
     },
@@ -237,6 +272,16 @@ export const useGame = create<State>((set, get) => {
       const { config, pack, session, players } = get();
       if (session.kind === 'client' || startProblem(config, pack, poolGroups(get()))) return;
       const roster = players.length ? players : [me(get().name, 0, HOST_ID)];
+      if (config.mode === 'tierlist') {
+        const seed = randomSeed();
+        const category = pickTierCategory(config.tierCategory, get().tier?.topic.id);
+        const keys = sampleKeys(categoryKeys(category), config.tierCount ?? 16, seed);
+        if (get().match) setMatch(null);
+        setTier(createTierMatch(topicOf(category), keys, roster, seed));
+        set({ players: roster, screen: 'tier' });
+        return;
+      }
+      if (get().tier) setTier(null);
       setMatch(createMatch(matchSettings(config, pack), roster, randomSeed(), poolNow()));
       set({ players: roster, screen: 'game' });
     },
@@ -247,9 +292,20 @@ export const useGame = create<State>((set, get) => {
       else applyAction(action);
     },
 
+    tierDispatch(partial) {
+      const action = { ...partial, playerId: get().session.myId } as TierAction;
+      if (get().session.kind === 'client') client?.send({ t: 'tier', action });
+      else applyTierAction(action);
+    },
+
+    setTierDraft(seed, draft) {
+      set({ tierDraft: { seed, draft } });
+    },
+
     backToLobby() {
       if (get().session.kind === 'client') return;
       setMatch(null);
+      setTier(null);
       set({ screen: 'lobby' });
     },
 
