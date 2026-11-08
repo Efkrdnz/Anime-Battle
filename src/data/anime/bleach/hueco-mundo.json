@@ -1,0 +1,207 @@
+{
+  "characters": [
+    {
+      "id": "kaname-tosen",
+      "name": "Kaname Tosen",
+      "gender": "male",
+      "wikiPage": "Kaname Tōsen",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Ninth Division Captain",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "zanpakuto": "Suzumushi (sound-based shikai)",
+            "bankai": "Suzumushi Tsuishiki Enma Korogi (silent arena)",
+            "reiatsu": "Captain-level, fights blind",
+            "race": "Shinigami, justice-driven"
+          },
+          "wikiImage": "File:Ep44TosenProfile.png"
+        },
+        {
+          "id": "resurreccion",
+          "label": "Resurreccion",
+          "rarity": "A",
+          "stats": "A S B A B B",
+          "traits": {
+            "zanpakuto": "Suzumushi Hyakushiki Grillar Grillo",
+            "reiatsu": "Hollow-boosted Captain level",
+            "race": "Shinigami fused with the Hogyoku"
+          },
+          "wikiImage": "File:386Tosen Resurreccion profile.png"
+        }
+      ]
+    },
+    {
+      "id": "coyote-starrk",
+      "name": "Coyote Starrk",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "primera-espada",
+          "label": "Primera Espada",
+          "rarity": "A",
+          "stats": "A S A S A S",
+          "traits": {
+            "zanpakuto": "Los Lobos (sealed pistol)",
+            "reiatsu": "Beyond Captain, held back by laziness",
+            "race": "Arrancar, Primera Espada"
+          },
+          "wikiImage": "File:Ep277StarrkProfile.png"
+        },
+        {
+          "id": "resurreccion",
+          "label": "Resurreccion",
+          "rarity": "S",
+          "stats": "S SS A S S SS",
+          "traits": {
+            "zanpakuto": "Los Lobos (wolf-pack Cero barrage)",
+            "reiatsu": "Overwhelming, Espada peak",
+            "race": "Arrancar, Primera Espada"
+          },
+          "wikiImage": "File:Ep277StarrkResurreccionLosLobos.png"
+        }
+      ]
+    },
+    {
+      "id": "barragan-louisenbairn",
+      "name": "Barragan Louisenbairn",
+      "gender": "male",
+      "wikiPage": "Baraggan Louisenbairn",
+      "variants": [
+        {
+          "id": "segunda-espada",
+          "label": "Segunda Espada",
+          "rarity": "A",
+          "stats": "A B B S B S",
+          "traits": {
+            "zanpakuto": "Arrogante (Resurreccion, aging touch)",
+            "reiatsu": "Beyond Captain, king of Hueco Mundo",
+            "race": "Arrancar, Segunda Espada"
+          },
+          "wikiImage": "File:356Baraggan's Resurreccion, Arrogante.png"
+        }
+      ]
+    },
+    {
+      "id": "tier-harribel",
+      "name": "Tier Harribel",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "tercera-espada",
+          "label": "Tercera Espada",
+          "rarity": "A",
+          "stats": "A A B B A A",
+          "traits": {
+            "zanpakuto": "Tiburon (sealed Hierro-wielding blade)",
+            "reiatsu": "Beyond Captain, calm and exact",
+            "race": "Arrancar, Tercera Espada"
+          },
+          "wikiImage": "File:339Harribel profile.png"
+        },
+        {
+          "id": "resurreccion",
+          "label": "Resurreccion",
+          "rarity": "A",
+          "stats": "S S A A S A",
+          "traits": {
+            "zanpakuto": "Tiburon (shark Resurreccion, water-armed)",
+            "reiatsu": "Beyond Captain, tide-sheathed",
+            "race": "Arrancar, Tercera Espada"
+          },
+          "wikiImage": "File:356Harribel Resurreccion profile.png"
+        }
+      ]
+    },
+    {
+      "id": "nnoitra-gilga",
+      "name": "Nnoitra Gilga",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "quinta-espada",
+          "label": "Quinta Espada",
+          "rarity": "A",
+          "stats": "A A B A B A",
+          "traits": {
+            "zanpakuto": "Santa Teresa (four-armed scythe Resurreccion)",
+            "reiatsu": "Beyond Captain, brutal sadist",
+            "race": "Arrancar, Quinta Espada"
+          },
+          "wikiImage": "File:Ep190NnoitraProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "szayelaporro-granz",
+      "name": "Szayelaporro Granz",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "octava-espada",
+          "label": "Octava Espada",
+          "rarity": "A",
+          "stats": "D B S C SS C",
+          "traits": {
+            "zanpakuto": "Fornicaras (Resurreccion, body-copy clones)",
+            "reiatsu": "Captain-level, scheming scientist",
+            "race": "Arrancar, Octava Espada"
+          },
+          "wikiImage": "File:NBFHSzayelaporro profile.png"
+        }
+      ]
+    },
+    {
+      "id": "yammy-llargo",
+      "name": "Yammy Llargo",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "cero-espada",
+          "label": "Cero Espada",
+          "rarity": "A",
+          "stats": "SS C C SS D SS",
+          "traits": {
+            "zanpakuto": "Ira (Resurreccion, fear-fed brute)",
+            "reiatsu": "Beyond Captain, Espada 0 in reserve",
+            "race": "Arrancar, Cero Espada"
+          },
+          "wikiImage": "File:Ep268YammyProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "nelliel-tu-odelschwanck",
+      "name": "Nelliel Tu Odelschwanck",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "child",
+          "label": "Child",
+          "rarity": "B",
+          "stats": "C C C C C B",
+          "traits": {
+            "zanpakuto": "Gamuza (sealed Resurreccion)",
+            "reiatsu": "Tercera Espada-level, in child form",
+            "race": "Arrancar, power sealed"
+          },
+          "wikiImage": "File:Ep146NelProfile.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "A",
+          "stats": "A S B A A A",
+          "traits": {
+            "zanpakuto": "Gamuza (antlered lance Resurreccion)",
+            "reiatsu": "Former Tercera Espada",
+            "race": "Arrancar, fully restored"
+          },
+          "wikiImage": "File:Ep192NellielAdultForm.png"
+        }
+      ]
+    }
+  ]
+}

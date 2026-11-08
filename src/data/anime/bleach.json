@@ -3,6 +3,7 @@
   "name": "Bleach",
   "color": "#4361ee",
   "search": "bleach",
+  "wiki": "bleach",
   "attributes": [
     {
       "id": "zanpakuto",
@@ -26,6 +27,7 @@
       "id": "ichigo-kurosaki",
       "name": "Ichigo Kurosaki",
       "gender": "male",
+      "wikiPage": "Ichigo Kurosaki",
       "variants": [
         {
           "id": "substitute",
@@ -37,7 +39,8 @@
             "bankai": "Tensa Zangetsu (speed, Getsuga Tenshou)",
             "reiatsu": "Captain-level and rising fast",
             "race": "Shinigami / Hollow / Quincy hybrid"
-          }
+          },
+          "wikiImage": "File:NBFHIchigo profile.png"
         },
         {
           "id": "hollowfied",
@@ -49,7 +52,8 @@
             "bankai": "Tensa Zangetsu + Hollow mask, Black Getsuga",
             "reiatsu": "Beyond Captain, wild and unstable",
             "race": "Shinigami fused with Hollow reiatsu"
-          }
+          },
+          "wikiImage": "File:Ep165IchigoHollowMask.png"
         },
         {
           "id": "true-bankai",
@@ -61,7 +65,32 @@
             "bankai": "Final Getsuga Tenshou, Mugetsu",
             "reiatsu": "Rivals Yhwach, bends the world",
             "race": "Full Shinigami, Hollow, and Quincy powers"
-          }
+          },
+          "wikiImage": "File:591Ichigo profile.png"
+        },
+        {
+          "id": "fullbring",
+          "label": "Fullbring",
+          "rarity": "A",
+          "stats": "A S B A B B",
+          "traits": {
+            "zanpakuto": "Fullbring blade, Shinigami powers lost",
+            "reiatsu": "Captain-level, fed by Fullbring",
+            "race": "Human, Hollow and Quincy blood, Fullbring"
+          },
+          "wikiImage": "File:Ichigo Complete Fullbring.png"
+        },
+        {
+          "id": "vasto-lorde",
+          "label": "Vasto Lorde",
+          "rarity": "S",
+          "stats": "S SS B A B A",
+          "traits": {
+            "zanpakuto": "Zangetsu, fused with Hollow power",
+            "reiatsu": "Beyond Captain, Cero-capable",
+            "race": "Hybrid in full Vasto Lorde form"
+          },
+          "wikiImage": "File:BBSFully Hollowfied Ichigo.png"
         }
       ]
     },
@@ -69,6 +98,7 @@
       "id": "sosuke-aizen",
       "name": "Sosuke Aizen",
       "gender": "male",
+      "wikiPage": "Sousuke Aizen",
       "variants": [
         {
           "id": "captain",
@@ -80,7 +110,8 @@
             "bankai": "Unrevealed, never needed",
             "reiatsu": "Captain-level on display, true limit hidden",
             "race": "Shinigami"
-          }
+          },
+          "wikiImage": "File:Ep46CaptainAizen.png"
         },
         {
           "id": "hogyoku-fusion",
@@ -92,7 +123,20 @@
             "bankai": "Transcended, no longer needed",
             "reiatsu": "Godlike, regenerates instantly",
             "race": "Shinigami fused with the Hogyoku"
-          }
+          },
+          "wikiImage": "File:419Aizen's Final Fusion.png"
+        },
+        {
+          "id": "imprisoned",
+          "label": "Imprisoned",
+          "rarity": "A",
+          "stats": "A B SS A SS B",
+          "traits": {
+            "zanpakuto": "Kyoka Suigetsu, bound by seals",
+            "reiatsu": "Suppressed, still unmatched in cunning",
+            "race": "Shinigami, sealed in Muken"
+          },
+          "wikiImage": "File:Ep414AizenTYBWProfile.png"
         }
       ],
       "search": "Sousuke Aizen"
@@ -101,6 +145,7 @@
       "id": "yhwach",
       "name": "Yhwach",
       "gender": "male",
+      "wikiPage": "Yhwach",
       "variants": [
         {
           "id": "quincy-king",
@@ -112,7 +157,8 @@
             "bankai": "Almighty (sees and rewrites the future)",
             "reiatsu": "Eclipses all, steals Soul King's power",
             "race": "Quincy progenitor, Soul King's heart"
-          }
+          },
+          "wikiImage": "File:Ep390YhwachProfile.png"
         }
       ]
     },
@@ -120,6 +166,7 @@
       "id": "genryusai-shigekuni-yamamoto",
       "name": "Genryusai Shigekuni Yamamoto",
       "gender": "male",
+      "wikiPage": "Genryūsai Shigekuni Yamamoto",
       "variants": [
         {
           "id": "captain-commander",
@@ -131,7 +178,21 @@
             "bankai": "Zanka no Tachi: Zanjitsu Shotenbu",
             "reiatsu": "Oldest, most potent in Soul Society",
             "race": "Shinigami, 1000-year Captain-Commander"
-          }
+          },
+          "wikiImage": "File:Ep210YamamotoProfile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "S",
+          "stats": "SS A SS SS S S",
+          "traits": {
+            "zanpakuto": "Ryujin Jakka (strongest fire-type)",
+            "bankai": "Zanka no Tachi (sun-hot blade)",
+            "reiatsu": "Beyond Captain, burns all around",
+            "race": "Shinigami, founder of the Gotei 13"
+          },
+          "wikiImage": "File:506Yamamoto's Bankai, Zanka no Tachi.png"
         }
       ],
       "search": "Yamamoto"
@@ -140,6 +201,7 @@
       "id": "kenpachi-zaraki",
       "name": "Kenpachi Zaraki",
       "gender": "male",
+      "wikiPage": "Kenpachi Zaraki",
       "variants": [
         {
           "id": "eyepatch",
@@ -151,7 +213,8 @@
             "bankai": "None, sword unknown",
             "reiatsu": "Huge but half-suppressed by the eyepatch",
             "race": "Shinigami, born brawler"
-          }
+          },
+          "wikiImage": "File:81Kenpachi profile.png"
         },
         {
           "id": "unleashed",
@@ -163,7 +226,8 @@
             "bankai": "Unrevealed, but raw power for days",
             "reiatsu": "Monstrous, full-force combat",
             "race": "Shinigami"
-          }
+          },
+          "wikiImage": "File:Ep386KenpachiProfile.png"
         }
       ]
     },
@@ -171,6 +235,7 @@
       "id": "byakuya-kuchiki",
       "name": "Byakuya Kuchiki",
       "gender": "male",
+      "wikiPage": "Byakuya Kuchiki",
       "variants": [
         {
           "id": "captain",
@@ -182,7 +247,21 @@
             "bankai": "Senbonzakura Kageyoshi (blade storm)",
             "reiatsu": "High Captain, noble house heir",
             "race": "Shinigami, Kuchiki clan"
-          }
+          },
+          "wikiImage": "File:Ep310ByakuyaProfile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "S",
+          "stats": "A S A A SS B",
+          "traits": {
+            "zanpakuto": "Senbonzakura (blade scattered into petals)",
+            "bankai": "Senbonzakura Kageyoshi (thousand blade storm)",
+            "reiatsu": "Captain-level, noble precision",
+            "race": "Shinigami, Kuchiki clan head"
+          },
+          "wikiImage": "File:301Byakuya's Bankai, Senbonzakura Kageyoshi.png"
         }
       ]
     },
@@ -190,6 +269,7 @@
       "id": "ulquiorra-cifer",
       "name": "Ulquiorra Cifer",
       "gender": "male",
+      "wikiPage": "Ulquiorra Cifer",
       "variants": [
         {
           "id": "segunda-etapa",
@@ -201,7 +281,8 @@
             "bankai": "None, Hollow-based power",
             "reiatsu": "Above Captain, near Aizen's level of fear",
             "race": "Espada No. 4 Arrancar"
-          }
+          },
+          "wikiImage": "File:347Ulquiorra's Resurreccion Segunda Etapa.png"
         }
       ]
     },
@@ -209,6 +290,7 @@
       "id": "grimmjow-jaegerjaquez",
       "name": "Grimmjow Jaegerjaquez",
       "gender": "male",
+      "wikiPage": "Grimmjow Jaegerjaquez",
       "variants": [
         {
           "id": "sexta-espada",
@@ -220,7 +302,8 @@
             "bankai": "None, Arrancar",
             "reiatsu": "Captain-level, volatile",
             "race": "Espada No. 6 Arrancar"
-          }
+          },
+          "wikiImage": "File:Ep138GrimmjowProfile.png"
         }
       ]
     },
@@ -228,6 +311,7 @@
       "id": "kisuke-urahara",
       "name": "Kisuke Urahara",
       "gender": "male",
+      "wikiPage": "Kisuke Urahara",
       "variants": [
         {
           "id": "shopkeeper",
@@ -239,7 +323,21 @@
             "bankai": "Kannonbiraki Benihime (immense power)",
             "reiatsu": "Captain-level, intentionally suppressed",
             "race": "Shinigami and genius inventor"
-          }
+          },
+          "wikiImage": "File:Ep329UraharaProfileOption4.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "S",
+          "stats": "S SS SS S SS A",
+          "traits": {
+            "zanpakuto": "Benihime (blood-mist shikai)",
+            "bankai": "Kannonbiraki Benihime Aratame (rewrites matter)",
+            "reiatsu": "Captain-level, vast and hidden",
+            "race": "Shinigami, Hogyoku maker"
+          },
+          "wikiImage": "File:664Urahara's Bankai, Kannonbiraki Benihime Aratame.png"
         }
       ]
     },
@@ -247,6 +345,7 @@
       "id": "yoruichi-shihoin",
       "name": "Yoruichi Shihoin",
       "gender": "female",
+      "wikiPage": "Yoruichi Shihōin",
       "variants": [
         {
           "id": "flash-goddess",
@@ -258,7 +357,19 @@
             "bankai": "None, Shunko Raiko fusion",
             "reiatsu": "Captain-level, shapeshifts into a cat",
             "race": "Shinigami, Shihoin noble"
-          }
+          },
+          "wikiImage": "File:157Yoruichi profile.png"
+        },
+        {
+          "id": "shunko",
+          "label": "Shunko",
+          "rarity": "S",
+          "stats": "S SS A A S A",
+          "traits": {
+            "reiatsu": "Captain-level, lightning armour",
+            "race": "Shinigami, Shunko master"
+          },
+          "wikiImage": "File:158Yoruichi's Shunko.png"
         }
       ],
       "search": "Yoruichi"
@@ -267,6 +378,7 @@
       "id": "toshiro-hitsugaya",
       "name": "Toshiro Hitsugaya",
       "gender": "male",
+      "wikiPage": "Tōshirō Hitsugaya",
       "variants": [
         {
           "id": "captain",
@@ -278,7 +390,34 @@
             "bankai": "Daiguren Hyorinmaru (ice dragon wings)",
             "reiatsu": "Captain-level, weather control",
             "race": "Shinigami prodigy"
-          }
+          },
+          "wikiImage": "File:Ep257HitsugayaProfile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "A",
+          "stats": "A S A A S A",
+          "traits": {
+            "zanpakuto": "Hyorinmaru (strongest ice-type)",
+            "bankai": "Daiguren Hyorinmaru (ice wings and tail)",
+            "reiatsu": "Captain-level, ice and weather control",
+            "race": "Shinigami prodigy"
+          },
+          "wikiImage": "File:BBSBankai Hitsugaya.png"
+        },
+        {
+          "id": "adult",
+          "label": "Adult",
+          "rarity": "S",
+          "stats": "S S A A S A",
+          "traits": {
+            "zanpakuto": "Hyorinmaru, ice-dragon armour",
+            "bankai": "Daiguren Hyorinmaru (completed bankai)",
+            "reiatsu": "Beyond Captain, full dragon form",
+            "race": "Shinigami in matured form"
+          },
+          "wikiImage": "File:671Adult Hitsugaya.png"
         }
       ],
       "search": "Toushirou Hitsugaya"
@@ -287,6 +426,7 @@
       "id": "rukia-kuchiki",
       "name": "Rukia Kuchiki",
       "gender": "female",
+      "wikiPage": "Rukia Kuchiki",
       "variants": [
         {
           "id": "thirteenth-division",
@@ -298,7 +438,33 @@
             "bankai": "Hakka no Togame (absolute zero)",
             "reiatsu": "Lieutenant-level, sharp ice",
             "race": "Shinigami, Kuchiki adopted"
-          }
+          },
+          "wikiImage": "File:NBFHRukia profile.png"
+        },
+        {
+          "id": "shikai",
+          "label": "Shikai",
+          "rarity": "B",
+          "stats": "B B B B A B",
+          "traits": {
+            "zanpakuto": "Sode no Shirayuki (purest ice-type)",
+            "reiatsu": "Lieutenant-level, rising fast",
+            "race": "Shinigami, Kuchiki noble by adoption"
+          },
+          "wikiImage": "File:Ep385RukiaShikaiSodeNoShirayuki.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "A",
+          "stats": "A A B B S B",
+          "traits": {
+            "zanpakuto": "Sode no Shirayuki (white blade)",
+            "bankai": "Hakka no Togame (absolute-zero ice)",
+            "reiatsu": "Captain-level, ice-bound battlefield",
+            "race": "Shinigami, Kuchiki noble"
+          },
+          "wikiImage": "File:Ep385RukiaBankaiHakkaNoTogame.png"
         }
       ]
     },
@@ -306,6 +472,7 @@
       "id": "renji-abarai",
       "name": "Renji Abarai",
       "gender": "male",
+      "wikiPage": "Renji Abarai",
       "variants": [
         {
           "id": "lieutenant",
@@ -317,7 +484,21 @@
             "bankai": "Hihio Zabimaru (bone-snake multi-part)",
             "reiatsu": "High Lieutenant, near Captain",
             "race": "Shinigami, Rukongai-born"
-          }
+          },
+          "wikiImage": "File:137Renji profile.png"
+        },
+        {
+          "id": "soo-zabimaru",
+          "label": "Soo Zabimaru",
+          "rarity": "A",
+          "stats": "A A B A B B",
+          "traits": {
+            "zanpakuto": "Zabimaru (baboon and snake)",
+            "bankai": "Soo Zabimaru (reinforced bone bankai)",
+            "reiatsu": "Captain-level, relentless drive",
+            "race": "Shinigami, Sixth Division Lieutenant"
+          },
+          "wikiImage": "File:Ep399RenjiBankaiSooZabimaru.png"
         }
       ]
     },
@@ -325,6 +506,7 @@
       "id": "retsu-unohana",
       "name": "Retsu Unohana",
       "gender": "female",
+      "wikiPage": "Retsu Unohana",
       "variants": [
         {
           "id": "first-kenpachi",
@@ -336,7 +518,21 @@
             "bankai": "Minazuki Bankai (infinite healing sword)",
             "reiatsu": "Beyond Captain, Kenpachi's heir",
             "race": "Shinigami, the first Kenpachi"
-          }
+          },
+          "wikiImage": "File:523Unohana profile.png"
+        },
+        {
+          "id": "kenpachi-yachiru",
+          "label": "Kenpachi Yachiru",
+          "rarity": "S",
+          "stats": "S A S S SS S",
+          "traits": {
+            "zanpakuto": "Minazuki, unleashed in battle",
+            "bankai": "Minazuki Bankai (flesh-sealing blade)",
+            "reiatsu": "Beyond Captain, bloodlust unbound",
+            "race": "Shinigami, born as Yachiru"
+          },
+          "wikiImage": "File:Yachiru Unohana Artwork.png"
         }
       ]
     },
@@ -344,6 +540,7 @@
       "id": "shunsui-kyoraku",
       "name": "Shunsui Kyoraku",
       "gender": "male",
+      "wikiPage": "Shunsui Kyōraku",
       "variants": [
         {
           "id": "captain",
@@ -355,7 +552,8 @@
             "bankai": "Katen Kyokotsu: Karamatsu Shinju",
             "reiatsu": "Captain-level, Yamamoto's student",
             "race": "Shinigami, lazy genius"
-          }
+          },
+          "wikiImage": "File:Ep375ShunsuiProfile.png"
         }
       ],
       "search": "Shunsui"
@@ -364,6 +562,7 @@
       "id": "mayuri-kurotsuchi",
       "name": "Mayuri Kurotsuchi",
       "gender": "male",
+      "wikiPage": "Mayuri Kurotsuchi",
       "variants": [
         {
           "id": "captain",
@@ -375,7 +574,21 @@
             "bankai": "Konjiki Ashisogi Jizo (giant larval form)",
             "reiatsu": "High Captain, adaptive science",
             "race": "Shinigami scientist, cyborg"
-          }
+          },
+          "wikiImage": "File:NBFHMayuri profile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "S",
+          "stats": "B B SS S SS A",
+          "traits": {
+            "zanpakuto": "Ashisogi Jizo (poison shikai)",
+            "bankai": "Konjiki Ashisogi Jizo (giant poison fetus)",
+            "reiatsu": "Captain-level, researcher without limits",
+            "race": "Shinigami scientist"
+          },
+          "wikiImage": "File:125Mayuri's Bankai, Konjiki Ashisogi Jizo.png"
         }
       ]
     },
@@ -383,6 +596,7 @@
       "id": "uryu-ishida",
       "name": "Uryu Ishida",
       "gender": "male",
+      "wikiPage": "Uryū Ishida",
       "variants": [
         {
           "id": "quincy",
@@ -394,7 +608,30 @@
             "bankai": "Quincy: Vollstandig (Licht Regen)",
             "reiatsu": "Captain-adjacent, Quincy Reishi",
             "race": "Quincy, Schutzstaffel heir"
-          }
+          },
+          "wikiImage": "File:Ep344UryuProfile3.png"
+        },
+        {
+          "id": "letzt-stil",
+          "label": "Letzt Stil",
+          "rarity": "A",
+          "stats": "A A S B S B",
+          "traits": {
+            "reiatsu": "Captain-level, spirit weapons overdriven",
+            "race": "Quincy, Letzt Stil (final form)"
+          },
+          "wikiImage": "File:125Quincy - Letzt Stil.png"
+        },
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "A A S B S A",
+          "traits": {
+            "reiatsu": "Rivals Sternritter, forged for the war",
+            "race": "Quincy, Schrift \"Antithesis\""
+          },
+          "wikiImage": "File:Ep379UryuSternritter.png"
         }
       ],
       "search": "Uryuu Ishida"
@@ -403,6 +640,7 @@
       "id": "orihime-inoue",
       "name": "Orihime Inoue",
       "gender": "female",
+      "wikiPage": "Orihime Inoue",
       "variants": [
         {
           "id": "healer",
@@ -413,7 +651,8 @@
             "zanpakuto": "None, Shun Shun Rikka fairy shields",
             "reiatsu": "Moderate, reality-rejection ability",
             "race": "Human with Santen Kesshun"
-          }
+          },
+          "wikiImage": "File:Ep397OrihimeProfile.png"
         }
       ]
     },
@@ -421,6 +660,7 @@
       "id": "kon",
       "name": "Kon",
       "gender": "male",
+      "wikiPage": "Kon",
       "variants": [
         {
           "id": "mod-soul",
@@ -431,7 +671,8 @@
             "zanpakuto": "None, borrows Ichigo's body",
             "reiatsu": "Minimal, plush toy energy",
             "race": "Artificial Mod Soul"
-          }
+          },
+          "wikiImage": "File:Ep320KonProfile.png"
         }
       ]
     },
@@ -439,7 +680,7 @@
       "id": "yasutora-sado",
       "name": "Yasutora Sado",
       "gender": "male",
-      "search": "chad",
+      "wikiPage": "Yasutora Sado",
       "variants": [
         {
           "id": "chad",
@@ -450,9 +691,22 @@
             "zanpakuto": "None, Brazo Derecha de Gigante",
             "reiatsu": "Moderate, grows with training",
             "race": "Human with Fullbring-like arm powers"
-          }
+          },
+          "wikiImage": "File:Ep158SadoProfile.png"
+        },
+        {
+          "id": "fullbring",
+          "label": "Fullbring",
+          "rarity": "B",
+          "stats": "S C C A C A",
+          "traits": {
+            "reiatsu": "Captain-adjacent, Fullbring-boosted",
+            "race": "Human, Fullbring \"Brazo Izquierda del Diablo\""
+          },
+          "wikiImage": "File:260Sado's Fullbring, Brazo Izquierda del Diablo.png"
         }
-      ]
+      ],
+      "search": "chad"
     }
   ]
 }

@@ -1,0 +1,246 @@
+{
+  "characters": [
+    {
+      "id": "jugram-haschwalth",
+      "name": "Jugram Haschwalth",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "grandmaster",
+          "label": "Sternritter Grandmaster",
+          "rarity": "S",
+          "stats": "A S SS A SS S",
+          "traits": {
+            "reiatsu": "Yhwach's right hand, near-limitless",
+            "race": "Quincy, Schrift \"The Balance\""
+          },
+          "wikiImage": "File:Ep396HaschwalthProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "askin-nakk-le-vaar",
+      "name": "Askin Nakk Le Vaar",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "B B A B A B",
+          "traits": {
+            "reiatsu": "Sternritter-level, lazy observer",
+            "race": "Quincy, Schrift \"The Deathdealing\""
+          },
+          "wikiImage": "File:Ep405AskinProfile.png"
+        },
+        {
+          "id": "vollstandig",
+          "label": "Vollstandig",
+          "rarity": "A",
+          "stats": "A A A B A B",
+          "traits": {
+            "reiatsu": "Beyond Sternritter, ruthless",
+            "race": "Quincy, Vollstandig \"Hasshein\""
+          },
+          "wikiImage": "File:663Askin's Vollstandig, Hasshein.png"
+        }
+      ]
+    },
+    {
+      "id": "bambietta-basterbine",
+      "name": "Bambietta Basterbine",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "B A B B A B",
+          "traits": {
+            "reiatsu": "Sternritter-level, explosive",
+            "race": "Quincy, Schrift \"The Explode\""
+          },
+          "wikiImage": "File:Ep383BambiettaProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "gremmy-thoumeaux",
+      "name": "Gremmy Thoumeaux",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "C C A C SS C",
+          "traits": {
+            "reiatsu": "Sternritter-level, reality-bending",
+            "race": "Quincy, Schrift \"The Visionary\""
+          },
+          "wikiImage": "File:Ep386GremmyProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "lille-barro",
+      "name": "Lille Barro",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "schutzstaffel",
+          "label": "Schutzstaffel Leader",
+          "rarity": "A",
+          "stats": "A A A B A B",
+          "traits": {
+            "reiatsu": "Sternritter-level, elite guard captain",
+            "race": "Quincy, Schrift \"The X-Axis\""
+          },
+          "wikiImage": "File:Ep390LilleProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "gerard-valkyrie",
+      "name": "Gerard Valkyrie",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "S B B S B S",
+          "traits": {
+            "reiatsu": "Sternritter-level, heroic bearing",
+            "race": "Quincy, Schrift \"The Miracle\""
+          },
+          "wikiImage": "File:Ep396GerardProfile.png"
+        },
+        {
+          "id": "vollstandig",
+          "label": "Vollstandig",
+          "rarity": "S",
+          "stats": "S A B S A S",
+          "traits": {
+            "reiatsu": "Beyond Sternritter, overwhelming",
+            "race": "Quincy, Vollstandig \"Aschtonig\""
+          },
+          "wikiImage": "File:Ep410GerardVollstandigAschetonig.png"
+        }
+      ]
+    },
+    {
+      "id": "as-nodt",
+      "name": "As Nodt",
+      "gender": "male",
+      "wikiPage": "Äs Nödt",
+      "variants": [
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "A B C S C S",
+          "traits": {
+            "reiatsu": "Sternritter-level, feeds on fear",
+            "race": "Quincy, Schrift \"The Fear\""
+          },
+          "wikiImage": "File:Ep370AsProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "bazz-b",
+      "name": "Bazz-B",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "sternritter",
+          "label": "Sternritter",
+          "rarity": "A",
+          "stats": "B A B B A B",
+          "traits": {
+            "reiatsu": "Sternritter-level, fiery spirit",
+            "race": "Quincy, Schrift \"The Heat\""
+          },
+          "wikiImage": "File:Ep380BazzBProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "ryuken-ishida",
+      "name": "Ryuken Ishida",
+      "gender": "male",
+      "wikiPage": "Ryūken Ishida",
+      "variants": [
+        {
+          "id": "doctor",
+          "label": "Doctor",
+          "rarity": "B",
+          "stats": "B B A B A B",
+          "traits": {
+            "reiatsu": "Captain-level, Quincy training",
+            "race": "Pure Quincy, Karakura physician"
+          },
+          "wikiImage": "File:Ep345RyukenProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "kugo-ginjo",
+      "name": "Kugo Ginjo",
+      "gender": "male",
+      "wikiPage": "Kūgo Ginjō",
+      "variants": [
+        {
+          "id": "fullbringer",
+          "label": "Fullbringer",
+          "rarity": "A",
+          "stats": "A A B A B A",
+          "traits": {
+            "reiatsu": "Captain-level, forging Fullbring",
+            "race": "Human, Fullbring \"Cross of Scaffold\""
+          },
+          "wikiImage": "File:Ep344GinjoProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "shukuro-tsukishima",
+      "name": "Shukuro Tsukishima",
+      "gender": "male",
+      "wikiPage": "Shūkurō Tsukishima",
+      "variants": [
+        {
+          "id": "fullbringer",
+          "label": "Fullbringer",
+          "rarity": "B",
+          "stats": "C B S C S B",
+          "traits": {
+            "reiatsu": "Lieutenant-level, rewrites past",
+            "race": "Human, Fullbring \"Book of the End\""
+          },
+          "wikiImage": "File:Ep345TsukishimaProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "riruka-dokugamine",
+      "name": "Riruka Dokugamine",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "fullbringer",
+          "label": "Fullbringer",
+          "rarity": "B",
+          "stats": "C B B C A B",
+          "traits": {
+            "reiatsu": "Lieutenant-level, fickle",
+            "race": "Human, Fullbring \"Dollhouse\""
+          },
+          "wikiImage": "File:Ep352RirukaProfile.png"
+        }
+      ]
+    }
+  ]
+}

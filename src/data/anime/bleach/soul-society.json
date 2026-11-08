@@ -1,0 +1,440 @@
+{
+  "characters": [
+    {
+      "id": "sajin-komamura",
+      "name": "Sajin Komamura",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Seventh Division Captain",
+          "rarity": "A",
+          "stats": "A B B A B A",
+          "traits": {
+            "zanpakuto": "Tenken (giant spectral samurai)",
+            "reiatsu": "Captain-level, honour-bound",
+            "race": "Shinigami, canine Beastman"
+          },
+          "wikiImage": "File:Ep215SajinKomamura.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "A",
+          "stats": "S B B S B A",
+          "traits": {
+            "zanpakuto": "Tenken, mirrored in a colossus",
+            "bankai": "Kokujo Tengen Myo'o (giant armoured warrior)",
+            "reiatsu": "Captain-level, shares every wound",
+            "race": "Shinigami, canine Beastman"
+          },
+          "wikiImage": "File:Ep220SajinBankai.png"
+        }
+      ]
+    },
+    {
+      "id": "soi-fon",
+      "name": "Soi Fon",
+      "gender": "female",
+      "wikiPage": "Suì-Fēng",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Second Division Captain",
+          "rarity": "A",
+          "stats": "B S A B A B",
+          "traits": {
+            "zanpakuto": "Suzumebachi (one-sting death mark)",
+            "reiatsu": "Captain-level, assassin stealth",
+            "race": "Shinigami, Onmitsukido commander"
+          },
+          "wikiImage": "File:157Sui-Feng profile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "A",
+          "stats": "A S A B S B",
+          "traits": {
+            "zanpakuto": "Suzumebachi, golden stinger",
+            "bankai": "Jakuho Raikoben (missile launcher gauntlet)",
+            "reiatsu": "Captain-level, one-shot lethality",
+            "race": "Shinigami, Onmitsukido commander"
+          },
+          "wikiImage": "File:360Sui-Feng's Bankai, Jakuho Raikoben.png"
+        }
+      ]
+    },
+    {
+      "id": "gin-ichimaru",
+      "name": "Gin Ichimaru",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Third Division Captain",
+          "rarity": "A",
+          "stats": "B S S B S B",
+          "traits": {
+            "zanpakuto": "Shinso (blade that extends and shrinks)",
+            "reiatsu": "Captain-level, hides his true power",
+            "race": "Shinigami, Aizen's right hand"
+          },
+          "wikiImage": "File:Ep127GinProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "jushiro-ukitake",
+      "name": "Jushiro Ukitake",
+      "gender": "male",
+      "wikiPage": "Jūshirō Ukitake",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Thirteenth Division Captain",
+          "rarity": "A",
+          "stats": "B A A B S C",
+          "traits": {
+            "zanpakuto": "Sogyo no Kotowari (returns attacks doubled)",
+            "reiatsu": "Captain-level, held back by illness",
+            "race": "Shinigami, Thirteenth Division leader"
+          },
+          "wikiImage": "File:Ep227UkitakeProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "shinji-hirako",
+      "name": "Shinji Hirako",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "captain",
+          "label": "Fifth Division Captain",
+          "rarity": "A",
+          "stats": "A S S B A A",
+          "traits": {
+            "zanpakuto": "Sakanade (reverses sense of sight)",
+            "reiatsu": "Captain-level, Hollow mask backup",
+            "race": "Shinigami / Visored"
+          },
+          "wikiImage": "File:Ep416ShinjiProfile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "A",
+          "stats": "A S S B S A",
+          "traits": {
+            "zanpakuto": "Sakanade, dazing blade",
+            "bankai": "Sakashima Yokoshima Happo Fusagari (inverted)",
+            "reiatsu": "Captain-level, reverses the battlefield",
+            "race": "Shinigami / Visored"
+          },
+          "wikiImage": "File:BBS Shinji's Bankai.png"
+        }
+      ]
+    },
+    {
+      "id": "kensei-muguruma",
+      "name": "Kensei Muguruma",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "visored",
+          "label": "Visored",
+          "rarity": "A",
+          "stats": "S A B S B A",
+          "traits": {
+            "zanpakuto": "Tachikaze (wind-launching knuckle blade)",
+            "bankai": "Tekken Tachikaze (gauntlet, flaming bursts)",
+            "reiatsu": "Captain-level, Hollow mask",
+            "race": "Shinigami / Visored"
+          },
+          "wikiImage": "File:Ep366KenseiProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "rojuro-otoribashi",
+      "name": "Rojuro Otoribashi",
+      "gender": "male",
+      "wikiPage": "Rōjūrō Ōtoribashi",
+      "variants": [
+        {
+          "id": "visored",
+          "label": "Visored",
+          "rarity": "A",
+          "stats": "B A A B A B",
+          "traits": {
+            "zanpakuto": "Kinshara (sound-wave whip)",
+            "bankai": "Kinshara Butodan (music-wave bankai)",
+            "reiatsu": "Captain-level, Hollow mask",
+            "race": "Shinigami / Visored"
+          },
+          "wikiImage": "File:367Rose profile.png"
+        }
+      ]
+    },
+    {
+      "id": "hiyori-sarugaki",
+      "name": "Hiyori Sarugaki",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "visored",
+          "label": "Visored",
+          "rarity": "B",
+          "stats": "A S B B B B",
+          "traits": {
+            "zanpakuto": "Kubikiri Orochi (cleaver sword)",
+            "reiatsu": "Lieutenant-level, Hollow mask",
+            "race": "Shinigami / Visored"
+          },
+          "wikiImage": "File:606Hiyori profile.png"
+        }
+      ]
+    },
+    {
+      "id": "lisa-yadomaru",
+      "name": "Lisa Yadomaru",
+      "gender": "female",
+      "wikiPage": "Lisa Yadōmaru",
+      "variants": [
+        {
+          "id": "visored",
+          "label": "Visored",
+          "rarity": "B",
+          "stats": "B B A B B B",
+          "traits": {
+            "zanpakuto": "Haguro Tonbo (dragonfly spear)",
+            "reiatsu": "Lieutenant-level, Hollow mask",
+            "race": "Shinigami / Visored"
+          },
+          "wikiImage": "File:614Lisa profile.png"
+        }
+      ]
+    },
+    {
+      "id": "momo-hinamori",
+      "name": "Momo Hinamori",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Fifth Division Lieutenant",
+          "rarity": "B",
+          "stats": "C B B C A B",
+          "traits": {
+            "zanpakuto": "Tobiume (fire-ball shikai)",
+            "reiatsu": "Lieutenant-level, strong Kido",
+            "race": "Shinigami, Fifth Division"
+          },
+          "wikiImage": "File:Ep409HinamoriProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "izuru-kira",
+      "name": "Izuru Kira",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Third Division Lieutenant",
+          "rarity": "B",
+          "stats": "C B B B B B",
+          "traits": {
+            "zanpakuto": "Wabisuke (doubles weight of what it hits)",
+            "reiatsu": "Lieutenant-level, steady",
+            "race": "Shinigami, Third Division"
+          },
+          "wikiImage": "File:Ep414IzuruProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "shuhei-hisagi",
+      "name": "Shuhei Hisagi",
+      "gender": "male",
+      "wikiPage": "Shūhei Hisagi",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Ninth Division Lieutenant",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "zanpakuto": "Kazeshini (twin chained scythes)",
+            "reiatsu": "Lieutenant-level, tattooed 69",
+            "race": "Shinigami, Ninth Division"
+          },
+          "wikiImage": "File:Ep216HisagiProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "rangiku-matsumoto",
+      "name": "Rangiku Matsumoto",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Tenth Division Lieutenant",
+          "rarity": "B",
+          "stats": "C B B B B B",
+          "traits": {
+            "zanpakuto": "Haineko (ash-cloud blade)",
+            "reiatsu": "Lieutenant-level, carefree",
+            "race": "Shinigami, Tenth Division"
+          },
+          "wikiImage": "File:Ep221RangikuProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "ikkaku-madarame",
+      "name": "Ikkaku Madarame",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "third-seat",
+          "label": "Third Seat",
+          "rarity": "B",
+          "stats": "A B B A B A",
+          "traits": {
+            "zanpakuto": "Hozukimaru (extending spear)",
+            "reiatsu": "Lieutenant-level, duel-hungry",
+            "race": "Shinigami, Eleventh Division"
+          },
+          "wikiImage": "File:Ep416IkkakuProfile.png"
+        },
+        {
+          "id": "bankai",
+          "label": "Bankai",
+          "rarity": "A",
+          "stats": "S B B A C A",
+          "traits": {
+            "zanpakuto": "Hozukimaru, three-section spear",
+            "bankai": "Ryumon Hozukimaru (dragon-spear, deadly slam)",
+            "reiatsu": "Captain-level, overdrive strikes",
+            "race": "Shinigami, Eleventh Division"
+          },
+          "wikiImage": "File:205Ikkaku's Bankai, Ryumon Hozukimaru.png"
+        }
+      ]
+    },
+    {
+      "id": "yumichika-ayasegawa",
+      "name": "Yumichika Ayasegawa",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "fifth-seat",
+          "label": "Fifth Seat",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "zanpakuto": "Ruri'iro Kujaku (four-form feather blade)",
+            "reiatsu": "Lieutenant-level, hides his true power",
+            "race": "Shinigami, Eleventh Division"
+          },
+          "wikiImage": "File:NBFHYumichika profile.png"
+        }
+      ]
+    },
+    {
+      "id": "nanao-ise",
+      "name": "Nanao Ise",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Eighth Division Lieutenant",
+          "rarity": "C",
+          "stats": "D C A C B B",
+          "traits": {
+            "reiatsu": "Lieutenant-level, expert Kido",
+            "race": "Shinigami, Eighth Division"
+          },
+          "wikiImage": "File:Ep264NanaoProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "yachiru-kusajishi",
+      "name": "Yachiru Kusajishi",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Eleventh Division Lieutenant",
+          "rarity": "C",
+          "stats": "C A C B C B",
+          "traits": {
+            "reiatsu": "Lieutenant-level, riding Kenpachi",
+            "race": "Shinigami, Eleventh Division"
+          },
+          "wikiImage": "File:Ep363YachiruProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "nemu-kurotsuchi",
+      "name": "Nemu Kurotsuchi",
+      "gender": "female",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Twelfth Division Lieutenant",
+          "rarity": "B",
+          "stats": "C B B A B A",
+          "traits": {
+            "reiatsu": "Lieutenant-level, built to endure",
+            "race": "Artificial Shinigami, Mayuri's creation"
+          },
+          "wikiImage": "File:Ep240NemuProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "isshin-kurosaki",
+      "name": "Isshin Kurosaki",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "former-captain",
+          "label": "Former Captain",
+          "rarity": "A",
+          "stats": "A A A A A A",
+          "traits": {
+            "zanpakuto": "Engetsu (fire shikai)",
+            "reiatsu": "Captain-level, held in check",
+            "race": "Shinigami / Quincy, Ichigo's father"
+          },
+          "wikiImage": "File:Ep141IsshinProfile.png"
+        }
+      ]
+    },
+    {
+      "id": "kaien-shiba",
+      "name": "Kaien Shiba",
+      "gender": "male",
+      "variants": [
+        {
+          "id": "lieutenant",
+          "label": "Thirteenth Division Lieutenant",
+          "rarity": "B",
+          "stats": "B B B B B B",
+          "traits": {
+            "zanpakuto": "Nejibana (water-spiral shikai)",
+            "reiatsu": "Lieutenant-level, passionate",
+            "race": "Shinigami, Shiba clan"
+          },
+          "wikiImage": "File:Ep208KaienProfile.png"
+        }
+      ]
+    }
+  ]
+}
